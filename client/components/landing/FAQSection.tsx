@@ -20,7 +20,7 @@ const faqs = [
   {
     question: 'How can I deposit money into my Truedinkumbet account?',
     answer:
-      'Deposits can be made via local bank transfers, e-wallets (Touch \'n Go, Boost, GrabPay), and cryptocurrencies. Simply log in, go to the cashier or wallet section, choose your preferred method, and follow the instructions.',
+      'Deposits can be made via local bank transfers, e-wallets, and cryptocurrencies. Simply log in, go to the cashier or wallet section, choose your preferred method, and follow the instructions.',
   },
   {
     question: 'What are the withdrawal methods and how long do they take?',
