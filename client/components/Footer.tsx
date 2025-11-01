@@ -265,7 +265,7 @@ export default function Footer() {
                 ].map((method) => (
                   <img
                     key={method.name}
-                    src={`https://bk8mycasino.com/wp-content/themes/BK8/svg/${method.src}`}
+                    src={`https://truedinkumbet.com/wp-content/themes/Truedinkumbet/svg/${method.src}`}
                     alt={method.name}
                     className="h-9 w-auto"
                     style={{ filter: "grayscale(1)" }}
@@ -287,7 +287,7 @@ export default function Footer() {
                 <a href="https://youtube.com/c/bk8official" target="_blank" rel="noopener noreferrer" />
                 <a href="https://x.com/truedinkumbet?s=21" target="_blank" rel="noopener noreferrer">
                   <img
-                    src="https://bk8mycasino.com/wp-content/themes/BK8/svg/twitter.svg"
+                    src="https://truedinkumbet.com/wp-content/themes/Truedinkumbet/svg/twitter.svg"
                     alt="Truedinkumbet Twitter"
                     className="h-9 w-9 cursor-pointer"
                     style={{ filter: "grayscale(1)" }}
