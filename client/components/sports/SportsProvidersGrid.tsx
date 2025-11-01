@@ -128,9 +128,9 @@ export default function SportsProvidersGrid() {
                           textAlign: 'center',
                           transitionDuration: '0.3s',
                           verticalAlign: 'middle',
-                          width: '200px',
-                          height: '250px',
-                          maxWidth: '100%',
+                          width: '250px',
+                          height: '200px',
+                          maxWidth: '120%',
                           margin: '0 auto',
                         }}
                       />
