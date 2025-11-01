@@ -113,7 +113,7 @@ export default function SlotsCarouselSection() {
                   </a>
                 </div>
 
-                <div className="bg-white p-3 rounded-lg">
+                <div className="bg-white p-3 rounded-lg" style={[2].includes(index) ? { marginTop: '13px' } : {}}>
                   <div className="flex justify-between items-start mb-1">
                     <h3 className="font-semibold text-base" style={{ color: '#1f2124' }}>
                       {game.title}
