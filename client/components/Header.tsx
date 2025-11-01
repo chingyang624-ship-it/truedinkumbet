@@ -168,7 +168,6 @@ export default function Header() {
                       aria-label="View Slide Details"
                     >
                       <img
-                        fetchPriority={index === 0 ? "high" : "auto"}
                         height="349"
                         width="1200"
                         alt={slide.title}
