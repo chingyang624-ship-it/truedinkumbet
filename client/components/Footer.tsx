@@ -358,7 +358,7 @@ export default function Footer() {
           className="border-t pt-6 pb-6 flex items-center justify-between relative"
           style={{ color: "rgb(134, 151, 162)" }}
         >
-          <p className="text-xs">© 2025 BK8. All rights reserved. 18+</p>
+          <p className="text-xs">© 2025 Truedinkumbet. All rights reserved. 18+</p>
           <button
             onClick={scrollToTop}
             className="w-10 h-9 rounded flex items-center justify-center text-lg font-bold transition-all hover:bg-gray-200"
