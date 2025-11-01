@@ -44,7 +44,7 @@ export default function Header() {
   };
 
   const navItems = [
-    { name: "Slots", href: "#slots" },
+    { name: "Slots", href: "/slots" },
     { name: "Live Casino", href: "#casino" },
     { name: "Esports", href: "#esports" },
     { name: "Sports", href: "#sports" },
