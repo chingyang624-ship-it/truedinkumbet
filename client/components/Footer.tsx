@@ -356,7 +356,7 @@ export default function Footer() {
         {/* Copyright Footer */}
         <div
           className="border-t pt-6 pb-6 flex items-center justify-between relative"
-          style={{ backgroundColor: "rgb(0, 0, 0)", color: "rgb(255, 255, 255)" }}
+          style={{ color: "rgb(134, 151, 162)" }}
         >
           <p className="text-xs">© 2025 BK8. All rights reserved. 18+</p>
           <button
