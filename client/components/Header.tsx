@@ -244,6 +244,7 @@ export default function Header() {
                         loading="lazy"
                         src={slide.image}
                         className="w-full h-auto"
+                        style={{ paddingRight: "2px", margin: "0 200px -5px 0" }}
                       />
                     </a>
                   </li>
