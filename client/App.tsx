@@ -7,6 +7,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Landing from "./pages/Landing";
 import Slots from "./pages/Slots";
+import LiveCasino from "./pages/LiveCasino";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
