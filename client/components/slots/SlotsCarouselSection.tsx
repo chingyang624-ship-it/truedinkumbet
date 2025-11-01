@@ -108,6 +108,7 @@ export default function SlotsCarouselSection() {
                       loading="lazy"
                       src={game.image}
                       className="w-full h-auto object-cover"
+                      style={[2, 3, 4].includes(index) ? { height: '225px' } : {}}
                     />
                   </a>
                 </div>
