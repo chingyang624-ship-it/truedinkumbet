@@ -2,33 +2,33 @@ import { useState, useRef } from 'react';
 
 const featuredGames = [
   {
-    title: 'Roma II',
-    image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/slot-romaII.webp',
-    provider: 'NextSpin',
+    title: 'Thunder Coins XXL ',
+    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fc1f22ae8e0cb4b72ac18d2e3d886314b',
+    provider: 'BNG',
     rtp: '97.05',
   },
   {
-    title: 'Roma',
-    image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/slot-roma.webp',
-    provider: 'NextSpin',
+    title: 'Coin Strike 2',
+    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2d750595f6854b1ebec8d6a1de0f6e05',
+    provider: 'BNG',
     rtp: '96.75',
   },
   {
-    title: 'Candy Bonanza Xmas',
-    image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/slot-candy-bonanza-xmas.webp',
-    provider: 'NextSpin',
+    title: 'Cash Coin',
+    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2aac83baa38f45a893130b9537416678',
+    provider: 'JILI',
     rtp: '96.73',
   },
   {
-    title: 'Candy Bonanza',
-    image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/slot-candy.webp',
-    provider: 'NextSpin',
+    title: 'Pirate Queen 2',
+    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fdea56528893740118078f68cd11c8549',
+    provider: 'JILI',
     rtp: '96.73',
   },
   {
-    title: 'Golden Fa',
-    image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/slot-golden-fa.webp',
-    provider: 'NextSpin',
+    title: 'Treasure Aztec',
+    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F6aa8e0ce5b74489bbae7a48bdbf52db6',
+    provider: 'SLOT MANIA',
     rtp: '96.95',
   },
 ];
