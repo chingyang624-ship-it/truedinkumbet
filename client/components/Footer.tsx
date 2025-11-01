@@ -232,15 +232,15 @@ export default function Footer() {
               <h3 className="text-base font-semibold text-black mb-4">Certification</h3>
               <div className="space-y-2">
                 {[
-                  { name: "BMM", src: "bmm-logo.svg" },
-                  { name: "iTech Labs", src: "itechlab.svg" },
-                  { name: "", src: "GLI.svg" },
-                  { name: "TST", src: "TST.svg" },
-                  { name: "Godaddy", src: "godaddy.svg" },
+                  { name: "BMM", src: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Faeaf2afcca834492b313653a37da6f4f" },
+                  { name: "iTech Labs", src: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F010290ab128c4e6dac35e263cac562cc" },
+                  { name: "", src: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F1984312bdd244e499c1f999815a3d132" },
+                  { name: "TST", src: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F9fd2f91987314093b5835ec0a35f751e" },
+                  { name: "Godaddy", src: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fac81f3a09be740b6992ed5f59e5d09e1" },
                 ].map((cert) => (
                   <img
                     key={cert.name}
-                    src={`https://truedinkumbet.com/wp-content/themes/Truedinkumbet/svg/${cert.src}`}
+                    src={cert.src}
                     alt={cert.name}
                     className="h-9 w-auto mb-3"
                     style={{ filter: "grayscale(1)" }}
