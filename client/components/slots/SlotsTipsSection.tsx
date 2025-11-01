@@ -16,7 +16,7 @@ export default function SlotsTipsSection() {
               <div>
                 <p className="font-semibold text-gray-900 mb-2">Start with Free Demo Games</p>
                 <p className="text-gray-600">
-                  Many BK8 slot titles offer demo mode so you can learn the rules without risking real money.
+                  Many Truedinkumbet slot titles offer demo mode so you can learn the rules without risking real money.
                 </p>
               </div>
             </li>
@@ -68,7 +68,7 @@ export default function SlotsTipsSection() {
           </ul>
 
           <p className="text-gray-600 leading-relaxed">
-            These tips apply whether you're new or experienced in the slot game Malaysia scene.
+            These tips apply whether you're new or experienced in the slot game Australia scene.
           </p>
         </div>
       </div>
