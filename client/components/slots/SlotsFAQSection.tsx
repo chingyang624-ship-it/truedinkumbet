@@ -3,29 +3,29 @@ import { ChevronDown } from 'lucide-react';
 
 const faqs = [
   {
-    question: 'Is BK8 a trusted slot game Malaysia site?',
+    question: 'Is Truedinkumbet a trusted slot game Australia site?',
     answer:
-      'Yes, BK8 is fully licensed and regulated, offering only certified slot games from reputable providers, making it a trusted slot game Malaysia platform.',
+      'Yes, Truedinkumbet is fully licensed and regulated, offering only certified slot games from reputable providers, making it a trusted slot game Australia platform.',
   },
   {
-    question: 'What are the best slot games to win real money on BK8?',
+    question: 'What are the best slot games to win real money on Truedinkumbet?',
     answer:
       'Top picks include Gates of Olympus, Sweet Bonanza, Candy Bonanza, and Mega Moolah, all known for high payout potential and exciting bonus features.',
   },
   {
-    question: 'Which slot games have the highest RTP on BK8?',
+    question: 'Which slot games have the highest RTP on Truedinkumbet?',
     answer:
       'Games like Book of 99, Starlight Princess, and Big Bass Bonanza offer RTPs above 96%, giving players better long-term winning odds.',
   },
   {
-    question: 'Can I play BK8 slot games on my mobile?',
+    question: 'Can I play Truedinkumbet slot games on my mobile?',
     answer:
-      'Yes, all BK8 slot games are optimized for mobile and can be played on both Android and iOS devices through the BK8 app or mobile browser. Read guide: Complete Guide to Download BK8 App',
+      'Yes, all Truedinkumbet slot games are optimized for mobile and can be played on both Android and iOS devices through the Truedinkumbet app or mobile browser. Read our guide: Complete Guide to Download Truedinkumbet App',
   },
   {
-    question: 'Is there a minimum bet amount for BK8 slots?',
+    question: 'Is there a minimum bet amount for Truedinkumbet slots?',
     answer:
-      'Most BK8 slot games allow minimum bets starting from as low as RM0.20, depending on the game provider.',
+      'Most Truedinkumbet slot games allow minimum bets starting from as low as AUD 0.20, depending on the game provider.',
   },
   {
     question: 'What are progressive jackpot slots and how do they work?',
@@ -33,24 +33,24 @@ const faqs = [
       'Progressive jackpot slots pool a portion of each bet into a growing prize, which can be won randomly or through special bonus rounds.',
   },
   {
-    question: 'Do BK8 slot games offer free spins?',
+    question: 'Do Truedinkumbet slot games offer free spins?',
     answer:
-      'Yes, BK8 slots come with built-in free spin features. BK8 also offers 188 slots free spins promotions.',
+      'Yes, Truedinkumbet slots come with built-in free spin features. Truedinkumbet also offers slots free spins promotions.',
   },
   {
     question: "What's the difference between high and low volatility slot games?",
     answer:
-      'High volatility slots offer bigger but less frequent wins, while low volatility games pay smaller amounts more regularly.',
+      'High volatility slots offer larger wins but less frequently, while low volatility slots provide smaller wins more often. Choose based on your risk preference and bankroll.',
   },
   {
-    question: 'Can players try slots for free?',
+    question: 'How do I claim free bonuses on Truedinkumbet slots?',
     answer:
-      'Yes, most online slot game titles at BK8 offer demo mode, allowing players to test the game before betting real money.',
+      'You can claim free bonuses by registering an account and visiting the promotions page. Follow the terms listed for each promotion, such as minimum deposits or game eligibility, and the bonus will be credited to your account.',
   },
   {
-    question: 'How do I know if a BK8 slot game is fair?',
+    question: 'Is it safe to play and share personal information on Truedinkumbet?',
     answer:
-      'All BK8 slots use RNG (Random Number Generator) technology and are audited by independent labs to ensure fair and unbiased outcomes.',
+      'Yes, Truedinkumbet uses advanced SSL encryption and follows strict data protection protocols to ensure your personal and financial details are kept secure at all times.',
   },
 ];
 
