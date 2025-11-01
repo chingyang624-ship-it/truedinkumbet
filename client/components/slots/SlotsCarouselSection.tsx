@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useRef } from 'react';
 
 const featuredGames = [
   {
@@ -6,7 +6,6 @@ const featuredGames = [
     image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/slot-romaII.webp',
     provider: 'NextSpin',
     rtp: '97.05',
-    badge: 'Hot',
   },
   {
     title: 'Roma',
@@ -56,85 +55,121 @@ const allGames = [
 ];
 
 export default function SlotsCarouselSection() {
-  const [currentSlide, setCurrentSlide] = useState(0);
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const carouselRef = useRef<HTMLDivElement>(null);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % featuredGames.length);
-    }, 5000);
-    return () => clearInterval(interval);
-  }, []);
+  const scroll = (direction: 'left' | 'right') => {
+    const carousel = carouselRef.current;
+    if (!carousel) return;
+
+    const scrollAmount = 250;
+    const newPosition = direction === 'left'
+      ? scrollPosition - scrollAmount
+      : scrollPosition + scrollAmount;
+
+    carousel.scrollTo({ left: newPosition, behavior: 'smooth' });
+    setScrollPosition(newPosition);
+  };
 
   return (
-    <section className="py-20 px-4 bg-gray-900">
+    <section className="py-20 px-4" style={{ backgroundColor: '#f8f8f8' }}>
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-white text-center mb-12">Featured Slot Games</h2>
+        <h2 className="text-4xl font-bold text-center mb-12" style={{ color: '#1f2124' }}>Featured Slot Games</h2>
 
         <div className="relative mb-8">
-          <div className="overflow-hidden rounded-lg">
-            <img
-              src={featuredGames[currentSlide].image}
-              alt={featuredGames[currentSlide].title}
-              className="w-full h-96 object-cover"
-            />
-          </div>
+          <button
+            onClick={() => scroll('left')}
+            className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 bg-white/80 hover:bg-white p-2 rounded-full shadow-lg transition-all"
+            aria-label="Previous games"
+          >
+            ←
+          </button>
 
-          <div className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-black to-transparent p-6">
-            <h3 className="text-3xl font-bold text-white">{featuredGames[currentSlide].title}</h3>
-            <p className="text-gray-300">Provider: {featuredGames[currentSlide].provider}</p>
-            <p className="text-yellow-400 font-semibold">RTP: {featuredGames[currentSlide].rtp}%</p>
-          </div>
-        </div>
+          <div
+            ref={carouselRef}
+            className="flex gap-5 overflow-x-auto scroll-smooth pb-4"
+            style={{ scrollBehavior: 'smooth' }}
+          >
+            {featuredGames.map((game, index) => (
+              <div
+                key={index}
+                className="flex-shrink-0 w-56 cursor-pointer transition-transform hover:scale-105"
+              >
+                <div className="relative overflow-hidden rounded-lg mb-3">
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="sponsored noopener"
+                    className="block"
+                  >
+                    <img
+                      decoding="async"
+                      alt={`BK8 ${game.title} Slots Game`}
+                      loading="lazy"
+                      src={game.image}
+                      className="w-full h-auto object-cover"
+                    />
+                  </a>
+                </div>
 
-        <div className="flex justify-center gap-2">
-          {featuredGames.map((_, index) => (
-            <button
-              key={index}
-              onClick={() => setCurrentSlide(index)}
-              className={`w-3 h-3 rounded-full transition-all ${
-                index === currentSlide ? 'bg-yellow-400 w-8' : 'bg-gray-600 hover:bg-gray-500'
-              }`}
-              aria-label={`Go to slide ${index + 1}`}
-            />
-          ))}
-        </div>
-
-        <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mt-12">
-          {featuredGames.map((game, index) => (
-            <div
-              key={index}
-              onClick={() => setCurrentSlide(index)}
-              className="cursor-pointer rounded-lg overflow-hidden hover:shadow-lg transition-shadow relative group"
-            >
-              <img
-                src={game.image}
-                alt={game.title}
-                className="w-full h-32 object-cover hover:opacity-80 transition-opacity"
-              />
-              <div className="bg-gray-800 p-2">
-                <p className="text-white font-semibold text-sm">{game.title}</p>
-                <p className="text-gray-400 text-xs">{game.provider}</p>
+                <div className="bg-white p-3 rounded-lg">
+                  <div className="flex justify-between items-start mb-1">
+                    <h3 className="font-semibold text-base" style={{ color: '#1f2124' }}>
+                      {game.title}
+                    </h3>
+                    <img
+                      decoding="async"
+                      alt="Info"
+                      width="25"
+                      height="25"
+                      loading="lazy"
+                      src="https://bk8mycasino.com/wp-content/uploads/2023/08/info.webp"
+                      className="w-4 h-4"
+                    />
+                  </div>
+                  <p className="text-xs mb-2" style={{ color: '#889da4' }}>
+                    {game.provider}
+                  </p>
+                  <span
+                    className="inline-block px-2 py-1 rounded-full text-xs font-semibold text-white"
+                    style={{ backgroundColor: '#0088f3' }}
+                  >
+                    RTP {game.rtp}
+                  </span>
+                </div>
               </div>
-            </div>
-          ))}
+            ))}
+          </div>
+
+          <button
+            onClick={() => scroll('right')}
+            className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 bg-white/80 hover:bg-white p-2 rounded-full shadow-lg transition-all"
+            aria-label="Next games"
+          >
+            →
+          </button>
         </div>
 
         <div className="mt-16">
-          <h3 className="text-2xl font-bold text-white mb-8 text-center">Explore All Games</h3>
+          <h3 className="text-2xl font-bold mb-8 text-center" style={{ color: '#1f2124' }}>Explore All Games</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
             {allGames.map((game, index) => (
               <div key={index} className="relative group">
-                <img
-                  src={game.image}
-                  alt={game.title}
-                  className="w-full h-40 object-cover rounded-lg hover:opacity-80 transition-opacity cursor-pointer"
-                />
-                {game.badge && (
-                  <div className="absolute top-2 right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded">
-                    {game.badge}
-                  </div>
-                )}
-                <p className="text-white text-sm font-semibold mt-2 text-center">{game.title}</p>
+                <div className="relative overflow-hidden rounded-lg">
+                  <img
+                    src={game.image}
+                    alt={game.title}
+                    className="w-full h-40 object-cover hover:opacity-80 transition-opacity cursor-pointer"
+                  />
+                  {game.badge && (
+                    <div className="absolute top-2 right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded">
+                      {game.badge}
+                    </div>
+                  )}
+                </div>
+                <p className="text-sm font-semibold mt-2 text-center" style={{ color: '#1f2124' }}>
+                  {game.title}
+                </p>
               </div>
             ))}
           </div>
