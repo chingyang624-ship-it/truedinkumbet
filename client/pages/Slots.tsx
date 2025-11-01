@@ -45,16 +45,18 @@ export default function Slots() {
             </div>
 
             {/* Mobile buttons (red and blue) */}
-            <div className="md:hidden w-full flex flex-col gap-3 px-0">
+            <div className="md:hidden w-full flex gap-0">
               <a
                 href="https://truedinkumbet.com/RFSEOTDK"
-                className="w-full py-3 bg-red-700 text-white font-semibold text-center rounded hover:bg-red-800 transition-colors"
+                className="flex-1 py-3 bg-red-700 text-white font-semibold text-center transition-colors"
+                style={{ borderRadius: 0 }}
               >
                 Join
               </a>
               <a
                 href="https://truedinkumbet.com/RFSEOTDK"
-                className="w-full py-3 bg-blue-600 text-white font-semibold text-center rounded hover:bg-blue-700 transition-colors"
+                className="flex-1 py-3 bg-blue-600 text-white font-semibold text-center transition-colors"
+                style={{ borderRadius: 0 }}
               >
                 Login
               </a>
