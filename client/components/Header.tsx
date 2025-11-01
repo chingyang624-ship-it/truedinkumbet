@@ -8,7 +8,7 @@ export default function Header() {
     {
       title: "BETA-ALL-GresiniAnnouncement-2000x525-en 1",
       image:
-        "https://cdn.builder.io/o/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F914cc8bbfd4c468facee58da37c57198?alt=media&token=2b2b5a1c-9f03-4652-b459-d53ff5a36db5&apiKey=4dfa7c46dbc1480caa7368c3233e05a7",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F3c2dd3b441354457b71fdfa1614b8ba9",
     },
     {
       title: "BK8-Burnley-FC-Partnership",
