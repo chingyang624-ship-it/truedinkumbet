@@ -16,6 +16,32 @@ export default function Slots() {
       <Header />
       <main className="flex-1">
         <SlotsHeroSection />
+        <section className="py-6 px-4" style={{ backgroundColor: '#f8f8f8', textAlign: 'center' }}>
+          <div className="max-w-6xl mx-auto flex gap-4 justify-center flex-wrap">
+            <a
+              href="https://truedinkumbet.com/RFSEOTDK"
+              className="px-8 py-3 rounded-lg font-semibold transition-colors"
+              style={{
+                backgroundColor: '#ffffff',
+                color: '#1f2124',
+                border: '1px solid #ddd',
+                textDecoration: 'none',
+                display: 'inline-block',
+              }}
+            >
+              Login
+            </a>
+            <a
+              href="https://truedinkumbet.com/RFSEOTDK"
+              className="px-8 py-3 rounded-lg font-bold text-white transition-colors"
+              style={{
+                backgroundColor: '#ff6500',
+              }}
+            >
+              Join Now
+            </a>
+          </div>
+        </section>
         <SlotsCarouselSection />
         <SlotsIntroSection />
         <SlotsWhyChooseSection />
