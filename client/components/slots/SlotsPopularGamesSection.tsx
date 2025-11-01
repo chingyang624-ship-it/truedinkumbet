@@ -3,7 +3,7 @@ const popularGames = [
     name: 'Gates of Olympus (Pragmatic Play)',
     description:
       'A mythological slot with tumbling reels, increasing multipliers, and high variance. Known for explosive wins during the free spins round.',
-    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff4d8e9a0b1c2d3e4f5g6h7i8j9k0l1m2',
+    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F53d621a837cd471aa08cac5b722e1e53',
   },
   {
     name: 'Super Pink Joker (BNG)',
