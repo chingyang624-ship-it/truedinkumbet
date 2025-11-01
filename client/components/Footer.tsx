@@ -175,15 +175,16 @@ export default function Footer() {
                 />
               </h3>
               <img
-                src="https://truedinkumbet.com/wp-content/uploads/2025/08/gaming-license.png"
+                src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F97787b72d8964636acc5077e43bf8ae8"
                 alt="Gaming License"
                 className="mb-4"
+                style={{ maxWidth: "50%" }}
               />
               <p className="text-xs text-black">
-                Truedinkumbet is operated by Mettlemind Tech Ltd. (Reg. No. 15779),
-                registered in Anjouan, Union of Comoros, and licensed
-                under ALSI-202504032-FI2. Fully compliant and legally
-                authorized to provide games of chance and wagering.
+                Truedinkumbet is operated by DraftKings a company
+                registered under the laws of the Republic of the
+                Philippines, and is licensed and regulated by the
+                Philippine Amusement and Gaming Corporation (PAGCOR).
               </p>
             </div>
 
@@ -259,13 +260,8 @@ export default function Footer() {
                   { name: "Bitcoin BTC", src: "bitcoin.svg" },
                   { name: "Tether USDT", src: "USDT.svg" },
                   { name: "Ethereum ETH", src: "ethereum.svg" },
-                  { name: "Touch N Go", src: "TouchNGo.svg" },
-                  { name: "Boost", src: "boost.svg" },
-                  { name: "GrabPay", src: "grab_pay.svg" },
-                  { name: "Duitnow", src: "duit_now.svg" },
                   { name: "Visa", src: "visa.svg" },
                   { name: "Mastercard", src: "master_card.svg" },
-                  { name: "FPX", src: "FPX.svg" },
                 ].map((method) => (
                   <img
                     key={method.name}
@@ -288,15 +284,8 @@ export default function Footer() {
                   className="h-9 w-9"
                   style={{ filter: "grayscale(1)" }}
                 />
-                <a href="https://youtube.com/c/bk8official" target="_blank" rel="noopener noreferrer">
-                  <img
-                    src="https://bk8mycasino.com/wp-content/themes/BK8/svg/youtube.svg"
-                    alt="Truedinkumbet Youtube Channel"
-                    className="h-9 w-9 cursor-pointer"
-                    style={{ filter: "grayscale(1)" }}
-                  />
-                </a>
-                <a href="https://twitter.com/bk8official" target="_blank" rel="noopener noreferrer">
+                <a href="https://youtube.com/c/bk8official" target="_blank" rel="noopener noreferrer" />
+                <a href="https://x.com/truedinkumbet?s=21" target="_blank" rel="noopener noreferrer">
                   <img
                     src="https://bk8mycasino.com/wp-content/themes/BK8/svg/twitter.svg"
                     alt="Truedinkumbet Twitter"
