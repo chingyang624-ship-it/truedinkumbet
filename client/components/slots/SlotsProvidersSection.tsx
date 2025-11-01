@@ -64,7 +64,7 @@ export default function SlotsProvidersSection() {
 
         <div className="mt-12 p-6 bg-white rounded-lg">
           <p className="text-center text-gray-600">
-            All of these providers are available in the Truedinkumbet slot section, accessible with just a few clicks.
+            All of these providers are available in the BK8 slot section, accessible with just a few clicks.
           </p>
         </div>
       </div>
