@@ -150,26 +150,72 @@ export default function SlotsCarouselSection() {
           </button>
         </div>
 
-        <div className="mt-16">
+        <div className="mt-16 inline-table w-full text-center" style={{ paddingBottom: '10px', paddingTop: '10px' }}>
           <h3 className="text-2xl font-bold mb-8 text-center" style={{ color: '#1f2124' }}>Explore All Games</h3>
-          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+          <div style={{ display: 'inline-table', paddingBottom: '10px', paddingTop: '10px', textAlign: 'center', width: '100%' }}>
             {allGames.map((game, index) => (
-              <div key={index} className="relative group">
-                <div className="relative overflow-hidden rounded-lg">
+              <div
+                key={index}
+                style={{
+                  display: 'inline-block',
+                  paddingBottom: '15px',
+                  paddingTop: '15px',
+                  position: 'relative',
+                  textAlign: 'center',
+                  width: '14.2857%',
+                }}
+              >
+                {game.badge && (
+                  <p
+                    style={{
+                      backgroundColor: game.badge === 'Hot' ? 'rgb(255, 101, 15)' : 'rgb(224, 9, 44)',
+                      borderRadius: '15px',
+                      color: 'rgb(255, 255, 255)',
+                      fontSize: '11px',
+                      fontWeight: '600',
+                      lineHeight: '11px',
+                      paddingBottom: '2px',
+                      paddingLeft: '8px',
+                      paddingRight: '8px',
+                      paddingTop: '2px',
+                      position: 'absolute',
+                      right: '5px',
+                      textAlign: 'center',
+                      top: '5px',
+                      zIndex: 10,
+                    }}
+                  >
+                    {game.badge}
+                  </p>
+                )}
+                <a
+                  target="_blank"
+                  rel="sponsored noopener"
+                  href="#"
+                  style={{
+                    cursor: 'pointer',
+                    transition: 'transition-duration 0.3s',
+                  }}
+                >
                   <img
+                    loading="lazy"
+                    decoding="async"
+                    alt={`BK8 ${game.title} Slot Game`}
+                    width="240"
+                    height="300"
                     src={game.image}
-                    alt={game.title}
-                    className="w-full h-40 object-cover hover:opacity-80 transition-opacity cursor-pointer"
+                    style={{
+                      aspectRatio: '240 / 300',
+                      cursor: 'pointer',
+                      display: 'inline',
+                      lineHeight: '18px',
+                      maxWidth: '100%',
+                      transition: 'transition-duration 0.3s',
+                      verticalAlign: 'middle',
+                      width: '80%',
+                    }}
                   />
-                  {game.badge && (
-                    <div className="absolute top-2 right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded">
-                      {game.badge}
-                    </div>
-                  )}
-                </div>
-                <p className="text-sm font-semibold mt-2 text-center" style={{ color: '#1f2124' }}>
-                  {game.title}
-                </p>
+                </a>
               </div>
             ))}
           </div>
