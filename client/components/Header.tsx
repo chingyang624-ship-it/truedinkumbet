@@ -133,6 +133,74 @@ export default function Header() {
         </div>
       </div>
 
+      {/* Mobile Side Menu */}
+      {mobileMenuOpen && (
+        <div className="fixed inset-0 z-40 md:hidden">
+          {/* Overlay */}
+          <div
+            className="fixed inset-0 bg-black/50"
+            onClick={() => setMobileMenuOpen(false)}
+          />
+
+          {/* Menu Panel */}
+          <div className="fixed left-0 top-0 h-full w-64 bg-white shadow-lg overflow-y-auto pt-20">
+            <nav className="p-6">
+              <ul className="space-y-4">
+                {navItems.map((item) => (
+                  <li key={item.name}>
+                    <a
+                      href={item.href}
+                      className="block font-medium text-gray-800 hover:text-orange-500 transition-colors py-2"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      {item.name}
+                    </a>
+                  </li>
+                ))}
+                <li>
+                  <a
+                    href="#blog"
+                    className="block font-medium text-gray-800 hover:text-orange-500 transition-colors py-2"
+                    onClick={() => setMobileMenuOpen(false)}
+                  >
+                    Blog
+                  </a>
+                  <ul className="pl-4 mt-2 space-y-2">
+                    <li>
+                      <a
+                        href="#crypto"
+                        className="block text-sm text-gray-600 hover:text-orange-500 transition-colors py-1"
+                        onClick={() => setMobileMenuOpen(false)}
+                      >
+                        Crypto casino
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+
+            {/* Mobile Auth Buttons */}
+            <div className="border-t border-gray-200 p-6 space-y-3">
+              <a
+                href="#login"
+                className="block text-center py-2 text-gray-800 font-medium border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Login
+              </a>
+              <a
+                href="#register"
+                className="block text-center py-2 text-white font-bold bg-orange-500 rounded-lg hover:bg-orange-600 transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                Join Now
+              </a>
+            </div>
+          </div>
+        </div>
+      )}
+
       {/* Carousel Section */}
       <div
         className="relative w-full bg-slate-50 pt-20 pb-4"
