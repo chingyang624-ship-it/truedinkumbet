@@ -1,6 +1,13 @@
 export default function SportsProvidersGrid() {
   const providers = [
     {
+      name: 'WS Sport',
+      badge: 'New',
+      badgeColor: '#e00928',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F602686836c494e93a3491d0e2149296a',
+      link: 'https://bk8mycasino.com/go/cmdsports',
+    },
+    {
       name: 'CMD368 Sports',
       badge: 'Hot',
       badgeColor: '#ff650f',
@@ -116,15 +123,15 @@ export default function SportsProvidersGrid() {
                           borderColor: '#181818',
                           color: '#181818',
                           cursor: 'pointer',
-                          display: 'inline',
+                          display: 'block',
                           lineHeight: '18px',
                           textAlign: 'center',
                           transitionDuration: '0.3s',
                           verticalAlign: 'middle',
-                          width: '250px',
-                          marginLeft: '125px',
-                          height: '200px',
-                          maxWidth: '120%',
+                          width: '200px',
+                          height: '250px',
+                          maxWidth: '100%',
+                          margin: '0 auto',
                         }}
                       />
                     </a>
