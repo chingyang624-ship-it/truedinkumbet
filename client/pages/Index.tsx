@@ -1,5 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import { Link } from "react-router-dom";
 
 export default function Index() {
   return (
@@ -10,9 +11,15 @@ export default function Index() {
           <h1 className="text-4xl font-bold text-slate-800 mb-6">
             Welcome to Your App
           </h1>
-          <p className="text-slate-600 max-w-md mx-auto">
+          <p className="text-slate-600 max-w-md mx-auto mb-8">
             Scroll down to see the complete layout with header and footer components.
           </p>
+          <Link
+            to="/landing"
+            className="inline-block px-8 py-3 bg-orange-500 text-white font-semibold rounded-lg hover:bg-orange-600 transition-colors"
+          >
+            View Full Landing Page
+          </Link>
         </div>
       </main>
       <Footer />
