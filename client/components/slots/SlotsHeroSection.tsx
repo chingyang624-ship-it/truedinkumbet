@@ -5,7 +5,7 @@ export default function SlotsHeroSection() {
         <img
           alt="Truedinkumbet Slots Banner"
           loading="lazy"
-          src="https://bk8mycasino.com/wp-content/uploads/2023/05/bk8-slots-banner.jpeg"
+          src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fa8ed94b8a8364e74a9509e1afecd68fa"
           className="w-full h-auto object-cover"
           style={{ height: '446px' }}
         />
