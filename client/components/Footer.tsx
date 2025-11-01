@@ -93,42 +93,42 @@ export default function Footer() {
               <div className="text-center">
                 <img
                   src="https://bk8mycasino.com/wp-content/uploads/2024/12/bk8award1.webp"
-                  alt="BK8 Awards Nomination EGR"
+                  alt="Truedinkumbet Awards Nomination EGR"
                   className="w-44 h-16 mx-auto"
                 />
               </div>
               <div className="text-center">
                 <img
                   src="https://bk8mycasino.com/wp-content/uploads/2024/12/bk8award2.webp"
-                  alt="BK8 Awards Nomination"
+                  alt="Truedinkumbet Awards Nomination"
                   className="w-32 h-20 mx-auto"
                 />
               </div>
               <div className="text-center">
                 <img
                   src="https://bk8mycasino.com/wp-content/uploads/2024/12/bk8award3.webp"
-                  alt="BK8 Awards Nomination"
+                  alt="Truedinkumbet Awards Nomination"
                   className="w-32 h-20 mx-auto"
                 />
               </div>
               <div className="text-center">
                 <img
                   src="https://bk8mycasino.com/wp-content/uploads/2024/12/bk8award4.webp"
-                  alt="BK8 Awards Nomination"
+                  alt="Truedinkumbet Awards Nomination"
                   className="w-32 h-20 mx-auto"
                 />
               </div>
               <div className="text-center">
                 <img
                   src="https://bk8mycasino.com/wp-content/uploads/2024/12/bk8award5.webp"
-                  alt="BK8 Awards Nomination"
+                  alt="Truedinkumbet Awards Nomination"
                   className="w-32 h-20 mx-auto"
                 />
               </div>
               <div className="text-center">
                 <img
                   src="https://bk8mycasino.com/wp-content/uploads/2024/12/bk8award6.webp"
-                  alt="BK8 Awards Nomination"
+                  alt="Truedinkumbet Awards Nomination"
                   className="w-32 h-20 mx-auto"
                 />
               </div>
@@ -175,12 +175,12 @@ export default function Footer() {
                 />
               </h3>
               <img
-                src="https://bk8mycasino.com/wp-content/uploads/2025/08/gaming-license.png"
+                src="https://truedinkumbet.com/wp-content/uploads/2025/08/gaming-license.png"
                 alt="Gaming License"
                 className="mb-4"
               />
               <p className="text-xs text-black">
-                BK8 is operated by Mettlemind Tech Ltd. (Reg. No. 15779),
+                Truedinkumbet is operated by Mettlemind Tech Ltd. (Reg. No. 15779),
                 registered in Anjouan, Union of Comoros, and licensed
                 under ALSI-202504032-FI2. Fully compliant and legally
                 authorized to provide games of chance and wagering.
@@ -284,14 +284,14 @@ export default function Footer() {
               <div className="flex gap-3">
                 <img
                   src="https://bk8mycasino.com/wp-content/themes/BK8/svg/facebook.svg"
-                  alt="BK8 Facebook"
+                  alt="Truedinkumbet Facebook"
                   className="h-9 w-9"
                   style={{ filter: "grayscale(1)" }}
                 />
                 <a href="https://youtube.com/c/bk8official" target="_blank" rel="noopener noreferrer">
                   <img
                     src="https://bk8mycasino.com/wp-content/themes/BK8/svg/youtube.svg"
-                    alt="BK8 Youtube Channel"
+                    alt="Truedinkumbet Youtube Channel"
                     className="h-9 w-9 cursor-pointer"
                     style={{ filter: "grayscale(1)" }}
                   />
@@ -299,7 +299,7 @@ export default function Footer() {
                 <a href="https://twitter.com/bk8official" target="_blank" rel="noopener noreferrer">
                   <img
                     src="https://bk8mycasino.com/wp-content/themes/BK8/svg/twitter.svg"
-                    alt="BK8 Twitter"
+                    alt="Truedinkumbet Twitter"
                     className="h-9 w-9 cursor-pointer"
                     style={{ filter: "grayscale(1)" }}
                   />
