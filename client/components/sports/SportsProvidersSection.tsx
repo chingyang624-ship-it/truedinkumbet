@@ -1,24 +1,19 @@
 export default function SportsProvidersSection() {
   const providers = [
     {
-      name: 'CMD368',
-      description: 'CMD368 is a favorite among Malaysian bettors thanks to its easy-to-navigate platform and strong focus on Asian Handicap betting, particularly in football and badminton. It updates odds in real-time and supports quick bet placement.',
-      logo: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F1a2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p',
+      name: 'WWS',
+      description: 'WWS is a favorite among Australian bettors thanks to its easy-to-navigate platform and strong focus on Asian Handicap betting, particularly in football and badminton. It updates odds in real-time and supports quick bet placement.',
+      logo: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fdc0794c298864c72bcfbe267c83631ad',
     },
     {
       name: 'Truedinkumbet Sports',
       description: 'Built into the Truedinkumbet platform itself, Truedinkumbet Sports is a proprietary sportsbook offering unique betting markets, boosted odds, and exclusive promotions for members. It\'s tightly integrated with the loyalty program and supports both pre-match and live betting.',
-      logo: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q',
+      logo: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F270652f156154076acf902c94d110ae1',
     },
     {
       name: 'M8Bet',
       description: 'M8Bet is known for its wide sports coverage, offering over 30 types of sports. The platform features detailed analytics, match stats, and live streaming for selected events, making it ideal for data-driven bettors.',
-      logo: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r',
-    },
-    {
-      name: 'SBOBET',
-      description: 'SBOBET is a global name in online sportsbook Malaysia betting. It\'s ideal for players looking for high-limit betting, and it covers everything from football and basketball to rugby, cricket, and esports. SBOBET also offers fast market updates and strong mobile optimization.',
-      logo: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F4d5e6f7g8h9i0j1k2l3m4n5o6p7q8r9s',
+      logo: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F3fc85618ff244ceeb42791385c511e4f',
     },
   ];
 
@@ -37,7 +32,7 @@ export default function SportsProvidersSection() {
                   src={provider.logo}
                   alt={provider.name}
                   className="max-w-xs h-auto"
-                  style={{ maxHeight: '200px', maxWidth: '320px' }}
+                  style={{ maxHeight: '200px', maxWidth: '320px', ...(index === 1 ? { marginTop: '15px' } : {}) }}
                 />
               </div>
               <div className="md:w-2/3">

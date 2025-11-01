@@ -5,8 +5,8 @@ export default function SportsHeroSection() {
         <img
           alt="Truedinkumbet Sports Banner"
           loading="lazy"
-          src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F8f5d8a5f3c4e2b1a9d7f6e5c4b3a2d1e"
-          className="w-full object-cover h-[200px] sm:h-[455.5px]"
+          src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Faa45c57386f349c5be0b5dbaf007f1b9"
+          className="w-full object-cover h-[200px]"
         />
       </a>
     </section>
