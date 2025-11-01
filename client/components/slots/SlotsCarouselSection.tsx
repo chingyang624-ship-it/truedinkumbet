@@ -37,7 +37,6 @@ const allGames = [
   { title: 'NextSpin', image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F9f31e5ab165a451798aced9f6bc248db', badge: 'Hot' },
   { title: 'PG Slot', image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F6270696975cd4a12aad4fbee0374d4b2', badge: 'Hot' },
   { title: 'Jili', image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff8b276e143534adeaa84d077140d61a6', badge: 'New' },
-  { title: 'Hong Chow', image: '' },
   { title: 'Fa Chai', image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F5dc9c3e98f2e426995e52f25a8a8cc76' },
   { title: 'YGR', image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F79d1e928c8e7409094e0dce9165a6549' },
   { title: 'Funky Games', image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Faebfa2fe4380480db7edfdda32b7e4dd' },
