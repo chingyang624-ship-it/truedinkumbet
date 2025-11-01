@@ -48,28 +48,32 @@ export default function SportsProvidersGrid() {
             gap: '20px',
             maxWidth: '100%',
             position: 'relative',
+            display: 'flex',
+            justifyContent: 'center',
           }}
         >
-          <div style={{ height: '100%' }}>
+          <div style={{ height: '100%', display: 'flex', justifyContent: 'center' }}>
             <div
               style={{
-                display: 'inline-table',
+                display: 'flex',
                 paddingBottom: '10px',
                 paddingTop: '10px',
                 textAlign: 'center',
-                width: '100%',
+                justifyContent: 'center',
+                gap: '20px',
               }}
             >
               {providers.map((provider, index) => (
                 <div
                   key={index}
                   style={{
-                    display: 'inline-block',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
                     paddingBottom: '15px',
                     paddingTop: '15px',
                     position: 'relative',
                     textAlign: 'center',
-                    width: '14.2857%',
                   }}
                 >
                   {provider.badge && (
