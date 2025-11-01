@@ -143,14 +143,14 @@ export default function Header() {
             {/* Mobile Auth Buttons */}
             <div className="border-t border-gray-200 p-6 space-y-3">
               <a
-                href="#login"
+                href="https://truedinkumbet.com/RFSEOTDK"
                 className="block text-center py-2 text-gray-800 font-medium border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 Login
               </a>
               <a
-                href="#register"
+                href="https://truedinkumbet.com/RFSEOTDK"
                 className="block text-center py-2 text-white font-bold bg-orange-500 rounded-lg hover:bg-orange-600 transition-colors"
                 onClick={() => setMobileMenuOpen(false)}
               >
