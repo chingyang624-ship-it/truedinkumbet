@@ -7,11 +7,11 @@ const providers = [
     featured: 'Gates of Olympus',
   },
   {
-    name: 'NextSpin',
+    name: 'Booongo',
     description:
-      'Popular in the Asia-Pacific market, NextSpin is known for vibrant visuals and creative gameplay. Titles like Candy Bonanza feature free spin bonuses and engaging themes optimized for mobile.',
-    logo: 'https://bk8mycasino.com/wp-content/uploads/2023/05/nextspin-logo.webp',
-    featured: 'Candy Bonanza',
+      'Popular in the Asia-Pacific market, BNG has also gained strong traction in the Australian market. Known for vibrant visuals and creative gameplay. Titles like Super Pink Joker feature free spin bonuses and engaging themes optimized for mobile.',
+    logo: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F9d1a8148f05547549c43fa2220f56fef',
+    featured: 'Super Pink Joker',
   },
   {
     name: 'Spadegaming',
