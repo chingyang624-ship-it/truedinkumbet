@@ -77,7 +77,7 @@ export default function Header() {
               height="50"
               loading="lazy"
               src="https://bk8mycasino.com/wp-content/uploads/2024/05/bk8logo.gif"
-              className="w-28 h-12"
+              className="w-[150px] h-12"
             />
           </a>
 
