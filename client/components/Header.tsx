@@ -118,13 +118,13 @@ export default function Header() {
           {/* Auth Buttons */}
           <div className="hidden md:flex flex-[0.25] gap-4 text-right py-2 px-2">
             <a
-              href="#login"
+              href="https://9ac8ae084b2045c2a6dee61e60f79bcf-0304bf5c2e8b44aeabd90488e.fly.dev/#login"
               className="text-sm font-medium text-gray-800 hover:text-gray-600 transition-colors"
             >
               Login
             </a>
             <a
-              href="#register"
+              href="https://9ac8ae084b2045c2a6dee61e60f79bcf-0304bf5c2e8b44aeabd90488e.fly.dev/#register"
               className="inline-block text-sm font-bold text-white bg-orange-500 rounded-lg px-3 py-2 hover:bg-orange-600 transition-all animate-bounce"
             >
               Join Now
