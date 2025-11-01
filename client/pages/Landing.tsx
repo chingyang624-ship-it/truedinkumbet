@@ -1,5 +1,6 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
+import TitleSection from '@/components/landing/TitleSection';
 import HeroSection from '@/components/landing/HeroSection';
 import FeaturesSection from '@/components/landing/FeaturesSection';
 import GamesSection from '@/components/landing/GamesSection';
@@ -13,6 +14,7 @@ export default function Landing() {
     <div className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-1">
+        <TitleSection />
         <HeroSection />
         <FeaturesSection />
         <GamesSection />
