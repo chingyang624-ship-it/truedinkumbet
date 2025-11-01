@@ -151,11 +151,157 @@ export default function SlotsCarouselSection() {
 
         <div className="mt-16 w-full">
           <h3 className="text-2xl font-bold mb-8 text-center" style={{ color: '#1f2124' }}>Explore All Games</h3>
-          <div style={{ display: 'flex', justifyContent: 'center' }}>
+
+          {/* Row 1: 5 games */}
+          <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px' }}>
             <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: '20px', padding: '15px 0' }}>
-              {allGames.map((game, index) => (
+              {allGames.slice(0, 5).map((game, index) => (
                 <div
                   key={index}
+                  style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    position: 'relative',
+                    textAlign: 'center',
+                  }}
+                >
+                  {game.badge && (
+                    <p
+                      style={{
+                        backgroundColor: game.badge === 'Hot' ? 'rgb(255, 101, 15)' : 'rgb(224, 9, 44)',
+                        borderRadius: '15px',
+                        color: 'rgb(255, 255, 255)',
+                        fontSize: '11px',
+                        fontWeight: '600',
+                        lineHeight: '11px',
+                        paddingBottom: '2px',
+                        paddingLeft: '8px',
+                        paddingRight: '8px',
+                        paddingTop: '2px',
+                        position: 'absolute',
+                        right: '0px',
+                        textAlign: 'center',
+                        top: '0px',
+                        zIndex: 10,
+                      }}
+                    >
+                      {game.badge}
+                    </p>
+                  )}
+                  {game.image ? (
+                    <a
+                      target="_blank"
+                      rel="sponsored noopener"
+                      href="#"
+                      style={{
+                        cursor: 'pointer',
+                        display: 'block',
+                        width: '100%',
+                      }}
+                    >
+                      <img
+                        loading="lazy"
+                        decoding="async"
+                        alt={`BK8 ${game.title} Slot Game`}
+                        width="240"
+                        height="300"
+                        src={game.image}
+                        style={{
+                          aspectRatio: '240 / 300',
+                          cursor: 'pointer',
+                          display: 'block',
+                          width: '100%',
+                          height: 'auto',
+                          objectFit: 'contain',
+                          transition: 'transform 0.3s ease',
+                        }}
+                      />
+                    </a>
+                  ) : null}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Row 2: 7 games */}
+          <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '20px' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(7, 1fr)', gap: '20px', padding: '15px 0' }}>
+              {allGames.slice(5, 12).map((game, index) => (
+                <div
+                  key={index + 5}
+                  style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    position: 'relative',
+                    textAlign: 'center',
+                  }}
+                >
+                  {game.badge && (
+                    <p
+                      style={{
+                        backgroundColor: game.badge === 'Hot' ? 'rgb(255, 101, 15)' : 'rgb(224, 9, 44)',
+                        borderRadius: '15px',
+                        color: 'rgb(255, 255, 255)',
+                        fontSize: '11px',
+                        fontWeight: '600',
+                        lineHeight: '11px',
+                        paddingBottom: '2px',
+                        paddingLeft: '8px',
+                        paddingRight: '8px',
+                        paddingTop: '2px',
+                        position: 'absolute',
+                        right: '0px',
+                        textAlign: 'center',
+                        top: '0px',
+                        zIndex: 10,
+                      }}
+                    >
+                      {game.badge}
+                    </p>
+                  )}
+                  {game.image ? (
+                    <a
+                      target="_blank"
+                      rel="sponsored noopener"
+                      href="#"
+                      style={{
+                        cursor: 'pointer',
+                        display: 'block',
+                        width: '100%',
+                      }}
+                    >
+                      <img
+                        loading="lazy"
+                        decoding="async"
+                        alt={`BK8 ${game.title} Slot Game`}
+                        width="240"
+                        height="300"
+                        src={game.image}
+                        style={{
+                          aspectRatio: '240 / 300',
+                          cursor: 'pointer',
+                          display: 'block',
+                          width: '100%',
+                          height: 'auto',
+                          objectFit: 'contain',
+                          transition: 'transform 0.3s ease',
+                        }}
+                      />
+                    </a>
+                  ) : null}
+                </div>
+              ))}
+            </div>
+          </div>
+
+          {/* Row 3: 5 games */}
+          <div style={{ display: 'flex', justifyContent: 'center' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: '20px', padding: '15px 0' }}>
+              {allGames.slice(12, 17).map((game, index) => (
+                <div
+                  key={index + 12}
                   style={{
                     display: 'flex',
                     flexDirection: 'column',
