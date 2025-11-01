@@ -1,19 +1,22 @@
 export default function LiveCasinoProvidersSection() {
   const providers = [
     {
-      name: 'Evolution',
-      description: 'Evolution is the gold standard in live casino software. Known for game shows like Crazy Time and Lightning Roulette, as well as premium blackjack and baccarat tables, Evolution brings innovative features and multi-language dealers. Their real-time streaming is flawless, making them a top choice for players across Australia.',
-      logo: 'https://bk8mycasino.com/wp-content/uploads/2025/06/EG.png',
+      name: 'Pragmatic Play',
+      description: 'Experience the excitement of Pragmatic Play Live Casino, featuring premium games like blackjack, baccarat, and popular game shows. With flawless streaming, professional dealers, and multi-language support, it\'s the ultimate live casino experience for players in Australia and beyond.',
+      logo: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fd311eed0693347ae8ec9768f049bf589',
+      imageStyle: {},
     },
     {
-      name: 'Microgaming',
-      description: 'Microgaming\'s live tables offer a clean, reliable interface with classic games like roulette, blackjack, and baccarat. The streams are smooth, the betting system is intuitive, and mobile performance is top-notch.',
-      logo: 'https://bk8mycasino.com/wp-content/uploads/2025/06/microgaming-logo-300x212.png',
+      name: 'Playtech',
+      description: 'Playtech\'s live tables offer a clean, reliable interface with classic games like roulette, blackjack, and baccarat. The streams are smooth, the betting system is intuitive, and mobile performance is top-notch.',
+      logo: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fd45218bbd03940af845fa4746f921e5f',
+      imageStyle: { marginTop: '26px' },
     },
     {
-      name: 'AE Casino',
-      description: 'AE Casino, also known as AE Sexy, is wildly popular in Australia. With attractive live dealers fluent in English, the tables feel personal and localized. AE Casino focuses on games like Sexy Baccarat, which blends engaging gameplay with a high-energy presentation, perfect for Australian players.',
-      logo: 'https://bk8mycasino.com/wp-content/uploads/2025/06/AE-casino.png',
+      name: 'Sexy Baccarat',
+      description: 'Sexy Baccarat is one of the most popular live casino games among Australian players. With friendly, English-speaking dealers and an energetic atmosphere, each table feels personal and engaging. The game combines the thrill of classic baccarat with lively presentation and real-time interaction — making it a perfect choice for players who enjoy a more dynamic live casino experience.',
+      logo: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fd389399b08dc4065a8c2c80aeaf096ca?format=webp',
+      imageStyle: { margin: '14px 0 0 -3px' },
     },
   ];
 
@@ -32,7 +35,7 @@ export default function LiveCasinoProvidersSection() {
                   src={provider.logo}
                   alt={provider.name}
                   className="max-w-xs h-auto"
-                  style={{ maxHeight: '200px' }}
+                  style={{ maxHeight: '200px', maxWidth: '320px', ...provider.imageStyle }}
                 />
               </div>
               <div className="md:w-2/3">
