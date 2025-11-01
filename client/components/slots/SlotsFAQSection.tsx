@@ -20,12 +20,12 @@ const faqs = [
   {
     question: 'Can I play Truedinkumbet slot games on my mobile?',
     answer:
-      'Yes, all Truedinkumbet slot games are optimized for mobile and can be played on both Android and iOS devices through the Truedinkumbet app or mobile browser.',
+      'Yes, all Truedinkumbet slot games are optimized for mobile and can be played on both Android and iOS devices through the Truedinkumbet app or mobile browser. Read our guide: Complete Guide to Download Truedinkumbet App',
   },
   {
     question: 'Is there a minimum bet amount for Truedinkumbet slots?',
     answer:
-      'Most Truedinkumbet slot games allow minimum bets starting from as low as AUD0.20, depending on the game provider.',
+      'Most Truedinkumbet slot games allow minimum bets starting from as low as AUD 0.20, depending on the game provider.',
   },
   {
     question: 'What are progressive jackpot slots and how do they work?',
@@ -35,7 +35,7 @@ const faqs = [
   {
     question: 'Do Truedinkumbet slot games offer free spins?',
     answer:
-      'Yes, Truedinkumbet slots come with built-in free spin features. Truedinkumbet also offers 188 slots free spins promotions.',
+      'Yes, Truedinkumbet slots come with built-in free spin features. Truedinkumbet also offers slots free spins promotions.',
   },
   {
     question: "What's the difference between high and low volatility slot games?",
@@ -60,7 +60,7 @@ export default function SlotsFAQSection() {
   return (
     <section className="py-20 px-4 bg-gray-50">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">Frequently Asked Questions</h2>
+        <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">FAQ</h2>
 
         <div className="space-y-4">
           {faqs.map((faq, index) => (
