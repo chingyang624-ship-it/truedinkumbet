@@ -2,22 +2,22 @@ const features = [
   {
     title: 'Convenience',
     description: 'Truedinkumbet offers seamless gaming with instant-play access to your favorite slots anytime on desktop or mobile.',
-    image: 'https://bk8mycasino.com/wp-content/uploads/2025/06/Convenience.png',
+    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fb9601035075544ab91b74630f06b6461',
   },
   {
     title: 'Variety',
     description: 'The platform features a constantly updated library of classic, themed, and jackpot slots from top global and Aussie providers.',
-    image: 'https://bk8mycasino.com/wp-content/uploads/2025/06/Variety.png',
+    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Faaf11a045b0247cbab2f345da2c5a545',
   },
   {
     title: 'Bonuses',
     description: 'New players get generous welcome bonuses, while regular promotions like reloads and free spins keep loyal players engaged.',
-    image: 'https://bk8mycasino.com/wp-content/uploads/2025/06/Bonuses.png',
+    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff2c5ab51da52411fb4cda5d9094513b6',
   },
   {
     title: 'High Payout Percentages',
     description: 'Many games offer RTP rates above 96%, giving players fair odds and consistent winning potential.',
-    image: 'https://bk8mycasino.com/wp-content/uploads/2025/06/High-Payout.png',
+    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F11938edbcab348fa9a9a44c4bae60fca',
   },
 ];
 
