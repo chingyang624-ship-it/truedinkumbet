@@ -135,7 +135,7 @@ export default function Header() {
 
       {/* Carousel Section */}
       <div
-        className="relative w-full bg-blue-900 pt-20 pb-4"
+        className="relative w-full bg-slate-50 pt-20 pb-4"
         role="region"
         aria-label="Home Page"
         tabIndex={0}
