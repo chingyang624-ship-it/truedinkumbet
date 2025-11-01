@@ -28,7 +28,7 @@ export default function Header() {
     {
       title: "banner20241024105658074",
       image:
-        "https://bk8mycasino.com/wp-content/uploads/2025/03/banner20241024105658074-1200x349.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fcc9ebbe3e8774784b6ba2cbbec1aa215",
     },
   ];
 
