@@ -164,6 +164,7 @@ export default function SlotsCarouselSection() {
                   position: 'relative',
                   textAlign: 'center',
                   width: '14.2857%',
+                  ...(index === 3 ? { marginRight: '-2px' } : {}),
                 }}
               >
                 {game.badge && (
