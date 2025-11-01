@@ -103,7 +103,7 @@ export default function SlotsCarouselSection() {
                   >
                     <img
                       decoding="async"
-                      alt={`BK8 ${game.title} Slots Game`}
+                      alt={`Truedinkumbet ${game.title} Slots Game`}
                       loading="lazy"
                       src={game.image}
                       className="w-full h-auto object-cover"
@@ -204,7 +204,7 @@ export default function SlotsCarouselSection() {
                       <img
                         loading="lazy"
                         decoding="async"
-                        alt={`BK8 ${game.title} Slot Game`}
+                        alt={`Truedinkumbet ${game.title} Slot Game`}
                         width="240"
                         height="300"
                         src={game.image}
@@ -276,7 +276,7 @@ export default function SlotsCarouselSection() {
                       <img
                         loading="lazy"
                         decoding="async"
-                        alt={`BK8 ${game.title} Slot Game`}
+                        alt={`Truedinkumbet ${game.title} Slot Game`}
                         width="240"
                         height="300"
                         src={game.image}
@@ -348,7 +348,7 @@ export default function SlotsCarouselSection() {
                       <img
                         loading="lazy"
                         decoding="async"
-                        alt={`BK8 ${game.title} Slot Game`}
+                        alt={`Truedinkumbet ${game.title} Slot Game`}
                         width="240"
                         height="300"
                         src={game.image}
