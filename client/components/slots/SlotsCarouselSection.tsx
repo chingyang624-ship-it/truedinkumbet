@@ -189,34 +189,41 @@ export default function SlotsCarouselSection() {
                     {game.badge}
                   </p>
                 )}
-                <a
-                  target="_blank"
-                  rel="sponsored noopener"
-                  href="#"
-                  style={{
-                    cursor: 'pointer',
-                    transition: 'transition-duration 0.3s',
-                  }}
-                >
-                  <img
-                    loading="lazy"
-                    decoding="async"
-                    alt={`BK8 ${game.title} Slot Game`}
-                    width="240"
-                    height="300"
-                    src={game.image}
+                {game.image ? (
+                  <a
+                    target="_blank"
+                    rel="sponsored noopener"
+                    href="#"
                     style={{
-                      aspectRatio: '240 / 300',
                       cursor: 'pointer',
-                      display: 'inline',
-                      lineHeight: '18px',
-                      maxWidth: '100%',
                       transition: 'transition-duration 0.3s',
-                      verticalAlign: 'middle',
-                      width: '80%',
                     }}
-                  />
-                </a>
+                  >
+                    <img
+                      loading="lazy"
+                      decoding="async"
+                      alt={`BK8 ${game.title} Slot Game`}
+                      width="240"
+                      height="300"
+                      src={game.image}
+                      style={{
+                        aspectRatio: '240 / 300',
+                        cursor: 'pointer',
+                        display: 'inline',
+                        lineHeight: '18px',
+                        maxWidth: '120%',
+                        transition: 'transition-duration 0.3s',
+                        verticalAlign: 'middle',
+                        width: '250px',
+                        height: '200px',
+                        ...(index === 0 ? { marginLeft: '55px' } : {}),
+                        ...(index === 1 ? { marginLeft: '52px' } : {}),
+                        ...(index === 2 ? { marginLeft: '94px' } : {}),
+                        ...(index === 4 ? { marginLeft: '-3px' } : {}),
+                      }}
+                    />
+                  </a>
+                ) : null}
               </div>
             ))}
           </div>
