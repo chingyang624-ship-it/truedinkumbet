@@ -6,7 +6,7 @@ const features = [
   },
   {
     title: 'Variety',
-    description: 'The platform features a constantly updated library of classic, themed, and jackpot slots from top global and Asian providers.',
+    description: 'The platform features a constantly updated library of classic, themed, and jackpot slots from top global and Aussie providers.',
     image: 'https://bk8mycasino.com/wp-content/uploads/2025/06/Variety.png',
   },
   {
