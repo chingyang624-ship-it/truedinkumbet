@@ -151,20 +151,18 @@ export default function SlotsCarouselSection() {
           </button>
         </div>
 
-        <div className="mt-16 inline-table w-full text-center" style={{ paddingBottom: '10px', paddingTop: '10px' }}>
+        <div className="mt-16 w-full">
           <h3 className="text-2xl font-bold mb-8 text-center" style={{ color: '#1f2124' }}>Explore All Games</h3>
-          <div style={{ display: 'inline-table', paddingBottom: '10px', paddingTop: '10px', textAlign: 'center', width: '100%' }}>
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(7, 1fr)', gap: '20px', padding: '15px 0' }}>
             {allGames.map((game, index) => (
               <div
                 key={index}
                 style={{
-                  display: 'inline-block',
-                  paddingBottom: '15px',
-                  paddingTop: '15px',
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
                   position: 'relative',
                   textAlign: 'center',
-                  width: '14.2857%',
-                  ...(index === 3 ? { marginRight: '-2px' } : {}),
                 }}
               >
                 {game.badge && (
@@ -181,9 +179,9 @@ export default function SlotsCarouselSection() {
                       paddingRight: '8px',
                       paddingTop: '2px',
                       position: 'absolute',
-                      right: '5px',
+                      right: '0px',
                       textAlign: 'center',
-                      top: '5px',
+                      top: '0px',
                       zIndex: 10,
                     }}
                   >
@@ -197,7 +195,8 @@ export default function SlotsCarouselSection() {
                     href="#"
                     style={{
                       cursor: 'pointer',
-                      transition: 'transition-duration 0.3s',
+                      display: 'block',
+                      width: '100%',
                     }}
                   >
                     <img
@@ -210,17 +209,11 @@ export default function SlotsCarouselSection() {
                       style={{
                         aspectRatio: '240 / 300',
                         cursor: 'pointer',
-                        display: 'inline',
-                        lineHeight: '18px',
-                        maxWidth: '120%',
-                        transition: 'transition-duration 0.3s',
-                        verticalAlign: 'middle',
-                        width: '250px',
-                        height: '200px',
-                        ...(index === 0 ? { marginLeft: '55px' } : {}),
-                        ...(index === 1 ? { marginLeft: '52px' } : {}),
-                        ...(index === 2 ? { marginLeft: '94px' } : {}),
-                        ...(index === 4 ? { marginLeft: '-3px' } : {}),
+                        display: 'block',
+                        width: '100%',
+                        height: 'auto',
+                        objectFit: 'contain',
+                        transition: 'transform 0.3s ease',
                       }}
                     />
                   </a>
