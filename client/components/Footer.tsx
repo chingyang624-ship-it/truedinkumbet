@@ -169,7 +169,7 @@ export default function Footer() {
               <h3 className="text-base font-semibold text-black mb-4 flex items-center gap-1">
                 Gaming License
                 <img
-                  src="https://bk8mycasino.com/wp-content/themes/BK8/svg/tick.svg"
+                  src="https://truedinkumbet.com/wp-content/themes/Truedinkumbet/svg/tick.svg"
                   alt="tick"
                   className="w-8 h-6"
                 />
@@ -279,7 +279,7 @@ export default function Footer() {
               <h3 className="text-base font-semibold text-black mb-4">Follow Us</h3>
               <div className="flex gap-3">
                 <img
-                  src="https://bk8mycasino.com/wp-content/themes/BK8/svg/facebook.svg"
+                  src="https://truedinkumbet.com/wp-content/themes/Truedinkumbet/svg/facebook.svg"
                   alt="Truedinkumbet Facebook"
                   className="h-9 w-9"
                   style={{ filter: "grayscale(1)" }}
