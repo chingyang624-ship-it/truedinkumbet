@@ -21,11 +21,11 @@ const providers = [
     featured: 'Thunder Cash',
   },
   {
-    name: '918Kiss',
+    name: 'Vpower',
     description:
       'An iconic brand in the slot game Australia scene, 918Kiss focuses on simplicity and fast gameplay. Its classic slots remain a go-to choice for players who enjoy retro-style games with real win potential.',
-    logo: 'https://bk8mycasino.com/wp-content/uploads/2025/06/kiss918-logo-1024x724.png',
-    featured: 'Classic Slots',
+    logo: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F411c79e09cbd446487ea5b3b4ab25990',
+    featured: 'Black Myth Wukong',
   },
   {
     name: 'Microgaming',
