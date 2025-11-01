@@ -22,6 +22,7 @@ export default function App() {
           <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/slots" element={<Slots />} />
+          <Route path="/live-casino" element={<LiveCasino />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
