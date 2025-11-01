@@ -36,11 +36,8 @@ const games = [
   },
   {
     title: 'Lottery',
-    description: (
-      <p>
-        Try your luck with Truedinkumbet's selection of lottery games, including Grand Lotto 4D draws. Fast, easy, and rewarding, just choose your lucky numbers and wait for the win.
-      </p>
-    ),
+    description:
+      'Try your luck with Truedinkumbet\'s selection of lottery games, including Grand Lotto 4D draws. Fast, easy, and rewarding, just choose your lucky numbers and wait for the win.',
     image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F1595b35f96e44dd9b73e8a4311caf245',
     link: '#lottery',
   },
