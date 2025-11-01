@@ -40,7 +40,7 @@ export default function Footer() {
                   HSBC BWF World Tour Finals 2024
                 </p>
                 <img
-                  src="https://bk8mycasino.com/wp-content/uploads/2024/07/hsbc-bwf.webp"
+                  src="https://truedinkumbet.com/wp-content/uploads/2024/07/hsbc-bwf.webp"
                   alt="HSBC BWF"
                   className="w-44 h-20 mx-auto"
                 />
@@ -49,17 +49,17 @@ export default function Footer() {
               {/* Manny Pacquiao */}
               <div className="grid grid-cols-[auto_1fr] gap-4 items-start">
                 <img
-                  src="https://bk8mycasino.com/wp-content/uploads/2024/07/sponsor-mp.webp"
+                  src="https://truedinkumbet.com/wp-content/uploads/2024/07/sponsor-mp.webp"
                   alt="Manny Pacquiao"
                   className="w-28 h-32"
                 />
                 <div>
                   <p className="text-sm font-semibold mb-2 text-black">
-                    BK8 Brand Ambassador<br />
+                    Truedinkumbet Brand Ambassador<br />
                     Philippines 2023 - 2024
                   </p>
                   <img
-                    src="https://bk8mycasino.com/wp-content/uploads/2024/07/signature-mp.webp"
+                    src="https://truedinkumbet.com/wp-content/uploads/2024/07/signature-mp.webp"
                     alt="Manny Pacquiao Signature"
                     className="w-16 h-11 mb-2"
                   />
@@ -78,7 +78,7 @@ export default function Footer() {
                   Innovation in Sports Betting
                 </p>
                 <img
-                  src="https://bk8mycasino.com/wp-content/uploads/2024/09/egr_nomination.webp"
+                  src="https://truedinkumbet.com/wp-content/uploads/2024/09/egr_nomination.webp"
                   alt="EGR"
                   className="w-44 h-8 mx-auto"
                 />
