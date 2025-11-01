@@ -45,7 +45,7 @@ const faqs = [
   {
     question: 'What is the minimum deposit amount to start playing?',
     answer:
-      'The minimum deposit amount varies slightly depending on the payment method, but generally starts from as low as AUD10, making it accessible to all players.',
+      'The minimum deposit amount varies slightly depending on the payment method, but generally starts from as low as AUD20, making it accessible to all players.',
   },
   {
     question: 'How does Truedinkumbet ensure fair play and game integrity?',
