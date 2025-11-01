@@ -6,10 +6,10 @@ const popularGames = [
     image: 'https://bk8mycasino.com/wp-content/uploads/2025/06/gates-of-olypus.jpg',
   },
   {
-    name: 'Candy Bonanza (NextSpin)',
+    name: 'Super Pink Joker (BNG)',
     description:
-      'Bright, playful, and loaded with sweet wins. This slot includes cluster pays, cascading reels, and bonus spin features that keep players hooked.',
-    image: 'https://bk8mycasino.com/wp-content/uploads/2025/06/candy-bonanaza.jpg',
+      'Super Pink Joker by BNG combines classic fruit slot fun with modern Hold and Win features. Bright visuals and fast spins make it a hit among Australian players.',
+    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F00a8def432494716800fd73209dfa072',
   },
   {
     name: 'Roma (Spadegaming)',
