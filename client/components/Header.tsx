@@ -59,7 +59,7 @@ export default function Header() {
           {/* Mobile Menu Toggle */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
-            className="hidden md:hidden flex-basis-1/6 py-1 px-3"
+            className="md:hidden flex-basis-1/6 py-1 px-3"
           >
             <img
               loading="lazy"
