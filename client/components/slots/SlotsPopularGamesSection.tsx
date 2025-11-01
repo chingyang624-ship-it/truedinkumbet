@@ -18,10 +18,10 @@ const popularGames = [
     image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F079f50f1a17f407aa373eb6fe7eb770e',
   },
   {
-    name: 'Lucky Twins (Microgaming)',
+    name: 'Big Red (Aristocrat-Slot)',
     description:
-      'A game that blends Australian cultural motifs with simple mechanics. It\'s great for players looking for low volatility and steady payouts.',
-    image: 'https://bk8mycasino.com/wp-content/uploads/2025/06/lucky-twins.jpg',
+      'Big Red by Aristocrat is an iconic Australian-themed slot set in the outback. Featuring kangaroos, crocodiles, and wild boars, this classic pokie offers simple gameplay with powerful free spin rewards. Loved by Aussie players for its nostalgic design and big-win potential.',
+    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F818e79fc20204ac0811dcedece50c0b9',
   },
 ];
 
