@@ -18,9 +18,7 @@ export default function VIPSection() {
           <div>
             <h3 className="text-2xl font-semibold text-gray-900 mb-4">Climb the VIP Tiers</h3>
             <p className="text-gray-600 leading-relaxed">
-              Truedinkumbet Australia features a comprehensive multi-tier VIP program system that includes Bronze, Silver, Gold,
-              Platinum, and Diamond levels. As players continue to bet and engage across various Truedinkumbet casino games, they
-              accumulate points that help them ascend these tiers, unlocking more generous benefits with each level.
+              Truedinkumbet Australia features a comprehensive multi-tier VIP program system that includes Warrior, Elite, Master, Grand Master, Epic , Legend , Mythic , Mythic Glory , Elite Mythic Glory levels. As players continue to bet and engage across various Truedinkumbet casino games, they accumulate points that help them ascend these tiers, unlocking more generous benefits with each level.
             </p>
           </div>
 
