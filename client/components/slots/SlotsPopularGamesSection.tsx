@@ -12,10 +12,10 @@ const popularGames = [
     image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F00a8def432494716800fd73209dfa072',
   },
   {
-    name: 'Roma (Spadegaming)',
+    name: 'Boxing King (JILI)',
     description:
-      'Inspired by the Roman empire, Roma combines nostalgic graphics with modern bonus rounds. It\'s one of the most-played titles in the online slot game Australia category.',
-    image: 'https://bk8mycasino.com/wp-content/uploads/2025/06/roma.jpg',
+      'Boxing King by JILI delivers a high-energy slot experience set in the ring. With 5 reels, cascading combos, free spins and rising multipliers up to ×8, it\'s perfect for players who crave fast-paced action and knockout wins.',
+    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F079f50f1a17f407aa373eb6fe7eb770e',
   },
   {
     name: 'Lucky Twins (Microgaming)',
