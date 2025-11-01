@@ -50,6 +50,7 @@ const allGames = [
   { title: 'Bins', image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F7825b7787ce64892b004da9e264b18cf', badge: 'New' },
   { title: 'JDB', image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F15d7a82bc7cd433ea85b709acc101220', badge: 'New' },
   { title: 'Relax Gaming', image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F900a2c729797420999ad59ed766a953a', badge: 'New' },
+  { title: 'Novomatic', image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fd3f8b03098c44104bf33a583339ceaa0', badge: 'New' },
 ];
 
 export default function SlotsCarouselSection() {
