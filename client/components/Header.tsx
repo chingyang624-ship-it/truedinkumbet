@@ -70,7 +70,7 @@ export default function Header() {
           </button>
 
           {/* Logo */}
-          <a href="/" className="flex-1 md:flex-basis-1/4 py-1 px-2 mr-2">
+          <a href="/" className="flex-1 md:flex-[0.25] py-1 px-2 mr-2">
             <img
               alt="BK8"
               width="110"
