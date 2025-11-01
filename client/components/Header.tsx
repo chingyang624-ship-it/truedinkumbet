@@ -116,7 +116,7 @@ export default function Header() {
           </nav>
 
           {/* Auth Buttons */}
-          <div className="hidden md:flex flex-basis-1/4 gap-4 text-right py-2 px-2">
+          <div className="hidden md:flex flex-[0.25] gap-4 text-right py-2 px-2">
             <a
               href="#login"
               className="text-sm font-medium text-gray-800 hover:text-gray-600 transition-colors"
