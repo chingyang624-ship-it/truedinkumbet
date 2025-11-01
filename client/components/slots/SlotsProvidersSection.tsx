@@ -14,11 +14,11 @@ const providers = [
     featured: 'Super Pink Joker',
   },
   {
-    name: 'Spadegaming',
+    name: 'Imperium Games',
     description:
-      'A trusted name for Australian players, Spadegaming delivers culturally relevant games like Roma with rich storylines, bonus games, and high win potential.',
-    logo: 'https://bk8mycasino.com/wp-content/uploads/2025/06/spadegaming-logo-1-1024x270.png',
-    featured: 'Roma',
+      'A trusted name for Australian players, Imperium Games delivers culturally relevant games like Thunder Cash with rich storylines, bonus games, and high win potential.',
+    logo: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F0db731b988cd4a6681d0793a165b4270',
+    featured: 'Thunder Cash',
   },
   {
     name: '918Kiss',
