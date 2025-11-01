@@ -6,7 +6,7 @@ export default function SlotsBonusesSection() {
           Bonuses & Ongoing Promotions
         </h2>
         <p className="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-12">
-          BK8 makes sure your gaming journey starts with a boost. Here are some of the key promotions available for slot players:
+          Truedinkumbet makes sure your gaming journey starts with a boost. Here are some of the key promotions available for slot players:
         </p>
 
         <div className="bg-white rounded-lg shadow-md p-8 md:p-12">
@@ -16,7 +16,7 @@ export default function SlotsBonusesSection() {
               <div>
                 <p className="font-semibold text-gray-900 mb-2">Welcome Bonus</p>
                 <p className="text-gray-600">
-                  New members can claim up to 150% bonus on their first deposit—worth up to RM800.
+                  New members can claim up to 150% bonus on their first deposit—worth up to AUD 800.
                 </p>
               </div>
             </li>
@@ -41,7 +41,7 @@ export default function SlotsBonusesSection() {
           </ul>
 
           <p className="text-gray-600 leading-relaxed">
-            Most promotions and bonuses are easy to claim and come with reasonable wagering requirements. Always check the promo page to see which BK8 slot games contribute the most to your bonus clearing.
+            Most promotions and bonuses are easy to claim and come with reasonable wagering requirements. Always check the promo page to see which Truedinkumbet slot games contribute the most to your bonus clearing.
           </p>
         </div>
       </div>
