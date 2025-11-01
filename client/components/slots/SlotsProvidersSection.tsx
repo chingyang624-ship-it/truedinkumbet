@@ -28,11 +28,11 @@ const providers = [
     featured: 'Black Myth Wukong',
   },
   {
-    name: 'Microgaming',
+    name: 'JILI',
     description:
-      'As one of the pioneers in online gaming, Microgaming is home to the famous Mega Moolah series. These games are known for life-changing progressive jackpots and smooth gameplay.',
-    logo: 'https://bk8mycasino.com/wp-content/uploads/2025/06/microgaming-logo-1024x724.png',
-    featured: 'Mega Moolah',
+      'JILI Games is one of the rising stars in online slots, known for its vibrant graphics, smooth gameplay, and creative bonus features. Popular titles like Golden Empire, Roma X, and Crazy 777 deliver high volatility action and exciting rewards, making JILI a favorite among Australian players.',
+    logo: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fdbdac6c97dc34011872a1bcffbd16e5e',
+    featured: 'Crazy 7',
   },
 ];
 
