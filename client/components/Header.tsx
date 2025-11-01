@@ -162,6 +162,21 @@ export default function Header() {
       )}
 
 
+      {/* Mobile Auth Buttons (shown on smaller screens) */}
+      <div className="md:hidden flex gap-2 px-5 pb-4">
+        <a
+          href="https://truedinkumbet.com/RFSEOTDK"
+          className="flex-1 py-3 bg-red-700 text-white font-semibold text-center rounded hover:bg-red-800 transition-colors"
+        >
+          Join
+        </a>
+        <a
+          href="https://truedinkumbet.com/RFSEOTDK"
+          className="flex-1 py-3 bg-blue-600 text-white font-semibold text-center rounded hover:bg-blue-700 transition-colors"
+        >
+          Login
+        </a>
+      </div>
     </header>
   );
 }
