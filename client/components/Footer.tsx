@@ -177,7 +177,7 @@ export default function Footer() {
               <img
                 src="https://bk8mycasino.com/wp-content/uploads/2025/08/gaming-license.png"
                 alt="Gaming License"
-                className="w-20 h-12 mb-4"
+                className="mb-4"
               />
               <p className="text-xs text-black">
                 BK8 is operated by Mettlemind Tech Ltd. (Reg. No. 15779),
