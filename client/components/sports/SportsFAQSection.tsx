@@ -10,11 +10,11 @@ export default function SportsFAQSection() {
     },
     {
       question: 'How do I deposit and withdraw for sports betting?',
-      answer: 'You can deposit via local bank transfer, DuitNow, and e-wallets. Withdrawals are fast and processed within minutes after verification.',
+      answer: 'You can deposit via local bank transfer, crypto, and e-wallets. Withdrawals are fast and processed within minutes after verification.',
     },
     {
       question: 'Which sportsbook provider has the best odds?',
-      answer: 'Each provider has its strengths, but SBOBET and CMD368 are known for offering highly competitive odds, especially for football and cricket.',
+      answer: 'Each provider has its strengths, but M8Bet and WS Sport are known for offering highly competitive odds, especially for football and cricket.',
     },
     {
       question: 'Can I place live bets during matches?',
