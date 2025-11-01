@@ -3,13 +3,13 @@ export default function VIPSection() {
     <section className="py-20 px-4 bg-white">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
-          Unlock Elite Privileges with the BK8 VIP Program
+          Unlock Elite Privileges with the Truedinkumbet VIP Program
         </h2>
 
         <div className="mb-12">
           <img
-            src="https://bk8mycasino.com/wp-content/uploads/2025/06/BK8-VIP-program.jpeg"
-            alt="BK8 VIP program"
+            src="https://truedinkumbet.com/wp-content/uploads/2025/06/Truedinkumbet-VIP-program.jpeg"
+            alt="Truedinkumbet VIP program"
             className="w-full rounded-lg shadow-lg mb-8"
           />
         </div>
@@ -18,8 +18,8 @@ export default function VIPSection() {
           <div>
             <h3 className="text-2xl font-semibold text-gray-900 mb-4">Climb the VIP Tiers</h3>
             <p className="text-gray-600 leading-relaxed">
-              BK8 Malaysia features a comprehensive multi-tier VIP program system that includes Bronze, Silver, Gold,
-              Platinum, and Diamond levels. As players continue to bet and engage across various BK8 casino games, they
+              Truedinkumbet Australia features a comprehensive multi-tier VIP program system that includes Bronze, Silver, Gold,
+              Platinum, and Diamond levels. As players continue to bet and engage across various Truedinkumbet casino games, they
               accumulate points that help them ascend these tiers, unlocking more generous benefits with each level.
             </p>
           </div>
@@ -32,7 +32,7 @@ export default function VIPSection() {
               service and special assistance.
             </p>
             <p className="text-gray-600 leading-relaxed">
-              Members may also receive luxury gifts, early invitations to BK8 events, and customized cashback offers
+              Members may also receive luxury gifts, early invitations to Truedinkumbet events, and customized cashback offers
               based on individual betting patterns. The program is designed to recognize and reward loyal players with a
               premium and privileged experience.
             </p>
