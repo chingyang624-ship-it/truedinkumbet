@@ -8,7 +8,7 @@ export default function Header() {
     {
       title: "BETA-ALL-GresiniAnnouncement-2000x525-en 1",
       image:
-        "https://bk8mycasino.com/wp-content/uploads/2025/03/BETA-ALL-GresiniAnnouncement-2000x525-en-1-1200x349.jpg",
+        "https://cdn.builder.io/o/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F914cc8bbfd4c468facee58da37c57198?alt=media&token=2b2b5a1c-9f03-4652-b459-d53ff5a36db5&apiKey=4dfa7c46dbc1480caa7368c3233e05a7",
     },
     {
       title: "BK8-Burnley-FC-Partnership",
@@ -76,7 +76,7 @@ export default function Header() {
               width="110"
               height="50"
               loading="lazy"
-              src="https://bk8mycasino.com/wp-content/uploads/2024/05/bk8logo.gif"
+              src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7"
               className="w-[150px] h-12"
             />
           </a>
