@@ -1,13 +1,6 @@
 export default function SportsProvidersGrid() {
   const providers = [
     {
-      name: 'BK8 Sports',
-      badge: 'New',
-      badgeColor: '#e00928',
-      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F602686836c494e93a3491d0e2149296a',
-      link: 'https://bk8mycasino.com/go/cmdsports',
-    },
-    {
       name: 'CMD368 Sports',
       badge: 'Hot',
       badgeColor: '#ff650f',
