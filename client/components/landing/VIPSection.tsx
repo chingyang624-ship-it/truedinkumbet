@@ -8,7 +8,7 @@ export default function VIPSection() {
 
         <div className="mb-12">
           <img
-            src="https://truedinkumbet.com/wp-content/uploads/2025/06/Truedinkumbet-VIP-program.jpeg"
+            src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fa67309fbac3143e9ac00b59555ce159b"
             alt="Truedinkumbet VIP program"
             className="w-full rounded-lg shadow-lg mb-8"
           />
