@@ -13,7 +13,7 @@ export default function Header() {
     {
       title: "BK8-Burnley-FC-Partnership",
       image:
-        "https://bk8mycasino.com/wp-content/uploads/2023/09/BK8-Burnley-FC-Partnership-1200x349.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F603ab0ba627a41b58099ecbea3cbacbe",
     },
     {
       title: "banner20250124082758635",
