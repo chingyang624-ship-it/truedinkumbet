@@ -6,6 +6,7 @@ const featuredGames = [
     image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/slot-romaII.webp',
     provider: 'NextSpin',
     rtp: '97.05',
+    badge: 'Hot',
   },
   {
     title: 'Roma',
@@ -33,6 +34,27 @@ const featuredGames = [
   },
 ];
 
+const allGames = [
+  { title: 'NextSpin', image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/slot-nextspin.webp', badge: 'Hot' },
+  { title: 'PG Slot', image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/slot-pgsoft.webp', badge: 'Hot' },
+  { title: 'Jili', image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/slot-jili.webp', badge: 'New' },
+  { title: 'Hong Chow', image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/slot-hc.webp' },
+  { title: 'Fa Chai', image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/slot-fc.webp' },
+  { title: 'YGR', image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/slot-ygr.webp' },
+  { title: 'Funky Games', image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/slot-funkygames.webp' },
+  { title: 'Joker', image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/slot-joker.webp' },
+  { title: 'Netent', image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/slot-netent.webp' },
+  { title: 'Red Tiger', image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/slot-rt.webp' },
+  { title: 'Play n Go', image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/slot-p&g.webp' },
+  { title: 'MT Game', image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/slot-mt.webp' },
+  { title: 'Microgaming', image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/slot-mg.webp' },
+  { title: 'CQ9', image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/slot-cq9.webp' },
+  { title: 'Bins', image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/slot-bins.webp', badge: 'New' },
+  { title: 'JDB', image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/slot-jdb.webp', badge: 'New' },
+  { title: 'Relax Gaming', image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/slot-rg.webp', badge: 'New' },
+  { title: 'PS', image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/slot-ps.webp', badge: 'New' },
+];
+
 export default function SlotsCarouselSection() {
   const [currentSlide, setCurrentSlide] = useState(0);
 
@@ -47,7 +69,7 @@ export default function SlotsCarouselSection() {
     <section className="py-20 px-4 bg-gray-900">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-white text-center mb-12">Featured Slot Games</h2>
-        
+
         <div className="relative mb-8">
           <div className="overflow-hidden rounded-lg">
             <img
@@ -77,12 +99,12 @@ export default function SlotsCarouselSection() {
           ))}
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-5 gap-4 mt-12">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-4 mt-12">
           {featuredGames.map((game, index) => (
             <div
               key={index}
               onClick={() => setCurrentSlide(index)}
-              className="cursor-pointer rounded-lg overflow-hidden hover:shadow-lg transition-shadow"
+              className="cursor-pointer rounded-lg overflow-hidden hover:shadow-lg transition-shadow relative group"
             >
               <img
                 src={game.image}
@@ -95,6 +117,27 @@ export default function SlotsCarouselSection() {
               </div>
             </div>
           ))}
+        </div>
+
+        <div className="mt-16">
+          <h3 className="text-2xl font-bold text-white mb-8 text-center">Explore All Games</h3>
+          <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4">
+            {allGames.map((game, index) => (
+              <div key={index} className="relative group">
+                <img
+                  src={game.image}
+                  alt={game.title}
+                  className="w-full h-40 object-cover rounded-lg hover:opacity-80 transition-opacity cursor-pointer"
+                />
+                {game.badge && (
+                  <div className="absolute top-2 right-2 bg-red-500 text-white text-xs font-bold px-2 py-1 rounded">
+                    {game.badge}
+                  </div>
+                )}
+                <p className="text-white text-sm font-semibold mt-2 text-center">{game.title}</p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>
