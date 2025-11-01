@@ -23,7 +23,7 @@ export default function Header() {
           >
             <img
               loading="lazy"
-              src="https://truedinkumbet.com/wp-content/uploads/2023/05/burger.webp"
+              src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Faab8ae3ab44140c694b79fb3807fab65?format=webp"
               alt="Menu"
               className="w-6 h-6"
             />
