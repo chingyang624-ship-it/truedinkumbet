@@ -278,13 +278,18 @@ export default function Footer() {
             <div>
               <h3 className="text-base font-semibold text-black mb-4">Follow Us</h3>
               <div className="flex gap-3">
-                <img
-                  src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F28bb87ef06f54425a01118d65acdbdb9"
-                  alt="Truedinkumbet Facebook"
-                  className="h-9 w-9"
-                  style={{ filter: "grayscale(1)" }}
+                <a
                   href="https://www.facebook.com/share/17TDVW4N25/?mibextid=wwXIfr"
-                />
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <img
+                    src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F28bb87ef06f54425a01118d65acdbdb9"
+                    alt="Truedinkumbet Facebook"
+                    className="h-9 w-9"
+                    style={{ filter: "grayscale(1)" }}
+                  />
+                </a>
                 <a href="https://youtube.com/c/bk8official" target="_blank" rel="noopener noreferrer" />
                 <a href="https://x.com/truedinkumbet?s=21" target="_blank" rel="noopener noreferrer">
                   <img
