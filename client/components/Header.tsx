@@ -82,7 +82,7 @@ export default function Header() {
           </a>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex flex-basis-3/4 text-left">
+          <nav className="hidden md:flex flex-[0.75] text-left">
             <ul className="flex gap-3 z-10 relative">
               {navItems.map((item) => (
                 <li key={item.name} className="inline-block">
