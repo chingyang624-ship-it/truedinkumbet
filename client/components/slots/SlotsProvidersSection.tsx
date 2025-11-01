@@ -51,7 +51,12 @@ export default function SlotsProvidersSection() {
           {providers.map((provider, index) => (
             <div key={index} className={`flex flex-col ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} gap-8 items-center`}>
               <div className="md:w-1/3">
-                <img src={provider.logo} alt={provider.name} className="max-h-20 w-auto" />
+                <img
+                  src={provider.logo}
+                  alt={provider.name}
+                  className="max-h-20 w-auto"
+                  style={index === 0 ? {} : index === 3 ? { maxHeight: '200px', minHeight: '110px' } : {}}
+                />
               </div>
               <div className="md:w-2/3">
                 <h3 className="text-2xl font-semibold text-gray-900 mb-3">{provider.name}</h3>
