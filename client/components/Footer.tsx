@@ -240,7 +240,7 @@ export default function Footer() {
                 ].map((cert) => (
                   <img
                     key={cert.name}
-                    src={`https://bk8mycasino.com/wp-content/themes/BK8/svg/${cert.src}`}
+                    src={`https://truedinkumbet.com/wp-content/themes/Truedinkumbet/svg/${cert.src}`}
                     alt={cert.name}
                     className="h-9 w-auto mb-3"
                     style={{ filter: "grayscale(1)" }}
