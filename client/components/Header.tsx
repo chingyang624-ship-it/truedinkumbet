@@ -101,7 +101,7 @@ export default function Header() {
                 >
                   Blog
                 </a>
-                <ul className="hidden absolute bg-white/86 top-[52px] left-0 w-48 p-4 mt-4">
+                <ul className="hidden absolute bg-white top-[52px] left-0 w-48 p-4 mt-4 shadow-lg rounded-lg">
                   <li>
                     <a
                       href="#crypto"
