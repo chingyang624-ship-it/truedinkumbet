@@ -243,7 +243,7 @@ export default function Header() {
                         draggable="false"
                         loading="lazy"
                         src={slide.image}
-                        className="w-full max-w-5xl h-auto mx-auto"
+                        className="w-full h-auto"
                       />
                     </a>
                   </li>
