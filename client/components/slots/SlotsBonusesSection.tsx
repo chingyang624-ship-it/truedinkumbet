@@ -16,7 +16,7 @@ export default function SlotsBonusesSection() {
               <div>
                 <p className="font-semibold text-gray-900 mb-2">Welcome Bonus</p>
                 <p className="text-gray-600">
-                  New members can claim up to 150% bonus on their first deposit—worth up to AUD800.
+                  New members can claim up to 150% bonus on their first deposit—worth up to AUD 800.
                 </p>
               </div>
             </li>
