@@ -7,12 +7,10 @@ export default function LiveCasinoIntroSection() {
             Truedinkumbet: Best Live Casino Games Australia
           </h2>
           <p className="text-lg" style={{ color: '#6b7280', lineHeight: '1.8', maxWidth: '768px', margin: '0 auto' }}>
-            Welcome to Truedinkumbet, your premier destination for top-tier live casino entertainment in Australia.{' '}
-            <span style={{ color: '#fbbf24', fontWeight: '500' }}>
-              Truedinkumbetaucasino.com
-            </span>
-            {' '}is officially authorized and licensed by Truedinkumbet and operates under the regulation of the Philippine Amusement and Gaming Corporation. 
-            With a powerful mix of exciting games, real dealers, HD streaming, and generous promotions, Truedinkumbet Australia has quickly become the go-to choice for players looking for a premium live casino experience.
+            <p>
+              Looking for an authentic casino experience without leaving home? Truedinkumbet live casino brings the real deal to your screen. Whether you're chasing the thrill of roulette, the focus of blackjack, or the fast pace of Dragon Tiger, Truedinkumbet offers the most immersive live casino online Australia experience. With real dealers, high-definition streaming, and trusted providers like Sexy Baccarat, Playtech, and Pragmatic Play, Aussie players can enjoy world-class entertainment with just a few taps.
+            </p>
+            is officially authorized and licensed by Truedinkumbet and operates under the regulation of the Philippine Amusement and Gaming Corporation. With a powerful mix of exciting games, real dealers, HD streaming, and generous promotions, Truedinkumbet Australia has quickly become the go-to choice for players looking for a premium live casino experience.
           </p>
         </div>
       </div>

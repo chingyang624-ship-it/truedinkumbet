@@ -2,28 +2,28 @@ import { useState, useRef } from 'react';
 
 const featuredProviders = [
   {
-    title: 'Evolution Live Casino',
-    image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/casino-evo.webp',
+    title: 'Sexy Baccarat Live Casino',
+    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F7cd266f836fc457c9cbca7d99c74084e',
     badge: 'Hot',
   },
   {
-    title: 'AE Live Casino',
-    image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/casino-ug.webp',
+    title: 'Big Gaming Live Casino',
+    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ffe9553cccaf04381a8de3fdd36b4756f',
     badge: 'Hot',
   },
   {
-    title: 'WM Live Casino',
-    image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/casino-wm.webp',
+    title: 'Pragmatic Play Live Casino',
+    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F56ce338cdc13440abaa4da451142cadf',
     badge: 'New',
   },
   {
-    title: 'Dragon Live Casino',
-    image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/casino-dg.webp',
+    title: 'Yeebet Live Casino',
+    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F3213fb0fe817413285dd7d6ff46f164a',
     badge: 'Hot',
   },
   {
-    title: 'Microgaming Live Casino',
-    image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/casino-mg.webp',
+    title: 'Playtech Live Casino',
+    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F7fc6904e783647c6a6ddece861a07762',
     badge: 'Hot',
   },
   {
@@ -66,7 +66,7 @@ export default function LiveCasinoFeaturedSection() {
           <div
             ref={carouselRef}
             className="flex gap-5 overflow-x-auto scroll-smooth pb-4"
-            style={{ scrollBehavior: 'smooth' }}
+            style={{ scrollBehavior: 'smooth', marginRight: '-4px' }}
           >
             {featuredProviders.map((provider, index) => (
               <div
