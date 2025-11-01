@@ -298,7 +298,7 @@ export default function SlotsCarouselSection() {
 
           {/* Row 3: 5 games */}
           <div style={{ display: 'flex', justifyContent: 'center' }}>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: '20px', padding: '15px 0' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(7, 1fr)', gap: '20px', padding: '15px 0' }}>
               {allGames.slice(12, 17).map((game, index) => (
                 <div
                   key={index + 12}
