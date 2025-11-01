@@ -11,7 +11,7 @@ export default function Header() {
         "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F3c2dd3b441354457b71fdfa1614b8ba9",
     },
     {
-      title: "BK8-Burnley-FC-Partnership",
+      title: "Truedinkumbet-Burnley-FC-Partnership",
       image:
         "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F603ab0ba627a41b58099ecbea3cbacbe",
     },
@@ -63,7 +63,7 @@ export default function Header() {
           >
             <img
               loading="lazy"
-              src="https://bk8mycasino.com/wp-content/uploads/2023/05/burger.webp"
+              src="https://truedinkumbet.com/wp-content/uploads/2023/05/burger.webp"
               alt="Menu"
               className="w-6 h-6"
             />
@@ -72,7 +72,7 @@ export default function Header() {
           {/* Logo */}
           <a href="/" className="flex-1 md:flex-[0.25] py-1 px-2 mr-2">
             <img
-              alt="BK8"
+              alt="Truedinkumbet"
               width="110"
               height="50"
               loading="lazy"
