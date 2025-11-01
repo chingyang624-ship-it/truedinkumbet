@@ -2,6 +2,7 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import SlotsHeroSection from '@/components/slots/SlotsHeroSection';
 import SlotsCarouselSection from '@/components/slots/SlotsCarouselSection';
+import SlotsIntroSection from '@/components/slots/SlotsIntroSection';
 import SlotsWhyChooseSection from '@/components/slots/SlotsWhyChooseSection';
 import SlotsProvidersSection from '@/components/slots/SlotsProvidersSection';
 import SlotsPopularGamesSection from '@/components/slots/SlotsPopularGamesSection';
@@ -16,6 +17,7 @@ export default function Slots() {
       <main className="flex-1">
         <SlotsHeroSection />
         <SlotsCarouselSection />
+        <SlotsIntroSection />
         <SlotsWhyChooseSection />
         <SlotsProvidersSection />
         <SlotsPopularGamesSection />
