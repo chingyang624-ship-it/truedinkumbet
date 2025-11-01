@@ -3,7 +3,7 @@ const providers = [
     name: 'Pragmatic Play',
     description:
       'This fan-favorite provider powers some of the most dynamic slots at Truedinkumbet. Games like Gates of Olympus offer high volatility, multipliers, and regular "Drops & Wins" tournaments for cash prizes.',
-    logo: 'https://bk8mycasino.com/wp-content/uploads/2023/05/pragmatic-play-logo.webp',
+    logo: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fd311eed0693347ae8ec9768f049bf589?format=webp',
     featured: 'Gates of Olympus',
   },
   {
