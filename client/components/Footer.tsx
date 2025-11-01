@@ -301,13 +301,13 @@ export default function Footer() {
               <h3 className="text-base font-semibold text-black mb-4">Security</h3>
               <div className="space-y-2">
                 <img
-                  src="https://bk8mycasino.com/wp-content/themes/BK8/svg/iovation-logo.svg"
+                  src="https://truedinkumbet.com/wp-content/themes/Truedinkumbet/svg/iovation-logo.svg"
                   alt="iovation"
                   className="h-9 w-auto mb-2"
                   style={{ filter: "grayscale(1)" }}
                 />
                 <img
-                  src="https://bk8mycasino.com/wp-content/themes/BK8/svg/threatmetrix.svg"
+                  src="https://truedinkumbet.com/wp-content/themes/Truedinkumbet/svg/threatmetrix.svg"
                   alt="Threat Metrix"
                   className="h-9 w-auto"
                   style={{ filter: "grayscale(1)" }}
@@ -320,13 +320,13 @@ export default function Footer() {
               <h3 className="text-base font-semibold text-black mb-4">Responsible Gaming</h3>
               <div className="space-y-2">
                 <img
-                  src="https://bk8mycasino.com/wp-content/themes/BK8/svg/18+.svg"
+                  src="https://truedinkumbet.com/wp-content/themes/Truedinkumbet/svg/18+.svg"
                   alt="18+"
                   className="h-9 w-auto mb-2"
                   style={{ filter: "grayscale(1)" }}
                 />
                 <img
-                  src="https://bk8mycasino.com/wp-content/themes/BK8/svg/gamcare.svg"
+                  src="https://truedinkumbet.com/wp-content/themes/Truedinkumbet/svg/gamcare.svg"
                   alt="GamCare"
                   className="h-9 w-auto mb-2"
                   style={{ filter: "grayscale(1)" }}
