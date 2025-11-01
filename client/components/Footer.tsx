@@ -303,13 +303,13 @@ export default function Footer() {
               <h3 className="text-base font-semibold text-black mb-4">Security</h3>
               <div className="space-y-2">
                 <img
-                  src="https://truedinkumbet.com/wp-content/themes/Truedinkumbet/svg/iovation-logo.svg"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F781ab7b4c3534acc8b0ea0e92f346fef"
                   alt="iovation"
                   className="h-9 w-auto mb-2"
                   style={{ filter: "grayscale(1)" }}
                 />
                 <img
-                  src="https://truedinkumbet.com/wp-content/themes/Truedinkumbet/svg/threatmetrix.svg"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fe3196d4d46774fd88e0ff2a7d9e464b9"
                   alt="Threat Metrix"
                   className="h-9 w-auto"
                   style={{ filter: "grayscale(1)" }}
@@ -322,19 +322,19 @@ export default function Footer() {
               <h3 className="text-base font-semibold text-black mb-4">Responsible Gaming</h3>
               <div className="space-y-2">
                 <img
-                  src="https://truedinkumbet.com/wp-content/themes/Truedinkumbet/svg/18+.svg"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fcbd46f1f9aef42ddb6d6867578c7ea52"
                   alt="18+"
                   className="h-9 w-auto mb-2"
                   style={{ filter: "grayscale(1)" }}
                 />
                 <img
-                  src="https://truedinkumbet.com/wp-content/themes/Truedinkumbet/svg/gamcare.svg"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F77a94ff8029a45d0931b44489a3c14d8"
                   alt="GamCare"
                   className="h-9 w-auto mb-2"
                   style={{ filter: "grayscale(1)" }}
                 />
                 <img
-                  src="https://truedinkumbet.com/wp-content/themes/Truedinkumbet/svg/begambleaware.svg"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F17d3a112ea0346a0a986e34704a01dcb"
                   alt="BGA"
                   className="h-9 w-auto"
                   style={{ filter: "grayscale(1)" }}
