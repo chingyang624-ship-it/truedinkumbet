@@ -332,7 +332,7 @@ export default function Footer() {
                   style={{ filter: "grayscale(1)" }}
                 />
                 <img
-                  src="https://bk8mycasino.com/wp-content/themes/BK8/svg/begambleaware.svg"
+                  src="https://truedinkumbet.com/wp-content/themes/Truedinkumbet/svg/begambleaware.svg"
                   alt="BGA"
                   className="h-9 w-auto"
                   style={{ filter: "grayscale(1)" }}
