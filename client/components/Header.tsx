@@ -5,7 +5,7 @@ export default function Header() {
 
   const navItems = [
     { name: "Slots", href: "/slots" },
-    { name: "Live Casino", href: "#casino" },
+    { name: "Live Casino", href: "/live-casino" },
     { name: "Esports", href: "#esports" },
     { name: "Sports", href: "#sports" },
     { name: "Fishing", href: "#fishing" },
