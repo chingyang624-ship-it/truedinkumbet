@@ -1,6 +1,6 @@
 export default function LiveCasinoHeroSection() {
   return (
-    <section className="w-full pt-16">
+    <section className="w-full pt-8 md:pt-16">
       <a href="#" className="block w-full">
         <img
           alt="Truedinkumbet Live Casino Banner"
