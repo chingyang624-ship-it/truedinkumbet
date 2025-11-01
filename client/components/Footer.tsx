@@ -361,8 +361,8 @@ export default function Footer() {
           <p className="text-xs">© 2025 BK8. All rights reserved. 18+</p>
           <button
             onClick={scrollToTop}
-            className="w-10 h-9 rounded flex items-center justify-center text-lg font-bold transition-all hover:bg-opacity-30"
-            style={{ backgroundColor: "rgba(255, 255, 255, 0.2)" }}
+            className="w-10 h-9 rounded flex items-center justify-center text-lg font-bold transition-all hover:bg-gray-200"
+            style={{ backgroundColor: "rgb(240, 240, 240)" }}
           >
             ↑
           </button>
