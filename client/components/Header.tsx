@@ -208,8 +208,8 @@ export default function Header() {
         aria-label="Home Page"
         tabIndex={0}
       >
-        <div className="text-center">
-          <div className="relative rounded-lg overflow-hidden">
+        <div className="text-center w-full">
+          <div className="relative overflow-hidden">
             <div className="relative text-center">
               {/* Slides */}
               <ul className="relative text-center list-none m-0 p-0">
