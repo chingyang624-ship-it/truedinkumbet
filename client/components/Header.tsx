@@ -6,7 +6,7 @@ export default function Header() {
   const navItems = [
     { name: "Slots", href: "/slots" },
     { name: "Live Casino", href: "/live-casino" },
-    { name: "Esports", href: "#esports" },
+    { name: "Esports", href: "https://truedinkumbet.com/RFSEOTDK" },
     { name: "Sports", href: "#sports" },
     { name: "Fishing", href: "#fishing" },
   ];
@@ -48,6 +48,7 @@ export default function Header() {
                 <li key={item.name} className="inline-block">
                   <a
                     href={item.href}
+                    {...(item.href.startsWith('http') && { target: '_blank', rel: 'noopener noreferrer' })}
                     className="font-medium text-gray-800 hover:text-gray-600 transition-colors leading-[52px]"
                   >
                     {item.name}
@@ -110,6 +111,7 @@ export default function Header() {
                   <li key={item.name}>
                     <a
                       href={item.href}
+                      {...(item.href.startsWith('http') && { target: '_blank', rel: 'noopener noreferrer' })}
                       className="block font-medium text-gray-800 hover:text-orange-500 transition-colors py-2"
                       onClick={() => setMobileMenuOpen(false)}
                     >
