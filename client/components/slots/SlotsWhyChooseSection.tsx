@@ -1,7 +1,7 @@
 const features = [
   {
     title: 'Convenience',
-    description: 'BK8 offers seamless gaming with instant-play access to your favorite slots anytime on desktop or mobile.',
+    description: 'Truedinkumbet offers seamless gaming with instant-play access to your favorite slots anytime on desktop or mobile.',
     image: 'https://bk8mycasino.com/wp-content/uploads/2025/06/Convenience.png',
   },
   {
@@ -15,7 +15,7 @@ const features = [
     image: 'https://bk8mycasino.com/wp-content/uploads/2025/06/Bonuses.png',
   },
   {
-    title: 'High Payouts Percentages',
+    title: 'High Payout Percentages',
     description: 'Many games offer RTP rates above 96%, giving players fair odds and consistent winning potential.',
     image: 'https://bk8mycasino.com/wp-content/uploads/2025/06/High-Payout.png',
   },
@@ -26,10 +26,10 @@ export default function SlotsWhyChooseSection() {
     <section className="py-20 px-4 bg-white">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-center text-gray-900 mb-6">
-          Why Choose BK8 to Play Online Slot Games?
+          Why Choose Truedinkumbet to Play Online Slot Games?
         </h2>
         <p className="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-16">
-          BK8 isn't just another online casino, it's a premium destination for Malaysian slot players. Here's why:
+          Truedinkumbet isn't just another online casino, it's a premium destination for Australian slot players. Here's why:
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
