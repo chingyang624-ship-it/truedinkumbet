@@ -121,8 +121,8 @@ export default function SportsProvidersGrid() {
                           textAlign: 'center',
                           transitionDuration: '0.3s',
                           verticalAlign: 'middle',
-                          width: index === 0 ? '250%' : '250px',
-                          marginLeft: index === 0 ? '95px' : '125px',
+                          width: '250px',
+                          marginLeft: '125px',
                           height: '200px',
                           maxWidth: '120%',
                         }}
