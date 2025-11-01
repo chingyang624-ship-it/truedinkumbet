@@ -16,7 +16,7 @@ export default function Slots() {
       <Header />
       <main className="flex-1">
         <SlotsHeroSection />
-        <section className="w-full" style={{ backgroundColor: '#f8f8f8' }}>
+        <section className="w-full">
           {/* Desktop buttons */}
           <div className="hidden md:flex gap-4 justify-center py-6 px-4">
             <a
