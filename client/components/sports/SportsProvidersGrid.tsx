@@ -4,26 +4,14 @@ export default function SportsProvidersGrid() {
       name: 'BK8 Sports',
       badge: 'New',
       badgeColor: '#e00928',
-      image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/bti.webp',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F602686836c494e93a3491d0e2149296a',
       link: 'https://bk8mycasino.com/go/cmdsports',
     },
     {
       name: 'CMD368 Sports',
       badge: 'Hot',
       badgeColor: '#ff650f',
-      image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/sports-cmd.webp',
-      link: 'https://bk8mycasino.com/go/cmdsports',
-    },
-    {
-      name: 'M8 Sports',
-      badge: null,
-      image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/sports-m8.webp',
-      link: 'https://bk8mycasino.com/go/cmdsports',
-    },
-    {
-      name: 'SBOBET Sports',
-      badge: null,
-      image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/sbo.webp',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F619a3f6a939f43adb499c9c3be2b4957',
       link: 'https://bk8mycasino.com/go/cmdsports',
     },
   ];
@@ -133,11 +121,13 @@ export default function SportsProvidersGrid() {
                           cursor: 'pointer',
                           display: 'inline',
                           lineHeight: '18px',
-                          maxWidth: '100%',
                           textAlign: 'center',
                           transitionDuration: '0.3s',
                           verticalAlign: 'middle',
-                          width: '80%',
+                          width: index === 0 ? '250%' : '250px',
+                          marginLeft: index === 0 ? '95px' : '125px',
+                          height: '200px',
+                          maxWidth: '120%',
                         }}
                       />
                     </a>
