@@ -257,15 +257,15 @@ export default function Footer() {
               <h3 className="text-base font-semibold text-black mb-4">Payment Method</h3>
               <div className="flex flex-wrap gap-3">
                 {[
-                  { name: "Bitcoin BTC", src: "bitcoin.svg" },
-                  { name: "Tether USDT", src: "USDT.svg" },
-                  { name: "Ethereum ETH", src: "ethereum.svg" },
-                  { name: "Visa", src: "visa.svg" },
-                  { name: "Mastercard", src: "master_card.svg" },
+                  { name: "Bitcoin BTC", src: "9c91b42e2bb844b49f4f0c8f8053a7b7" },
+                  { name: "Tether USDT", src: "fb01ba7b451c4f57ad13b6bceec2b178" },
+                  { name: "Ethereum ETH", src: "6e377f4b452c435f86f2b2448f69f57d" },
+                  { name: "Visa", src: "34de12af57824581b81cb9bc89ad7057" },
+                  { name: "Mastercard", src: "88c7899e9f4b4d61969d87d300ed6d56" },
                 ].map((method) => (
                   <img
                     key={method.name}
-                    src={`https://truedinkumbet.com/wp-content/themes/Truedinkumbet/svg/${method.src}`}
+                    src={`https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F${method.src}`}
                     alt={method.name}
                     className="h-9 w-auto"
                     style={{ filter: "grayscale(1)" }}
@@ -279,18 +279,20 @@ export default function Footer() {
               <h3 className="text-base font-semibold text-black mb-4">Follow Us</h3>
               <div className="flex gap-3">
                 <img
-                  src="https://truedinkumbet.com/wp-content/themes/Truedinkumbet/svg/facebook.svg"
+                  src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F28bb87ef06f54425a01118d65acdbdb9"
                   alt="Truedinkumbet Facebook"
                   className="h-9 w-9"
                   style={{ filter: "grayscale(1)" }}
+                  href="https://www.facebook.com/share/17TDVW4N25/?mibextid=wwXIfr"
                 />
                 <a href="https://youtube.com/c/bk8official" target="_blank" rel="noopener noreferrer" />
                 <a href="https://x.com/truedinkumbet?s=21" target="_blank" rel="noopener noreferrer">
                   <img
-                    src="https://truedinkumbet.com/wp-content/themes/Truedinkumbet/svg/twitter.svg"
+                    src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff5804a6ce4f74020b78f032bcdc0ae99"
                     alt="Truedinkumbet Twitter"
                     className="h-9 w-9 cursor-pointer"
                     style={{ filter: "grayscale(1)" }}
+                    href="https://x.com/truedinkumbet?s=21"
                   />
                 </a>
               </div>
