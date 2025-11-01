@@ -1,47 +1,7 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 
 export default function Header() {
-  const [currentSlide, setCurrentSlide] = useState(0);
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
-
-  const slides = [
-    {
-      title: "BETA-ALL-GresiniAnnouncement-2000x525-en 1",
-      image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F3c2dd3b441354457b71fdfa1614b8ba9",
-    },
-    {
-      title: "Truedinkumbet-Burnley-FC-Partnership",
-      image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F603ab0ba627a41b58099ecbea3cbacbe",
-    },
-    {
-      title: "banner20250124082758635",
-      image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff651e9de69e140649352c9998b761560",
-    },
-    {
-      title: "banner20250228093805642",
-      image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fdd6a28c4c0ef4eaf9136674ea0e0e0ec",
-    },
-    {
-      title: "banner20241024105658074",
-      image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fcc9ebbe3e8774784b6ba2cbbec1aa215",
-    },
-  ];
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentSlide((prev) => (prev + 1) % slides.length);
-    }, 5000);
-    return () => clearInterval(interval);
-  }, [slides.length]);
-
-  const goToSlide = (index: number) => {
-    setCurrentSlide(index);
-  };
 
   const navItems = [
     { name: "Slots", href: "/slots" },
