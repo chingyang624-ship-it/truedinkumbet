@@ -14,13 +14,13 @@ const popularGames = [
   {
     name: 'Roma (Spadegaming)',
     description:
-      'Inspired by the Roman empire, Roma combines nostalgic graphics with modern bonus rounds. It\'s one of the most-played titles in the online slot game Australia category.',
+      'Inspired by the Roman empire, Roma combines nostalgic graphics with modern bonus rounds. It\'s one of the most-played titles in the online slot game Malaysia category.',
     image: 'https://bk8mycasino.com/wp-content/uploads/2025/06/roma.jpg',
   },
   {
     name: 'Lucky Twins (Microgaming)',
     description:
-      'A game that blends Australian cultural motifs with simple mechanics. It\'s great for players looking for low volatility and steady payouts.',
+      'A game that blends Malaysian cultural motifs with simple mechanics. It\'s great for players looking for low volatility and steady payouts.',
     image: 'https://bk8mycasino.com/wp-content/uploads/2025/06/lucky-twins.jpg',
   },
 ];
@@ -30,10 +30,10 @@ export default function SlotsPopularGamesSection() {
     <section className="py-20 px-4 bg-white">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-center text-gray-900 mb-6">
-          Popular Slot Games Among Australian Players
+          Popular Slot Games Among Malaysian Players
         </h2>
         <p className="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-16">
-          Looking for games that other Australian players love? Check out these top picks:
+          Looking for games that other Malaysian players love? Check out these top picks:
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
