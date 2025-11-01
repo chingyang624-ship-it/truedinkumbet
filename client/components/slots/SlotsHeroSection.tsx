@@ -7,6 +7,7 @@ export default function SlotsHeroSection() {
           loading="lazy"
           src="https://bk8mycasino.com/wp-content/uploads/2023/05/bk8-slots-banner.jpeg"
           className="w-full h-auto object-cover"
+          style={{ height: '446px' }}
         />
       </a>
     </section>

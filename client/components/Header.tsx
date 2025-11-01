@@ -54,7 +54,7 @@ export default function Header() {
   return (
     <header className="bg-white">
       {/* Navigation Bar */}
-      <div className="fixed top-0 w-full z-50 bg-white px-5 shadow-md">
+      <div className="fixed top-0 w-full z-50 px-5 shadow-md" style={{ backgroundColor: 'rgba(255, 255, 255, 0.6)' }}>
         <div className="flex flex-wrap items-center">
           {/* Mobile Menu Toggle */}
           <button
