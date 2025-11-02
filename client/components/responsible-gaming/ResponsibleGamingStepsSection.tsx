@@ -12,7 +12,7 @@ export default function ResponsibleGamingStepsSection() {
               <li className="text-left pl-4">
                 <strong className="font-bold">Restrict Betting Automatically:</strong> We feel that to
                 help you curb your gambling activity, the best and most practical way is to limit the
-                deposit. This has been effective and is set at a maximum of 1000 Ringgit. Once you reach
+                deposit. This has been effective and is set at a maximum of AUD $1000. Once you reach
                 this limit per day, you will not be able to bet or spend anymore. Since our site only
                 allows for one USER ID per person, we will also not allow you to try from any other
                 account.
