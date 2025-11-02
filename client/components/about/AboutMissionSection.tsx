@@ -6,7 +6,7 @@ export default function AboutMissionSection() {
 
         <div className="space-y-6 text-gray-700 leading-relaxed">
           <p>
-            Truedinkumbet's ultimate goal is to establish itself as a leading online gambling and casino platform. We are pursuing this vision step by step, beginning in the Asia-Pacific region with the aim of becoming a premier hub for online casino gaming.
+            Truedinkumbet's ultimate goal is to establish itself as a leading online gambling and casino platform for Australian players. We are pursuing this vision step by step, with the aim of becoming a premier hub for online casino gaming in Australia.
           </p>
 
           <p>
