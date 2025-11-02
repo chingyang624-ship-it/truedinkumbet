@@ -21,73 +21,61 @@ export default function FishingProvidersDetailsSection() {
   ];
 
   return (
-    <section className="w-full px-4 py-12 md:py-16" style={{ backgroundColor: '#ffffff' }}>
-      <div className="max-w-6xl mx-auto">
-        <h2
-          className="text-3xl md:text-4xl font-bold text-center mb-12"
-          style={{ color: '#000000' }}
-        >
-          Trusted Fishing Game Providers at Truedinkumbet Online Casino
-        </h2>
-
-        <p
-          className="text-center mb-12 text-lg"
-          style={{
-            color: '#7a7a7a',
-            lineHeight: '1.8',
-          }}
-        >
-          Truedinkumbet partners only with licensed, respected providers to ensure a
-          high-quality gaming experience. Here's a quick look at the trusted names behind your
-          favorite fishing games:
-        </p>
-
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          {providers.map((provider, index) => (
-            <div
-              key={index}
-              className="flex flex-col items-center text-center"
-            >
-              <img
-                src={provider.image}
-                alt={provider.title}
-                loading="lazy"
-                decoding="async"
-                className="w-full h-auto mb-6 max-h-40 object-contain"
-              />
-              <h3
-                className="text-2xl font-bold mb-4"
-                style={{ color: '#000000' }}
-              >
-                {provider.title}
-              </h3>
-              <p
-                style={{
-                  color: '#7a7a7a',
-                  lineHeight: '1.8',
-                  fontSize: '16px',
-                }}
-              >
-                {provider.description}
-              </p>
-            </div>
-          ))}
+    <>
+      {/* Section Title */}
+      <section className="w-full px-4 py-8" style={{ backgroundColor: '#ffffff' }}>
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl font-bold mb-6" style={{ color: '#000000' }}>
+            Trusted Fishing Game Providers at Truedinkumbet Online Casino
+          </h2>
         </div>
+      </section>
 
-        <div className="mt-12 p-8 rounded-lg" style={{ backgroundColor: '#f9fafb' }}>
-          <p
-            style={{
-              color: '#7a7a7a',
-              lineHeight: '1.8',
-              fontSize: '16px',
-              textAlign: 'center',
-            }}
-          >
+      {/* Intro Paragraph */}
+      <section className="w-full px-4 py-8" style={{ backgroundColor: '#ffffff' }}>
+        <div className="max-w-6xl mx-auto">
+          <p style={{ color: '#7a7a7a', lineHeight: '1.8' }}>
+            Truedinkumbet partners only with licensed, respected providers to ensure a
+            high-quality gaming experience. Here's a quick look at the trusted names behind your
+            favorite fishing games:
+          </p>
+        </div>
+      </section>
+
+      {/* Providers Grid */}
+      <section className="w-full px-4 py-8" style={{ backgroundColor: '#ffffff' }}>
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {providers.map((provider, index) => (
+              <div key={index} className="text-center">
+                <img
+                  src={provider.image}
+                  alt={provider.title}
+                  loading="lazy"
+                  decoding="async"
+                  className="w-full h-auto mb-6 max-h-40 object-contain"
+                />
+                <h3 className="text-2xl font-bold mb-4" style={{ color: '#000000' }}>
+                  {provider.title}
+                </h3>
+                <p style={{ color: '#7a7a7a', lineHeight: '1.8' }}>
+                  {provider.description}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* Closing Paragraph */}
+      <section className="w-full px-4 py-8" style={{ backgroundColor: '#ffffff' }}>
+        <div className="max-w-6xl mx-auto">
+          <p style={{ color: '#7a7a7a', lineHeight: '1.8' }}>
             By choosing Truedinkumbet online casino, you get access to these trusted developers
             and their best-performing fishing games are safe, fair, and action-packed.
           </p>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 }
