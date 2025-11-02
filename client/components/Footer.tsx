@@ -21,18 +21,26 @@ export default function Footer() {
         <div className="max-w-7xl mx-auto px-4 py-12 mb-8 border-b">
           <h2 className="text-2xl font-semibold text-black mb-8">Official Partnerships & Sponsorships</h2>
           <div className="flex flex-wrap gap-8 justify-center">
-            {/* Partnership items with placeholder styling */}
+            {/* Partnership items with logos */}
             <div className="text-center">
               <div className="mb-4 h-20 flex items-center justify-center">
-                <div className="text-gray-400 text-sm">Burnley F.C.</div>
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fd70ed0c152e24c659f1bdcb32bd4d1cc?format=webp&width=800"
+                  alt="JILI"
+                  className="h-16 w-auto"
+                />
               </div>
-              <p className="text-xs text-gray-600">Official Club Partner 2023/24</p>
+              <p className="text-xs text-gray-600">Gaming Provider Partner</p>
             </div>
             <div className="text-center">
               <div className="mb-4 h-20 flex items-center justify-center">
-                <div className="text-gray-400 text-sm">HSBC BWF</div>
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F0f9112dcba64412a9879ce1d9588d138?format=webp&width=800"
+                  alt="BNG"
+                  className="h-16 w-auto"
+                />
               </div>
-              <p className="text-xs text-gray-600">Official Sponsor 2024</p>
+              <p className="text-xs text-gray-600">Official Partner</p>
             </div>
           </div>
         </div>
