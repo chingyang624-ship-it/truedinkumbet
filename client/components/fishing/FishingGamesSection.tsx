@@ -67,7 +67,11 @@ export default function FishingGamesSection() {
                     decoding="async"
                     width="390"
                     height="275"
-                    className="w-full h-auto rounded-lg"
+                    className="rounded-lg"
+                    style={{
+                      width: game.imageWidth || '100%',
+                      height: game.imageHeight || 'auto',
+                    }}
                   />
                 </div>
                 <div style={{ order: index % 2 === 1 ? 1 : 2 }}>
