@@ -15,7 +15,7 @@ export default function AboutIntroSection() {
           </p>
 
           <p>
-            Truedinkumbet understands the passion for online casino entertainment in Australia and the Asia-Pacific region. Therefore, our platform continually delivers top-tier games, including slots, poker, baccarat, fish shooter games, blackjack, sic bo, and many more. Every title on Truedinkumbet is provided by world-class developers, ensuring players never have to worry about unfair play or rigged outcomes. Each game is fully licensed and regulated by the appropriate authorities.
+            Truedinkumbet understands the passion for online casino entertainment among Australian players. Therefore, our platform continually delivers top-tier games, including slots, poker, baccarat, fish shooter games, blackjack, sic bo, and many more. Every title on Truedinkumbet is provided by world-class developers, ensuring players never have to worry about unfair play or rigged outcomes. Each game is fully licensed and regulated by the appropriate authorities.
           </p>
         </div>
       </div>
