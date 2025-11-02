@@ -28,7 +28,7 @@ export default function FishingProvidersSection() {
     },
     {
       name: 'Joker',
-      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fa62acf2836d84e62afa0ce53d4b5bfac',
+      image: '',
       link: 'https://truedinkumbet.com/RFSEOTDK',
       centered: true,
     },
