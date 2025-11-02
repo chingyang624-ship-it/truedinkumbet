@@ -8,6 +8,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Landing from "./pages/Landing";
 import About from "./pages/About";
 import ResponsibleGaming from "./pages/ResponsibleGaming";
+import InfoCentre from "./pages/InfoCentre";
 import Slots from "./pages/Slots";
 import LiveCasino from "./pages/LiveCasino";
 import Sports from "./pages/Sports";
@@ -27,6 +28,7 @@ export default function App() {
           <Route path="/" element={<Landing />} />
           <Route path="/about" element={<About />} />
           <Route path="/responsible-gaming" element={<ResponsibleGaming />} />
+          <Route path="/info-centre" element={<InfoCentre />} />
           <Route path="/slots" element={<Slots />} />
           <Route path="/live-casino" element={<LiveCasino />} />
           <Route path="/sports" element={<Sports />} />
