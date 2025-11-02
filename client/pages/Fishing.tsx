@@ -1,10 +1,9 @@
 import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 import FishingHeroSection from '@/components/fishing/FishingHeroSection';
-import FishingIntroSection from '@/components/fishing/FishingIntroSection';
 import FishingCarouselSection from '@/components/fishing/FishingCarouselSection';
 import FishingProvidersSection from '@/components/fishing/FishingProvidersSection';
-import FishingAboutSection from '@/components/fishing/FishingAboutSection';
+import FishingIntroSection from '@/components/fishing/FishingIntroSection';
 import FishingWhyChooseSection from '@/components/fishing/FishingWhyChooseSection';
 import FishingGamesSection from '@/components/fishing/FishingGamesSection';
 import FishingProvidersDetailsSection from '@/components/fishing/FishingProvidersDetailsSection';
@@ -17,10 +16,9 @@ export default function Fishing() {
       <Header />
       <main className="flex-1">
         <FishingHeroSection />
-        <FishingIntroSection />
         <FishingCarouselSection />
         <FishingProvidersSection />
-        <FishingAboutSection />
+        <FishingIntroSection />
         <FishingWhyChooseSection />
         <FishingGamesSection />
         <FishingProvidersDetailsSection />
