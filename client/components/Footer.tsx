@@ -20,7 +20,7 @@ export default function Footer() {
         {/* Main Footer Content */}
         <div className="mb-8">
           {/* Footer Links Grid */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
             {/* Gaming License */}
             <div>
               <h3 className="text-base font-semibold text-black mb-4 flex items-center gap-1">
@@ -56,6 +56,30 @@ export default function Footer() {
                     className="block text-black hover:text-gray-600 transition-colors text-sm"
                   >
                     {game}
+                  </a>
+                ))}
+              </div>
+            </div>
+
+            {/* Info Links */}
+            <div>
+              <h3 className="text-base font-semibold text-black mb-4">Info</h3>
+              <div className="space-y-2">
+                {[
+                  { name: "About Us", href: "#" },
+                  { name: "Affiliate Program", href: "#" },
+                  { name: "Responsible Gaming", href: "#" },
+                  { name: "Info Centre", href: "#" },
+                  { name: "Term & Conditions", href: "#" },
+                ].map((link) => (
+                  <a
+                    key={link.name}
+                    href={link.href}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="block text-black hover:text-gray-600 transition-colors text-sm"
+                  >
+                    {link.name}
                   </a>
                 ))}
               </div>
