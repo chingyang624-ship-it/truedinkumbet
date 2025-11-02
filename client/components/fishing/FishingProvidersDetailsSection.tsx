@@ -13,10 +13,10 @@ export default function FishingProvidersDetailsSection() {
         'JILI specializes in mobile-first design. Their fishing games are smooth, user-friendly, and optimized for low-lag gameplay. Happy Fishing is a perfect example of how JILI merges casual fun with high payout potential.',
     },
     {
-      title: 'FastSpin',
-      image: 'https://bk8mycasino.com/wp-content/uploads/2025/06/fastspin.png',
+      title: 'YL Gaming',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F24e3b9630802496099b0ec46185eb0b5',
       description:
-        'A rising star in the fishing game Australia scene, FastSpin is known for innovation and visual polish. Fishing Treasure is one of their flagship titles, offering jackpot modes, high RTPs, and an engaging user experience across devices.',
+        'A rising star in the fishing game Australia scene, YL Gaming is known for innovation and visual polish. Fishing 2 is one of their flagship titles, offering jackpot modes, high RTPs, and an engaging user experience across devices.',
     },
   ];
 
