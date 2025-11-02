@@ -4,25 +4,27 @@ export default function FishingGamesSection() {
       title: 'Fishing War (Spadegaming)',
       description:
         'Get ready to dive into an ocean of monsters and multipliers. Fishing War features power-up weapons, special bosses, and explosive gameplay. Players can choose their cannon level, target sea creatures, and earn big rewards through chain combos and multipliers.',
-      image: 'https://bk8mycasino.com/wp-content/uploads/2025/06/Fishing-War.jpg',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fa8f1cc83c5244d7cae455de4ed405d3f',
     },
     {
       title: 'Fishing God (Spadegaming)',
       description:
         'This game is all about timing and precision. With stunning visuals and a wide variety of fish, Fishing God also features golden dragons, treasure crabs, and other rare targets. It\'s one of the highest-paying fishing games in Truedinkumbet\'s collection.',
-      image: 'https://bk8mycasino.com/wp-content/uploads/2025/06/Fishing-God_.jpg',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fde5161bfd0fc4f338c2c0d210b59a4b0',
     },
     {
       title: 'Happy Fishing (JILI)',
       description:
         'Perfect for beginners, Happy Fishing offers a clean user interface and simple controls. It\'s fast-paced, colorful, and loaded with bonus features like random reward drops and locked targets. JILI has optimized this game for mobile play, making it perfect for on-the-go action.',
-      image: 'https://bk8mycasino.com/wp-content/uploads/2025/06/Happy-Fishing_.jpg',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ffabb4e33fcaa4cb3b3a925b05678b630',
     },
     {
-      title: 'Fishing Treasure (FastSpin)',
+      title: 'Fishing II (YL Gaming)',
       description:
-        'Fishing Treasure brings high-definition visuals and modern game mechanics to the fishing category. With treasure chests, bonus rounds, and multi-cannon gameplay, it\'s a favorite for those seeking both excitement and innovation. The game also includes jackpots and customizable cannons for a personalized experience.',
-      image: 'https://bk8mycasino.com/wp-content/uploads/2025/06/Fishing-Treasure.jpg',
+        'Fishing 2 brings high-definition visuals and modern game mechanics to the fishing category. With treasure chests, bonus rounds, and multi-cannon gameplay, it\'s a favorite for those seeking both excitement and innovation. The game also includes jackpots and customizable cannons for a personalized experience.',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2221ab5c90414553aa8d1dfcac5ce7b8',
+      imageWidth: '80%',
+      imageHeight: '400px',
     },
   ];
 

@@ -2,43 +2,29 @@ export default function FishingProvidersSection() {
   const providers = [
     {
       name: 'NextSpin',
-      image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/fishing-ns.webp',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F24e3b9630802496099b0ec46185eb0b5',
+      badge: 'Hot',
+      badgeColor: '#ff650f',
     },
     {
       name: 'Spadegaming',
-      image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/fishing-sg.webp',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F3978d86782704225ab7bca9eb7655846',
       badge: 'Hot',
       badgeColor: '#ff650f',
     },
     {
       name: 'JILI',
-      image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/fishing-jl.webp',
-      badge: 'New',
-      badgeColor: '#e00928',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F32f47ae662a4414785c5685d9e7d240e',
     },
     {
       name: 'YGR',
-      image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/fishing-ygr.webp',
-    },
-    {
-      name: 'Fa Chai',
-      image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/fishing-fc.webp',
-    },
-    {
-      name: 'CQ9',
-      image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/fishing-cq9.webp',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F147c670b9d2a4a5a8de30b6454e331ba',
+      badge: 'Hot',
+      badgeColor: '#ff650f',
     },
     {
       name: 'JDB',
-      image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/fishing-jdb.webp',
-      badge: 'New',
-      badgeColor: '#e00928',
-    },
-    {
-      name: 'PS',
-      image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/fishing-ps.webp',
-      badge: 'New',
-      badgeColor: '#e00928',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fd036ff4c56984eef8120e9006cf6e1e5',
     },
   ];
 

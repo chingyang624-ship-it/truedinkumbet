@@ -1,29 +1,29 @@
 export default function FishingCarouselSection() {
   const games = [
     {
-      title: 'Alien Hunter',
-      provider: 'Spadegaming',
-      image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/fishing-alien-hunter.webp',
+      title: 'Shark Hunter',
+      provider: 'YL Gaming',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F8520f83ae89c4457ba60056c3b4af4bd',
     },
     {
-      title: 'Fishing War',
-      provider: 'Spadegaming',
-      image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/fishing-war.webp',
+      title: 'Jackpot Fishery',
+      provider: 'YL Gaming',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F01b9421c31e8445995b9e1e5c25af71f',
     },
     {
-      title: 'Fishing God',
-      provider: 'Spadegaming',
-      image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/fishing-god.webp',
+      title: 'Fishing II',
+      provider: 'YL Gaming',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2221ab5c90414553aa8d1dfcac5ce7b8',
     },
     {
-      title: 'Zombie Party',
-      provider: 'Spadegaming',
-      image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/fishing-zombie-party.webp',
+      title: 'New Fishing Season',
+      provider: 'YL Gaming',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F7f7473ee501045b1a8e7993c682fa828',
     },
     {
-      title: 'Royal Fishing',
-      provider: 'Spadegaming',
-      image: 'https://bk8mycasino.com/wp-content/uploads/2023/08/fishing-royal-fishing.webp',
+      title: 'Heroes of the Deep Sea',
+      provider: 'YL Gaming',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F0929c9332adc4660980af4ef0554a08b',
     },
   ];
 

@@ -5,8 +5,8 @@ export default function FishingHeroSection() {
         <img
           alt="BK8 Fishing Game Banner"
           loading="lazy"
-          src="https://bk8mycasino.com/wp-content/uploads/2023/05/bk8-fishing-banner.jpeg"
-          className="w-full object-cover h-[200px] md:h-auto"
+          src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Feb5e66d8d9a34cc094113fef7d2b64a2"
+          className="object-cover h-[200px] md:h-auto"
         />
       </a>
     </section>
