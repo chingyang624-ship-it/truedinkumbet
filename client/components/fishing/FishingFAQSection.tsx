@@ -6,7 +6,7 @@ export default function FishingFAQSection() {
   const faqs = [
     {
       question: 'What are the best fishing games at Truedinkumbet?',
-      answer: 'Top titles include Fishing War, Fishing God, Happy Fishing, and Fishing Treasure—each offering unique features and bonus modes.',
+      answer: 'Top titles include Fishing War, Fishing God, Happy Fishing, and Fishing 2 —each offering unique features and bonus modes.',
     },
     {
       question: 'Is it safe to play fishing games online?',
@@ -14,7 +14,7 @@ export default function FishingFAQSection() {
     },
     {
       question: 'Which provider has the highest-paying fishing games?',
-      answer: 'Spadegaming\'s Fishing God and FastSpin\'s Fishing Treasure are known for offering big multipliers and jackpot potential.',
+      answer: 'Spadegaming\'s Fishing God and JILI\'s Happy Fishing are known for offering big multipliers and jackpot potential.',
     },
     {
       question: 'Can I play fishing games on desktop and mobile?',
