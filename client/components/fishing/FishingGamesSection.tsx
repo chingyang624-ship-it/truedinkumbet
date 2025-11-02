@@ -7,7 +7,7 @@ export default function FishingGamesSection() {
     },
     {
       title: 'Fishing God (Spadegaming)',
-      description: 'This game is all about timing and precision. With stunning visuals and a wide variety of fish, Fishing God also features golden dragons, treasure crabs, and other rare targets. It\'s one of the highest-paying fishing games in BK8\'s collection.',
+      description: 'This game is all about timing and precision. With stunning visuals and a wide variety of fish, Fishing God also features golden dragons, treasure crabs, and other rare targets. It\'s one of the highest-paying fishing games in Truedinkumbet\'s collection.',
       image: 'https://bk8mycasino.com/wp-content/uploads/2025/06/Fishing-God_.jpg',
     },
     {
@@ -29,7 +29,7 @@ export default function FishingGamesSection() {
           className="text-3xl md:text-4xl font-bold text-center mb-12"
           style={{ color: '#1f2124' }}
         >
-          Top Fishing Games to Play at BK8
+          Top Fishing Games to Play at Truedinkumbet
         </h2>
 
         <div className="space-y-12">

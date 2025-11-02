@@ -5,12 +5,12 @@ export default function FishingFAQSection() {
 
   const faqs = [
     {
-      question: 'What are the best fishing games at BK8?',
+      question: 'What are the best fishing games at Truedinkumbet?',
       answer: 'Top titles include Fishing War, Fishing God, Happy Fishing, and Fishing Treasure—each offering unique features and bonus modes.',
     },
     {
       question: 'Is it safe to play fishing games online?',
-      answer: 'Yes. BK8 is a licensed, secure platform that supports Malaysian players with encrypted transactions and verified RNG games.',
+      answer: 'Yes. Truedinkumbet is a licensed, secure platform that supports Australian players with encrypted transactions and verified RNG games.',
     },
     {
       question: 'Which provider has the highest-paying fishing games?',
@@ -18,7 +18,7 @@ export default function FishingFAQSection() {
     },
     {
       question: 'Can I play fishing games on desktop and mobile?',
-      answer: 'Absolutely. All fishing games at BK8 are optimized for both mobile app and desktop play, with responsive design and touchscreen controls.',
+      answer: 'Absolutely. All fishing games at Truedinkumbet are optimized for both mobile app and desktop play, with responsive design and touchscreen controls.',
     },
     {
       question: 'Are fishing games based on luck or skill?',

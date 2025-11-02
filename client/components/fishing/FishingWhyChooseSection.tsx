@@ -2,17 +2,17 @@ export default function FishingWhyChooseSection() {
   const features = [
     {
       title: 'Top Providers',
-      description: 'BK8 features fishing games from leading developers like Spadegaming, JILI Games, and FastSpin.',
+      description: 'Truedinkumbet features fishing games from leading developers like Spadegaming, JILI Games, and FastSpin.',
       image: 'https://bk8mycasino.com/wp-content/uploads/2025/06/Wide-Range-of-Games.png',
     },
     {
       title: 'Localized Platform',
-      description: 'The site supports MYR deposits and e-wallets like Touch \'n Go and DuitNow.',
+      description: 'The site supports AUD deposits and local payment methods for Australian players.',
       image: 'https://bk8mycasino.com/wp-content/uploads/2025/06/Licensed-and-Trusted.png',
     },
     {
       title: 'Fast & Secure',
-      description: 'BK8 is fully licensed and offers secure payments and instant withdrawals.',
+      description: 'Truedinkumbet is fully licensed and offers secure payments and instant withdrawals.',
       image: 'https://bk8mycasino.com/wp-content/uploads/2025/06/Mobile-Friendly.png',
     },
     {
@@ -29,7 +29,7 @@ export default function FishingWhyChooseSection() {
           className="text-3xl md:text-4xl font-bold text-center mb-12"
           style={{ color: '#1f2124' }}
         >
-          Why Choose BK8 for Online Fishing Games?
+          Why Choose Truedinkumbet for Online Fishing Games?
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
