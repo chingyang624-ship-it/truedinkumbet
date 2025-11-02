@@ -20,7 +20,7 @@ export default function FishingAboutSection() {
               }}
             >
               Fishing games are digital shooting-style arcade games that have become incredibly
-              popular in Asia. Instead of spinning reels or flipping cards, players control a
+              popular with Australian players. Instead of spinning reels or flipping cards, players control a
               virtual cannon to shoot at different types of fish. Each fish has its own value,
               and players earn rewards based on their accuracy and strategy.
             </p>
