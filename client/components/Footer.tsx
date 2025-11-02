@@ -16,9 +16,38 @@ export default function Footer() {
 
   return (
     <footer className="bg-white overflow-hidden" style={{ color: "rgb(134, 151, 162)" }}>
-      <div className="max-w-7xl mx-auto px-4 py-12">
+      <div className="w-full">
+        {/* Partnerships Section */}
+        <div className="max-w-7xl mx-auto px-4 py-12 mb-8 border-b">
+          <h2 className="text-2xl font-semibold text-black mb-8">Official Partnerships & Sponsorships</h2>
+          <div className="flex flex-wrap gap-8 justify-center">
+            {/* Partnership items with placeholder styling */}
+            <div className="text-center">
+              <div className="mb-4 h-20 flex items-center justify-center">
+                <div className="text-gray-400 text-sm">Burnley F.C.</div>
+              </div>
+              <p className="text-xs text-gray-600">Official Club Partner 2023/24</p>
+            </div>
+            <div className="text-center">
+              <div className="mb-4 h-20 flex items-center justify-center">
+                <div className="text-gray-400 text-sm">HSBC BWF</div>
+              </div>
+              <p className="text-xs text-gray-600">Official Sponsor 2024</p>
+            </div>
+          </div>
+        </div>
+
+        {/* Award Nominations Section */}
+        <div className="max-w-7xl mx-auto px-4 py-12 mb-8 border-b">
+          <h3 className="text-lg font-semibold text-black text-center mb-8">Award Nominations</h3>
+          <div className="flex flex-wrap gap-6 justify-center">
+            <div className="text-gray-400 text-center">EGR Nominations</div>
+            <div className="text-gray-400 text-center">Industry Recognition</div>
+          </div>
+        </div>
+
         {/* Main Footer Content */}
-        <div className="mb-8">
+        <div className="max-w-7xl mx-auto px-4 py-12">
           {/* Footer Links Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
             {/* Gaming License */}
@@ -38,10 +67,9 @@ export default function Footer() {
                 style={{ maxWidth: "50%" }}
               />
               <p className="text-xs text-black">
-                Truedinkumbet is operated by DraftKings a company
-                registered under the laws of the Republic of the
-                Philippines, and is licensed and regulated by the
-                Philippine Amusement and Gaming Corporation (PAGCOR).
+                Truedinkumbet is operated by a company registered under the laws of the Republic of the
+                Philippines, and is licensed and regulated by the Philippine Amusement and Gaming Corporation (PAGCOR).
+                We are fully compliant and legally authorized to provide games of chance and wagering.
               </p>
             </div>
 
@@ -49,13 +77,19 @@ export default function Footer() {
             <div>
               <h3 className="text-base font-semibold text-black mb-4">Games</h3>
               <div className="space-y-2">
-                {["Sports", "Esports", "Live Casino", "Slots", "Fishing"].map((game) => (
+                {[
+                  { name: "Sports", href: "/sports" },
+                  { name: "Esports", href: "https://truedinkumbet.com/esports" },
+                  { name: "Live Casino", href: "/live-casino" },
+                  { name: "Slots", href: "/slots" },
+                  { name: "Fishing", href: "/fishing" },
+                ].map((game) => (
                   <a
-                    key={game}
-                    href="#"
+                    key={game.name}
+                    href={game.href}
                     className="block text-black hover:text-gray-600 transition-colors text-sm"
                   >
-                    {game}
+                    {game.name}
                   </a>
                 ))}
               </div>
@@ -66,11 +100,11 @@ export default function Footer() {
               <h3 className="text-base font-semibold text-black mb-4">Info</h3>
               <div className="space-y-2">
                 {[
-                  { name: "About Us", href: "#" },
-                  { name: "Affiliate Program", href: "#" },
-                  { name: "Responsible Gaming", href: "#" },
-                  { name: "Info Centre", href: "#" },
-                  { name: "Term & Conditions", href: "#" },
+                  { name: "About Us", href: "https://truedinkumbet.com/about-us" },
+                  { name: "Affiliate Program", href: "https://truedinkumbet.com/affiliate" },
+                  { name: "Responsible Gaming", href: "https://truedinkumbet.com/responsible-gaming" },
+                  { name: "Info Centre", href: "https://truedinkumbet.com/faq" },
+                  { name: "Term & Conditions", href: "https://truedinkumbet.com/terms-conditions" },
                 ].map((link) => (
                   <a
                     key={link.name}
@@ -148,14 +182,20 @@ export default function Footer() {
                     style={{ filter: "grayscale(1)" }}
                   />
                 </a>
-                <a href="https://youtube.com/c/bk8official" target="_blank" rel="noopener noreferrer" />
+                <a href="https://youtube.com/truedinkumbet" target="_blank" rel="noopener noreferrer">
+                  <img
+                    src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff5804a6ce4f74020b78f032bcdc0ae99"
+                    alt="Truedinkumbet Youtube"
+                    className="h-9 w-9"
+                    style={{ filter: "grayscale(1)" }}
+                  />
+                </a>
                 <a href="https://x.com/truedinkumbet?s=21" target="_blank" rel="noopener noreferrer">
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff5804a6ce4f74020b78f032bcdc0ae99"
                     alt="Truedinkumbet Twitter"
                     className="h-9 w-9 cursor-pointer"
                     style={{ filter: "grayscale(1)" }}
-                    href="https://x.com/truedinkumbet?s=21"
                   />
                 </a>
               </div>
@@ -209,7 +249,7 @@ export default function Footer() {
 
         {/* Copyright Footer */}
         <div
-          className="border-t pt-6 pb-6 flex items-center justify-between relative"
+          className="border-t pt-6 pb-6 flex items-center justify-between relative max-w-7xl mx-auto px-4 w-full"
           style={{ color: "rgb(134, 151, 162)" }}
         >
           <p className="text-xs">© 2025 Truedinkumbet. All rights reserved. 18+</p>
