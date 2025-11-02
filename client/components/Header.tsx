@@ -11,6 +11,7 @@ export default function Header() {
     { name: "Fishing", href: "/fishing" },
     { name: "About Us", href: "/about" },
     { name: "Responsible Gaming", href: "/responsible-gaming" },
+    { name: "Info Centre", href: "/info-centre" },
   ];
 
   return (
