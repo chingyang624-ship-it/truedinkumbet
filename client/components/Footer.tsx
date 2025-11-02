@@ -65,15 +65,6 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Award Nominations Section */}
-        <div className="max-w-7xl mx-auto px-4 py-12 mb-8 border-b">
-          <h3 className="text-lg font-semibold text-black text-center mb-8">Award Nominations</h3>
-          <div className="flex flex-wrap gap-6 justify-center">
-            <div className="text-gray-400 text-center">EGR Nominations</div>
-            <div className="text-gray-400 text-center">Industry Recognition</div>
-          </div>
-        </div>
-
         {/* Main Footer Content */}
         <div className="max-w-7xl mx-auto px-4 py-12">
           {/* Footer Links Grid */}
