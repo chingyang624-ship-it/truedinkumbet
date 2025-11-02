@@ -1,7 +1,7 @@
 export default function FishingHeroSection() {
   return (
     <section className="w-full pt-16 md:pt-20">
-      <a href="https://bk8mycasino.com/go/fishing" className="block w-full">
+      <a href="https://truedinkumbet.com/go/fishing" className="block w-full">
         <img
           alt="BK8 Fishing Game Banner"
           loading="lazy"
