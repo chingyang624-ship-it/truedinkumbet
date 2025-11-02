@@ -8,7 +8,7 @@ export default function Header() {
     { name: "Live Casino", href: "/live-casino" },
     { name: "Esports", href: "https://truedinkumbet.com/RFSEOTDK" },
     { name: "Sports", href: "/sports" },
-    { name: "Fishing", href: "#fishing" },
+    { name: "Fishing", href: "/fishing" },
   ];
 
   return (

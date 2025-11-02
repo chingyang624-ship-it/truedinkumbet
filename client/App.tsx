@@ -9,6 +9,7 @@ import Landing from "./pages/Landing";
 import Slots from "./pages/Slots";
 import LiveCasino from "./pages/LiveCasino";
 import Sports from "./pages/Sports";
+import Fishing from "./pages/Fishing";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -25,6 +26,7 @@ export default function App() {
           <Route path="/slots" element={<Slots />} />
           <Route path="/live-casino" element={<LiveCasino />} />
           <Route path="/sports" element={<Sports />} />
+          <Route path="/fishing" element={<Fishing />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
