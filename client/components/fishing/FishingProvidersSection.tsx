@@ -67,7 +67,7 @@ export default function FishingProvidersSection() {
                 </div>
               )}
               <a
-                href="https://bk8mycasino.com/go/fishing"
+                href="https://truedinkumbet.com/go/fishing"
                 target="_blank"
                 rel="sponsored noopener"
                 className="block"
