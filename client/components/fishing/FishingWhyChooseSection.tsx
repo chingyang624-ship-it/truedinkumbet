@@ -4,24 +4,24 @@ export default function FishingWhyChooseSection() {
       title: 'Top Providers',
       description:
         'Truedinkumbet features fishing games from leading developers like Spadegaming, JILI Games, and FastSpin.',
-      image: 'https://bk8mycasino.com/wp-content/uploads/2025/06/Wide-Range-of-Games.png',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fd802fe78caa141c692e677af8781168a',
     },
     {
       title: 'Localized Platform',
       description:
         'The site supports AUD deposits and local payment methods for Australian players.',
-      image: 'https://bk8mycasino.com/wp-content/uploads/2025/06/Licensed-and-Trusted.png',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff4b8137a095c41b884f458481754068c',
     },
     {
       title: 'Fast & Secure',
       description: 'Truedinkumbet is fully licensed and offers secure payments and instant withdrawals.',
-      image: 'https://bk8mycasino.com/wp-content/uploads/2025/06/Mobile-Friendly.png',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2238714179814097a1c1aa0e025ae4d4',
     },
     {
       title: 'User-Friendly Interface',
       description:
         'Clean layout, intuitive controls, and optimized for both desktop and mobile users.',
-      image: 'https://bk8mycasino.com/wp-content/uploads/2025/06/High-Quality-Graphics.png',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fa78a1702ae7e48f88303c9a70249cafb',
     },
   ];
 
