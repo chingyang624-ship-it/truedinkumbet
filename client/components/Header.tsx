@@ -10,6 +10,7 @@ export default function Header() {
     { name: "Sports", href: "/sports" },
     { name: "Fishing", href: "/fishing" },
     { name: "About Us", href: "/about" },
+    { name: "Responsible Gaming", href: "/responsible-gaming" },
   ];
 
   return (
