@@ -42,6 +42,26 @@ export default function Footer() {
               </div>
               <p className="text-xs text-gray-600">Official Partner</p>
             </div>
+            <div className="text-center">
+              <div className="mb-4 h-20 flex items-center justify-center">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F9d4a67dcc46542b182f48cd4cc324a41?format=webp&width=800"
+                  alt="Pragmatic Play"
+                  className="h-16 w-auto"
+                />
+              </div>
+              <p className="text-xs text-gray-600">Gaming Provider</p>
+            </div>
+            <div className="text-center">
+              <div className="mb-4 h-20 flex items-center justify-center">
+                <img
+                  src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F30246c2dd4034e0a9bfd510466932b24?format=webp&width=800"
+                  alt="Microgaming"
+                  className="h-16 w-auto"
+                />
+              </div>
+              <p className="text-xs text-gray-600">Gaming Provider</p>
+            </div>
           </div>
         </div>
 
