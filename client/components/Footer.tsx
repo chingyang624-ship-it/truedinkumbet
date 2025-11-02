@@ -100,7 +100,7 @@ export default function Footer() {
               <h3 className="text-base font-semibold text-black mb-4">Info</h3>
               <div className="space-y-2">
                 {[
-                  { name: "About Us", href: "https://truedinkumbet.com/about-us" },
+                  { name: "About Us", href: "/about" },
                   { name: "Affiliate Program", href: "https://truedinkumbet.com/affiliate" },
                   { name: "Responsible Gaming", href: "https://truedinkumbet.com/responsible-gaming" },
                   { name: "Info Centre", href: "https://truedinkumbet.com/faq" },
@@ -109,8 +109,8 @@ export default function Footer() {
                   <a
                     key={link.name}
                     href={link.href}
-                    target="_blank"
-                    rel="noopener noreferrer"
+                    target={link.href.startsWith("http") ? "_blank" : undefined}
+                    rel={link.href.startsWith("http") ? "noopener noreferrer" : undefined}
                     className="block text-black hover:text-gray-600 transition-colors text-sm"
                   >
                     {link.name}
