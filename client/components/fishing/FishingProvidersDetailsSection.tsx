@@ -2,13 +2,13 @@ export default function FishingProvidersDetailsSection() {
   const providers = [
     {
       title: 'Spadegaming',
-      image: 'https://bk8mycasino.com/wp-content/uploads/2025/06/spadegaming-logo-1.png',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F3978d86782704225ab7bca9eb7655846',
       description:
         'A pioneer in the Asian arcade game market, Spadegaming is best known for titles like Fishing War and Fishing God. Their games are certified for fairness, and they consistently deliver top-tier graphics, multipliers, and engaging bonus features.',
     },
     {
       title: 'JILI',
-      image: 'https://bk8mycasino.com/wp-content/uploads/2025/06/jili.jpg',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F32f47ae662a4414785c5685d9e7d240e',
       description:
         'JILI specializes in mobile-first design. Their fishing games are smooth, user-friendly, and optimized for low-lag gameplay. Happy Fishing is a perfect example of how JILI merges casual fun with high payout potential.',
     },
