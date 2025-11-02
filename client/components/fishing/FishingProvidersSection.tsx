@@ -26,12 +26,6 @@ export default function FishingProvidersSection() {
       name: 'JDB',
       image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fd036ff4c56984eef8120e9006cf6e1e5',
     },
-    {
-      name: 'Joker',
-      image: '',
-      link: 'https://truedinkumbet.com/RFSEOTDK',
-      centered: true,
-    },
   ];
 
   return (
@@ -72,49 +66,6 @@ export default function FishingProvidersSection() {
                   width="240"
                   height="300"
                   className="w-full h-auto"
-                />
-              </a>
-            </div>
-          ))}
-        </div>
-
-        {/* Centered Joker Provider */}
-        <div style={{ display: 'flex', justifyContent: 'center', marginTop: '24px' }}>
-          {providers.filter(p => p.centered).map((provider, index) => (
-            <div key={index} className="text-center relative">
-              {provider.badge && (
-                <div
-                  style={{
-                    backgroundColor: provider.badgeColor,
-                    color: '#ffffff',
-                    fontSize: '11px',
-                    fontWeight: '600',
-                    padding: '2px 8px',
-                    borderRadius: '15px',
-                    position: 'absolute',
-                    top: '5px',
-                    right: '5px',
-                    zIndex: 10,
-                  }}
-                >
-                  {provider.badge}
-                </div>
-              )}
-              <a
-                href={provider.link || 'https://truedinkumbet.com/go/fishing'}
-                target="_blank"
-                rel="sponsored noopener"
-                className="block"
-              >
-                <img
-                  src={provider.image}
-                  alt={provider.name}
-                  loading="lazy"
-                  decoding="async"
-                  width="240"
-                  height="300"
-                  className="w-full h-auto"
-                  style={{ maxWidth: '150px' }}
                 />
               </a>
             </div>

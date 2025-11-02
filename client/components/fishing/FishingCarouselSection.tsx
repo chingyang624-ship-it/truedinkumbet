@@ -25,12 +25,6 @@ export default function FishingCarouselSection() {
       provider: 'YL Gaming',
       image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F0929c9332adc4660980af4ef0554a08b',
     },
-    {
-      title: 'Joker',
-      provider: '',
-      image: '',
-      link: 'https://truedinkumbet.com/RFSEOTDK',
-    },
   ];
 
   return (
