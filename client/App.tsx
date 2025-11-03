@@ -14,6 +14,7 @@ import Slots from "./pages/Slots";
 import LiveCasino from "./pages/LiveCasino";
 import Sports from "./pages/Sports";
 import Fishing from "./pages/Fishing";
+import CryptoCasino from "./pages/CryptoCasino";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
@@ -35,6 +36,7 @@ export default function App() {
           <Route path="/live-casino" element={<LiveCasino />} />
           <Route path="/sports" element={<Sports />} />
           <Route path="/fishing" element={<Fishing />} />
+          <Route path="/crypto-casino" element={<CryptoCasino />} />
           {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
           <Route path="*" element={<NotFound />} />
         </Routes>
