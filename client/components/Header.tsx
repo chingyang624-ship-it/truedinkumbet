@@ -55,24 +55,13 @@ export default function Header() {
                   </a>
                 </li>
               ))}
-              <li className="inline-block relative group">
+              <li className="inline-block">
                 <a
-                  href="#blog"
-                  className="font-medium text-gray-800 hover:text-gray-600 transition-colors leading-[52px] flex items-center gap-1"
+                  href="/crypto-casino"
+                  className="font-medium text-gray-800 hover:text-gray-600 transition-colors leading-[52px]"
                 >
                   Blog
-                  <span className="text-xs group-hover:rotate-180 transition-transform">▼</span>
                 </a>
-                <ul className="absolute hidden group-hover:block bg-white top-[52px] left-0 w-48 p-4 mt-4 shadow-lg rounded-lg z-50">
-                  <li>
-                    <a
-                      href="/crypto-casino"
-                      className="font-medium text-gray-800 hover:text-gray-600 transition-colors text-sm"
-                    >
-                      Crypto casino
-                    </a>
-                  </li>
-                </ul>
               </li>
             </ul>
           </nav>
