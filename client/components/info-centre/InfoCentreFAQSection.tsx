@@ -134,7 +134,7 @@ export default function InfoCentreFAQSection() {
         },
         {
           question: 'Is there a turnover requirement to withdraw cash rebates?',
-          answer: 'No, there is no additional turnover or rollover requirement to withdraw funds earned from cash rebates. This means that once you receive your rebate bonus, it is yours to use or withdraw as you wish without needing to wager it further. If you have any doubts or need clarification regarding withdrawing your rebates, you can contact our Customer Service via Live Chat at any time for assistance.'
+          answer: 'Yes, there is a additional rollover requirement to withdraw funds earned from cash rebates. Once you receive your rebate bonus, it will be subject to a 3x rollover requirement before withdrawal. The maximum cashout from this rebate is limited to AUD 1,000. If you have any questions or need clarification, please contact our Customer Service via Live Chat at any time for assistance.'
         },
         {
           question: 'How do I check my rebates?',
