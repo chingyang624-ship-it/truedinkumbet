@@ -134,7 +134,7 @@ export default function Header() {
                   <ul className="pl-4 mt-2 space-y-2">
                     <li>
                       <a
-                        href="#crypto"
+                        href="/crypto-casino"
                         className="block text-sm text-gray-600 hover:text-orange-500 transition-colors py-1"
                         onClick={() => setMobileMenuOpen(false)}
                       >
