@@ -120,10 +120,10 @@ export default function Footer() {
               <div className="space-y-2">
                 {[
                   { name: "About Us", href: "/about" },
-                  { name: "Affiliate Program", href: "https://truedinkumbet.com/affiliate" },
-                  { name: "Responsible Gaming", href: "/responsible-gaming" },
                   { name: "Info Centre", href: "/info-centre" },
-                  { name: "Term & Conditions", href: "/terms-conditions" },
+                  { name: "Responsible Gaming", href: "/responsible-gaming" },
+                  { name: "Terms & Conditions", href: "/terms-conditions" },
+                  { name: "Affiliate Program", href: "https://truedinkumbet.com/affiliate" },
                 ].map((link) => (
                   <a
                     key={link.name}
