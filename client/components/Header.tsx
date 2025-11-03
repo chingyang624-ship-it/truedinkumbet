@@ -69,7 +69,7 @@ export default function Header() {
                 <ul className="hidden absolute bg-white top-[52px] left-0 w-48 p-4 mt-4 shadow-lg rounded-lg">
                   <li>
                     <a
-                      href="#crypto"
+                      href="/crypto-casino"
                       className="font-medium text-gray-800 hover:text-gray-600 transition-colors text-sm"
                     >
                       Crypto casino
