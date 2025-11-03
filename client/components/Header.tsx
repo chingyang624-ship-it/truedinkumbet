@@ -111,23 +111,12 @@ export default function Header() {
                 ))}
                 <li>
                   <a
-                    href="#blog"
+                    href="/crypto-casino"
                     className="block font-medium text-gray-800 hover:text-orange-500 transition-colors py-2"
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     Blog
                   </a>
-                  <ul className="pl-4 mt-2 space-y-2">
-                    <li>
-                      <a
-                        href="/crypto-casino"
-                        className="block text-sm text-gray-600 hover:text-orange-500 transition-colors py-1"
-                        onClick={() => setMobileMenuOpen(false)}
-                      >
-                        Crypto casino
-                      </a>
-                    </li>
-                  </ul>
                 </li>
               </ul>
             </nav>
