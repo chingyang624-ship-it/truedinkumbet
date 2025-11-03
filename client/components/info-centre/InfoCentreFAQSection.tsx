@@ -130,7 +130,7 @@ export default function InfoCentreFAQSection() {
         },
         {
           question: 'How do cash rebates work?',
-          answer: 'Cash rebates are calculated and credited on a daily basis according to your betting turnover. At the end of each day (cut-off time is 23:59:59 GMT+8), Truedinkumbet\'s system totals up the amount you wagered on eligible games. Based on that daily total, a rebate (a percentage of your wagers, as defined by our rebate scheme) is computed. The appropriate rebate amount is then credited to your account the next day. For example, if you wager a significant amount on a given day, you will receive the corresponding cash rebate the following day, according to the rebate rate for that turnover amount.'
+          answer: 'Cash rebates are calculated and credited on a daily basis according to your deposits amount. At the end of each day (cut-off time is 23:59:59 GMT+10), Truedinkumbet\'s system totals up the amount you wagered on eligible games. Based on that daily total, a rebate (a percentage of your wagers, as defined by our rebate scheme) is computed. The appropriate rebate amount is then credited to your account the next day. For example, if you wager a significant amount on a given day, you will receive the corresponding cash rebate the following day, according to the rebate rate for that turnover amount.'
         },
         {
           question: 'Is there a turnover requirement to withdraw cash rebates?',
