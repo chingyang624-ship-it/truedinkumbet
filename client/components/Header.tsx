@@ -9,10 +9,6 @@ export default function Header() {
     { name: "Esports", href: "https://truedinkumbet.com/RFSEOTDK" },
     { name: "Sports", href: "/sports" },
     { name: "Fishing", href: "/fishing" },
-    { name: "About Us", href: "/about" },
-    { name: "Responsible Gaming", href: "/responsible-gaming" },
-    { name: "Info Centre", href: "/info-centre" },
-    { name: "Terms & Conditions", href: "/terms-conditions" },
   ];
 
   return (
