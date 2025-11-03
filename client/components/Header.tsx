@@ -55,14 +55,14 @@ export default function Header() {
                   </a>
                 </li>
               ))}
-              <li className="inline-block">
+              <li className="inline-block relative group">
                 <a
                   href="#blog"
                   className="font-medium text-gray-800 hover:text-gray-600 transition-colors leading-[52px]"
                 >
                   Blog
                 </a>
-                <ul className="hidden absolute bg-white top-[52px] left-0 w-48 p-4 mt-4 shadow-lg rounded-lg">
+                <ul className="absolute hidden group-hover:block bg-white top-[52px] left-0 w-48 p-4 mt-4 shadow-lg rounded-lg z-50">
                   <li>
                     <a
                       href="/crypto-casino"
