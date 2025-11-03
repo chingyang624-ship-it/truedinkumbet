@@ -138,7 +138,7 @@ export default function InfoCentreFAQSection() {
         },
         {
           question: 'How do I check my rebates?',
-          answer: 'You can easily check your cash rebate history through your account dashboard. After logging in, go to the "Deposit" section and click on History. Within your transaction history, find the Rebate/Cashback section and select the time frame or date of interest. There you will see entries detailing any cash rebates credited to your account, including the amount of the rebate and the turnover amount it was based on. All daily rebates are credited to eligible accounts before 16:00:00 (GMT+8) each day for the previous day\'s play. This means, for example, that any rebate you earn from your bets today will be credited by 4:00 PM (GMT+8) tomorrow. If a promotion has a specific period, any rebates from that promotion will be credited on the schedule stated in the promotion\'s terms.'
+          answer: 'You can easily check your cash rebate history through your account dashboard. After logging in, go to the "History" section. Within your transaction history, find the Rebate/Cashback section and select the time frame or date of interest. There you will see entries detailing any cash rebates credited to your account, including the amount of the rebate and the turnover amount it was based on. All daily rebates are credited to eligible accounts before 00:00:00 (GMT+10) each day for the previous day\'s play. This means, for example, that any rebate you earn from your bets today will be credited by 00:00 AM (GMT+10) tomorrow. If a promotion has a specific period, any rebates from that promotion will be credited on the schedule stated in the promotion\'s terms.'
         }
       ]
     },
