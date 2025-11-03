@@ -123,7 +123,7 @@ export default function Footer() {
                   { name: "Affiliate Program", href: "https://truedinkumbet.com/affiliate" },
                   { name: "Responsible Gaming", href: "/responsible-gaming" },
                   { name: "Info Centre", href: "/info-centre" },
-                  { name: "Term & Conditions", href: "https://truedinkumbet.com/terms-conditions" },
+                  { name: "Term & Conditions", href: "/terms-conditions" },
                 ].map((link) => (
                   <a
                     key={link.name}
