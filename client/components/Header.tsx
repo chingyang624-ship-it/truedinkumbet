@@ -58,9 +58,10 @@ export default function Header() {
               <li className="inline-block relative group">
                 <a
                   href="#blog"
-                  className="font-medium text-gray-800 hover:text-gray-600 transition-colors leading-[52px]"
+                  className="font-medium text-gray-800 hover:text-gray-600 transition-colors leading-[52px] flex items-center gap-1"
                 >
                   Blog
+                  <span className="text-xs group-hover:rotate-180 transition-transform">▼</span>
                 </a>
                 <ul className="absolute hidden group-hover:block bg-white top-[52px] left-0 w-48 p-4 mt-4 shadow-lg rounded-lg z-50">
                   <li>
