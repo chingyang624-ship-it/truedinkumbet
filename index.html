@@ -16,5 +16,16 @@
     <div id="root"></div>
 
     <script type="module" src="/client/main.tsx"></script>
+
+    <script>
+      // 处理 GitHub Pages 路由
+      (function() {
+        const redirect = sessionStorage.redirect;
+        delete sessionStorage.redirect;
+        if (redirect && redirect !== location.href) {
+          history.replaceState(null, null, redirect);
+        }
+      })();
+    </script>
   </body>
 </html>
