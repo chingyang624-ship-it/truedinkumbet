@@ -28,7 +28,7 @@ export default function Header() {
       <header className="bg-white">
         {/* Navigation Bar */}
         <div className="header-nav fixed top-0 w-full z-50 px-5 shadow-md">
-        <div className="flex flex-wrap items-center">
+          <div className="flex flex-wrap items-center">
           {/* Mobile Menu Toggle */}
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
