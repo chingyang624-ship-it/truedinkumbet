@@ -1,12 +1,12 @@
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
-import HeroSection from '@/components/landing/HeroSection'
-import TitleSection from '@/components/landing/TitleSection'
-import CarouselSection from '@/components/landing/CarouselSection'
-import FeaturesSection from '@/components/landing/FeaturesSection'
-import GamesSection from '@/components/landing/GamesSection'
-import BonusesSection from '@/components/landing/BonusesSection'
-import FAQSection from '@/components/landing/FAQSection'
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import HeroSection from "@/components/landing/HeroSection";
+import TitleSection from "@/components/landing/TitleSection";
+import CarouselSection from "@/components/landing/CarouselSection";
+import FeaturesSection from "@/components/landing/FeaturesSection";
+import GamesSection from "@/components/landing/GamesSection";
+import BonusesSection from "@/components/landing/BonusesSection";
+import FAQSection from "@/components/landing/FAQSection";
 
 export default function Home() {
   return (
@@ -20,11 +20,11 @@ export default function Home() {
               href="https://truedinkumbet.com/RFSEOTDK"
               className="px-8 py-3 rounded-lg font-semibold transition-colors"
               style={{
-                backgroundColor: '#ffffff',
-                color: '#1f2124',
-                border: '1px solid #ddd',
-                textDecoration: 'none',
-                display: 'inline-block',
+                backgroundColor: "#ffffff",
+                color: "#1f2124",
+                border: "1px solid #ddd",
+                textDecoration: "none",
+                display: "inline-block",
               }}
             >
               Login
@@ -33,7 +33,7 @@ export default function Home() {
               href="https://truedinkumbet.com/RFSEOTDK"
               className="px-8 py-3 rounded-lg font-bold text-white transition-colors"
               style={{
-                backgroundColor: '#ff6500',
+                backgroundColor: "#ff6500",
               }}
             >
               Join Now
@@ -66,5 +66,5 @@ export default function Home() {
       </main>
       <Footer />
     </div>
-  )
+  );
 }

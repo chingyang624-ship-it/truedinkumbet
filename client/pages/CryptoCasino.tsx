@@ -1,11 +1,11 @@
-import Header from '@/components/Header';
-import Footer from '@/components/Footer';
-import CryptoCasinoHeroSection from '@/components/crypto-casino/CryptoCasinoHeroSection';
-import CryptoCasinoIntroSection from '@/components/crypto-casino/CryptoCasinoIntroSection';
-import CryptoCasinoWhyChooseSection from '@/components/crypto-casino/CryptoCasinoWhyChooseSection';
-import CryptoCasinoProvidersSection from '@/components/crypto-casino/CryptoCasinoProvidersSection';
-import CryptoCasinoFeaturesSection from '@/components/crypto-casino/CryptoCasinoFeaturesSection';
-import CryptoCasinoFAQSection from '@/components/crypto-casino/CryptoCasinoFAQSection';
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
+import CryptoCasinoHeroSection from "@/components/crypto-casino/CryptoCasinoHeroSection";
+import CryptoCasinoIntroSection from "@/components/crypto-casino/CryptoCasinoIntroSection";
+import CryptoCasinoWhyChooseSection from "@/components/crypto-casino/CryptoCasinoWhyChooseSection";
+import CryptoCasinoProvidersSection from "@/components/crypto-casino/CryptoCasinoProvidersSection";
+import CryptoCasinoFeaturesSection from "@/components/crypto-casino/CryptoCasinoFeaturesSection";
+import CryptoCasinoFAQSection from "@/components/crypto-casino/CryptoCasinoFAQSection";
 
 export default function CryptoCasino() {
   return (
@@ -19,11 +19,11 @@ export default function CryptoCasino() {
               href="https://truedinkumbet.com/RFSEOTDK"
               className="px-8 py-3 rounded-lg font-semibold transition-colors"
               style={{
-                backgroundColor: '#ffffff',
-                color: '#1f2124',
-                border: '1px solid #ddd',
-                textDecoration: 'none',
-                display: 'inline-block',
+                backgroundColor: "#ffffff",
+                color: "#1f2124",
+                border: "1px solid #ddd",
+                textDecoration: "none",
+                display: "inline-block",
               }}
             >
               Login
@@ -32,7 +32,7 @@ export default function CryptoCasino() {
               href="https://truedinkumbet.com/RFSEOTDK"
               className="px-8 py-3 rounded-lg font-bold text-white transition-colors"
               style={{
-                backgroundColor: '#ff6500',
+                backgroundColor: "#ff6500",
               }}
             >
               Join Now

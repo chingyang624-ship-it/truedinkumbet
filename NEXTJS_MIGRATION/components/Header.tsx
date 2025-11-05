@@ -1,23 +1,26 @@
-'use client'
+"use client";
 
-import { useState } from 'react'
-import Link from 'next/link'
-import Image from 'next/image'
+import { useState } from "react";
+import Link from "next/link";
+import Image from "next/image";
 
 export default function Header() {
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const navItems = [
-    { name: 'Slots', href: '/slots' },
-    { name: 'Live Casino', href: '/live-casino' },
-    { name: 'Esports', href: 'https://truedinkumbet.com/RFSEOTDK' },
-    { name: 'Sports', href: '/sports' },
-    { name: 'Fishing', href: '/fishing' },
-  ]
+    { name: "Slots", href: "/slots" },
+    { name: "Live Casino", href: "/live-casino" },
+    { name: "Esports", href: "https://truedinkumbet.com/RFSEOTDK" },
+    { name: "Sports", href: "/sports" },
+    { name: "Fishing", href: "/fishing" },
+  ];
 
   return (
     <header className="bg-white">
-      <div className="fixed top-0 w-full z-50 px-5 shadow-md" style={{ backgroundColor: 'rgba(255, 255, 255, 0.6)' }}>
+      <div
+        className="fixed top-0 w-full z-50 px-5 shadow-md"
+        style={{ backgroundColor: "rgba(255, 255, 255, 0.6)" }}
+      >
         <div className="flex flex-wrap items-center">
           <button
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
@@ -48,7 +51,10 @@ export default function Header() {
                 <li key={item.name} className="inline-block">
                   <Link
                     href={item.href}
-                    {...(item.href.startsWith('http') && { target: '_blank', rel: 'noopener noreferrer' })}
+                    {...(item.href.startsWith("http") && {
+                      target: "_blank",
+                      rel: "noopener noreferrer",
+                    })}
                     className="font-medium text-gray-800 hover:text-gray-600 transition-colors leading-[52px]"
                   >
                     {item.name}
@@ -109,7 +115,10 @@ export default function Header() {
                   <li key={item.name}>
                     <Link
                       href={item.href}
-                      {...(item.href.startsWith('http') && { target: '_blank', rel: 'noopener noreferrer' })}
+                      {...(item.href.startsWith("http") && {
+                        target: "_blank",
+                        rel: "noopener noreferrer",
+                      })}
                       className="block font-medium text-gray-800 hover:text-orange-500 transition-colors py-2"
                       onClick={() => setMobileMenuOpen(false)}
                     >
@@ -160,5 +169,5 @@ export default function Header() {
         </div>
       )}
     </header>
-  )
+  );
 }

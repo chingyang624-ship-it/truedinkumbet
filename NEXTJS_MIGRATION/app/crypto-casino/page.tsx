@@ -1,10 +1,11 @@
-import Header from '@/components/Header'
-import Footer from '@/components/Footer'
+import Header from "@/components/Header";
+import Footer from "@/components/Footer";
 
 export const metadata = {
-  title: 'Truedinkumbet Crypto Casino - Bitcoin & Cryptocurrency Gaming',
-  description: 'Play crypto casino games at Truedinkumbet with Bitcoin, Ethereum, and other cryptocurrencies.',
-}
+  title: "Truedinkumbet Crypto Casino - Bitcoin & Cryptocurrency Gaming",
+  description:
+    "Play crypto casino games at Truedinkumbet with Bitcoin, Ethereum, and other cryptocurrencies.",
+};
 
 export default function CryptoCasinoPage() {
   return (
@@ -15,11 +16,13 @@ export default function CryptoCasinoPage() {
           <h1 className="text-4xl font-bold mb-4">Crypto Casino</h1>
           <p className="text-lg">The ultimate crypto gambling experience</p>
         </div>
-        
+
         <div className="max-w-6xl mx-auto px-4 py-20">
-          <h2 className="text-3xl font-bold mb-12" style={{ color: '#1f2124' }}>Supported Cryptocurrencies</h2>
+          <h2 className="text-3xl font-bold mb-12" style={{ color: "#1f2124" }}>
+            Supported Cryptocurrencies
+          </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {['Bitcoin', 'Ethereum', 'Tether'].map((crypto, i) => (
+            {["Bitcoin", "Ethereum", "Tether"].map((crypto, i) => (
               <div key={i} className="bg-white p-6 rounded-lg shadow-lg">
                 <h3 className="font-bold text-lg">{crypto}</h3>
                 <p className="text-gray-600 mt-2">Fast & Secure</p>
@@ -30,5 +33,5 @@ export default function CryptoCasinoPage() {
       </main>
       <Footer />
     </div>
-  )
+  );
 }

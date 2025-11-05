@@ -14,6 +14,7 @@ cd truedinkumbet-nextjs
 复制 `NEXTJS_MIGRATION` 文件夹中的以下内容到新项目：
 
 #### 配置文件
+
 - `package.json` → 项目根目录（合并依赖）
 - `next.config.js` → 项目根目录
 - `tsconfig.json` → 项目根目录（可选，已在 create-next-app 中生成）
@@ -21,6 +22,7 @@ cd truedinkumbet-nextjs
 - `postcss.config.js` → 项目根目录（覆盖）
 
 #### 应用文件
+
 - `app/` 整个文件夹 → 项目的 `app/` 目录
 - `components/` 整个文件夹 → 项目的 `components/` 目录
 - `app/globals.css` → `app/globals.css`
@@ -88,10 +90,12 @@ truedinkumbet-nextjs/
 ### 🔧 配置说明
 
 #### `next.config.js`
+
 - 配置了 builder.io 为允许的远程图片来源
 - 可扩展以支持其他外部资源
 
 #### `tailwind.config.ts`
+
 - 包含所有 Radix UI 颜色变量
 - 支持深色模式
 - 配置了动画和过渡效果
@@ -129,15 +133,19 @@ netlify deploy --prod
 ## 关键文件说明
 
 ### `app/layout.tsx`
+
 根布局，定义全局 meta tags 和 Toaster 通知
 
 ### `components/Header.tsx`
+
 顶部导航组件，使用 'use client' 标记使其可交互
 
 ### `components/Footer.tsx`
+
 底部组件，包含所有链接和合作伙伴信息
 
 ### `app/page.tsx`
+
 首页，由多个 section 组件组成
 
 ## 自定义页面
@@ -166,18 +174,18 @@ export default function BlogPage() {
 ## 故障排除
 
 ### 端口被占用
+
 ```bash
 # 使用不同端口
 npm run dev -- -p 3001
 ```
 
 ### 样式不加载
+
 确保 tailwind 配置中包含了 `app` 目录：
+
 ```typescript
-content: [
-  './app/**/*.{ts,tsx}',
-  './components/**/*.{ts,tsx}',
-]
+content: ["./app/**/*.{ts,tsx}", "./components/**/*.{ts,tsx}"];
 ```
 
 ## 性能提示
