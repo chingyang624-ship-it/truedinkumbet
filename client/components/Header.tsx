@@ -3,6 +3,17 @@ import { useState } from "react";
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
+  const headerNavStyle = `
+    .header-nav {
+      background-color: rgba(255, 255, 255, 0.6);
+    }
+    @media (max-width: 640px) {
+      .header-nav {
+        background-color: rgba(255, 255, 255, 1);
+      }
+    }
+  `;
+
   const navItems = [
     { name: "Slots", href: "/slots" },
     { name: "Live Casino", href: "/live-casino" },

@@ -9,7 +9,7 @@ import CryptoCasinoFAQSection from '@/components/crypto-casino/CryptoCasinoFAQSe
 
 export default function CryptoCasino() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col" style={{ minHeight: "910px" }}>
       <Header />
       <main className="flex-1">
         <CryptoCasinoHeroSection />
