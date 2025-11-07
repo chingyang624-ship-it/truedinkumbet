@@ -1,3 +1,4 @@
+import Script from "next/script";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CarouselSection from "@/components/landing/CarouselSection";
@@ -14,9 +15,9 @@ export const metadata = {
   title:
     "Truedinkumbet - Best Online Casino & Sports Betting Australia | Licensed by PAGCOR",
   description:
-    "Play at Truedinkumbet - Australia's leading online casino with sports betting, live dealers, slots, and crypto gaming. Licensed, safe, and secure. Join now!",
+    "Play at Truedinkumbet - Australia's leading online casino with sports betting, live dealers, slots, crypto gaming, and fishing games. Licensed, safe, and secure. Join now!",
   keywords:
-    "online casino Australia, sports betting, live casino, slot games, crypto casino, PAGCOR licensed, Truedinkumbet",
+    "online casino Australia, sports betting Australia, live casino, slot games, crypto casino, fishing games, PAGCOR licensed, Truedinkumbet, Australian gaming",
   authors: [{ name: "Truedinkumbet" }],
   openGraph: {
     title: "Truedinkumbet - Best Online Casino & Sports Betting Australia",
