@@ -10,9 +10,30 @@ import LiveCasinoMobileAppSection from "@/components/livecasino/LiveCasinoMobile
 import LiveCasinoFAQSection from "@/components/livecasino/LiveCasinoFAQSection";
 
 export const metadata = {
-  title: "Truedinkumbet Live Casino - Play Live Dealer Games Australia",
-  description:
-    "Experience authentic live casino gaming at Truedinkumbet with professional dealers, real-time action, and exclusive bonuses for Australian players.",
+  title: "Live Casino at Truedinkumbet | Real Dealers & Live Games Australia",
+  description: "Experience authentic live casino gaming with professional dealers at Truedinkumbet. Live blackjack, roulette, baccarat, and more. Licensed for Australia.",
+  keywords: "live casino Australia, live dealers, live blackjack, live roulette, live baccarat, real money casino, Truedinkumbet",
+  authors: [{ name: "Truedinkumbet" }],
+  openGraph: {
+    title: "Live Casino at Truedinkumbet - Real Dealers Australia",
+    description: "Join real live casino games with professional dealers at Truedinkumbet. Immersive gaming experience with exclusive live casino bonuses.",
+    type: "website",
+    url: "https://truedinkumbet.com/live-casino",
+    images: [
+      {
+        url: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+        width: 1200,
+        height: 630,
+        alt: "Truedinkumbet Live Casino",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Live Casino at Truedinkumbet - Real Dealers Australia",
+    description: "Experience authentic live casino gaming with professional dealers at Truedinkumbet.",
+  },
+  robots: "index, follow",
 };
 
 export default function LiveCasinoPage() {
