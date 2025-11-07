@@ -103,7 +103,9 @@ export default function Footer() {
                   <Link
                     key={game.name}
                     href={game.href}
-                    {...(game.href.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                    {...(game.href.startsWith("http")
+                      ? { target: "_blank", rel: "noopener noreferrer" }
+                      : {})}
                     className="block text-black hover:text-gray-600 transition-colors text-sm"
                   >
                     {game.name}
@@ -129,7 +131,9 @@ export default function Footer() {
                   <Link
                     key={link.name}
                     href={link.href}
-                    {...(link.href.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                    {...(link.href.startsWith("http")
+                      ? { target: "_blank", rel: "noopener noreferrer" }
+                      : {})}
                     className="block text-black hover:text-gray-600 transition-colors text-sm"
                   >
                     {link.name}

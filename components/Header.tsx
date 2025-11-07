@@ -50,7 +50,9 @@ export default function Header() {
                 <li key={item.name} className="inline-block">
                   <Link
                     href={item.href}
-                    {...(item.href.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
+                    {...(item.href.startsWith("http")
+                      ? { target: "_blank", rel: "noopener noreferrer" }
+                      : {})}
                     className="font-medium text-gray-800 hover:text-gray-600 transition-colors leading-[52px]"
                   >
                     {item.name}
@@ -110,13 +112,15 @@ export default function Header() {
                 {navItems.map((item) => (
                   <li key={item.name}>
                     <Link
-                    href={item.href}
-                    {...(item.href.startsWith("http") ? { target: "_blank", rel: "noopener noreferrer" } : {})}
-                    className="block font-medium text-gray-800 hover:text-orange-500 transition-colors py-2"
-                    onClick={() => setMobileMenuOpen(false)}
-                  >
-                    {item.name}
-                  </Link>
+                      href={item.href}
+                      {...(item.href.startsWith("http")
+                        ? { target: "_blank", rel: "noopener noreferrer" }
+                        : {})}
+                      className="block font-medium text-gray-800 hover:text-orange-500 transition-colors py-2"
+                      onClick={() => setMobileMenuOpen(false)}
+                    >
+                      {item.name}
+                    </Link>
                   </li>
                 ))}
                 <li>

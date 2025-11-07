@@ -38,23 +38,23 @@ export default function FeaturesSection() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature, index) => (
-              <div
-                key={index}
-                className="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition-shadow"
-              >
-                <img
-                  src={feature.image}
-                  alt={feature.title}
-                  className="w-20 h-20 mx-auto mb-4 rounded"
-                />
-                <h3 className="text-xl font-semibold text-gray-900 mb-3 text-center">
-                  {feature.title}
-                </h3>
-                <p className="text-gray-600 text-sm leading-relaxed">
-                  {feature.description}
-                </p>
-              </div>
-            ))}
+            <div
+              key={index}
+              className="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition-shadow"
+            >
+              <img
+                src={feature.image}
+                alt={feature.title}
+                className="w-20 h-20 mx-auto mb-4 rounded"
+              />
+              <h3 className="text-xl font-semibold text-gray-900 mb-3 text-center">
+                {feature.title}
+              </h3>
+              <p className="text-gray-600 text-sm leading-relaxed">
+                {feature.description}
+              </p>
+            </div>
+          ))}
         </div>
       </div>
     </section>
