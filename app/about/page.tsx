@@ -7,12 +7,15 @@ import AboutValuesSection from "@/components/about/AboutValuesSection";
 
 export const metadata = {
   title: "About Truedinkumbet | Trusted Australian Online Casino Platform",
-  description: "Learn about Truedinkumbet's mission, values, and commitment to responsible gaming. Australia's premier licensed online casino with world-class gaming.",
-  keywords: "about Truedinkumbet, online casino Australia, responsible gaming, PAGCOR licensed, trusted gambling platform",
+  description:
+    "Learn about Truedinkumbet's mission, values, and commitment to responsible gaming. Australia's premier licensed online casino with world-class gaming.",
+  keywords:
+    "about Truedinkumbet, online casino Australia, responsible gaming, PAGCOR licensed, trusted gambling platform",
   authors: [{ name: "Truedinkumbet" }],
   openGraph: {
     title: "About Truedinkumbet - Australia's Trusted Online Casino",
-    description: "Discover Truedinkumbet's mission, vision, and commitment to providing safe, secure, and enjoyable gaming experiences.",
+    description:
+      "Discover Truedinkumbet's mission, vision, and commitment to providing safe, secure, and enjoyable gaming experiences.",
     type: "website",
     url: "https://truedinkumbetaucasino.com/about",
     images: [
@@ -27,7 +30,8 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "About Truedinkumbet - Online Casino Australia",
-    description: "Learn about Truedinkumbet's mission and commitment to responsible gaming in Australia.",
+    description:
+      "Learn about Truedinkumbet's mission and commitment to responsible gaming in Australia.",
   },
   robots: "index, follow",
 };

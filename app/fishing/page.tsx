@@ -12,12 +12,15 @@ import FishingFAQSection from "@/components/fishing/FishingFAQSection";
 
 export const metadata = {
   title: "Fishing Games at Truedinkumbet | Play Online Fishing Australia",
-  description: "Play exciting fishing games at Truedinkumbet with stunning graphics, big payouts, and exclusive bonuses. Licensed fishing game entertainment for Australia.",
-  keywords: "fishing games Australia, online fishing game, fishing game casino, fish hunting game, Truedinkumbet",
+  description:
+    "Play exciting fishing games at Truedinkumbet with stunning graphics, big payouts, and exclusive bonuses. Licensed fishing game entertainment for Australia.",
+  keywords:
+    "fishing games Australia, online fishing game, fishing game casino, fish hunting game, Truedinkumbet",
   authors: [{ name: "Truedinkumbet" }],
   openGraph: {
     title: "Fishing Games at Truedinkumbet - Online Fishing Entertainment",
-    description: "Enjoy thrilling fishing games with great graphics and payouts at Truedinkumbet. Play and win today!",
+    description:
+      "Enjoy thrilling fishing games with great graphics and payouts at Truedinkumbet. Play and win today!",
     type: "website",
     url: "https://truedinkumbetaucasino.com/fishing",
     images: [
@@ -32,7 +35,8 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Fishing Games at Truedinkumbet - Online Fishing Australia",
-    description: "Play exciting fishing games with great graphics and payouts at Truedinkumbet.",
+    description:
+      "Play exciting fishing games with great graphics and payouts at Truedinkumbet.",
   },
   robots: "index, follow",
 };

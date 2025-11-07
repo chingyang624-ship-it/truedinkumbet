@@ -5,12 +5,15 @@ import InfoCentreFAQSection from "@/components/info-centre/InfoCentreFAQSection"
 
 export const metadata = {
   title: "Info Centre | Help & Support - Truedinkumbet Customer Care",
-  description: "Get answers to your questions about Truedinkumbet games, accounts, bonuses, and responsible gaming. Customer support and helpful resources available.",
-  keywords: "help Truedinkumbet, customer support, FAQ, gaming guides, account help, bonus information",
+  description:
+    "Get answers to your questions about Truedinkumbet games, accounts, bonuses, and responsible gaming. Customer support and helpful resources available.",
+  keywords:
+    "help Truedinkumbet, customer support, FAQ, gaming guides, account help, bonus information",
   authors: [{ name: "Truedinkumbet" }],
   openGraph: {
     title: "Info Centre - Truedinkumbet Help & Support",
-    description: "Get answers to your questions about Truedinkumbet. Comprehensive help center and customer support resources.",
+    description:
+      "Get answers to your questions about Truedinkumbet. Comprehensive help center and customer support resources.",
     type: "website",
     url: "https://truedinkumbetaucasino.com/info-centre",
     images: [
@@ -25,7 +28,8 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Info Centre - Truedinkumbet Help & Support",
-    description: "Get help and answers at Truedinkumbet's customer support centre.",
+    description:
+      "Get help and answers at Truedinkumbet's customer support centre.",
   },
   robots: "index, follow",
 };

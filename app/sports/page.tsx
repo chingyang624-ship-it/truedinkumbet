@@ -9,12 +9,15 @@ import SportsFAQSection from "@/components/sports/SportsFAQSection";
 
 export const metadata = {
   title: "Sports Betting at Truedinkumbet | Best Odds & Markets Australia",
-  description: "Bet on football, basketball, cricket, tennis, and more at Truedinkumbet. Competitive odds, live betting, and exclusive sports betting bonuses for Australians.",
-  keywords: "sports betting Australia, online sportsbook, football betting, basketball betting, cricket betting, live betting, Truedinkumbet",
+  description:
+    "Bet on football, basketball, cricket, tennis, and more at Truedinkumbet. Competitive odds, live betting, and exclusive sports betting bonuses for Australians.",
+  keywords:
+    "sports betting Australia, online sportsbook, football betting, basketball betting, cricket betting, live betting, Truedinkumbet",
   authors: [{ name: "Truedinkumbet" }],
   openGraph: {
     title: "Sports Betting at Truedinkumbet - Best Odds Australia",
-    description: "Place bets on all major sports with competitive odds and live betting at Truedinkumbet. Licensed sports betting for Australian players.",
+    description:
+      "Place bets on all major sports with competitive odds and live betting at Truedinkumbet. Licensed sports betting for Australian players.",
     type: "website",
     url: "https://truedinkumbetaucasino.com/sports",
     images: [
@@ -29,7 +32,8 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Sports Betting at Truedinkumbet - Best Odds Australia",
-    description: "Bet on all major sports with competitive odds and live betting at Truedinkumbet.",
+    description:
+      "Bet on all major sports with competitive odds and live betting at Truedinkumbet.",
   },
   robots: "index, follow",
 };

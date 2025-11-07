@@ -12,12 +12,15 @@ import SlotsFAQSection from "@/components/slots/SlotsFAQSection";
 
 export const metadata = {
   title: "Slots at Truedinkumbet | Best Online Slot Games Australia | Play Now",
-  description: "Play thousands of slot games at Truedinkumbet with high RTP, progressive jackpots, and exclusive bonuses. Enjoy the best online slots experience in Australia.",
-  keywords: "online slots Australia, slot games, progressive jackpots, RTP slots, Pragmatic Play slots, Truedinkumbet",
+  description:
+    "Play thousands of slot games at Truedinkumbet with high RTP, progressive jackpots, and exclusive bonuses. Enjoy the best online slots experience in Australia.",
+  keywords:
+    "online slots Australia, slot games, progressive jackpots, RTP slots, Pragmatic Play slots, Truedinkumbet",
   authors: [{ name: "Truedinkumbet" }],
   openGraph: {
     title: "Slots at Truedinkumbet - Best Online Slot Games",
-    description: "Play thousands of slot games with high payouts and exciting features at Truedinkumbet. Licensed and secure slots gaming in Australia.",
+    description:
+      "Play thousands of slot games with high payouts and exciting features at Truedinkumbet. Licensed and secure slots gaming in Australia.",
     type: "website",
     url: "https://truedinkumbetaucasino.com/slots",
     images: [
@@ -32,7 +35,8 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Slots at Truedinkumbet - Online Slot Games Australia",
-    description: "Play thousands of slot games with high RTP and progressive jackpots at Truedinkumbet.",
+    description:
+      "Play thousands of slot games with high RTP and progressive jackpots at Truedinkumbet.",
   },
   robots: "index, follow",
 };

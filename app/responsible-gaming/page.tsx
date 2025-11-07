@@ -9,12 +9,15 @@ import ResponsibleGamingResourcesSection from "@/components/responsible-gaming/R
 
 export const metadata = {
   title: "Responsible Gaming | Safe Gaming Tools - Truedinkumbet Australia",
-  description: "Truedinkumbet's commitment to responsible gaming. Access tools, resources, and support for safe gaming. Self-exclusion and limit setting available.",
-  keywords: "responsible gaming, safe gambling, gambling addiction support, self-exclusion, gaming limits, Truedinkumbet",
+  description:
+    "Truedinkumbet's commitment to responsible gaming. Access tools, resources, and support for safe gaming. Self-exclusion and limit setting available.",
+  keywords:
+    "responsible gaming, safe gambling, gambling addiction support, self-exclusion, gaming limits, Truedinkumbet",
   authors: [{ name: "Truedinkumbet" }],
   openGraph: {
     title: "Responsible Gaming - Truedinkumbet Safe Gaming Resources",
-    description: "Truedinkumbet promotes responsible gaming with tools, resources, and support. Play safely and enjoyably.",
+    description:
+      "Truedinkumbet promotes responsible gaming with tools, resources, and support. Play safely and enjoyably.",
     type: "website",
     url: "https://truedinkumbetaucasino.com/responsible-gaming",
     images: [
@@ -29,7 +32,8 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Responsible Gaming - Truedinkumbet Safe Gaming",
-    description: "Learn about responsible gaming tools and support at Truedinkumbet.",
+    description:
+      "Learn about responsible gaming tools and support at Truedinkumbet.",
   },
   robots: "index, follow",
 };

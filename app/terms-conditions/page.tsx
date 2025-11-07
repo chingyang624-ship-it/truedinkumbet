@@ -5,12 +5,15 @@ import TermsContentSection from "@/components/terms/TermsContentSection";
 
 export const metadata = {
   title: "Terms and Conditions | Legal Agreement - Truedinkumbet",
-  description: "Review Truedinkumbet's complete terms and conditions for online casino, sports betting, and gaming services in Australia. Legal agreement details.",
-  keywords: "terms and conditions, legal agreement, Truedinkumbet, online casino terms, gaming policy",
+  description:
+    "Review Truedinkumbet's complete terms and conditions for online casino, sports betting, and gaming services in Australia. Legal agreement details.",
+  keywords:
+    "terms and conditions, legal agreement, Truedinkumbet, online casino terms, gaming policy",
   authors: [{ name: "Truedinkumbet" }],
   openGraph: {
     title: "Terms and Conditions - Truedinkumbet",
-    description: "Read the legal terms and conditions for using Truedinkumbet's gaming platform.",
+    description:
+      "Read the legal terms and conditions for using Truedinkumbet's gaming platform.",
     type: "website",
     url: "https://truedinkumbetaucasino.com/terms-conditions",
     images: [
