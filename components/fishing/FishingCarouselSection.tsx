@@ -34,7 +34,7 @@ export default function FishingCarouselSection() {
           {games.map((game, index) => (
             <div key={index} className="text-center">
               <a
-                href={game.link || 'https://truedinkumbet.com/go/fishing'}
+                href={game.link || 'https://truedinkumbetaucasino.com/go/fishing'}
                 target="_blank"
                 rel="sponsored noopener"
                 className="block"
