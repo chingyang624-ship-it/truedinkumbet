@@ -127,7 +127,7 @@ export default function LiveCasinoPage() {
         <LiveCasinoPopularGamesSection />
         <LiveCasinoMobileAppSection />
         <LiveCasinoFAQSection />
-        <RelatedGamesSection currentPage="live-casino" relatedGames={relatedGames} />
+        <RelatedGamesSection relatedGames={relatedGames} />
       </main>
       <Footer />
     </div>
