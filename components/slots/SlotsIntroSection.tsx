@@ -12,7 +12,7 @@ export default function SlotsIntroSection() {
             Australia, Truedinkumbet is a name that stands out. As one of the
             most trusted platforms in Australia,&nbsp;
             <a
-              href="https://bk8mycasino.com/"
+              href="https://truedinkumbet.com/"
               className="text-blue-600 hover:text-blue-700 transition-colors"
             >
               Truedinkumbet
