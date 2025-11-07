@@ -43,9 +43,7 @@ export default function FeaturesSection() {
           Why Choose Truedinkumbet Australia?
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-          {features.map((feature, index) => {
-            const Icon = feature.icon;
-            return (
+          {features.map((feature, index) => (
               <div
                 key={index}
                 className="bg-white rounded-lg shadow-md p-8 hover:shadow-lg transition-shadow"
@@ -62,8 +60,7 @@ export default function FeaturesSection() {
                   {feature.description}
                 </p>
               </div>
-            );
-          })}
+            ))}
         </div>
       </div>
     </section>
