@@ -8,9 +8,30 @@ import SportsMobileAppSection from "@/components/sports/SportsMobileAppSection";
 import SportsFAQSection from "@/components/sports/SportsFAQSection";
 
 export const metadata = {
-  title: "Truedinkumbet Sports Betting - Bet on Your Favorite Sports Australia",
-  description:
-    "Place sports bets on football, basketball, cricket, and more at Truedinkumbet. Get competitive odds and exclusive bonuses for Australian sports bettors.",
+  title: "Sports Betting at Truedinkumbet | Best Odds & Markets Australia",
+  description: "Bet on football, basketball, cricket, tennis, and more at Truedinkumbet. Competitive odds, live betting, and exclusive sports betting bonuses for Australians.",
+  keywords: "sports betting Australia, online sportsbook, football betting, basketball betting, cricket betting, live betting, Truedinkumbet",
+  authors: [{ name: "Truedinkumbet" }],
+  openGraph: {
+    title: "Sports Betting at Truedinkumbet - Best Odds Australia",
+    description: "Place bets on all major sports with competitive odds and live betting at Truedinkumbet. Licensed sports betting for Australian players.",
+    type: "website",
+    url: "https://truedinkumbet.com/sports",
+    images: [
+      {
+        url: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+        width: 1200,
+        height: 630,
+        alt: "Truedinkumbet Sports Betting",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Sports Betting at Truedinkumbet - Best Odds Australia",
+    description: "Bet on all major sports with competitive odds and live betting at Truedinkumbet.",
+  },
+  robots: "index, follow",
 };
 
 export default function SportsPage() {
