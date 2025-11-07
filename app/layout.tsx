@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     title: "Truedinkumbet - Best Online Casino & Sports Betting Australia",
     description: "Join Truedinkumbet for world-class gaming - slots, live dealers, sports betting, and crypto games. PAGCOR licensed and regulated.",
     type: "website",
-    url: "https://truedinkumbet.com",
+    url: "https://truedinkumbetaucasino.com",
     siteName: "Truedinkumbet",
     locale: "en_AU",
     images: [
