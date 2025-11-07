@@ -11,9 +11,30 @@ import FishingMobileAppSection from "@/components/fishing/FishingMobileAppSectio
 import FishingFAQSection from "@/components/fishing/FishingFAQSection";
 
 export const metadata = {
-  title: "Truedinkumbet Fishing Games - Play Fishing Game Online Australia",
-  description:
-    "Enjoy exciting fishing games at Truedinkumbet with amazing graphics, huge payouts, and exclusive bonuses for Australian players.",
+  title: "Fishing Games at Truedinkumbet | Play Online Fishing Australia",
+  description: "Play exciting fishing games at Truedinkumbet with stunning graphics, big payouts, and exclusive bonuses. Licensed fishing game entertainment for Australia.",
+  keywords: "fishing games Australia, online fishing game, fishing game casino, fish hunting game, Truedinkumbet",
+  authors: [{ name: "Truedinkumbet" }],
+  openGraph: {
+    title: "Fishing Games at Truedinkumbet - Online Fishing Entertainment",
+    description: "Enjoy thrilling fishing games with great graphics and payouts at Truedinkumbet. Play and win today!",
+    type: "website",
+    url: "https://truedinkumbet.com/fishing",
+    images: [
+      {
+        url: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+        width: 1200,
+        height: 630,
+        alt: "Truedinkumbet Fishing Games",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Fishing Games at Truedinkumbet - Online Fishing Australia",
+    description: "Play exciting fishing games with great graphics and payouts at Truedinkumbet.",
+  },
+  robots: "index, follow",
 };
 
 export default function FishingPage() {
