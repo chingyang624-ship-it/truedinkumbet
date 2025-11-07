@@ -156,7 +156,7 @@ export default function SlotsCarouselSection() {
           <h3 className="text-2xl font-bold mb-8 text-center" style={{ color: '#1f2124' }}>Explore All Games</h3>
 
           <div style={{ display: 'flex', justifyContent: 'center' }}>
-            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(5, 1fr)', gap: '20px', padding: '15px 0', maxWidth: '100%' }}>
+            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '20px', padding: '15px 0', maxWidth: '100%' }}>
               {allGames.map((game, index) => (
                 <div
                   key={index}
