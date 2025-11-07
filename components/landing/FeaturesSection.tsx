@@ -1,5 +1,3 @@
-import { Users, Smartphone, CreditCard, Lock } from "lucide-react";
-
 const features = [
   {
     icon: Users,
