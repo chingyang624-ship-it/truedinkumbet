@@ -75,14 +75,14 @@ export default function Home() {
 
           <div className="md:hidden w-full flex gap-0">
             <a
-              href="https://truedinkumbet.com/RFSEOTDK"
+              href="https://truedinkumbetaucasino.com/RFSEOTDK"
               className="flex-1 py-3 bg-red-700 text-white font-semibold text-center transition-colors"
               style={{ borderRadius: 0 }}
             >
               Join
             </a>
             <a
-              href="https://truedinkumbet.com/RFSEOTDK"
+              href="https://truedinkumbetaucasino.com/RFSEOTDK"
               className="flex-1 py-3 bg-blue-600 text-white font-semibold text-center transition-colors"
               style={{ borderRadius: 0 }}
             >
