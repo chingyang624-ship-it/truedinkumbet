@@ -1,63 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:mobile="http://www.mobile.googlebot.com/schemas/mobile/1.0"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage -->
   <url>
-    <loc>https://truedinkumbetaucasino.com/</loc>
-    <lastmod>2024-01-01</lastmod>
+    <loc>https://truedinkumbet.com</loc>
+    <lastmod>2024-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+    <mobile:mobile/>
   </url>
+
+  <!-- Slots Page -->
   <url>
-    <loc>https://truedinkumbetaucasino.com/slots</loc>
-    <lastmod>2024-01-01</lastmod>
+    <loc>https://truedinkumbet.com/slots</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <mobile:mobile/>
+  </url>
+
+  <!-- Sports Page -->
+  <url>
+    <loc>https://truedinkumbet.com/sports</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+    <mobile:mobile/>
+  </url>
+
+  <!-- Live Casino Page -->
+  <url>
+    <loc>https://truedinkumbet.com/live-casino</loc>
+    <lastmod>2024-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <mobile:mobile/>
   </url>
+
+  <!-- Crypto Casino Page -->
   <url>
-    <loc>https://truedinkumbetaucasino.com/live-casino</loc>
-    <lastmod>2024-01-01</lastmod>
+    <loc>https://truedinkumbet.com/crypto-casino</loc>
+    <lastmod>2024-01-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
+    <mobile:mobile/>
   </url>
+
+  <!-- Fishing Games Page -->
   <url>
-    <loc>https://truedinkumbetaucasino.com/sports</loc>
-    <lastmod>2024-01-01</lastmod>
+    <loc>https://truedinkumbet.com/fishing</loc>
+    <lastmod>2024-01-15</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.85</priority>
+    <mobile:mobile/>
   </url>
+
+  <!-- About Page -->
   <url>
-    <loc>https://truedinkumbetaucasino.com/fishing</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://truedinkumbetaucasino.com/crypto-casino</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://truedinkumbetaucasino.com/about</loc>
-    <lastmod>2024-01-01</lastmod>
+    <loc>https://truedinkumbet.com/about</loc>
+    <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <mobile:mobile/>
   </url>
+
+  <!-- Info Centre Page -->
   <url>
-    <loc>https://truedinkumbetaucasino.com/responsible-gaming</loc>
-    <lastmod>2024-01-01</lastmod>
+    <loc>https://truedinkumbet.com/info-centre</loc>
+    <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.75</priority>
+    <mobile:mobile/>
   </url>
+
+  <!-- Responsible Gaming Page -->
   <url>
-    <loc>https://truedinkumbetaucasino.com/info-centre</loc>
-    <lastmod>2024-01-01</lastmod>
+    <loc>https://truedinkumbet.com/responsible-gaming</loc>
+    <lastmod>2024-01-15</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
+    <mobile:mobile/>
   </url>
+
+  <!-- Terms and Conditions Page -->
   <url>
-    <loc>https://truedinkumbetaucasino.com/terms-conditions</loc>
-    <lastmod>2024-01-01</lastmod>
-    <changefreq>yearly</changefreq>
+    <loc>https://truedinkumbet.com/terms-conditions</loc>
+    <lastmod>2024-01-15</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>0.6</priority>
+    <mobile:mobile/>
   </url>
+
 </urlset>
