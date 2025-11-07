@@ -50,7 +50,7 @@ export default function Home() {
         <section className="w-full">
           <div className="hidden md:flex gap-4 justify-center py-6 px-4">
             <a
-              href="https://truedinkumbet.com/RFSEOTDK"
+              href="https://truedinkumbetaucasino.com/RFSEOTDK"
               className="px-8 py-3 rounded-lg font-semibold transition-colors"
               style={{
                 backgroundColor: "#ffffff",
@@ -63,7 +63,7 @@ export default function Home() {
               Login
             </a>
             <a
-              href="https://truedinkumbet.com/RFSEOTDK"
+              href="https://truedinkumbetaucasino.com/RFSEOTDK"
               className="px-8 py-3 rounded-lg font-bold text-white transition-colors"
               style={{
                 backgroundColor: "#ff6500",
