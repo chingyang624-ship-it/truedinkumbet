@@ -127,10 +127,10 @@ export default function SportsProvidersGrid() {
                           textAlign: 'center',
                           transitionDuration: '0.3s',
                           verticalAlign: 'middle',
-                          width: '200px',
+                          maxWidth: '220px',
                           height: '250px',
                           margin: '0 auto',
-                          objectFit: 'cover',
+                          objectFit: 'contain',
                         }}
                       />
                     </a>
