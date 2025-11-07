@@ -6,16 +6,16 @@ import AboutMissionSection from "@/components/about/AboutMissionSection";
 import AboutValuesSection from "@/components/about/AboutValuesSection";
 
 export const metadata = {
-  title: "About Truedinkumbet | Trusted Australian Online Casino Platform",
+  title: "About Truedinkumbet | Australia's Premier Licensed Online Casino",
   description:
-    "Learn about Truedinkumbet's mission, values, and commitment to responsible gaming. Australia's premier licensed online casino with world-class gaming.",
+    "Learn about Truedinkumbet's mission, values, and commitment to responsible gaming. Australia's premier PAGCOR-licensed online casino platform offering world-class gaming experiences.",
   keywords:
-    "about Truedinkumbet, online casino Australia, responsible gaming, PAGCOR licensed, trusted gambling platform",
+    "about Truedinkumbet, online casino Australia, responsible gaming, PAGCOR licensed, trusted gaming platform, Australian casino, casino operator",
   authors: [{ name: "Truedinkumbet" }],
   openGraph: {
-    title: "About Truedinkumbet - Australia's Trusted Online Casino",
+    title: "About Truedinkumbet - Australia's Trusted Online Casino Platform",
     description:
-      "Discover Truedinkumbet's mission, vision, and commitment to providing safe, secure, and enjoyable gaming experiences.",
+      "Discover Truedinkumbet's mission, vision, and commitment to providing safe, secure, and enjoyable gaming experiences for Australian players.",
     type: "website",
     url: "https://truedinkumbetaucasino.com/about",
     images: [
@@ -29,9 +29,12 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "About Truedinkumbet - Online Casino Australia",
+    title: "About Truedinkumbet - Australia's Online Casino",
     description:
-      "Learn about Truedinkumbet's mission and commitment to responsible gaming in Australia.",
+      "Learn about Truedinkumbet's mission, values, and commitment to responsible gaming in Australia.",
+    images: [
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    ],
   },
   robots: "index, follow",
 };
