@@ -4,7 +4,7 @@ export default function AboutIntroSection() {
       <div className="max-w-4xl mx-auto">
         <div className="space-y-6 text-gray-700 leading-relaxed">
           <p>
-            <a href="https://truedinkumbet.com" className="text-blue-600 hover:text-blue-800 font-semibold">
+            <a href="https://truedinkumbetaucasino.com" className="text-blue-600 hover:text-blue-800 font-semibold">
               Truedinkumbet.com
             </a>
             {' '}is the official Truedinkumbet online gaming platform, fully licensed and regulated by the Philippine Amusement and Gaming Corporation (PAGCOR). Truedinkumbet is operated by a company registered under the laws of the Republic of the Philippines, with a registered address in the Philippines. The platform operates under proper licensing and has passed all regulatory compliance checks, making it legally authorized to conduct gaming operations for any and all games of chance and wagering.
