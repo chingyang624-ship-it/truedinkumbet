@@ -28,19 +28,15 @@ export default function MobileAppSection() {
             </p>
           </div>
 
-          <div>
-            <a
-              href="https://www.truedinkumbeth5api.shop/uploads/appwrap.html"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="block cursor-pointer"
-            >
-              <img
-                src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fdbd5c17a972c4080a4299f571548ab21"
-                alt="Truedinkumbet download QR code"
-                className="w-full rounded-lg shadow-lg hover:opacity-90 transition-opacity"
-              />
-            </a>
+          <div
+            onClick={() => window.open('https://www.truedinkumbeth5api.shop/uploads/appwrap.html', '_blank')}
+            className="cursor-pointer"
+          >
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fdbd5c17a972c4080a4299f571548ab21"
+              alt="Truedinkumbet download QR code"
+              className="w-full rounded-lg shadow-lg hover:opacity-90 transition-opacity cursor-pointer"
+            />
           </div>
         </div>
       </div>
