@@ -9,6 +9,7 @@ import FishingGamesSection from "@/components/fishing/FishingGamesSection";
 import FishingProvidersDetailsSection from "@/components/fishing/FishingProvidersDetailsSection";
 import FishingMobileAppSection from "@/components/fishing/FishingMobileAppSection";
 import FishingFAQSection from "@/components/fishing/FishingFAQSection";
+import RelatedGamesSection from "@/components/RelatedGamesSection";
 
 export const metadata = {
   title: "Online Fishing Games Australia | Play at Truedinkumbet | Big Payouts",
