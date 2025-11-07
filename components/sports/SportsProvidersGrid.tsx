@@ -5,14 +5,14 @@ export default function SportsProvidersGrid() {
       badge: 'New',
       badgeColor: '#e00928',
       image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F602686836c494e93a3491d0e2149296a',
-      link: 'https://truedinkumbet.com/go/sports',
+      link: 'https://truedinkumbetaucasino.com/go/sports',
     },
     {
       name: 'CMD368 Sports',
       badge: 'Hot',
       badgeColor: '#ff650f',
       image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F619a3f6a939f43adb499c9c3be2b4957',
-      link: 'https://truedinkumbet.com/go/sports',
+      link: 'https://truedinkumbetaucasino.com/go/sports',
     },
   ];
 
