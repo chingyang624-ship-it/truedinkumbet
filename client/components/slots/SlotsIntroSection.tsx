@@ -9,7 +9,7 @@ export default function SlotsIntroSection() {
         <div className="max-w-3xl mx-auto">
           <p className="text-lg text-gray-600 leading-relaxed">
             If you're searching for the best place to play online slot game Australia, Truedinkumbet is a name that stands out. As one of the most trusted platforms in Australia,&nbsp;
-            <a href="https://bk8mycasino.com/" className="text-blue-600 hover:text-blue-700 transition-colors">
+            <a href="https://truedinkumbet.com/" className="text-blue-600 hover:text-blue-700 transition-colors">
               Truedinkumbet
             </a>
             &nbsp;offers a huge selection of exciting slots, high payouts, and generous bonuses all within a secure and user-friendly environment. Whether you're a new player or a seasoned spinner, Truedinkumbet brings you the perfect balance of fun, safety, and rewards.
