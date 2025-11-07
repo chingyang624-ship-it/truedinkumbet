@@ -1,6 +1,5 @@
 const features = [
   {
-    icon: Users,
     title: "Customer Support",
     description:
       "Truedinkumbet Australia provides reliable, around-the-clock customer service through live chat, WhatsApp, and email in multiple languages, ensuring quick, polite, and professional responses for a smooth experience.",
