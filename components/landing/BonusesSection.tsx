@@ -58,7 +58,7 @@ export default function BonusesSection() {
             >
               <img
                 src={bonus.image}
-                alt={bonus.title}
+                alt={`${bonus.title} - Truedinkumbet promotion`}
                 className="w-24 h-24 mx-auto mb-4 rounded"
               />
               <h3 className="text-xl font-semibold text-gray-900 mb-3 text-center">
