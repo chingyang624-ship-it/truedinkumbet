@@ -6,6 +6,7 @@ import SportsTypesSection from "@/components/sports/SportsTypesSection";
 import SportsProvidersSection from "@/components/sports/SportsProvidersSection";
 import SportsMobileAppSection from "@/components/sports/SportsMobileAppSection";
 import SportsFAQSection from "@/components/sports/SportsFAQSection";
+import RelatedGamesSection from "@/components/RelatedGamesSection";
 
 export const metadata = {
   title: "Sports Betting Australia | Best Odds & Live Betting at Truedinkumbet",
