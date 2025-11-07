@@ -74,7 +74,7 @@ export default function CarouselSection() {
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
-                    href="https://truedinkumbetaucasino.com/RFSEOTDK"
+                    href="https://truedinkumbet.com/RFSEOTDK"
                     className="inline-block"
                     aria-label="View Slide Details"
                   >
