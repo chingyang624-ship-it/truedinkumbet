@@ -46,6 +46,33 @@ export const metadata = {
 };
 
 export default function FishingPage() {
+  const relatedGames = [
+    {
+      title: "Online Slots",
+      description:
+        "Play thousands of online slot games with high RTP and big wins. From classic to progressive jackpot slots.",
+      href: "/slots",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fe93f3b84925e441fae7c53c7cd43dc9b",
+    },
+    {
+      title: "Live Casino",
+      description:
+        "Experience authentic live casino gaming with real dealers. Baccarat, roulette, blackjack, and more.",
+      href: "/live-casino",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F8c37345aca9d46bebb44b8219a5c1529",
+    },
+    {
+      title: "Sports Betting",
+      description:
+        "Bet on all major sports with competitive odds and live betting. Football, basketball, cricket, tennis, and more.",
+      href: "/sports",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F5443f7041c3f4b079179c988f0da43b2",
+    },
+  ];
+
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
@@ -59,6 +86,7 @@ export default function FishingPage() {
         <FishingProvidersDetailsSection />
         <FishingMobileAppSection />
         <FishingFAQSection />
+        <RelatedGamesSection currentPage="fishing" relatedGames={relatedGames} />
       </main>
       <Footer />
     </div>
