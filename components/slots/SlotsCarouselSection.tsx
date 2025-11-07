@@ -98,7 +98,7 @@ export default function SlotsCarouselSection() {
               >
                 <div className="relative overflow-hidden rounded-lg mb-3">
                   <a
-                    href="https://truedinkumbetaucasino.com/RFSEOTDK"
+                    href="https://truedinkumbet.com/RFSEOTDK"
                     target="_blank"
                     rel="sponsored noopener"
                     className="block"
