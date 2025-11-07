@@ -12,7 +12,7 @@ export const metadata = {
     title: "Terms and Conditions - Truedinkumbet",
     description: "Read the legal terms and conditions for using Truedinkumbet's gaming platform.",
     type: "website",
-    url: "https://truedinkumbet.com/terms-conditions",
+    url: "https://truedinkumbetaucasino.com/terms-conditions",
     images: [
       {
         url: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
