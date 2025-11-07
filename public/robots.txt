@@ -34,4 +34,4 @@ User-agent: DotBot
 Disallow: /
 
 # Sitemap location
-Sitemap: https://truedinkumbet.com/sitemap.xml
+Sitemap: https://truedinkumbetaucasino.com/sitemap.xml
