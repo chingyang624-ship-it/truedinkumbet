@@ -10,7 +10,7 @@ export default function Header() {
   const navItems = [
     { name: "Slots", href: "/slots" },
     { name: "Live Casino", href: "/live-casino" },
-    { name: "Esports", href: "https://truedinkumbet.com/RFSEOTDK" },
+    { name: "Esports", href: "https://truedinkumbetaucasino.com/RFSEOTDK" },
     { name: "Sports", href: "/sports" },
     { name: "Fishing", href: "/fishing" },
   ];
