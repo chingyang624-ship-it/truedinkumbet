@@ -16,7 +16,7 @@ export const metadata = {
     title: "Sports Betting at Truedinkumbet - Best Odds Australia",
     description: "Place bets on all major sports with competitive odds and live betting at Truedinkumbet. Licensed sports betting for Australian players.",
     type: "website",
-    url: "https://truedinkumbet.com/sports",
+    url: "https://truedinkumbetaucasino.com/sports",
     images: [
       {
         url: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
