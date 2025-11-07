@@ -7,7 +7,6 @@ const features = [
       "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F9b943cb5cf344fbf976f8e82ae1c0c15",
   },
   {
-    icon: Smartphone,
     title: "User-Friendly Interface",
     description:
       "Truedinkumbet features a user-friendly interface designed for seamless play across both desktop and mobile platforms, ensuring easy navigation and smooth gameplay.",
