@@ -195,7 +195,7 @@ export default function SlotsCarouselSection() {
                     <a
                       target="_blank"
                       rel="sponsored noopener"
-                      href="https://truedinkumbet.com/RFSEOTDK"
+                      href="https://truedinkumbetaucasino.com/RFSEOTDK"
                       style={{
                         cursor: 'pointer',
                         display: 'block',
