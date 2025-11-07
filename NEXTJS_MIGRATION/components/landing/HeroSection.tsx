@@ -9,8 +9,8 @@ export default function HeroSection() {
           Welcome to Truedinkumbet, your premier destination for top-tier online casino entertainment in Australia.{' '}
           <a href="#" className="text-yellow-400 hover:text-yellow-300">
             Truedinkumbetaucasino.com
-          </a>
-          {' '}is officially authorized and licensed by Truedinkumbet and operates under the regulation of the Philippine Amusement and Gaming Corporation. With a powerful mix of exciting games, secure gameplay, and generous promotions, Truedinkumbet Australia has quickly become the go-to choice for players looking for a premium gambling experience.
+          </a>{' '}
+          &nbsp;is officially authorized and licensed by Truedinkumbet and operates under the regulation of the Philippine Amusement and Gaming Corporation. With a powerful mix of exciting games, secure gameplay, and generous promotions, Truedinkumbet Australia has quickly become the go-to choice for players looking for a premium gambling experience.
         </p>
       </div>
     </section>

@@ -1,5 +1,3 @@
-"use client";
-
 import { Users, Smartphone, CreditCard, Lock } from 'lucide-react';
 
 const features = [
