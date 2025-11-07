@@ -14,7 +14,6 @@ const features = [
       "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F79dcc6f324114cc8b7eb5676a3050d19",
   },
   {
-    icon: CreditCard,
     title: "Multiple Payment Options",
     description:
       "Truedinkumbet supports a wide range of payment methods, including local Australian bank transfers, e-wallets, and cryptocurrency, allowing users to deposit and withdraw funds with ease through fast transactions.",
