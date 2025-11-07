@@ -43,7 +43,7 @@ export default function CryptoCasinoPage() {
         <section className="w-full">
           <div className="hidden md:flex gap-4 justify-center py-6 px-4">
             <a
-              href="https://truedinkumbet.com/RFSEOTDK"
+              href="https://truedinkumbetaucasino.com/RFSEOTDK"
               className="px-8 py-3 rounded-lg font-semibold transition-colors"
               style={{
                 backgroundColor: "#ffffff",
@@ -56,7 +56,7 @@ export default function CryptoCasinoPage() {
               Login
             </a>
             <a
-              href="https://truedinkumbet.com/RFSEOTDK"
+              href="https://truedinkumbetaucasino.com/RFSEOTDK"
               className="px-8 py-3 rounded-lg font-bold text-white transition-colors"
               style={{
                 backgroundColor: "#ff6500",
@@ -68,14 +68,14 @@ export default function CryptoCasinoPage() {
 
           <div className="md:hidden w-full flex gap-0">
             <a
-              href="https://truedinkumbet.com/RFSEOTDK"
+              href="https://truedinkumbetaucasino.com/RFSEOTDK"
               className="flex-1 py-3 bg-red-700 text-white font-semibold text-center transition-colors"
               style={{ borderRadius: 0 }}
             >
               Join
             </a>
             <a
-              href="https://truedinkumbet.com/RFSEOTDK"
+              href="https://truedinkumbetaucasino.com/RFSEOTDK"
               className="flex-1 py-3 bg-blue-600 text-white font-semibold text-center transition-colors"
               style={{ borderRadius: 0 }}
             >
