@@ -80,7 +80,7 @@ export default function SportsPage() {
         <SportsProvidersSection />
         <SportsMobileAppSection />
         <SportsFAQSection />
-        <RelatedGamesSection currentPage="sports" relatedGames={relatedGames} />
+        <RelatedGamesSection relatedGames={relatedGames} />
       </main>
       <Footer />
     </div>
