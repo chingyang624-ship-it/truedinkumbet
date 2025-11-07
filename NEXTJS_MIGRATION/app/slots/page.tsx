@@ -1,5 +1,14 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import SlotsHeroSection from "@/components/slots/SlotsHeroSection";
+import SlotsCarouselSection from "@/components/slots/SlotsCarouselSection";
+import SlotsIntroSection from "@/components/slots/SlotsIntroSection";
+import SlotsWhyChooseSection from "@/components/slots/SlotsWhyChooseSection";
+import SlotsProvidersSection from "@/components/slots/SlotsProvidersSection";
+import SlotsPopularGamesSection from "@/components/slots/SlotsPopularGamesSection";
+import SlotsBonusesSection from "@/components/slots/SlotsBonusesSection";
+import SlotsTipsSection from "@/components/slots/SlotsTipsSection";
+import SlotsFAQSection from "@/components/slots/SlotsFAQSection";
 
 export const metadata = {
   title: "Truedinkumbet Slots - Play Best Slot Games Australia",
@@ -11,25 +20,59 @@ export default function SlotsPage() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="flex-1 pt-16">
-        <div className="w-full bg-gray-800 text-white py-20 text-center">
-          <h1 className="text-4xl font-bold mb-4">Truedinkumbet Slots</h1>
-          <p className="text-lg">Play thousands of amazing slot games</p>
-        </div>
-
-        <div className="max-w-6xl mx-auto px-4 py-20">
-          <h2 className="text-3xl font-bold mb-12" style={{ color: "#1f2124" }}>
-            Featured Slots
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {["Thunder Coins XXL", "Boxing King", "Big Red"].map((slot, i) => (
-              <div key={i} className="bg-white p-6 rounded-lg shadow-lg">
-                <div className="bg-gray-300 h-40 rounded mb-4"></div>
-                <h3 className="font-bold text-lg">{slot}</h3>
-              </div>
-            ))}
+      <main className="flex-1">
+        <SlotsHeroSection />
+        <section className="w-full">
+          <div className="hidden md:flex gap-4 justify-center py-6 px-4">
+            <a
+              href="https://truedinkumbet.com/RFSEOTDK"
+              className="px-8 py-3 rounded-lg font-semibold transition-colors"
+              style={{
+                backgroundColor: "#ffffff",
+                color: "#1f2124",
+                border: "1px solid #ddd",
+                textDecoration: "none",
+                display: "inline-block",
+              }}
+            >
+              Login
+            </a>
+            <a
+              href="https://truedinkumbet.com/RFSEOTDK"
+              className="px-8 py-3 rounded-lg font-bold text-white transition-colors"
+              style={{
+                backgroundColor: "#ff6500",
+              }}
+            >
+              Join Now
+            </a>
           </div>
-        </div>
+
+          <div className="md:hidden w-full flex gap-0">
+            <a
+              href="https://truedinkumbet.com/RFSEOTDK"
+              className="flex-1 py-3 bg-red-700 text-white font-semibold text-center transition-colors"
+              style={{ borderRadius: 0 }}
+            >
+              Join
+            </a>
+            <a
+              href="https://truedinkumbet.com/RFSEOTDK"
+              className="flex-1 py-3 bg-blue-600 text-white font-semibold text-center transition-colors"
+              style={{ borderRadius: 0 }}
+            >
+              Login
+            </a>
+          </div>
+        </section>
+        <SlotsCarouselSection />
+        <SlotsIntroSection />
+        <SlotsWhyChooseSection />
+        <SlotsProvidersSection />
+        <SlotsPopularGamesSection />
+        <SlotsBonusesSection />
+        <SlotsTipsSection />
+        <SlotsFAQSection />
       </main>
       <Footer />
     </div>

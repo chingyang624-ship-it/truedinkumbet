@@ -1,35 +1,71 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import CryptoCasinoHeroSection from "@/components/crypto-casino/CryptoCasinoHeroSection";
+import CryptoCasinoIntroSection from "@/components/crypto-casino/CryptoCasinoIntroSection";
+import CryptoCasinoWhyChooseSection from "@/components/crypto-casino/CryptoCasinoWhyChooseSection";
+import CryptoCasinoProvidersSection from "@/components/crypto-casino/CryptoCasinoProvidersSection";
+import CryptoCasinoFeaturesSection from "@/components/crypto-casino/CryptoCasinoFeaturesSection";
+import CryptoCasinoFAQSection from "@/components/crypto-casino/CryptoCasinoFAQSection";
 
 export const metadata = {
-  title: "Truedinkumbet Crypto Casino - Bitcoin & Cryptocurrency Gaming",
-  description:
-    "Play crypto casino games at Truedinkumbet with Bitcoin, Ethereum, and other cryptocurrencies.",
+  title: "Crypto Casino - Truedinkumbet",
+  description: "Play with cryptocurrency at Truedinkumbet",
 };
 
 export default function CryptoCasinoPage() {
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col" style={{ minHeight: "910px" }}>
       <Header />
-      <main className="flex-1 pt-16">
-        <div className="w-full bg-gray-800 text-white py-20 text-center">
-          <h1 className="text-4xl font-bold mb-4">Crypto Casino</h1>
-          <p className="text-lg">The ultimate crypto gambling experience</p>
-        </div>
-
-        <div className="max-w-6xl mx-auto px-4 py-20">
-          <h2 className="text-3xl font-bold mb-12" style={{ color: "#1f2124" }}>
-            Supported Cryptocurrencies
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {["Bitcoin", "Ethereum", "Tether"].map((crypto, i) => (
-              <div key={i} className="bg-white p-6 rounded-lg shadow-lg">
-                <h3 className="font-bold text-lg">{crypto}</h3>
-                <p className="text-gray-600 mt-2">Fast & Secure</p>
-              </div>
-            ))}
+      <main className="flex-1">
+        <CryptoCasinoHeroSection />
+        <section className="w-full">
+          <div className="hidden md:flex gap-4 justify-center py-6 px-4">
+            <a
+              href="https://truedinkumbet.com/RFSEOTDK"
+              className="px-8 py-3 rounded-lg font-semibold transition-colors"
+              style={{
+                backgroundColor: "#ffffff",
+                color: "#1f2124",
+                border: "1px solid #ddd",
+                textDecoration: "none",
+                display: "inline-block",
+              }}
+            >
+              Login
+            </a>
+            <a
+              href="https://truedinkumbet.com/RFSEOTDK"
+              className="px-8 py-3 rounded-lg font-bold text-white transition-colors"
+              style={{
+                backgroundColor: "#ff6500",
+              }}
+            >
+              Join Now
+            </a>
           </div>
-        </div>
+
+          <div className="md:hidden w-full flex gap-0">
+            <a
+              href="https://truedinkumbet.com/RFSEOTDK"
+              className="flex-1 py-3 bg-red-700 text-white font-semibold text-center transition-colors"
+              style={{ borderRadius: 0 }}
+            >
+              Join
+            </a>
+            <a
+              href="https://truedinkumbet.com/RFSEOTDK"
+              className="flex-1 py-3 bg-blue-600 text-white font-semibold text-center transition-colors"
+              style={{ borderRadius: 0 }}
+            >
+              Login
+            </a>
+          </div>
+        </section>
+        <CryptoCasinoIntroSection />
+        <CryptoCasinoWhyChooseSection />
+        <CryptoCasinoProvidersSection />
+        <CryptoCasinoFeaturesSection />
+        <CryptoCasinoFAQSection />
       </main>
       <Footer />
     </div>
