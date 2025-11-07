@@ -11,16 +11,16 @@ import FishingMobileAppSection from "@/components/fishing/FishingMobileAppSectio
 import FishingFAQSection from "@/components/fishing/FishingFAQSection";
 
 export const metadata = {
-  title: "Fishing Games at Truedinkumbet | Play Online Fishing Australia",
+  title: "Online Fishing Games Australia | Play at Truedinkumbet | Big Payouts",
   description:
-    "Play exciting fishing games at Truedinkumbet with stunning graphics, big payouts, and exclusive bonuses. Licensed fishing game entertainment for Australia.",
+    "Play exciting online fishing games at Truedinkumbet with stunning graphics, big payouts, and exclusive bonuses. Licensed fishing game entertainment for Australian players.",
   keywords:
-    "fishing games Australia, online fishing game, fishing game casino, fish hunting game, Truedinkumbet",
+    "fishing games Australia, online fishing games, fishing game casino, fish hunting games, fishing slots, Truedinkumbet fishing",
   authors: [{ name: "Truedinkumbet" }],
   openGraph: {
-    title: "Fishing Games at Truedinkumbet - Online Fishing Entertainment",
+    title: "Online Fishing Games Australia - Play at Truedinkumbet",
     description:
-      "Enjoy thrilling fishing games with great graphics and payouts at Truedinkumbet. Play and win today!",
+      "Enjoy thrilling fishing games with great graphics, big payouts, and exclusive bonuses at Truedinkumbet. Play and win today!",
     type: "website",
     url: "https://truedinkumbetaucasino.com/fishing",
     images: [
@@ -34,9 +34,12 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Fishing Games at Truedinkumbet - Online Fishing Australia",
+    title: "Online Fishing Games Australia - Play at Truedinkumbet",
     description:
-      "Play exciting fishing games with great graphics and payouts at Truedinkumbet.",
+      "Play exciting fishing games with great graphics, big payouts, and exclusive bonuses at Truedinkumbet.",
+    images: [
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    ],
   },
   robots: "index, follow",
 };
