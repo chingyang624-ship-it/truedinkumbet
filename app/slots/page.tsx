@@ -86,7 +86,7 @@ export default function SlotsPage() {
         <SlotsPopularGamesSection />
         <SlotsTipsSection />
         <SlotsFAQSection />
-        <RelatedGamesSection currentPage="slots" relatedGames={relatedGames} />
+        <RelatedGamesSection relatedGames={relatedGames} />
       </main>
       <Footer />
     </div>
