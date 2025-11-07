@@ -19,7 +19,7 @@ export const metadata = {
     title: "Slots at Truedinkumbet - Best Online Slot Games",
     description: "Play thousands of slot games with high payouts and exciting features at Truedinkumbet. Licensed and secure slots gaming in Australia.",
     type: "website",
-    url: "https://truedinkumbet.com/slots",
+    url: "https://truedinkumbetaucasino.com/slots",
     images: [
       {
         url: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
