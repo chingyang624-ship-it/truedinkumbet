@@ -4,7 +4,10 @@ export default function InfoCentreHeroSection() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="overflow-x-auto whitespace-nowrap pb-4">
           <span className="inline text-gray-800">
-            <a href="/" className="text-gray-800 hover:text-gray-600 transition-colors">
+            <a
+              href="/"
+              className="text-gray-800 hover:text-gray-600 transition-colors"
+            >
               Home
             </a>
           </span>

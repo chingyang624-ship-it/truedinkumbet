@@ -27,19 +27,19 @@ export default function App() {
         <Sonner />
         <BrowserRouter>
           <Routes>
-          <Route path="/" element={<Landing />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/responsible-gaming" element={<ResponsibleGaming />} />
-          <Route path="/info-centre" element={<InfoCentre />} />
-          <Route path="/terms-conditions" element={<TermsAndConditions />} />
-          <Route path="/slots" element={<Slots />} />
-          <Route path="/live-casino" element={<LiveCasino />} />
-          <Route path="/sports" element={<Sports />} />
-          <Route path="/fishing" element={<Fishing />} />
-          <Route path="/crypto-casino" element={<CryptoCasino />} />
-          {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-          <Route path="*" element={<NotFound />} />
-        </Routes>
+            <Route path="/" element={<Landing />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/responsible-gaming" element={<ResponsibleGaming />} />
+            <Route path="/info-centre" element={<InfoCentre />} />
+            <Route path="/terms-conditions" element={<TermsAndConditions />} />
+            <Route path="/slots" element={<Slots />} />
+            <Route path="/live-casino" element={<LiveCasino />} />
+            <Route path="/sports" element={<Sports />} />
+            <Route path="/fishing" element={<Fishing />} />
+            <Route path="/crypto-casino" element={<CryptoCasino />} />
+            {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+            <Route path="*" element={<NotFound />} />
+          </Routes>
         </BrowserRouter>
       </TooltipProvider>
     </QueryClientProvider>

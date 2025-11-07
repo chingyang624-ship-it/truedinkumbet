@@ -1,7 +1,9 @@
 import { useState } from "react";
 
 export default function Footer() {
-  const [expandedSections, setExpandedSections] = useState<Record<string, boolean>>({});
+  const [expandedSections, setExpandedSections] = useState<
+    Record<string, boolean>
+  >({});
 
   const toggleSection = (section: string) => {
     setExpandedSections((prev) => ({
@@ -15,11 +17,16 @@ export default function Footer() {
   };
 
   return (
-    <footer className="bg-white overflow-hidden" style={{ color: "rgb(134, 151, 162)" }}>
+    <footer
+      className="bg-white overflow-hidden"
+      style={{ color: "rgb(134, 151, 162)" }}
+    >
       <div className="w-full">
         {/* Partnerships Section */}
         <div className="max-w-7xl mx-auto px-4 py-12 mb-8 border-b">
-          <h2 className="text-2xl font-semibold text-black mb-8">Official Partnerships & Sponsorships</h2>
+          <h2 className="text-2xl font-semibold text-black mb-8">
+            Official Partnerships & Sponsorships
+          </h2>
           <div className="flex flex-wrap gap-8 justify-center">
             {/* Partnership items with logos */}
             <div className="text-center">
@@ -86,9 +93,11 @@ export default function Footer() {
                 style={{ maxWidth: "50%" }}
               />
               <p className="text-xs text-black">
-                Truedinkumbet is operated by a company registered under the laws of the Republic of the
-                Philippines, and is licensed and regulated by the Philippine Amusement and Gaming Corporation (PAGCOR).
-                We are fully compliant and legally authorized to provide games of chance and wagering.
+                Truedinkumbet is operated by a company registered under the laws
+                of the Republic of the Philippines, and is licensed and
+                regulated by the Philippine Amusement and Gaming Corporation
+                (PAGCOR). We are fully compliant and legally authorized to
+                provide games of chance and wagering.
               </p>
             </div>
 
@@ -98,7 +107,10 @@ export default function Footer() {
               <div className="space-y-2">
                 {[
                   { name: "Sports", href: "/sports" },
-                  { name: "Esports", href: "https://truedinkumbet.com/esports" },
+                  {
+                    name: "Esports",
+                    href: "https://truedinkumbet.com/esports",
+                  },
                   { name: "Live Casino", href: "/live-casino" },
                   { name: "Slots", href: "/slots" },
                   { name: "Fishing", href: "/fishing" },
@@ -124,13 +136,20 @@ export default function Footer() {
                   { name: "Crypto Casino", href: "/crypto-casino" },
                   { name: "Responsible Gaming", href: "/responsible-gaming" },
                   { name: "Terms & Conditions", href: "/terms-conditions" },
-                  { name: "Affiliate Program", href: "https://truedinkumbet.com/affiliate" },
+                  {
+                    name: "Affiliate Program",
+                    href: "https://truedinkumbet.com/affiliate",
+                  },
                 ].map((link) => (
                   <a
                     key={link.name}
                     href={link.href}
                     target={link.href.startsWith("http") ? "_blank" : undefined}
-                    rel={link.href.startsWith("http") ? "noopener noreferrer" : undefined}
+                    rel={
+                      link.href.startsWith("http")
+                        ? "noopener noreferrer"
+                        : undefined
+                    }
                     className="block text-black hover:text-gray-600 transition-colors text-sm"
                   >
                     {link.name}
@@ -141,14 +160,31 @@ export default function Footer() {
 
             {/* Certification */}
             <div>
-              <h3 className="text-base font-semibold text-black mb-4">Certification</h3>
+              <h3 className="text-base font-semibold text-black mb-4">
+                Certification
+              </h3>
               <div className="space-y-2">
                 {[
-                  { name: "BMM", src: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Faeaf2afcca834492b313653a37da6f4f" },
-                  { name: "iTech Labs", src: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F010290ab128c4e6dac35e263cac562cc" },
-                  { name: "", src: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F1984312bdd244e499c1f999815a3d132" },
-                  { name: "TST", src: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F9fd2f91987314093b5835ec0a35f751e" },
-                  { name: "Godaddy", src: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fac81f3a09be740b6992ed5f59e5d09e1" },
+                  {
+                    name: "BMM",
+                    src: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Faeaf2afcca834492b313653a37da6f4f",
+                  },
+                  {
+                    name: "iTech Labs",
+                    src: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F010290ab128c4e6dac35e263cac562cc",
+                  },
+                  {
+                    name: "",
+                    src: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F1984312bdd244e499c1f999815a3d132",
+                  },
+                  {
+                    name: "TST",
+                    src: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F9fd2f91987314093b5835ec0a35f751e",
+                  },
+                  {
+                    name: "Godaddy",
+                    src: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fac81f3a09be740b6992ed5f59e5d09e1",
+                  },
                 ].map((cert) => (
                   <img
                     key={cert.name}
@@ -166,14 +202,28 @@ export default function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
             {/* Payment Methods */}
             <div className="lg:col-span-2">
-              <h3 className="text-base font-semibold text-black mb-4">Payment Method</h3>
+              <h3 className="text-base font-semibold text-black mb-4">
+                Payment Method
+              </h3>
               <div className="flex flex-wrap gap-3">
                 {[
-                  { name: "Bitcoin BTC", src: "9c91b42e2bb844b49f4f0c8f8053a7b7" },
-                  { name: "Tether USDT", src: "fb01ba7b451c4f57ad13b6bceec2b178" },
-                  { name: "Ethereum ETH", src: "6e377f4b452c435f86f2b2448f69f57d" },
+                  {
+                    name: "Bitcoin BTC",
+                    src: "9c91b42e2bb844b49f4f0c8f8053a7b7",
+                  },
+                  {
+                    name: "Tether USDT",
+                    src: "fb01ba7b451c4f57ad13b6bceec2b178",
+                  },
+                  {
+                    name: "Ethereum ETH",
+                    src: "6e377f4b452c435f86f2b2448f69f57d",
+                  },
                   { name: "Visa", src: "34de12af57824581b81cb9bc89ad7057" },
-                  { name: "Mastercard", src: "88c7899e9f4b4d61969d87d300ed6d56" },
+                  {
+                    name: "Mastercard",
+                    src: "88c7899e9f4b4d61969d87d300ed6d56",
+                  },
                 ].map((method) => (
                   <img
                     key={method.name}
@@ -188,7 +238,9 @@ export default function Footer() {
 
             {/* Follow Us */}
             <div>
-              <h3 className="text-base font-semibold text-black mb-4">Follow Us</h3>
+              <h3 className="text-base font-semibold text-black mb-4">
+                Follow Us
+              </h3>
               <div className="flex gap-3">
                 <a
                   href="https://www.facebook.com/share/17TDVW4N25/?mibextid=wwXIfr"
@@ -202,7 +254,11 @@ export default function Footer() {
                     style={{ filter: "grayscale(1)" }}
                   />
                 </a>
-                <a href="https://youtube.com/truedinkumbet" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://youtube.com/truedinkumbet"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff5804a6ce4f74020b78f032bcdc0ae99"
                     alt="Truedinkumbet Youtube"
@@ -210,7 +266,11 @@ export default function Footer() {
                     style={{ filter: "grayscale(1)" }}
                   />
                 </a>
-                <a href="https://x.com/truedinkumbet?s=21" target="_blank" rel="noopener noreferrer">
+                <a
+                  href="https://x.com/truedinkumbet?s=21"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
                   <img
                     src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff5804a6ce4f74020b78f032bcdc0ae99"
                     alt="Truedinkumbet Twitter"
@@ -223,7 +283,9 @@ export default function Footer() {
 
             {/* Security */}
             <div>
-              <h3 className="text-base font-semibold text-black mb-4">Security</h3>
+              <h3 className="text-base font-semibold text-black mb-4">
+                Security
+              </h3>
               <div className="space-y-2">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F781ab7b4c3534acc8b0ea0e92f346fef"
@@ -242,7 +304,9 @@ export default function Footer() {
 
             {/* Responsible Gaming */}
             <div>
-              <h3 className="text-base font-semibold text-black mb-4">Responsible Gaming</h3>
+              <h3 className="text-base font-semibold text-black mb-4">
+                Responsible Gaming
+              </h3>
               <div className="space-y-2">
                 <img
                   src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fcbd46f1f9aef42ddb6d6867578c7ea52"
@@ -272,7 +336,9 @@ export default function Footer() {
           className="border-t pt-6 pb-6 flex items-center justify-between relative max-w-7xl mx-auto px-4 w-full"
           style={{ color: "rgb(134, 151, 162)" }}
         >
-          <p className="text-xs">© 2025 Truedinkumbet. All rights reserved. 18+</p>
+          <p className="text-xs">
+            © 2025 Truedinkumbet. All rights reserved. 18+
+          </p>
           <button
             onClick={scrollToTop}
             className="w-10 h-9 rounded flex items-center justify-center text-lg font-bold transition-all hover:bg-gray-200"

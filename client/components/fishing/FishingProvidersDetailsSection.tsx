@@ -1,49 +1,61 @@
 export default function FishingProvidersDetailsSection() {
   const providers = [
     {
-      title: 'Spadegaming',
-      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F3978d86782704225ab7bca9eb7655846',
+      title: "Spadegaming",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F3978d86782704225ab7bca9eb7655846",
       description:
-        'A pioneer in the Asian arcade game market, Spadegaming is best known for titles like Fishing War and Fishing God. Their games are certified for fairness, and they consistently deliver top-tier graphics, multipliers, and engaging bonus features.',
+        "A pioneer in the Asian arcade game market, Spadegaming is best known for titles like Fishing War and Fishing God. Their games are certified for fairness, and they consistently deliver top-tier graphics, multipliers, and engaging bonus features.",
     },
     {
-      title: 'JILI',
-      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F32f47ae662a4414785c5685d9e7d240e',
+      title: "JILI",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F32f47ae662a4414785c5685d9e7d240e",
       description:
-        'JILI specializes in mobile-first design. Their fishing games are smooth, user-friendly, and optimized for low-lag gameplay. Happy Fishing is a perfect example of how JILI merges casual fun with high payout potential.',
+        "JILI specializes in mobile-first design. Their fishing games are smooth, user-friendly, and optimized for low-lag gameplay. Happy Fishing is a perfect example of how JILI merges casual fun with high payout potential.",
     },
     {
-      title: 'YL Gaming',
-      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F24e3b9630802496099b0ec46185eb0b5',
+      title: "YL Gaming",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F24e3b9630802496099b0ec46185eb0b5",
       description:
-        'A rising star in the fishing game Australia scene, YL Gaming is known for innovation and visual polish. Fishing 2 is one of their flagship titles, offering jackpot modes, high RTPs, and an engaging user experience across devices.',
+        "A rising star in the fishing game Australia scene, YL Gaming is known for innovation and visual polish. Fishing 2 is one of their flagship titles, offering jackpot modes, high RTPs, and an engaging user experience across devices.",
     },
   ];
 
   return (
     <>
       {/* Section Title */}
-      <section className="w-full px-4 py-8" style={{ backgroundColor: '#ffffff' }}>
+      <section
+        className="w-full px-4 py-8"
+        style={{ backgroundColor: "#ffffff" }}
+      >
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl font-bold mb-6" style={{ color: '#000000' }}>
+          <h2 className="text-3xl font-bold mb-6" style={{ color: "#000000" }}>
             Trusted Fishing Game Providers at Truedinkumbet Online Casino
           </h2>
         </div>
       </section>
 
       {/* Intro Paragraph */}
-      <section className="w-full px-4 py-8" style={{ backgroundColor: '#ffffff' }}>
+      <section
+        className="w-full px-4 py-8"
+        style={{ backgroundColor: "#ffffff" }}
+      >
         <div className="max-w-6xl mx-auto">
-          <p style={{ color: '#7a7a7a', lineHeight: '1.8' }}>
-            Truedinkumbet partners only with licensed, respected providers to ensure a
-            high-quality gaming experience. Here's a quick look at the trusted names behind your
-            favorite fishing games:
+          <p style={{ color: "#7a7a7a", lineHeight: "1.8" }}>
+            Truedinkumbet partners only with licensed, respected providers to
+            ensure a high-quality gaming experience. Here's a quick look at the
+            trusted names behind your favorite fishing games:
           </p>
         </div>
       </section>
 
       {/* Providers Grid */}
-      <section className="w-full px-4 py-8" style={{ backgroundColor: '#ffffff' }}>
+      <section
+        className="w-full px-4 py-8"
+        style={{ backgroundColor: "#ffffff" }}
+      >
         <div className="max-w-6xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {providers.map((provider, index) => (
@@ -55,10 +67,13 @@ export default function FishingProvidersDetailsSection() {
                   decoding="async"
                   className="w-full h-auto mb-6 max-h-40 object-contain"
                 />
-                <h3 className="text-2xl font-bold mb-4" style={{ color: '#000000' }}>
+                <h3
+                  className="text-2xl font-bold mb-4"
+                  style={{ color: "#000000" }}
+                >
                   {provider.title}
                 </h3>
-                <p style={{ color: '#7a7a7a', lineHeight: '1.8' }}>
+                <p style={{ color: "#7a7a7a", lineHeight: "1.8" }}>
                   {provider.description}
                 </p>
               </div>
@@ -68,11 +83,15 @@ export default function FishingProvidersDetailsSection() {
       </section>
 
       {/* Closing Paragraph */}
-      <section className="w-full px-4 py-8" style={{ backgroundColor: '#ffffff' }}>
+      <section
+        className="w-full px-4 py-8"
+        style={{ backgroundColor: "#ffffff" }}
+      >
         <div className="max-w-6xl mx-auto">
-          <p style={{ color: '#7a7a7a', lineHeight: '1.8' }}>
-            By choosing Truedinkumbet online casino, you get access to these trusted developers
-            and their best-performing fishing games are safe, fair, and action-packed.
+          <p style={{ color: "#7a7a7a", lineHeight: "1.8" }}>
+            By choosing Truedinkumbet online casino, you get access to these
+            trusted developers and their best-performing fishing games are safe,
+            fair, and action-packed.
           </p>
         </div>
       </section>
