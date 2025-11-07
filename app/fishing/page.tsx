@@ -86,7 +86,7 @@ export default function FishingPage() {
         <FishingProvidersDetailsSection />
         <FishingMobileAppSection />
         <FishingFAQSection />
-        <RelatedGamesSection currentPage="fishing" relatedGames={relatedGames} />
+        <RelatedGamesSection relatedGames={relatedGames} />
       </main>
       <Footer />
     </div>
