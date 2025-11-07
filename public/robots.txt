@@ -1,16 +1,37 @@
+# Truedinkumbet - robots.txt
+# Allow all search engines to crawl the site
+
+User-agent: *
+Allow: /
+Disallow: /api/
+Disallow: /*.json$
+Disallow: /*?*
+Disallow: /*#*
+Disallow: /admin/
+Disallow: /private/
+
+# Specific search engines
 User-agent: Googlebot
 Allow: /
 
 User-agent: Bingbot
 Allow: /
 
-User-agent: Twitterbot
+User-agent: Slurp
 Allow: /
 
-User-agent: facebookexternalhit
+User-agent: DuckDuckBot
 Allow: /
 
-User-agent: *
-Allow: /
+# Block bad bots
+User-agent: AhrefsBot
+Disallow: /
 
-Sitemap: https://truedinkumbetaucasino.com/sitemap.xml
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+# Sitemap location
+Sitemap: https://truedinkumbet.com/sitemap.xml
