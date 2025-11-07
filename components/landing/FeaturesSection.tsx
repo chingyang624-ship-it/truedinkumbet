@@ -21,7 +21,6 @@ const features = [
       "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fd136e1a243a8437083ec45971e386e74",
   },
   {
-    icon: Lock,
     title: "Licensed and Secure",
     description:
       "Truedinkumbet Casino Australia is fully licensed by a recognized international regulator, ensuring that every game is tested for fairness, every transaction is encrypted, and your data, money, and trust are always protected.",
