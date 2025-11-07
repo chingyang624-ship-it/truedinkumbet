@@ -46,6 +46,33 @@ export const metadata = {
 };
 
 export default function LiveCasinoPage() {
+  const relatedGames = [
+    {
+      title: "Online Slots",
+      description:
+        "Play thousands of online slot games with high RTP and big payouts. From classic machines to progressive jackpots.",
+      href: "/slots",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fe93f3b84925e441fae7c53c7cd43dc9b",
+    },
+    {
+      title: "Sports Betting",
+      description:
+        "Bet on all major sports with competitive odds and live betting. Football, basketball, cricket, and more.",
+      href: "/sports",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F5443f7041c3f4b079179c988f0da43b2",
+    },
+    {
+      title: "Fishing Games",
+      description:
+        "Enjoy exciting fishing games with amazing graphics and big rewards. Easy to play, fun, and rewarding.",
+      href: "/fishing",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F159a9265e32840a3a0b88b88fc82f47f",
+    },
+  ];
+
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
@@ -101,6 +128,7 @@ export default function LiveCasinoPage() {
         <LiveCasinoPopularGamesSection />
         <LiveCasinoMobileAppSection />
         <LiveCasinoFAQSection />
+        <RelatedGamesSection currentPage="live-casino" relatedGames={relatedGames} />
       </main>
       <Footer />
     </div>
