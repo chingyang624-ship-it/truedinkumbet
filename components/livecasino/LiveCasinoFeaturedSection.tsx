@@ -96,7 +96,7 @@ export default function LiveCasinoFeaturedSection() {
                     </p>
                   )}
                   <a
-                    href="https://truedinkumbetaucasino.com/RFSEOTDK"
+                    href="https://truedinkumbet.com/RFSEOTDK"
                     target="_blank"
                     rel="sponsored noopener"
                     className="block"
