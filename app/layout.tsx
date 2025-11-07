@@ -13,9 +13,9 @@ export const metadata: Metadata = {
     email: false,
     telephone: false,
   },
-  metadataBase: new URL("https://truedinkumbet.com"),
+  metadataBase: new URL("https://truedinkumbetaucasino.com"),
   alternates: {
-    canonical: "https://truedinkumbet.com",
+    canonical: "https://truedinkumbetaucasino.com",
   },
   openGraph: {
     title: "Truedinkumbet - Best Online Casino & Sports Betting Australia",
