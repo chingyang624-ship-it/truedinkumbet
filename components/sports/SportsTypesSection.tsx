@@ -56,8 +56,8 @@ export default function SportsTypesSection() {
                 <img
                   src={sport.image}
                   alt={sport.title}
-                  className="w-full h-auto rounded-lg"
-                  style={{ boxShadow: '0 4px 6px rgba(0,0,0,0.1)' }}
+                  className="w-full rounded-lg"
+                  style={{ height: '300px', objectFit: 'cover', boxShadow: '0 4px 6px rgba(0,0,0,0.1)' }}
                 />
               </div>
               <div className="md:w-1/2">
