@@ -95,7 +95,7 @@ export default function Footer() {
                   { name: "Sports", href: "/sports" },
                   {
                     name: "Esports",
-                    href: "https://truedinkumbet.com/esports",
+                    href: "https://truedinkumbetaucasino.com/esports",
                   },
                   { name: "Live Casino", href: "/live-casino" },
                   { name: "Slots", href: "/slots" },
