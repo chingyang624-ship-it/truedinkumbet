@@ -9,6 +9,7 @@ import SlotsProvidersSection from "@/components/slots/SlotsProvidersSection";
 import SlotsPopularGamesSection from "@/components/slots/SlotsPopularGamesSection";
 import SlotsTipsSection from "@/components/slots/SlotsTipsSection";
 import SlotsFAQSection from "@/components/slots/SlotsFAQSection";
+import RelatedGamesSection from "@/components/RelatedGamesSection";
 
 export const metadata = {
   title: "Online Slots Australia | Best Slot Games at Truedinkumbet | High RTP Slots",
