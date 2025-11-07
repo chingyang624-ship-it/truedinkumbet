@@ -16,7 +16,7 @@ export const metadata = {
     title: "Crypto Casino at Truedinkumbet - Bitcoin & Crypto Games",
     description: "Play casino games with cryptocurrency at Truedinkumbet. Fast, secure transactions with Bitcoin and other cryptocurrencies.",
     type: "website",
-    url: "https://truedinkumbet.com/crypto-casino",
+    url: "https://truedinkumbetaucasino.com/crypto-casino",
     images: [
       {
         url: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
