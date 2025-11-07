@@ -18,7 +18,7 @@ export const metadata = {
     title: "Live Casino at Truedinkumbet - Real Dealers Australia",
     description: "Join real live casino games with professional dealers at Truedinkumbet. Immersive gaming experience with exclusive live casino bonuses.",
     type: "website",
-    url: "https://truedinkumbet.com/live-casino",
+    url: "https://truedinkumbetaucasino.com/live-casino",
     images: [
       {
         url: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
