@@ -33,6 +33,7 @@ export default function MobileAppSection() {
             className="cursor-pointer"
           >
             <img
+              hrefLang="https://www.truedinkumbeth5api.shop/uploads/appwrap.html"
               src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fdbd5c17a972c4080a4299f571548ab21"
               alt="Truedinkumbet download QR code"
               className="w-full rounded-lg shadow-lg hover:opacity-90 transition-opacity cursor-pointer"
