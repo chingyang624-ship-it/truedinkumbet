@@ -127,7 +127,7 @@ export default function Footer() {
                   { name: "Terms & Conditions", href: "/terms-conditions" },
                   {
                     name: "Affiliate Program",
-                    href: "https://truedinkumbet.com/affiliate",
+                    href: "https://truedinkumbetaucasino.com/affiliate",
                   },
                 ].map((link) => (
                   <Link
