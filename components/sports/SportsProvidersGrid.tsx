@@ -119,7 +119,6 @@ export default function SportsProvidersGrid() {
                         height="300"
                         src={provider.image}
                         style={{
-                          aspectRatio: '240 / 300',
                           borderColor: '#181818',
                           color: '#181818',
                           cursor: 'pointer',
@@ -128,10 +127,10 @@ export default function SportsProvidersGrid() {
                           textAlign: 'center',
                           transitionDuration: '0.3s',
                           verticalAlign: 'middle',
-                          width: 'auto',
+                          width: '200px',
                           height: '250px',
-                          minHeight: 'auto',
                           margin: '0 auto',
+                          objectFit: 'cover',
                         }}
                       />
                     </a>
