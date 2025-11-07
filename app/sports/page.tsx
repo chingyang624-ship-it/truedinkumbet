@@ -16,7 +16,8 @@ export const metadata = {
     "sports betting Australia, online sportsbook, football betting, basketball betting, cricket betting, live betting, sports betting bonuses, in-play betting, Truedinkumbet sports",
   authors: [{ name: "Truedinkumbet" }],
   openGraph: {
-    title: "Sports Betting Australia - Best Odds & Live Betting at Truedinkumbet",
+    title:
+      "Sports Betting Australia - Best Odds & Live Betting at Truedinkumbet",
     description:
       "Place bets on all major sports with competitive odds, live in-play betting, and exclusive bonuses at Truedinkumbet. Licensed and regulated sports betting for Australian players.",
     type: "website",

@@ -12,7 +12,8 @@ import SlotsFAQSection from "@/components/slots/SlotsFAQSection";
 import RelatedGamesSection from "@/components/RelatedGamesSection";
 
 export const metadata = {
-  title: "Online Slots Australia | Best Slot Games at Truedinkumbet | High RTP Slots",
+  title:
+    "Online Slots Australia | Best Slot Games at Truedinkumbet | High RTP Slots",
   description:
     "Play thousands of online slot games at Truedinkumbet with high RTP, progressive jackpots, and exclusive slot bonuses. Enjoy the best slots experience in Australia from top providers like Pragmatic Play and JILI.",
   keywords:
