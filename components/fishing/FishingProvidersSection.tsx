@@ -41,43 +41,43 @@ export default function FishingProvidersSection() {
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
           {providers.map((provider, index) => (
-              <div key={index} className="text-center relative">
-                {provider.badge && (
-                  <div
-                    style={{
-                      backgroundColor: provider.badgeColor,
-                      color: "#ffffff",
-                      fontSize: "11px",
-                      fontWeight: "600",
-                      padding: "2px 8px",
-                      borderRadius: "15px",
-                      position: "absolute",
-                      top: "5px",
-                      right: "5px",
-                      zIndex: 10,
-                    }}
-                  >
-                    {provider.badge}
-                  </div>
-                )}
-                <a
-                  href="https://truedinkumbetaucasino.com/go/fishing"
-                  target="_blank"
-                  rel="sponsored noopener"
-                  className="block"
+            <div key={index} className="text-center relative">
+              {provider.badge && (
+                <div
+                  style={{
+                    backgroundColor: provider.badgeColor,
+                    color: "#ffffff",
+                    fontSize: "11px",
+                    fontWeight: "600",
+                    padding: "2px 8px",
+                    borderRadius: "15px",
+                    position: "absolute",
+                    top: "5px",
+                    right: "5px",
+                    zIndex: 10,
+                  }}
                 >
-                  <img
-                    src={provider.image}
-                    alt={provider.name}
-                    loading="lazy"
-                    decoding="async"
-                    width="240"
-                    height="300"
-                    className="w-full h-auto"
-                  />
-                </a>
-              </div>
-            ))}
+                  {provider.badge}
+                </div>
+              )}
+              <a
+                href="https://truedinkumbetaucasino.com/go/fishing"
+                target="_blank"
+                rel="sponsored noopener"
+                className="block"
+              >
+                <img
+                  src={provider.image}
+                  alt={provider.name}
+                  loading="lazy"
+                  decoding="async"
+                  width="240"
+                  height="300"
+                  className="w-full h-auto"
+                />
+              </a>
+            </div>
+          ))}
         </div>
       </div>
     </section>
