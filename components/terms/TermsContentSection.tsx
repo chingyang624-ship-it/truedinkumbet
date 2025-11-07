@@ -444,10 +444,15 @@ export default function TermsContentSection() {
                   className="w-full px-6 py-4 bg-gray-50 hover:bg-gray-100 transition-colors flex items-center justify-between"
                 >
                   <h2 className="text-lg font-semibold text-gray-900 text-left">{section.title}</h2>
-                  <ChevronDown
-                    size={20}
-                    className={`text-gray-600 transition-transform flex-shrink-0 ${isExpanded ? 'rotate-180' : ''}`}
-                  />
+                  <span
+                    className={`text-gray-600 transition-transform flex-shrink-0 inline-block text-lg`}
+                    style={{
+                      transform: isExpanded ? 'rotate(180deg)' : 'rotate(0deg)',
+                      transitionDuration: '200ms',
+                    }}
+                  >
+                    ▼
+                  </span>
                 </button>
                 {isExpanded && (
                   <div className="px-6 py-4 bg-white border-t border-gray-200">
