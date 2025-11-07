@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Toaster } from "sonner";
 import "./globals.css";
 
@@ -8,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "Play at Truedinkumbet - Australia's leading online casino with sports betting, live dealers, slots, and crypto gaming. Licensed, safe, and secure. Join now!",
   keywords:
-    "online casino Australia, sports betting, live casino, slot games, crypto casino, PAGCOR licensed, Truedinkumbet",
+    "online casino Australia, sports betting, live casino, slot games, crypto casino, PAGCOR licensed, Truedinkumbet, Australian gaming platform",
   authors: [{ name: "Truedinkumbet" }],
   creator: "Truedinkumbet",
   publisher: "Truedinkumbet",
@@ -65,6 +66,56 @@ export const metadata: Metadata = {
   },
 };
 
+const schemaData = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://truedinkumbetaucasino.com/#organization",
+      "name": "Truedinkumbet",
+      "url": "https://truedinkumbetaucasino.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+        "width": 1200,
+        "height": 630
+      },
+      "description": "Truedinkumbet is Australia's premier licensed online casino platform offering slots, live dealers, sports betting, fishing games, and crypto gaming. Licensed by PAGCOR.",
+      "sameAs": ["https://truedinkumbetaucasino.com"],
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "contactType": "Customer Support",
+        "availableLanguage": "en"
+      }
+    },
+    {
+      "@type": "LocalBusiness",
+      "@id": "https://truedinkumbetaucasino.com/#localbusiness",
+      "name": "Truedinkumbet Australia",
+      "url": "https://truedinkumbetaucasino.com",
+      "areaServed": "AU",
+      "priceRange": "$$",
+      "image": "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+      "description": "Licensed online casino and sports betting platform for Australian players with world-class gaming experience."
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://truedinkumbetaucasino.com/#website",
+      "url": "https://truedinkumbetaucasino.com",
+      "name": "Truedinkumbet",
+      "description": "Truedinkumbet - Best Online Casino & Sports Betting Australia",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://truedinkumbetaucasino.com/search?q={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+  ]
+};
+
 export default function RootLayout({
   children,
 }: {
@@ -72,6 +123,16 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <Script
+          id="schema-org"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify(schemaData),
+          }}
+          strategy="afterInteractive"
+        />
+      </head>
       <body>
         {children}
         <Toaster />
