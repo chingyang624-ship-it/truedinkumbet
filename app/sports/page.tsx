@@ -44,6 +44,33 @@ export const metadata = {
 };
 
 export default function SportsPage() {
+  const relatedGames = [
+    {
+      title: "Online Slots",
+      description:
+        "Play thousands of online slot games with high RTP and progressive jackpots. Spin and win big at Truedinkumbet.",
+      href: "/slots",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fe93f3b84925e441fae7c53c7cd43dc9b",
+    },
+    {
+      title: "Live Casino",
+      description:
+        "Experience authentic live casino gaming with professional dealers. Real-time gaming with Evolution and Playtech.",
+      href: "/live-casino",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F8c37345aca9d46bebb44b8219a5c1529",
+    },
+    {
+      title: "Fishing Games",
+      description:
+        "Play exciting fishing games with great graphics and big payouts. Easy to play, visually stunning, and fun.",
+      href: "/fishing",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F159a9265e32840a3a0b88b88fc82f47f",
+    },
+  ];
+
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
@@ -54,6 +81,7 @@ export default function SportsPage() {
         <SportsProvidersSection />
         <SportsMobileAppSection />
         <SportsFAQSection />
+        <RelatedGamesSection currentPage="sports" relatedGames={relatedGames} />
       </main>
       <Footer />
     </div>
