@@ -1,10 +1,16 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import SportsHeroSection from "@/components/sports/SportsHeroSection";
+import SportsProvidersGrid from "@/components/sports/SportsProvidersGrid";
+import SportsTypesSection from "@/components/sports/SportsTypesSection";
+import SportsProvidersSection from "@/components/sports/SportsProvidersSection";
+import SportsMobileAppSection from "@/components/sports/SportsMobileAppSection";
+import SportsFAQSection from "@/components/sports/SportsFAQSection";
 
 export const metadata = {
-  title: "Truedinkumbet Sports Betting - Bet on Your Favorite Sports",
+  title: "Truedinkumbet Sports Betting - Bet on Your Favorite Sports Australia",
   description:
-    "Bet on all major sports at Truedinkumbet with competitive odds.",
+    "Place sports bets on football, basketball, cricket, and more at Truedinkumbet. Get competitive odds and exclusive bonuses for Australian sports bettors.",
 };
 
 export default function SportsPage() {
@@ -12,24 +18,12 @@ export default function SportsPage() {
     <div className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-1 pt-16">
-        <div className="w-full bg-gray-800 text-white py-20 text-center">
-          <h1 className="text-4xl font-bold mb-4">Sports Betting</h1>
-          <p className="text-lg">Bet on all your favorite sports</p>
-        </div>
-
-        <div className="max-w-6xl mx-auto px-4 py-20">
-          <h2 className="text-3xl font-bold mb-12" style={{ color: "#1f2124" }}>
-            Popular Sports
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {["Football", "Basketball", "Tennis"].map((sport, i) => (
-              <div key={i} className="bg-white p-6 rounded-lg shadow-lg">
-                <div className="bg-gray-300 h-40 rounded mb-4"></div>
-                <h3 className="font-bold text-lg">{sport}</h3>
-              </div>
-            ))}
-          </div>
-        </div>
+        <SportsHeroSection />
+        <SportsProvidersGrid />
+        <SportsTypesSection />
+        <SportsProvidersSection />
+        <SportsMobileAppSection />
+        <SportsFAQSection />
       </main>
       <Footer />
     </div>

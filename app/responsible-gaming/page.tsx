@@ -1,10 +1,16 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import ResponsibleGamingHeroSection from "@/components/responsible-gaming/ResponsibleGamingHeroSection";
+import ResponsibleGamingIntroSection from "@/components/responsible-gaming/ResponsibleGamingIntroSection";
+import ResponsibleGamingStepsSection from "@/components/responsible-gaming/ResponsibleGamingStepsSection";
+import ResponsibleGamingSignsSection from "@/components/responsible-gaming/ResponsibleGamingSignsSection";
+import ResponsibleGamingSelfExclusionSection from "@/components/responsible-gaming/ResponsibleGamingSelfExclusionSection";
+import ResponsibleGamingResourcesSection from "@/components/responsible-gaming/ResponsibleGamingResourcesSection";
 
 export const metadata = {
-  title: "Responsible Gaming - Truedinkumbet",
+  title: "Responsible Gaming - Truedinkumbet Commitment to Safe Play",
   description:
-    "Truedinkumbet promotes responsible gaming and player protection.",
+    "Learn about responsible gaming at Truedinkumbet. Tools, resources, and support for safe and enjoyable gaming experiences.",
 };
 
 export default function ResponsibleGamingPage() {
@@ -12,24 +18,12 @@ export default function ResponsibleGamingPage() {
     <div className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-1 pt-16">
-        <div className="max-w-6xl mx-auto px-4 py-20">
-          <h1 className="text-4xl font-bold mb-8" style={{ color: "#1f2124" }}>
-            Responsible Gaming
-          </h1>
-          <p className="text-lg mb-6" style={{ color: "#6b7280" }}>
-            At Truedinkumbet, we are committed to promoting responsible gaming
-            and protecting our players.
-          </p>
-          <h2 className="text-2xl font-bold mb-4" style={{ color: "#1f2124" }}>
-            Player Protection
-          </h2>
-          <ul className="space-y-2" style={{ color: "#6b7280" }}>
-            <li>• Deposit limits</li>
-            <li>• Session timeouts</li>
-            <li>• Self-exclusion options</li>
-            <li>• Access to support resources</li>
-          </ul>
-        </div>
+        <ResponsibleGamingHeroSection />
+        <ResponsibleGamingIntroSection />
+        <ResponsibleGamingStepsSection />
+        <ResponsibleGamingSignsSection />
+        <ResponsibleGamingSelfExclusionSection />
+        <ResponsibleGamingResourcesSection />
       </main>
       <Footer />
     </div>

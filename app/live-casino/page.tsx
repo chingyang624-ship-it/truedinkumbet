@@ -1,35 +1,76 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import LiveCasinoHeroSection from "@/components/livecasino/LiveCasinoHeroSection";
+import LiveCasinoFeaturedSection from "@/components/livecasino/LiveCasinoFeaturedSection";
+import LiveCasinoIntroSection from "@/components/livecasino/LiveCasinoIntroSection";
+import LiveCasinoWhyChooseSection from "@/components/livecasino/LiveCasinoWhyChooseSection";
+import LiveCasinoProvidersSection from "@/components/livecasino/LiveCasinoProvidersSection";
+import LiveCasinoPopularGamesSection from "@/components/livecasino/LiveCasinoPopularGamesSection";
+import LiveCasinoMobileAppSection from "@/components/livecasino/LiveCasinoMobileAppSection";
+import LiveCasinoFAQSection from "@/components/livecasino/LiveCasinoFAQSection";
 
 export const metadata = {
-  title: "Truedinkumbet Live Casino - Play with Real Dealers",
+  title: "Truedinkumbet Live Casino - Play Live Dealer Games Australia",
   description:
-    "Experience authentic live casino gaming with real dealers at Truedinkumbet.",
+    "Experience authentic live casino gaming at Truedinkumbet with professional dealers, real-time action, and exclusive bonuses for Australian players.",
 };
 
 export default function LiveCasinoPage() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="flex-1 pt-16">
-        <div className="w-full bg-gray-800 text-white py-20 text-center">
-          <h1 className="text-4xl font-bold mb-4">Live Casino</h1>
-          <p className="text-lg">Play with real dealers in real-time</p>
-        </div>
-
-        <div className="max-w-6xl mx-auto px-4 py-20">
-          <h2 className="text-3xl font-bold mb-12" style={{ color: "#1f2124" }}>
-            Live Games
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {["Blackjack", "Roulette", "Baccarat"].map((game, i) => (
-              <div key={i} className="bg-white p-6 rounded-lg shadow-lg">
-                <div className="bg-gray-300 h-40 rounded mb-4"></div>
-                <h3 className="font-bold text-lg">{game}</h3>
-              </div>
-            ))}
+      <main className="flex-1">
+        <LiveCasinoHeroSection />
+        <section className="w-full">
+          <div className="hidden md:flex gap-4 justify-center py-6 px-4">
+            <a
+              href="https://truedinkumbet.com/RFSEOTDK"
+              className="px-8 py-3 rounded-lg font-semibold transition-colors"
+              style={{
+                backgroundColor: "#ffffff",
+                color: "#1f2124",
+                border: "1px solid #ddd",
+                textDecoration: "none",
+                display: "inline-block",
+              }}
+            >
+              Login
+            </a>
+            <a
+              href="https://truedinkumbet.com/RFSEOTDK"
+              className="px-8 py-3 rounded-lg font-bold text-white transition-colors"
+              style={{
+                backgroundColor: "#ff6500",
+              }}
+            >
+              Join Now
+            </a>
           </div>
-        </div>
+
+          <div className="md:hidden w-full flex gap-0">
+            <a
+              href="https://truedinkumbet.com/RFSEOTDK"
+              className="flex-1 py-3 bg-red-700 text-white font-semibold text-center transition-colors"
+              style={{ borderRadius: 0 }}
+            >
+              Join
+            </a>
+            <a
+              href="https://truedinkumbet.com/RFSEOTDK"
+              className="flex-1 py-3 bg-blue-600 text-white font-semibold text-center transition-colors"
+              style={{ borderRadius: 0 }}
+            >
+              Login
+            </a>
+          </div>
+        </section>
+        <LiveCasinoFeaturedSection />
+        <LiveCasinoIntroSection />
+        <LiveCasinoWhyChooseSection />
+        <LiveCasinoProvidersSection />
+        <LiveCasinoPopularGamesSection />
+        <LiveCasinoMobileAppSection />
+        <LiveCasinoFAQSection />
       </main>
       <Footer />
     </div>

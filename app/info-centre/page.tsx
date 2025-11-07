@@ -1,10 +1,12 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import InfoCentreHeroSection from "@/components/info-centre/InfoCentreHeroSection";
+import InfoCentreFAQSection from "@/components/info-centre/InfoCentreFAQSection";
 
 export const metadata = {
-  title: "Truedinkumbet Info Centre - Guides & Help",
+  title: "Info Centre - Truedinkumbet Help & Support",
   description:
-    "Get help and information about Truedinkumbet games and features.",
+    "Get answers to your questions about Truedinkumbet games, accounts, bonuses, and responsible gaming.",
 };
 
 export default function InfoCentrePage() {
@@ -12,36 +14,8 @@ export default function InfoCentrePage() {
     <div className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-1 pt-16">
-        <div className="max-w-6xl mx-auto px-4 py-20">
-          <h1 className="text-4xl font-bold mb-8" style={{ color: "#1f2124" }}>
-            Info Centre
-          </h1>
-          <div className="space-y-6">
-            <div>
-              <h2
-                className="text-2xl font-bold mb-4"
-                style={{ color: "#1f2124" }}
-              >
-                How to Play
-              </h2>
-              <p style={{ color: "#6b7280" }}>
-                Learn how to play all our games and get the most out of your
-                experience.
-              </p>
-            </div>
-            <div>
-              <h2
-                className="text-2xl font-bold mb-4"
-                style={{ color: "#1f2124" }}
-              >
-                Payment Methods
-              </h2>
-              <p style={{ color: "#6b7280" }}>
-                We accept various payment methods for your convenience.
-              </p>
-            </div>
-          </div>
-        </div>
+        <InfoCentreHeroSection />
+        <InfoCentreFAQSection />
       </main>
       <Footer />
     </div>
