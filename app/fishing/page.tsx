@@ -19,7 +19,7 @@ export const metadata = {
     title: "Fishing Games at Truedinkumbet - Online Fishing Entertainment",
     description: "Enjoy thrilling fishing games with great graphics and payouts at Truedinkumbet. Play and win today!",
     type: "website",
-    url: "https://truedinkumbet.com/fishing",
+    url: "https://truedinkumbetaucasino.com/fishing",
     images: [
       {
         url: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
