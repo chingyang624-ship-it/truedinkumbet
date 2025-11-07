@@ -14,7 +14,7 @@ export const metadata = {
     title: "About Truedinkumbet - Australia's Trusted Online Casino",
     description: "Discover Truedinkumbet's mission, vision, and commitment to providing safe, secure, and enjoyable gaming experiences.",
     type: "website",
-    url: "https://truedinkumbet.com/about",
+    url: "https://truedinkumbetaucasino.com/about",
     images: [
       {
         url: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
