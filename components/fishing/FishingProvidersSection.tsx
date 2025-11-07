@@ -40,9 +40,7 @@ export default function FishingProvidersSection() {
     >
       <div className="max-w-6xl mx-auto">
         <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-          {providers
-            .filter((p) => !p.centered)
-            .map((provider, index) => (
+          {providers.map((provider, index) => (
               <div key={index} className="text-center relative">
                 {provider.badge && (
                   <div
