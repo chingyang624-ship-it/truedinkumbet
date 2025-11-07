@@ -1,11 +1,11 @@
 "use client";
 
-import { useState } from "react";
+import { useState, ReactNode } from "react";
 
 interface TermsSection {
   id: string;
   title: string;
-  content: string | React.ReactNode;
+  content: string | ReactNode;
 }
 
 export default function TermsContentSection() {
