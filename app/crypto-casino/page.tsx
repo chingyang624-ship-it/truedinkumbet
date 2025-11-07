@@ -8,16 +8,16 @@ import CryptoCasinoFeaturesSection from "@/components/crypto-casino/CryptoCasino
 import CryptoCasinoFAQSection from "@/components/crypto-casino/CryptoCasinoFAQSection";
 
 export const metadata = {
-  title: "Crypto Casino at Truedinkumbet | Bitcoin & Crypto Games Australia",
+  title: "Crypto Casino Australia | Bitcoin & Crypto Games at Truedinkumbet",
   description:
-    "Play crypto casino games with Bitcoin, Ethereum, and other cryptocurrencies at Truedinkumbet. Fast transactions, secure, and exclusive crypto bonuses.",
+    "Play crypto casino games with Bitcoin, Ethereum, and other cryptocurrencies at Truedinkumbet. Fast transactions, secure, and exclusive crypto bonuses for Australian players.",
   keywords:
-    "crypto casino Australia, Bitcoin casino, Ethereum casino, cryptocurrency gambling, blockchain gaming, Truedinkumbet",
+    "crypto casino Australia, Bitcoin casino, Ethereum casino, cryptocurrency gambling, blockchain gaming, digital currency casino, Truedinkumbet crypto",
   authors: [{ name: "Truedinkumbet" }],
   openGraph: {
-    title: "Crypto Casino at Truedinkumbet - Bitcoin & Crypto Games",
+    title: "Crypto Casino Australia - Bitcoin & Crypto Games at Truedinkumbet",
     description:
-      "Play casino games with cryptocurrency at Truedinkumbet. Fast, secure transactions with Bitcoin and other cryptocurrencies.",
+      "Play casino games with cryptocurrency at Truedinkumbet. Fast, secure transactions with Bitcoin, Ethereum, and other cryptocurrencies.",
     type: "website",
     url: "https://truedinkumbetaucasino.com/crypto-casino",
     images: [
@@ -31,9 +31,12 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Crypto Casino at Truedinkumbet - Bitcoin Games Australia",
+    title: "Crypto Casino Australia - Bitcoin Games at Truedinkumbet",
     description:
-      "Play crypto casino games with Bitcoin and other cryptocurrencies at Truedinkumbet.",
+      "Play crypto casino games with Bitcoin and other cryptocurrencies at Truedinkumbet. Fast and secure transactions.",
+    images: [
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    ],
   },
   robots: "index, follow",
 };
