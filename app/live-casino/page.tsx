@@ -10,18 +10,19 @@ import LiveCasinoMobileAppSection from "@/components/livecasino/LiveCasinoMobile
 import LiveCasinoFAQSection from "@/components/livecasino/LiveCasinoFAQSection";
 
 export const metadata = {
-  title: "Live Casino at Truedinkumbet | Real Dealers & Live Games Australia",
+  title: "Live Casino Australia | Real Dealers & Live Games at Truedinkumbet",
   description:
-    "Experience authentic live casino gaming with professional dealers at Truedinkumbet. Live blackjack, roulette, baccarat, and more. Licensed for Australia.",
+    "Experience authentic live casino gaming with professional dealers at Truedinkumbet. Play live blackjack, roulette, baccarat, poker, and more. Licensed and secure for Australian players.",
   keywords:
-    "live casino Australia, live dealers, live blackjack, live roulette, live baccarat, real money casino, Truedinkumbet",
+    "live casino Australia, live dealers, live blackjack, live roulette, live baccarat, live poker, real money casino games, Truedinkumbet live casino",
   authors: [{ name: "Truedinkumbet" }],
   openGraph: {
-    title: "Live Casino at Truedinkumbet - Real Dealers Australia",
+    title: "Live Casino Australia - Real Dealers at Truedinkumbet",
     description:
-      "Join real live casino games with professional dealers at Truedinkumbet. Immersive gaming experience with exclusive live casino bonuses.",
+      "Join real live casino games with professional dealers at Truedinkumbet. Immersive gaming experience with exclusive live casino bonuses and 24/7 availability.",
     type: "website",
     url: "https://truedinkumbetaucasino.com/live-casino",
+    type: "website",
     images: [
       {
         url: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
@@ -33,9 +34,12 @@ export const metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Live Casino at Truedinkumbet - Real Dealers Australia",
+    title: "Live Casino Australia - Real Dealers at Truedinkumbet",
     description:
-      "Experience authentic live casino gaming with professional dealers at Truedinkumbet.",
+      "Experience authentic live casino gaming with professional dealers. Play live blackjack, roulette, baccarat, and more at Truedinkumbet.",
+    images: [
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    ],
   },
   robots: "index, follow",
 };
