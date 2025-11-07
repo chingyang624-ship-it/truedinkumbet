@@ -23,7 +23,6 @@ export const metadata = {
       "Join real live casino games with professional dealers at Truedinkumbet. Immersive gaming experience with exclusive live casino bonuses and 24/7 availability.",
     type: "website",
     url: "https://truedinkumbetaucasino.com/live-casino",
-    type: "website",
     images: [
       {
         url: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
