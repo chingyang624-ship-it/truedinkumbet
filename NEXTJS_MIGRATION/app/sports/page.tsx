@@ -9,11 +9,6 @@ import SportsProvidersSection from "@/components/sports/SportsProvidersSection";
 import SportsMobileAppSection from "@/components/sports/SportsMobileAppSection";
 import SportsFAQSection from "@/components/sports/SportsFAQSection";
 
-export const metadata = {
-  title: "Sports Betting - Truedinkumbet",
-  description: "Best sports betting platform in Australia",
-};
-
 export default function SportsPage() {
   return (
     <div className="min-h-screen flex flex-col">

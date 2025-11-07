@@ -5,11 +5,6 @@ import Footer from "@/components/Footer";
 import InfoCentreHeroSection from "@/components/info-centre/InfoCentreHeroSection";
 import InfoCentreFAQSection from "@/components/info-centre/InfoCentreFAQSection";
 
-export const metadata = {
-  title: "Info Centre - Truedinkumbet",
-  description: "Information and help centre for Truedinkumbet",
-};
-
 export default function InfoCentrePage() {
   return (
     <div className="min-h-screen flex flex-col">

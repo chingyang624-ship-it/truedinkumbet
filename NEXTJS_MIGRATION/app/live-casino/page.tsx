@@ -11,11 +11,6 @@ import LiveCasinoPopularGamesSection from "@/components/livecasino/LiveCasinoPop
 import LiveCasinoMobileAppSection from "@/components/livecasino/LiveCasinoMobileAppSection";
 import LiveCasinoFAQSection from "@/components/livecasino/LiveCasinoFAQSection";
 
-export const metadata = {
-  title: "Live Casino - Truedinkumbet",
-  description: "Play live casino games at Truedinkumbet",
-};
-
 export default function LiveCasinoPage() {
   return (
     <div className="min-h-screen flex flex-col">

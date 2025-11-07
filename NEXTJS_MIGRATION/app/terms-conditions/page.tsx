@@ -5,11 +5,6 @@ import Footer from "@/components/Footer";
 import TermsHeroSection from "@/components/terms/TermsHeroSection";
 import TermsContentSection from "@/components/terms/TermsContentSection";
 
-export const metadata = {
-  title: "Terms & Conditions - Truedinkumbet",
-  description: "Terms and conditions for using Truedinkumbet",
-};
-
 export default function TermsAndConditionsPage() {
   return (
     <div className="min-h-screen flex flex-col">

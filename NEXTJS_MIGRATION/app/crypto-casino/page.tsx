@@ -9,11 +9,6 @@ import CryptoCasinoProvidersSection from "@/components/crypto-casino/CryptoCasin
 import CryptoCasinoFeaturesSection from "@/components/crypto-casino/CryptoCasinoFeaturesSection";
 import CryptoCasinoFAQSection from "@/components/crypto-casino/CryptoCasinoFAQSection";
 
-export const metadata = {
-  title: "Crypto Casino - Truedinkumbet",
-  description: "Play with cryptocurrency at Truedinkumbet",
-};
-
 export default function CryptoCasinoPage() {
   return (
     <div className="min-h-screen flex flex-col" style={{ minHeight: "910px" }}>

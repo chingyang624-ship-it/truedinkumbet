@@ -12,11 +12,6 @@ import FishingProvidersDetailsSection from "@/components/fishing/FishingProvider
 import FishingMobileAppSection from "@/components/fishing/FishingMobileAppSection";
 import FishingFAQSection from "@/components/fishing/FishingFAQSection";
 
-export const metadata = {
-  title: "Fishing Games - Truedinkumbet",
-  description: "Play fun fishing games at Truedinkumbet",
-};
-
 export default function FishingPage() {
   return (
     <div className="min-h-screen flex flex-col">

@@ -9,11 +9,6 @@ import ResponsibleGamingSignsSection from "@/components/responsible-gaming/Respo
 import ResponsibleGamingSelfExclusionSection from "@/components/responsible-gaming/ResponsibleGamingSelfExclusionSection";
 import ResponsibleGamingResourcesSection from "@/components/responsible-gaming/ResponsibleGamingResourcesSection";
 
-export const metadata = {
-  title: "Responsible Gaming - Truedinkumbet",
-  description: "Responsible gaming resources and information",
-};
-
 export default function ResponsibleGamingPage() {
   return (
     <div className="min-h-screen flex flex-col">
