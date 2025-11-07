@@ -8,6 +8,7 @@ import LiveCasinoProvidersSection from "@/components/livecasino/LiveCasinoProvid
 import LiveCasinoPopularGamesSection from "@/components/livecasino/LiveCasinoPopularGamesSection";
 import LiveCasinoMobileAppSection from "@/components/livecasino/LiveCasinoMobileAppSection";
 import LiveCasinoFAQSection from "@/components/livecasino/LiveCasinoFAQSection";
+import RelatedGamesSection from "@/components/RelatedGamesSection";
 
 export const metadata = {
   title: "Live Casino Australia | Real Dealers & Live Games at Truedinkumbet",
