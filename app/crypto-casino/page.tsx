@@ -8,9 +8,30 @@ import CryptoCasinoFeaturesSection from "@/components/crypto-casino/CryptoCasino
 import CryptoCasinoFAQSection from "@/components/crypto-casino/CryptoCasinoFAQSection";
 
 export const metadata = {
-  title: "Truedinkumbet Crypto Casino - Bitcoin & Crypto Games Australia",
-  description:
-    "Play crypto casino games with Bitcoin and other cryptocurrencies at Truedinkumbet. Secure, fast transactions and exclusive crypto bonuses.",
+  title: "Crypto Casino at Truedinkumbet | Bitcoin & Crypto Games Australia",
+  description: "Play crypto casino games with Bitcoin, Ethereum, and other cryptocurrencies at Truedinkumbet. Fast transactions, secure, and exclusive crypto bonuses.",
+  keywords: "crypto casino Australia, Bitcoin casino, Ethereum casino, cryptocurrency gambling, blockchain gaming, Truedinkumbet",
+  authors: [{ name: "Truedinkumbet" }],
+  openGraph: {
+    title: "Crypto Casino at Truedinkumbet - Bitcoin & Crypto Games",
+    description: "Play casino games with cryptocurrency at Truedinkumbet. Fast, secure transactions with Bitcoin and other cryptocurrencies.",
+    type: "website",
+    url: "https://truedinkumbet.com/crypto-casino",
+    images: [
+      {
+        url: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+        width: 1200,
+        height: 630,
+        alt: "Truedinkumbet Crypto Casino",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Crypto Casino at Truedinkumbet - Bitcoin Games Australia",
+    description: "Play crypto casino games with Bitcoin and other cryptocurrencies at Truedinkumbet.",
+  },
+  robots: "index, follow",
 };
 
 export default function CryptoCasinoPage() {
