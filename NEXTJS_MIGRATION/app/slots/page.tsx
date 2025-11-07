@@ -1,3 +1,5 @@
+"use client";
+
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SlotsHeroSection from "@/components/slots/SlotsHeroSection";
