@@ -1,3 +1,5 @@
+"use client";
+
 export default function MobileAppSection() {
   return (
     <section className="py-20 px-4 bg-gray-50">
