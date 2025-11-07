@@ -129,7 +129,7 @@ export default function SportsProvidersGrid() {
                           transitionDuration: '0.3s',
                           verticalAlign: 'middle',
                           width: 'auto',
-                          height: 'auto',
+                          height: '250px',
                           minHeight: 'auto',
                           margin: '0 auto',
                         }}
