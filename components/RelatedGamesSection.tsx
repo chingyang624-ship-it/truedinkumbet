@@ -8,12 +8,10 @@ interface RelatedGame {
 }
 
 interface RelatedGamesSectionProps {
-  currentPage: string;
   relatedGames: RelatedGame[];
 }
 
 export default function RelatedGamesSection({
-  currentPage,
   relatedGames,
 }: RelatedGamesSectionProps) {
   return (
