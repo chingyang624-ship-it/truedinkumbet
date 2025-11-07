@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import { ChevronDown } from 'lucide-react';
 
 const faqs = [
   {
@@ -72,10 +71,17 @@ export default function SlotsFAQSection() {
                 className="w-full px-6 py-4 flex items-center justify-between hover:bg-gray-50 transition-colors text-left"
               >
                 <span className="font-semibold text-gray-900">{faq.question}</span>
-                <ChevronDown
-                  size={20}
-                  className={`text-gray-600 transition-transform ${openIndex === index ? 'rotate-180' : ''}`}
-                />
+                <span
+                  className={`text-gray-600 transition-transform inline-block ${
+                    openIndex === index ? 'rotate-180' : ''
+                  }`}
+                  style={{
+                    display: 'inline-block',
+                    transform: openIndex === index ? 'rotate(180deg)' : 'rotate(0deg)',
+                  }}
+                >
+                  ▼
+                </span>
               </button>
 
               {openIndex === index && (
