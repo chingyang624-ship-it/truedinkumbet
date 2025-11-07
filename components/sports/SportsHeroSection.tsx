@@ -1,7 +1,7 @@
 export default function SportsHeroSection() {
   return (
     <section className="w-full pt-8 md:pt-16">
-      <a href="https://truedinkumbetaucasino.com/RFSEOTDK" className="block w-full">
+      <a href="https://truedinkumbet.com/RFSEOTDK" className="block w-full">
         <img
           alt="Truedinkumbet Sports Banner"
           loading="lazy"
