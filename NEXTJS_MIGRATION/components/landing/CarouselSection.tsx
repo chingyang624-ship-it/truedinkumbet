@@ -1,97 +1,122 @@
 "use client";
 
-import { useState, useRef } from "react";
+import { useState, useEffect } from "react";
 
 export default function CarouselSection() {
-  const carouselRef = useRef<HTMLDivElement>(null);
+  const [currentSlide, setCurrentSlide] = useState(0);
 
-  const featuredGames = [
+  const slides = [
     {
-      title: "Thunder Coins XXL",
+      title: "BETA-ALL-GresiniAnnouncement-2000x525-en 1",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fd6a97f0fb86d4aea867de4a87ac99c79?format=webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F3c2dd3b441354457b71fdfa1614b8ba9",
     },
     {
-      title: "Coin Strike 2",
+      title: "Truedinkumbet-Burnley-FC-Partnership",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F5b8ad9a2f8c84bfa9cc9a77c79f4b9c8?format=webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F603ab0ba627a41b58099ecbea3cbacbe",
     },
     {
-      title: "Boxing King",
+      title: "banner20250124082758635",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff8c8d9e7b8a9c9d0e1f2a3b4c5d6e7f8?format=webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff651e9de69e140649352c9998b761560",
     },
     {
-      title: "Big Red",
+      title: "banner20250228093805642",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fe7f6a5b4c3d2e1f0a9b8c7d6e5f4a3b2?format=webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fdd6a28c4c0ef4eaf9136674ea0e0e0ec",
+    },
+    {
+      title: "banner20241024105658074",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fcc9ebbe3e8774784b6ba2cbbec1aa215",
     },
   ];
 
-  const scroll = (direction: "left" | "right") => {
-    if (carouselRef.current) {
-      const scrollAmount = 300;
-      if (direction === "left") {
-        carouselRef.current.scrollLeft -= scrollAmount;
-      } else {
-        carouselRef.current.scrollLeft += scrollAmount;
-      }
-    }
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCurrentSlide((prev) => (prev + 1) % slides.length);
+    }, 5000);
+    return () => clearInterval(interval);
+  }, [slides.length]);
+
+  const goToSlide = (index: number) => {
+    setCurrentSlide(index);
   };
 
   return (
-    <section className="py-20 px-4 bg-gray-50">
-      <div className="max-w-6xl mx-auto">
-        <h2
-          className="text-3xl font-bold text-center mb-12"
-          style={{ color: "#1f2124" }}
-        >
-          Featured Games
-        </h2>
+    <div
+      className="relative w-full bg-slate-50 pt-20 pb-4"
+      role="region"
+      aria-label="Home Page"
+      tabIndex={0}
+    >
+      <div className="text-center w-full">
+        <div className="relative overflow-hidden">
+          <div className="relative text-center">
+            {/* Slides */}
+            <ul className="relative text-center list-none m-0 p-0">
+              {slides.map((slide, index) => (
+                <li
+                  key={index}
+                  className={`absolute left-0 top-0 w-full text-center ${
+                    index === currentSlide
+                      ? "relative z-20 opacity-100 visible"
+                      : "opacity-0 invisible"
+                  }`}
+                  style={{
+                    backfaceVisibility: "hidden",
+                    float: index === currentSlide ? "left" : "left",
+                    marginRight: "-100%",
+                    width: "100%",
+                  }}
+                >
+                  <a
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    href="https://truedinkumbet.com/RFSEOTDK"
+                    className="inline-block"
+                    aria-label="View Slide Details"
+                  >
+                    <img
+                      height="349"
+                      width="1200"
+                      alt={slide.title}
+                      title={slide.title}
+                      draggable="false"
+                      loading="lazy"
+                      src={slide.image}
+                      className="w-full h-auto"
+                      style={{ paddingRight: "2px", margin: "0 200px -5px 0" }}
+                    />
+                  </a>
+                </li>
+              ))}
+            </ul>
 
-        <div className="relative">
-          <div
-            ref={carouselRef}
-            className="flex gap-4 overflow-x-auto scroll-smooth pb-4"
-            style={{ scrollBehavior: "smooth" }}
-          >
-            {featuredGames.map((game, index) => (
-              <div key={index} className="flex-shrink-0 w-56">
-                <div className="bg-white rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
-                  <img
-                    src={game.image}
-                    alt={game.title}
-                    className="w-full h-64 object-cover"
+            {/* Slide Controls */}
+            <ol
+              aria-label="Slide controls"
+              className="absolute bottom-6 left-10 flex gap-3 z-20 list-none m-0 p-0"
+            >
+              {slides.map((_, index) => (
+                <li key={index} role="presentation">
+                  <button
+                    aria-label={`Show slide ${index + 1} of ${slides.length}`}
+                    role="tab"
+                    onClick={() => goToSlide(index)}
+                    className={`h-3 rounded-full transition-all ${
+                      index === currentSlide
+                        ? "bg-yellow-400 w-8 cursor-default"
+                        : "bg-white w-3 cursor-pointer hover:w-4"
+                    }`}
                   />
-                  <div className="p-4">
-                    <h3
-                      className="font-bold text-lg"
-                      style={{ color: "#1f2124" }}
-                    >
-                      {game.title}
-                    </h3>
-                  </div>
-                </div>
-              </div>
-            ))}
+                </li>
+              ))}
+            </ol>
           </div>
-
-          <button
-            onClick={() => scroll("left")}
-            className="absolute left-0 top-1/2 -translate-y-1/2 bg-white rounded-full p-2 shadow-lg hover:bg-gray-100 z-10"
-            aria-label="Previous games"
-          >
-            ←
-          </button>
-          <button
-            onClick={() => scroll("right")}
-            className="absolute right-0 top-1/2 -translate-y-1/2 bg-white rounded-full p-2 shadow-lg hover:bg-gray-100 z-10"
-            aria-label="Next games"
-          >
-            →
-          </button>
         </div>
       </div>
-    </section>
+    </div>
   );
 }
