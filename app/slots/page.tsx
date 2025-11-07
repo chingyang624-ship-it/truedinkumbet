@@ -1,5 +1,14 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
+import SlotsHeroSection from "@/components/slots/SlotsHeroSection";
+import SlotsCarouselSection from "@/components/slots/SlotsCarouselSection";
+import SlotsIntroSection from "@/components/slots/SlotsIntroSection";
+import SlotsWhyChooseSection from "@/components/slots/SlotsWhyChooseSection";
+import SlotsBonusesSection from "@/components/slots/SlotsBonusesSection";
+import SlotsProvidersSection from "@/components/slots/SlotsProvidersSection";
+import SlotsPopularGamesSection from "@/components/slots/SlotsPopularGamesSection";
+import SlotsTipsSection from "@/components/slots/SlotsTipsSection";
+import SlotsFAQSection from "@/components/slots/SlotsFAQSection";
 
 export const metadata = {
   title: "Truedinkumbet Slots - Play Best Slot Games Australia",
@@ -12,24 +21,15 @@ export default function SlotsPage() {
     <div className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-1 pt-16">
-        <div className="w-full bg-gray-800 text-white py-20 text-center">
-          <h1 className="text-4xl font-bold mb-4">Truedinkumbet Slots</h1>
-          <p className="text-lg">Play thousands of amazing slot games</p>
-        </div>
-
-        <div className="max-w-6xl mx-auto px-4 py-20">
-          <h2 className="text-3xl font-bold mb-12" style={{ color: "#1f2124" }}>
-            Featured Slots
-          </h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {["Thunder Coins XXL", "Boxing King", "Big Red"].map((slot, i) => (
-              <div key={i} className="bg-white p-6 rounded-lg shadow-lg">
-                <div className="bg-gray-300 h-40 rounded mb-4"></div>
-                <h3 className="font-bold text-lg">{slot}</h3>
-              </div>
-            ))}
-          </div>
-        </div>
+        <SlotsHeroSection />
+        <SlotsCarouselSection />
+        <SlotsIntroSection />
+        <SlotsWhyChooseSection />
+        <SlotsBonusesSection />
+        <SlotsProvidersSection />
+        <SlotsPopularGamesSection />
+        <SlotsTipsSection />
+        <SlotsFAQSection />
       </main>
       <Footer />
     </div>
