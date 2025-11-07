@@ -86,13 +86,13 @@ export default function Header() {
 
           <div className="hidden md:flex flex-[0.25] gap-4 text-right py-2 px-2">
             <a
-              href="https://truedinkumbet.com/RFSEOTDK"
+              href="https://truedinkumbetaucasino.com/RFSEOTDK"
               className="text-sm font-medium text-gray-800 hover:text-gray-600 transition-colors"
             >
               Login
             </a>
             <a
-              href="https://truedinkumbet.com/RFSEOTDK"
+              href="https://truedinkumbetaucasino.com/RFSEOTDK"
               className="inline-block text-sm font-bold text-white bg-orange-500 rounded-lg px-3 py-2 hover:bg-orange-600 transition-all animate-bounce"
             >
               Join Now
