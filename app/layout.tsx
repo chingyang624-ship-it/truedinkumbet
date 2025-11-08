@@ -76,9 +76,9 @@ const schemaData = {
       "url": "https://truedinkumbetaucasino.com",
       "logo": {
         "@type": "ImageObject",
-        "url": "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
-        "width": 1200,
-        "height": 630
+        "url": "https://static.gwvkyk.com/media/8a16cfeb83986d7cdadcf.jpg",
+        "width": 640,
+        "height": 640
       },
       "description": "Truedinkumbet is Australia's premier licensed online casino platform offering slots, live dealers, sports betting, fishing games, and crypto gaming. Licensed by PAGCOR.",
       "sameAs": ["https://truedinkumbetaucasino.com"],
