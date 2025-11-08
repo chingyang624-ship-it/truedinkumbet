@@ -64,6 +64,10 @@ export const metadata: Metadata = {
   verification: {
     google: "google-site-verification-code",
   },
+  icons: {
+    icon: "https://static.gwvkyk.com/media/8a16cfeb83986d7cdadcf.jpg",
+    apple: "https://static.gwvkyk.com/media/8a16cfeb83986d7cdadcf.jpg",
+  },
 };
 
 const schemaData = {
