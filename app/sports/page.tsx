@@ -6,9 +6,7 @@ import SportsTypesSection from "@/components/sports/SportsTypesSection";
 import SportsProvidersSection from "@/components/sports/SportsProvidersSection";
 import SportsMobileAppSection from "@/components/sports/SportsMobileAppSection";
 import SportsFAQSection from "@/components/sports/SportsFAQSection";
-import LiveCasinoAllProvidersGridSection from "@/components/livecasino/LiveCasinoAllProvidersGridSection";
-import LiveCasinoAllGamesGridSection from "@/components/livecasino/LiveCasinoAllGamesGridSection";
-import LiveCasinoComprehensiveSEOContent from "@/components/livecasino/LiveCasinoComprehensiveSEOContent";
+import SportsComprehensiveSEOContent from "@/components/sports/SportsComprehensiveSEOContent";
 import RelatedGamesSection from "@/components/RelatedGamesSection";
 
 export const metadata = {
@@ -84,9 +82,7 @@ export default function SportsPage() {
         <SportsProvidersSection />
         <SportsMobileAppSection />
         <SportsFAQSection />
-        <LiveCasinoAllProvidersGridSection />
-        <LiveCasinoAllGamesGridSection />
-        <LiveCasinoComprehensiveSEOContent />
+        <SportsComprehensiveSEOContent />
         <RelatedGamesSection relatedGames={relatedGames} />
       </main>
       <Footer />
