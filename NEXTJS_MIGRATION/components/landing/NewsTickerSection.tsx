@@ -6,7 +6,7 @@ export default function NewsTickerSection() {
       <div className="max-w-6xl mx-auto">
         <p className="text-sm text-gray-700">
           <span className="font-bold text-orange-500">News</span>{" "}
-          Deposit with Bitcoin or USDT at BK8 and claim weekly rewards up to MYR888. Fast, secure, and effortless.
+          Deposit with Bitcoin or USDT at Truedinkumbet and claim weekly rewards up to AUD888. Fast, secure, and effortless.
         </p>
       </div>
     </div>

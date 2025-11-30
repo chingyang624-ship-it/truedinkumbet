@@ -14,7 +14,7 @@ import BonusesSection from "@/components/landing/BonusesSection";
 import TestimonialsSection from "@/components/landing/TestimonialsSection";
 import LiveCasinoGamesSection from "@/components/landing/LiveCasinoGamesSection";
 import PopularGamesSection from "@/components/landing/PopularGamesSection";
-import WhyChooseBK8Section from "@/components/landing/WhyChooseBK8Section";
+import WhyChooseTruedinkumbetSection from "@/components/landing/WhyChooseTruedinkumbetSection";
 import PaymentMethodsSection from "@/components/landing/PaymentMethodsSection";
 import GameProvidersSection from "@/components/landing/GameProvidersSection";
 import VIPSection from "@/components/landing/VIPSection";
@@ -81,7 +81,7 @@ export default function Home() {
         <TestimonialsSection />
         <LiveCasinoGamesSection />
         <PopularGamesSection />
-        <WhyChooseBK8Section />
+        <WhyChooseTruedinkumbetSection />
         <PaymentMethodsSection />
         <GameProvidersSection />
         <VIPSection />
