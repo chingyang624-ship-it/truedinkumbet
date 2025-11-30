@@ -3,27 +3,27 @@ import { useState, useRef } from 'react';
 const featuredProviders = [
   {
     title: 'Sexy Baccarat Live Casino',
-    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F7cd266f836fc457c9cbca7d99c74084e',
+    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ffa6122ff258b496e9a87e8522f7f2e27',
     badge: 'Hot',
   },
   {
     title: 'Big Gaming Live Casino',
-    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ffe9553cccaf04381a8de3fdd36b4756f',
+    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F392af0e5d9cc4ac09548568a64679cc7',
     badge: 'Hot',
   },
   {
     title: 'Pragmatic Play Live Casino',
-    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F56ce338cdc13440abaa4da451142cadf',
+    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fc7b18a7d6f2a4cb58fac818acd3a91a8',
     badge: 'New',
   },
   {
     title: 'Yeebet Live Casino',
-    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F3213fb0fe817413285dd7d6ff46f164a',
+    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fadd339ac6d4546188cd424454da935f6',
     badge: 'Hot',
   },
   {
     title: 'Playtech Live Casino',
-    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F7fc6904e783647c6a6ddece861a07762',
+    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fd06cde696c644e1b9a1992d279378bcb',
     badge: 'Hot',
   },
 ];
@@ -105,7 +105,7 @@ export default function LiveCasinoFeaturedSection() {
                       loading="lazy"
                       src={provider.image}
                       className="w-full h-auto object-cover"
-                      style={{ height: '225px' }}
+                      style={{ height: '310px' }}
                     />
                   </a>
                 </div>
