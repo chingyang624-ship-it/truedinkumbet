@@ -2,14 +2,34 @@
 
 export default function GameProvidersSection() {
   const providers = [
-    { name: "Evolution Gaming", logo: "🎮" },
-    { name: "Pragmatic Play", logo: "🎰" },
-    { name: "Microgaming", logo: "🎲" },
-    { name: "NetEnt", logo: "🎯" },
-    { name: "Playtech", logo: "🃏" },
-    { name: "Play'n GO", logo: "🎪" },
-    { name: "Red Tiger", logo: "🐅" },
-    { name: "Yggdrasil", logo: "🌳" },
+    { 
+      name: "Evolution Gaming", 
+      logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F7495d6913744419fb529ec28af93f0a1?format=webp&width=800" 
+    },
+    { 
+      name: "Pragmatic Play", 
+      logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fc24be77a922b4324a0d9bcf97d20a09b?format=webp&width=800" 
+    },
+    { 
+      name: "Microgaming", 
+      logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F31f9d128879a4d31bc5a6164f3c00a41?format=webp&width=800" 
+    },
+    { 
+      name: "Playtech", 
+      logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fdd0b2c1988574f75b311ef206ea39cbe?format=webp&width=800" 
+    },
+    { 
+      name: "Play'n GO", 
+      logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F4988d426ac444e389741208ababcfecf?format=webp&width=800" 
+    },
+    { 
+      name: "Red Tiger", 
+      logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fda9462dd466940c59768a2191f76eb3b?format=webp&width=800" 
+    },
+    { 
+      name: "Yggdrasil", 
+      logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F4b237b89427e497aafe3458f7e14ad6f?format=webp&width=800" 
+    },
   ];
 
   return (
@@ -26,12 +46,14 @@ export default function GameProvidersSection() {
           {providers.map((provider, index) => (
             <div
               key={index}
-              className="bg-white rounded-lg p-6 flex flex-col items-center justify-center hover:shadow-lg transition-shadow"
+              className="bg-white rounded-lg p-6 flex items-center justify-center hover:shadow-lg transition-shadow min-h-[120px]"
             >
-              <div className="text-4xl mb-3">{provider.logo}</div>
-              <p className="text-sm font-semibold text-gray-800 text-center">
-                {provider.name}
-              </p>
+              <img
+                src={provider.logo}
+                alt={provider.name}
+                className="max-h-16 max-w-full object-contain grayscale hover:grayscale-0 transition-all"
+                loading="lazy"
+              />
             </div>
           ))}
         </div>
