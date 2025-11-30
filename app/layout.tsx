@@ -1,3 +1,10 @@
+import "./globals.css";
+
+export const metadata = {
+  title: "Truedinkumbet",
+  description: "Online Casino",
+};
+
 export default function RootLayout({
   children,
 }: {
