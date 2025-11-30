@@ -14,37 +14,43 @@ const liveCasinoGames: LiveCasinoGame[] = [
     id: 1,
     title: "Crazy Time",
     provider: "Evolution Gaming",
-    image: "https://www.bk8.services/wp-content/uploads/2023/04/live-casino-carousel-1.webp",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2023/04/live-casino-carousel-1.webp",
   },
   {
     id: 2,
     title: "Super Sic-Bo",
     provider: "Evolution Gaming",
-    image: "https://www.bk8.services/wp-content/uploads/2023/04/live-casino-carousel-2.webp",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2023/04/live-casino-carousel-2.webp",
   },
   {
     id: 3,
     title: "Mega Ball",
     provider: "Evolution Gaming",
-    image: "https://www.bk8.services/wp-content/uploads/2023/04/live-casino-carousel-3.webp",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2023/04/live-casino-carousel-3.webp",
   },
   {
     id: 4,
     title: "Lightning Dice",
     provider: "Evolution Gaming",
-    image: "https://www.bk8.services/wp-content/uploads/2023/04/live-casino-carousel-4.webp",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2023/04/live-casino-carousel-4.webp",
   },
   {
     id: 5,
     title: "Lightning Baccarat",
     provider: "Evolution Gaming",
-    image: "https://www.bk8.services/wp-content/uploads/2023/04/live-casino-carousel-5.webp",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2023/04/live-casino-carousel-5.webp",
   },
   {
     id: 6,
     title: "Lightning Roulette",
     provider: "Evolution Gaming",
-    image: "https://www.bk8.services/wp-content/uploads/2023/04/live-casino-carousel-6.webp",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2023/04/live-casino-carousel-6.webp",
   },
 ];
 
@@ -70,7 +76,7 @@ export default function LiveCasinoGamesSection() {
 
   const nextSlide = () => {
     setCurrentIndex((prev) =>
-      prev + itemsPerPage >= liveCasinoGames.length ? 0 : prev + itemsPerPage
+      prev + itemsPerPage >= liveCasinoGames.length ? 0 : prev + itemsPerPage,
     );
   };
 
@@ -78,7 +84,7 @@ export default function LiveCasinoGamesSection() {
     setCurrentIndex((prev) =>
       prev === 0
         ? Math.floor((liveCasinoGames.length - 1) / itemsPerPage) * itemsPerPage
-        : prev - itemsPerPage
+        : prev - itemsPerPage,
     );
   };
 

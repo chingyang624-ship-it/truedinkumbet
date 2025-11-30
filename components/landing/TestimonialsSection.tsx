@@ -78,7 +78,7 @@ export default function TestimonialsSection() {
 
   const nextSlide = () => {
     setCurrentIndex((prev) =>
-      prev + itemsPerPage >= testimonials.length ? 0 : prev + itemsPerPage
+      prev + itemsPerPage >= testimonials.length ? 0 : prev + itemsPerPage,
     );
   };
 
@@ -86,7 +86,7 @@ export default function TestimonialsSection() {
     setCurrentIndex((prev) =>
       prev === 0
         ? Math.floor((testimonials.length - 1) / itemsPerPage) * itemsPerPage
-        : prev - itemsPerPage
+        : prev - itemsPerPage,
     );
   };
 

@@ -16,42 +16,48 @@ const popularGames: PopularGame[] = [
     title: "Candy Bonanza",
     provider: "Next Spin",
     rtp: "96.73",
-    image: "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-1.webp",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-1.webp",
   },
   {
     id: 2,
     title: "Triple Panda",
     provider: "Next Spin",
     rtp: "96.93",
-    image: "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-2.webp",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-2.webp",
   },
   {
     id: 3,
     title: "Magical Lamp",
     provider: "Next Spin",
     rtp: "97.01",
-    image: "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-3.webp",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-3.webp",
   },
   {
     id: 4,
     title: "Dragon Clan",
     provider: "Next Spin",
     rtp: "96.93",
-    image: "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-4.webp",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-4.webp",
   },
   {
     id: 5,
     title: "Maya Quest",
     provider: "Next Spin",
     rtp: "96.84",
-    image: "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-5.webp",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-5.webp",
   },
   {
     id: 6,
     title: "Dragon Blitz",
     provider: "Next Spin",
     rtp: "96.87",
-    image: "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-6.webp",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-6.webp",
   },
 ];
 
@@ -77,7 +83,7 @@ export default function PopularGamesSection() {
 
   const nextSlide = () => {
     setCurrentIndex((prev) =>
-      prev + itemsPerPage >= popularGames.length ? 0 : prev + itemsPerPage
+      prev + itemsPerPage >= popularGames.length ? 0 : prev + itemsPerPage,
     );
   };
 
@@ -85,7 +91,7 @@ export default function PopularGamesSection() {
     setCurrentIndex((prev) =>
       prev === 0
         ? Math.floor((popularGames.length - 1) / itemsPerPage) * itemsPerPage
-        : prev - itemsPerPage
+        : prev - itemsPerPage,
     );
   };
 
@@ -108,11 +114,7 @@ export default function PopularGamesSection() {
         <div className="relative">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
             {getVisibleGames().map((game) => (
-              <a
-                key={game.id}
-                href="/slots"
-                className="group cursor-pointer"
-              >
+              <a key={game.id} href="/slots" className="group cursor-pointer">
                 <div className="rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-all">
                   <img
                     src={game.image}

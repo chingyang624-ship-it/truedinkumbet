@@ -6,7 +6,12 @@ export default function DetailedWhyChooseSection() {
           Top Reasons Players Choose Truedinkumbet
         </h2>
         <p className="text-center text-gray-600 max-w-3xl mx-auto mb-16 leading-relaxed">
-          Players choose Truedinkumbet because we offer higher RTP, faster withdrawals, and more exclusive promotions than others. With certified fair play, strong security, and wider sportsbook coverage, we deliver a safer and more rewarding experience. This combination of trust and performance makes us the top choice for online casino players in Australia.
+          Players choose Truedinkumbet because we offer higher RTP, faster
+          withdrawals, and more exclusive promotions than others. With certified
+          fair play, strong security, and wider sportsbook coverage, we deliver
+          a safer and more rewarding experience. This combination of trust and
+          performance makes us the top choice for online casino players in
+          Australia.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -16,14 +21,18 @@ export default function DetailedWhyChooseSection() {
               Licensing & Regulation
             </h3>
             <p className="text-sm text-gray-600 mb-4 leading-relaxed">
-              Truedinkumbet is licensed and regulated by the{' '}
-              <strong>Philippine Amusement and Gaming Corporation (PAGCOR)</strong>, under License No.{' '}
-              <strong>ALSI-202504032-FI2</strong>.
+              Truedinkumbet is licensed and regulated by the{" "}
+              <strong>
+                Philippine Amusement and Gaming Corporation (PAGCOR)
+              </strong>
+              , under License No. <strong>ALSI-202504032-FI2</strong>.
             </p>
             <p className="text-sm text-gray-600 mb-4 leading-relaxed">
-              With certifications from <strong>BMM Testlabs</strong>,{' '}
-              <strong>iTech Labs</strong>, and{' '}
-              <strong>Gaming Laboratories International (GLI)</strong>, every game is tested for fairness and all operations comply with responsible gambling frameworks.
+              With certifications from <strong>BMM Testlabs</strong>,{" "}
+              <strong>iTech Labs</strong>, and{" "}
+              <strong>Gaming Laboratories International (GLI)</strong>, every
+              game is tested for fairness and all operations comply with
+              responsible gambling frameworks.
             </p>
           </div>
 
@@ -36,31 +45,36 @@ export default function DetailedWhyChooseSection() {
               <li className="flex gap-3">
                 <span className="text-orange-500 font-bold">✓</span>
                 <span className="text-gray-600">
-                  <strong>Higher RTP</strong> - Better odds and payout rates than competitors
+                  <strong>Higher RTP</strong> - Better odds and payout rates
+                  than competitors
                 </span>
               </li>
               <li className="flex gap-3">
                 <span className="text-orange-500 font-bold">✓</span>
                 <span className="text-gray-600">
-                  <strong>Fast Withdrawals</strong> - 92% processed within 15 minutes
+                  <strong>Fast Withdrawals</strong> - 92% processed within 15
+                  minutes
                 </span>
               </li>
               <li className="flex gap-3">
                 <span className="text-orange-500 font-bold">✓</span>
                 <span className="text-gray-600">
-                  <strong>24/7 Support</strong> - Always available via chat, email, or phone
+                  <strong>24/7 Support</strong> - Always available via chat,
+                  email, or phone
                 </span>
               </li>
               <li className="flex gap-3">
                 <span className="text-orange-500 font-bold">✓</span>
                 <span className="text-gray-600">
-                  <strong>Wide Coverage</strong> - Broader sportsbook and game selection
+                  <strong>Wide Coverage</strong> - Broader sportsbook and game
+                  selection
                 </span>
               </li>
               <li className="flex gap-3">
                 <span className="text-orange-500 font-bold">✓</span>
                 <span className="text-gray-600">
-                  <strong>SSL Encryption</strong> - All transactions secured with advanced protection
+                  <strong>SSL Encryption</strong> - All transactions secured
+                  with advanced protection
                 </span>
               </li>
             </ul>
@@ -81,7 +95,8 @@ export default function DetailedWhyChooseSection() {
               <li className="flex gap-3">
                 <span className="text-orange-500 font-bold">🎁</span>
                 <span className="text-gray-600">
-                  <strong>VIP Rewards</strong> - Exclusive perks for loyal players
+                  <strong>VIP Rewards</strong> - Exclusive perks for loyal
+                  players
                 </span>
               </li>
               <li className="flex gap-3">

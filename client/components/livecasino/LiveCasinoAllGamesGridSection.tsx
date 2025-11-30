@@ -1,21 +1,85 @@
 export default function LiveCasinoAllGamesGridSection() {
   const games = [
-    { name: "Lightning Baccarat", image: "https://www.bk8.services/wp-content/uploads/2023/08/casino-lightning-baccarat.webp" },
-    { name: "Super Sic Bo", image: "https://www.bk8.services/wp-content/uploads/2023/08/casino-super-sic-bo.webp" },
-    { name: "Truedinkumbet Salon Privé Baccarat", image: "https://www.bk8.services/wp-content/uploads/2023/08/casino-salon-prive-baccarat.webp" },
-    { name: "Speed Roulette", image: "https://www.bk8.services/wp-content/uploads/2023/08/casino-speed-roulette.webp" },
-    { name: "Thai Baccarat", image: "https://www.bk8.services/wp-content/uploads/2023/08/casino-thai-baccarat.webp" },
-    { name: "Korean Speed Baccarat", image: "https://www.bk8.services/wp-content/uploads/2023/08/casino-korean-speed-baccarat.webp" },
-    { name: "Dragon Tiger", image: "https://www.bk8.services/wp-content/uploads/2023/08/casino-dragon-tiger.webp" },
-    { name: "French Gold Roulette", image: "https://www.bk8.services/wp-content/uploads/2023/08/casino-french-gold-roulette.webp" },
-    { name: "Lightning Roulette", image: "https://www.bk8.services/wp-content/uploads/2023/08/casino-lightning-roulette.webp" },
-    { name: "Live Blackjack", image: "https://www.bk8.services/wp-content/uploads/2023/08/casino-live-blackjack.webp" },
-    { name: "Craps", image: "https://www.bk8.services/wp-content/uploads/2023/08/casino-craps.webp" },
-    { name: "Japanese Baccarat", image: "https://www.bk8.services/wp-content/uploads/2023/08/casino-japanese-baccarat.webp" },
-    { name: "Speed Baccarat", image: "https://www.bk8.services/wp-content/uploads/2023/08/casino-live-speed-baccarat.webp" },
-    { name: "Free Bet Blackjack", image: "https://www.bk8.services/wp-content/uploads/2023/08/casino-free-bet-blackjack.webp" },
-    { name: "Infinite Blackjack", image: "https://www.bk8.services/wp-content/uploads/2023/08/casino-infinite-blackjack.webp" },
-    { name: "Live Blackjack", image: "https://www.bk8.services/wp-content/uploads/2023/08/casino-lightning-blackjack.webp" }
+    {
+      name: "Lightning Baccarat",
+      image:
+        "https://www.bk8.services/wp-content/uploads/2023/08/casino-lightning-baccarat.webp",
+    },
+    {
+      name: "Super Sic Bo",
+      image:
+        "https://www.bk8.services/wp-content/uploads/2023/08/casino-super-sic-bo.webp",
+    },
+    {
+      name: "Truedinkumbet Salon Privé Baccarat",
+      image:
+        "https://www.bk8.services/wp-content/uploads/2023/08/casino-salon-prive-baccarat.webp",
+    },
+    {
+      name: "Speed Roulette",
+      image:
+        "https://www.bk8.services/wp-content/uploads/2023/08/casino-speed-roulette.webp",
+    },
+    {
+      name: "Thai Baccarat",
+      image:
+        "https://www.bk8.services/wp-content/uploads/2023/08/casino-thai-baccarat.webp",
+    },
+    {
+      name: "Korean Speed Baccarat",
+      image:
+        "https://www.bk8.services/wp-content/uploads/2023/08/casino-korean-speed-baccarat.webp",
+    },
+    {
+      name: "Dragon Tiger",
+      image:
+        "https://www.bk8.services/wp-content/uploads/2023/08/casino-dragon-tiger.webp",
+    },
+    {
+      name: "French Gold Roulette",
+      image:
+        "https://www.bk8.services/wp-content/uploads/2023/08/casino-french-gold-roulette.webp",
+    },
+    {
+      name: "Lightning Roulette",
+      image:
+        "https://www.bk8.services/wp-content/uploads/2023/08/casino-lightning-roulette.webp",
+    },
+    {
+      name: "Live Blackjack",
+      image:
+        "https://www.bk8.services/wp-content/uploads/2023/08/casino-live-blackjack.webp",
+    },
+    {
+      name: "Craps",
+      image:
+        "https://www.bk8.services/wp-content/uploads/2023/08/casino-craps.webp",
+    },
+    {
+      name: "Japanese Baccarat",
+      image:
+        "https://www.bk8.services/wp-content/uploads/2023/08/casino-japanese-baccarat.webp",
+    },
+    {
+      name: "Speed Baccarat",
+      image:
+        "https://www.bk8.services/wp-content/uploads/2023/08/casino-live-speed-baccarat.webp",
+    },
+    {
+      name: "Free Bet Blackjack",
+      image:
+        "https://www.bk8.services/wp-content/uploads/2023/08/casino-free-bet-blackjack.webp",
+    },
+    {
+      name: "Infinite Blackjack",
+      image:
+        "https://www.bk8.services/wp-content/uploads/2023/08/casino-infinite-blackjack.webp",
+    },
+    {
+      name: "Live Blackjack",
+      image:
+        "https://www.bk8.services/wp-content/uploads/2023/08/casino-lightning-blackjack.webp",
+    },
   ];
 
   return (

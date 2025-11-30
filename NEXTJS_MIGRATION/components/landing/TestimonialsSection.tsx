@@ -77,7 +77,7 @@ export default function TestimonialsSection() {
 
   const nextSlide = () => {
     setCurrentIndex((prev) =>
-      prev + itemsPerPage >= testimonials.length ? 0 : prev + itemsPerPage
+      prev + itemsPerPage >= testimonials.length ? 0 : prev + itemsPerPage,
     );
   };
 
@@ -85,7 +85,7 @@ export default function TestimonialsSection() {
     setCurrentIndex((prev) =>
       prev === 0
         ? Math.floor((testimonials.length - 1) / itemsPerPage) * itemsPerPage
-        : prev - itemsPerPage
+        : prev - itemsPerPage,
     );
   };
 
@@ -102,7 +102,8 @@ export default function TestimonialsSection() {
     <section className="py-20 px-4 bg-white">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-4">
-          Truedinkumbet Feedback: What the Top Australia Casino Review Sites Really Think
+          Truedinkumbet Feedback: What the Top Australia Casino Review Sites
+          Really Think
         </h2>
 
         <div className="relative mt-12">

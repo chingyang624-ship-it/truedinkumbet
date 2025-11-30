@@ -188,7 +188,9 @@ export default function Footer() {
               </h3>
               <div className="space-y-4">
                 <div>
-                  <p className="text-xs font-semibold text-gray-700 mb-2">Credit Cards</p>
+                  <p className="text-xs font-semibold text-gray-700 mb-2">
+                    Credit Cards
+                  </p>
                   <div className="flex flex-wrap gap-2">
                     {[
                       { name: "Visa", src: "34de12af57824581b81cb9bc89ad7057" },
@@ -208,7 +210,9 @@ export default function Footer() {
                   </div>
                 </div>
                 <div>
-                  <p className="text-xs font-semibold text-gray-700 mb-2">Cryptocurrency</p>
+                  <p className="text-xs font-semibold text-gray-700 mb-2">
+                    Cryptocurrency
+                  </p>
                   <div className="flex flex-wrap gap-2">
                     {[
                       {
