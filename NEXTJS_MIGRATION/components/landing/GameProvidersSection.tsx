@@ -26,9 +26,13 @@ export default function GameProvidersSection() {
       name: "Red Tiger", 
       logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fda9462dd466940c59768a2191f76eb3b?format=webp&width=800" 
     },
-    { 
-      name: "Yggdrasil", 
-      logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F4b237b89427e497aafe3458f7e14ad6f?format=webp&width=800" 
+    {
+      name: "Yggdrasil",
+      logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F4b237b89427e497aafe3458f7e14ad6f?format=webp&width=800"
+    },
+    {
+      name: "BNG",
+      logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F28367596c31f48f6949e5db13150ba72?format=webp&width=800"
     },
   ];
 
