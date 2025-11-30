@@ -112,6 +112,16 @@ export default function AppDownloadContent() {
               <li><strong>Download the APK from Truedinkumbet’s official site:</strong> You will find this file on the Truedinkumbet homepage, just a few pages below the header section. Make sure to take note of the folder where the APK is saved as you will need it in the next step.</li>
               <li><strong>Open the file and install:</strong> Open the APK file and follow the instructions that follow to install the app. After installation, you will find your installed app in the app drawer or home screen.</li>
             </ul>
+            <div className="mb-8">
+              <a
+                href="https://www.truedinkumbeth5api.shop/uploads/appwrap.html"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-orange-500 text-white font-bold py-3 px-6 rounded-lg hover:bg-orange-600 transition-colors"
+              >
+                Download Truedinkumbet App APK
+              </a>
+            </div>
 
             <h3 className="text-xl font-bold mb-3 text-gray-900">Truedinkumbet Mobile Login Flow</h3>
             <p className="mb-4 text-gray-600">Once you have the app installed on your device, the login process via mobile is simple. Follow these steps to sign in:</p>
