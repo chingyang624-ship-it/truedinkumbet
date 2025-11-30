@@ -63,34 +63,53 @@ export default function FAQSection() {
   const [openIndex, setOpenIndex] = useState<number | null>(0);
 
   return (
-    <section className="py-20 px-4 bg-white">
+    <section className="py-20 px-4 bg-gradient-to-b from-gray-50 to-white">
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl font-bold text-center text-gray-900 mb-12">
-          FAQ
+        <h2 className="text-4xl font-bold text-center text-gray-900 mb-6">
+          Frequently Asked Questions
         </h2>
+        <p className="text-center text-gray-600 mb-16 max-w-2xl mx-auto">
+          Find answers to common questions about Truedinkumbet, our games, bonuses, payments, and responsible gaming practices.
+        </p>
 
-        <div className="space-y-4">
+        <div className="space-y-3">
           {faqs.map((faq, index) => (
             <div
               key={index}
-              className="border border-gray-200 rounded-lg overflow-hidden"
+              className={`rounded-lg overflow-hidden transition-all duration-300 ${
+                openIndex === index
+                  ? 'bg-white shadow-lg border-l-4 border-orange-500'
+                  : 'bg-white shadow-md border-l-4 border-gray-200 hover:shadow-lg'
+              }`}
             >
               <button
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
-                className="w-full px-6 py-4 flex items-center justify-between bg-gray-50 hover:bg-gray-100 transition-colors text-left"
+                className={`w-full px-6 py-4 flex items-center justify-between text-left transition-all duration-300 ${
+                  openIndex === index
+                    ? 'bg-orange-50'
+                    : 'bg-white hover:bg-gray-50'
+                }`}
               >
-                <span className="font-semibold text-gray-900">
+                <span className={`font-semibold transition-colors ${
+                  openIndex === index
+                    ? 'text-gray-900'
+                    : 'text-gray-800'
+                }`}>
                   {faq.question}
                 </span>
                 <ChevronDown
-                  size={20}
-                  className={`text-gray-600 transition-transform ${openIndex === index ? "rotate-180" : ""}`}
+                  size={24}
+                  className={`text-orange-500 transition-transform duration-300 flex-shrink-0 ml-4 ${
+                    openIndex === index ? 'rotate-180' : 'rotate-0'
+                  }`}
                 />
               </button>
 
               {openIndex === index && (
-                <div className="px-6 py-4 bg-white border-t border-gray-200">
-                  <p className="text-gray-600 leading-relaxed">{faq.answer}</p>
+                <div className="px-6 py-5 bg-white border-t-2 border-orange-100 animate-in fade-in duration-300">
+                  <p className="text-gray-600 leading-relaxed text-sm md:text-base">
+                    {faq.answer}
+                  </p>
                 </div>
               )}
             </div>
