@@ -8,6 +8,8 @@ import DetailedWhyChooseSection from "@/components/landing/DetailedWhyChooseSect
 import GamesSection from "@/components/landing/GamesSection";
 import BonusesSection from "@/components/landing/BonusesSection";
 import TestimonialsSection from "@/components/landing/TestimonialsSection";
+import LiveCasinoGamesSection from "@/components/landing/LiveCasinoGamesSection";
+import PopularGamesSection from "@/components/landing/PopularGamesSection";
 import PromoSection from "@/components/landing/PromoSection";
 import VIPSection from "@/components/landing/VIPSection";
 import MobileAppSection from "@/components/landing/MobileAppSection";
@@ -103,6 +105,8 @@ export default function Home() {
         <FeaturesSection />
         <DetailedWhyChooseSection />
         <GamesSection />
+        <LiveCasinoGamesSection />
+        <PopularGamesSection />
         <BonusesSection />
         <TestimonialsSection />
         <PromoSection />
