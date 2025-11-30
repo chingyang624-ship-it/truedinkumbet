@@ -8,11 +8,11 @@ export default function GameProvidersSection() {
     },
     {
       name: "Pragmatic Play",
-      logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F6f7fbd44c67f45269cd429e60f117dd0?format=webp&width=800"
+      logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff765f83149924f92bb1dd183b46d1573?format=webp&width=800"
     },
     {
       name: "Microgaming",
-      logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ffd33afd8c31e4c88bcff8b7b14a3b91b?format=webp&width=800"
+      logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F96b968ba065a4b0ca4d56aa47bf558e1?format=webp&width=800"
     },
     { 
       name: "Playtech", 
