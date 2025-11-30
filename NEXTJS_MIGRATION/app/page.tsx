@@ -4,12 +4,20 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CarouselSection from "@/components/landing/CarouselSection";
 import NewsTickerSection from "@/components/landing/NewsTickerSection";
+import TitleSection from "@/components/landing/TitleSection";
+import HeroSection from "@/components/landing/HeroSection";
 import WelcomeSection from "@/components/landing/WelcomeSection";
 import GamingCategoriesSection from "@/components/landing/GamingCategoriesSection";
+import FeaturesSection from "@/components/landing/FeaturesSection";
+import GamesSection from "@/components/landing/GamesSection";
+import BonusesSection from "@/components/landing/BonusesSection";
 import TestimonialsSection from "@/components/landing/TestimonialsSection";
 import LiveCasinoGamesSection from "@/components/landing/LiveCasinoGamesSection";
 import PopularGamesSection from "@/components/landing/PopularGamesSection";
 import WhyChooseBK8Section from "@/components/landing/WhyChooseBK8Section";
+import VIPSection from "@/components/landing/VIPSection";
+import MobileAppSection from "@/components/landing/MobileAppSection";
+import FAQSection from "@/components/landing/FAQSection";
 
 export default function Home() {
   return (
@@ -61,12 +69,20 @@ export default function Home() {
             </a>
           </div>
         </section>
+        <TitleSection />
+        <HeroSection />
         <WelcomeSection />
+        <FeaturesSection />
+        <GamesSection />
         <GamingCategoriesSection />
+        <BonusesSection />
         <TestimonialsSection />
         <LiveCasinoGamesSection />
         <PopularGamesSection />
         <WhyChooseBK8Section />
+        <VIPSection />
+        <MobileAppSection />
+        <FAQSection />
       </main>
       <Footer />
     </div>
