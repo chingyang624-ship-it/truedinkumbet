@@ -15,6 +15,8 @@ import TestimonialsSection from "@/components/landing/TestimonialsSection";
 import LiveCasinoGamesSection from "@/components/landing/LiveCasinoGamesSection";
 import PopularGamesSection from "@/components/landing/PopularGamesSection";
 import WhyChooseBK8Section from "@/components/landing/WhyChooseBK8Section";
+import PaymentMethodsSection from "@/components/landing/PaymentMethodsSection";
+import GameProvidersSection from "@/components/landing/GameProvidersSection";
 import VIPSection from "@/components/landing/VIPSection";
 import MobileAppSection from "@/components/landing/MobileAppSection";
 import FAQSection from "@/components/landing/FAQSection";
@@ -80,6 +82,8 @@ export default function Home() {
         <LiveCasinoGamesSection />
         <PopularGamesSection />
         <WhyChooseBK8Section />
+        <PaymentMethodsSection />
+        <GameProvidersSection />
         <VIPSection />
         <MobileAppSection />
         <FAQSection />
