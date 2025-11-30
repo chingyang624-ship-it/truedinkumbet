@@ -64,15 +64,17 @@ export default function LiveCasinoPage() {
           </div>
         </section>
         <LiveCasinoFeaturedSection />
-        <LiveCasinoAllProvidersGridSection />
-        <LiveCasinoAllGamesGridSection />
         <LiveCasinoIntroSection />
-        <LiveCasinoComprehensiveSEOContent />
         <LiveCasinoWhyChooseSection />
         <LiveCasinoProvidersSection />
         <LiveCasinoPopularGamesSection />
         <LiveCasinoMobileAppSection />
         <LiveCasinoFAQSection />
+
+        {/* New Content Added Below */}
+        <LiveCasinoAllProvidersGridSection />
+        <LiveCasinoAllGamesGridSection />
+        <LiveCasinoComprehensiveSEOContent />
       </main>
       <Footer />
     </div>
