@@ -6,13 +6,13 @@ export default function GameProvidersSection() {
       name: "Evolution Gaming", 
       logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F7495d6913744419fb529ec28af93f0a1?format=webp&width=800" 
     },
-    { 
-      name: "Pragmatic Play", 
-      logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fc24be77a922b4324a0d9bcf97d20a09b?format=webp&width=800" 
+    {
+      name: "Pragmatic Play",
+      logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F6f7fbd44c67f45269cd429e60f117dd0?format=webp&width=800"
     },
-    { 
-      name: "Microgaming", 
-      logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F31f9d128879a4d31bc5a6164f3c00a41?format=webp&width=800" 
+    {
+      name: "Microgaming",
+      logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ffd33afd8c31e4c88bcff8b7b14a3b91b?format=webp&width=800"
     },
     { 
       name: "Playtech", 
