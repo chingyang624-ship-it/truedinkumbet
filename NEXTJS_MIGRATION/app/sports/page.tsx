@@ -8,9 +8,6 @@ import SportsTypesSection from "@/components/sports/SportsTypesSection";
 import SportsProvidersSection from "@/components/sports/SportsProvidersSection";
 import SportsMobileAppSection from "@/components/sports/SportsMobileAppSection";
 import SportsFAQSection from "@/components/sports/SportsFAQSection";
-import LiveCasinoAllProvidersGridSection from "@/components/livecasino/LiveCasinoAllProvidersGridSection";
-import LiveCasinoAllGamesGridSection from "@/components/livecasino/LiveCasinoAllGamesGridSection";
-import LiveCasinoComprehensiveSEOContent from "@/components/livecasino/LiveCasinoComprehensiveSEOContent";
 
 export default function SportsPage() {
   return (
@@ -23,9 +20,6 @@ export default function SportsPage() {
         <SportsProvidersSection />
         <SportsMobileAppSection />
         <SportsFAQSection />
-        <LiveCasinoAllProvidersGridSection />
-        <LiveCasinoAllGamesGridSection />
-        <LiveCasinoComprehensiveSEOContent />
       </main>
       <Footer />
     </div>
