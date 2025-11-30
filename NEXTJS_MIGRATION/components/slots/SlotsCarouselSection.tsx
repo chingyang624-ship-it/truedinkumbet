@@ -42,93 +42,93 @@ const allGames = [
   {
     title: "NextSpin",
     image:
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F9f31e5ab165a451798aced9f6bc248db",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F950705a7eb5c4cfd8137ff3dbc70c085",
     badge: "Hot",
   },
   {
     title: "PG Slot",
     image:
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F6270696975cd4a12aad4fbee0374d4b2",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F14c8c8e18fe946a88bfce09ee40aed46",
     badge: "Hot",
   },
   {
     title: "Jili",
     image:
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff8b276e143534adeaa84d077140d61a6",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F66fa8995c86e4b028a1c778e73360e7b",
     badge: "New",
   },
   {
     title: "Fa Chai",
     image:
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F5dc9c3e98f2e426995e52f25a8a8cc76",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fb08dd67544264eddbfe3ab8221e87bf0",
   },
   {
     title: "YGR",
     image:
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F79d1e928c8e7409094e0dce9165a6549",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F6d823d7ec18e456f985a0dd88ce77ce8",
   },
   {
     title: "Funky Games",
     image:
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Faebfa2fe4380480db7edfdda32b7e4dd",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fde89bd1767fe4a6086414b87817c37b4",
   },
   {
     title: "Joker",
     image:
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F17a8c826d3e4417eb7d4a8a11fa94072",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fd6642e50f6ff4600984f15f35152493e",
   },
   {
     title: "Netent",
     image:
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F5909e89a006d4687a175510f9e55adca",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F46b37bfa1cca408ab68219fc7505605b",
   },
   {
     title: "Red Tiger",
     image:
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F5d3d050402ea427bafb664a948b12dd3",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fd017039930fd48ebb8341bfc30db79a0",
   },
   {
     title: "Play n Go",
     image:
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F9f13294da9f945f8995f08b291c88a00",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ffbb96123fda14b3fa7e5fae623cc6c96",
   },
   {
     title: "MT Game",
     image:
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fdb451952f74f4cf5806e10c7213b2869",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F4a4863c02fff4cf9b1de46cd7a161b83",
   },
   {
     title: "Microgaming",
     image:
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F6fbcbb73a0fe41c19f04f5d8adea7a9d",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F4909f0e150cf43399a59a2359044cca5",
   },
   {
     title: "CQ9",
     image:
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F4454bec1e2174e25904ea6f34745f941",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F041fb5ef0f4c4339a0c729757fab16ee",
   },
   {
     title: "Bins",
     image:
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F7825b7787ce64892b004da9e264b18cf",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F7f7349d210af421db8080c2aee57fe35",
     badge: "New",
   },
   {
     title: "JDB",
     image:
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F15d7a82bc7cd433ea85b709acc101220",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fb78419a919b84b9ba1f6bd4ed7fd31bd",
     badge: "New",
   },
   {
     title: "Relax Gaming",
     image:
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F900a2c729797420999ad59ed766a953a",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F01f44f93382b4b91b4dd91e25c050ec0",
     badge: "New",
   },
   {
     title: "Novomatic",
     image:
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fd3f8b03098c44104bf33a583339ceaa0",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fc54059e0127641ce995e6f66aefd36eb",
     badge: "New",
   },
 ];
