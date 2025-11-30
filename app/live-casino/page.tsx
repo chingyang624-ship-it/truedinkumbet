@@ -8,6 +8,9 @@ import LiveCasinoProvidersSection from "@/components/livecasino/LiveCasinoProvid
 import LiveCasinoPopularGamesSection from "@/components/livecasino/LiveCasinoPopularGamesSection";
 import LiveCasinoMobileAppSection from "@/components/livecasino/LiveCasinoMobileAppSection";
 import LiveCasinoFAQSection from "@/components/livecasino/LiveCasinoFAQSection";
+import LiveCasinoAllProvidersGridSection from "@/components/livecasino/LiveCasinoAllProvidersGridSection";
+import LiveCasinoAllGamesGridSection from "@/components/livecasino/LiveCasinoAllGamesGridSection";
+import LiveCasinoComprehensiveSEOContent from "@/components/livecasino/LiveCasinoComprehensiveSEOContent";
 import RelatedGamesSection from "@/components/RelatedGamesSection";
 
 export const metadata = {
@@ -121,7 +124,10 @@ export default function LiveCasinoPage() {
           </div>
         </section>
         <LiveCasinoFeaturedSection />
+        <LiveCasinoAllProvidersGridSection />
+        <LiveCasinoAllGamesGridSection />
         <LiveCasinoIntroSection />
+        <LiveCasinoComprehensiveSEOContent />
         <LiveCasinoWhyChooseSection />
         <LiveCasinoProvidersSection />
         <LiveCasinoPopularGamesSection />
