@@ -6,6 +6,7 @@ import HeroSection from "@/components/landing/HeroSection";
 import FeaturesSection from "@/components/landing/FeaturesSection";
 import GamesSection from "@/components/landing/GamesSection";
 import BonusesSection from "@/components/landing/BonusesSection";
+import PromoSection from "@/components/landing/PromoSection";
 import VIPSection from "@/components/landing/VIPSection";
 import MobileAppSection from "@/components/landing/MobileAppSection";
 import FAQSection from "@/components/landing/FAQSection";
