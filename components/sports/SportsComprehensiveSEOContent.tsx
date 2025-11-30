@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function SportsComprehensiveSEOContent() {
   return (
     <section className="bg-white py-12">
