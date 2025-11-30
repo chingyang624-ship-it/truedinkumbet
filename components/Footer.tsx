@@ -184,36 +184,56 @@ export default function Footer() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-12">
             <div className="lg:col-span-2">
               <h3 className="text-base font-semibold text-black mb-4">
-                Payment Method
+                Payment Methods
               </h3>
-              <div className="flex flex-wrap gap-3">
-                {[
-                  {
-                    name: "Bitcoin BTC",
-                    src: "9c91b42e2bb844b49f4f0c8f8053a7b7",
-                  },
-                  {
-                    name: "Tether USDT",
-                    src: "fb01ba7b451c4f57ad13b6bceec2b178",
-                  },
-                  {
-                    name: "Ethereum ETH",
-                    src: "6e377f4b452c435f86f2b2448f69f57d",
-                  },
-                  { name: "Visa", src: "34de12af57824581b81cb9bc89ad7057" },
-                  {
-                    name: "Mastercard",
-                    src: "88c7899e9f4b4d61969d87d300ed6d56",
-                  },
-                ].map((method) => (
-                  <img
-                    key={method.name}
-                    src={`https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F${method.src}`}
-                    alt={method.name}
-                    className="h-9 w-auto"
-                    style={{ filter: "grayscale(1)" }}
-                  />
-                ))}
+              <div className="space-y-4">
+                <div>
+                  <p className="text-xs font-semibold text-gray-700 mb-2">Credit Cards</p>
+                  <div className="flex flex-wrap gap-2">
+                    {[
+                      { name: "Visa", src: "34de12af57824581b81cb9bc89ad7057" },
+                      {
+                        name: "Mastercard",
+                        src: "88c7899e9f4b4d61969d87d300ed6d56",
+                      },
+                    ].map((method) => (
+                      <img
+                        key={method.name}
+                        src={`https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F${method.src}`}
+                        alt={method.name}
+                        className="h-9 w-auto"
+                        style={{ filter: "grayscale(1)" }}
+                      />
+                    ))}
+                  </div>
+                </div>
+                <div>
+                  <p className="text-xs font-semibold text-gray-700 mb-2">Cryptocurrency</p>
+                  <div className="flex flex-wrap gap-2">
+                    {[
+                      {
+                        name: "Bitcoin BTC",
+                        src: "9c91b42e2bb844b49f4f0c8f8053a7b7",
+                      },
+                      {
+                        name: "Tether USDT",
+                        src: "fb01ba7b451c4f57ad13b6bceec2b178",
+                      },
+                      {
+                        name: "Ethereum ETH",
+                        src: "6e377f4b452c435f86f2b2448f69f57d",
+                      },
+                    ].map((method) => (
+                      <img
+                        key={method.name}
+                        src={`https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F${method.src}`}
+                        alt={method.name}
+                        className="h-9 w-auto"
+                        style={{ filter: "grayscale(1)" }}
+                      />
+                    ))}
+                  </div>
+                </div>
               </div>
             </div>
 
