@@ -101,6 +101,7 @@ export default function Home() {
         <FeaturesSection />
         <GamesSection />
         <BonusesSection />
+        <PromoSection />
         <VIPSection />
         <MobileAppSection />
         <FAQSection />
