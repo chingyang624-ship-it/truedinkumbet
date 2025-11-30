@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { useState, useEffect } from 'react';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { useState, useEffect } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 interface PopularGame {
   id: number;
@@ -14,74 +14,87 @@ interface PopularGame {
 const popularGames: PopularGame[] = [
   {
     id: 1,
-    title: 'Triple Panda',
-    provider: 'Next Spin',
-    rtp: '96.93',
-    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fe93f3b84925e441fae7c53c7cd43dc9b',
+    title: "Candy Bonanza",
+    provider: "Next Spin",
+    rtp: "96.73",
+    image: "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-1.webp",
   },
   {
     id: 2,
-    title: 'Magical Lamp',
-    provider: 'Next Spin',
-    rtp: '97.01',
-    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fe93f3b84925e441fae7c53c7cd43dc9b',
+    title: "Triple Panda",
+    provider: "Next Spin",
+    rtp: "96.93",
+    image: "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-2.webp",
   },
   {
     id: 3,
-    title: 'Dragon Clan',
-    provider: 'Next Spin',
-    rtp: '96.93',
-    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fe93f3b84925e441fae7c53c7cd43dc9b',
+    title: "Magical Lamp",
+    provider: "Next Spin",
+    rtp: "97.01",
+    image: "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-3.webp",
   },
   {
     id: 4,
-    title: 'Maya Quest',
-    provider: 'Next Spin',
-    rtp: '96.84',
-    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fe93f3b84925e441fae7c53c7cd43dc9b',
+    title: "Dragon Clan",
+    provider: "Next Spin",
+    rtp: "96.93",
+    image: "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-4.webp",
   },
   {
     id: 5,
-    title: 'Dragon Blitz',
-    provider: 'Next Spin',
-    rtp: '96.87',
-    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fe93f3b84925e441fae7c53c7cd43dc9b',
+    title: "Maya Quest",
+    provider: "Next Spin",
+    rtp: "96.84",
+    image: "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-5.webp",
   },
   {
     id: 6,
-    title: 'Candy Bonanza',
-    provider: 'Next Spin',
-    rtp: '96.73',
-    image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fe93f3b84925e441fae7c53c7cd43dc9b',
+    title: "Dragon Blitz",
+    provider: "Next Spin",
+    rtp: "96.87",
+    image: "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-6.webp",
   },
 ];
 
 export default function PopularGamesSection() {
   const [currentIndex, setCurrentIndex] = useState(0);
-  const itemsPerSlide = 3;
+  const [itemsPerPage, setItemsPerPage] = useState(3);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prev) => (prev + 1) % popularGames.length);
-    }, 7000);
+    const handleResize = () => {
+      if (window.innerWidth < 768) {
+        setItemsPerPage(1);
+      } else if (window.innerWidth < 1024) {
+        setItemsPerPage(2);
+      } else {
+        setItemsPerPage(3);
+      }
+    };
 
-    return () => clearInterval(interval);
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   const nextSlide = () => {
-    setCurrentIndex((prev) => (prev + 1) % popularGames.length);
+    setCurrentIndex((prev) =>
+      prev + itemsPerPage >= popularGames.length ? 0 : prev + itemsPerPage
+    );
   };
 
   const prevSlide = () => {
     setCurrentIndex((prev) =>
-      prev === 0 ? popularGames.length - 1 : prev - 1
+      prev === 0
+        ? Math.floor((popularGames.length - 1) / itemsPerPage) * itemsPerPage
+        : prev - itemsPerPage
     );
   };
 
   const getVisibleGames = () => {
     const visible = [];
-    for (let i = 0; i < itemsPerSlide; i++) {
-      visible.push(popularGames[(currentIndex + i) % popularGames.length]);
+    for (let i = 0; i < itemsPerPage; i++) {
+      const index = (currentIndex + i) % popularGames.length;
+      visible.push(popularGames[index]);
     }
     return visible;
   };
@@ -89,12 +102,11 @@ export default function PopularGamesSection() {
   return (
     <section className="py-20 px-4 bg-gray-50">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">
           Popular Games We Love
         </h2>
 
         <div className="relative">
-          {/* Carousel Grid */}
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
             {getVisibleGames().map((game) => (
               <a
@@ -105,7 +117,7 @@ export default function PopularGamesSection() {
                 <div className="rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-all">
                   <img
                     src={game.image}
-                    alt={game.title}
+                    alt={`BK8 ${game.title} Slots Game`}
                     className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                   />
                   <div className="p-4 bg-white">
@@ -124,35 +136,20 @@ export default function PopularGamesSection() {
             ))}
           </div>
 
-          {/* Navigation Controls */}
-          <div className="flex justify-between items-center gap-4 mt-8">
+          <div className="flex items-center justify-center gap-4">
             <button
               onClick={prevSlide}
-              className="p-2 rounded-full bg-gray-200 hover:bg-gray-300 transition-colors"
+              className="p-3 rounded-full bg-gray-200 hover:bg-gray-300 transition-colors"
               aria-label="Previous games"
             >
-              <ChevronLeft className="w-6 h-6 text-gray-800" />
+              <ChevronLeft className="w-6 h-6 text-gray-700" />
             </button>
-
-            <div className="flex gap-2 flex-1 justify-center">
-              {popularGames.map((_, index) => (
-                <button
-                  key={index}
-                  onClick={() => setCurrentIndex(index)}
-                  className={`w-2 h-2 rounded-full transition-colors ${
-                    currentIndex === index ? 'bg-orange-500' : 'bg-gray-300'
-                  }`}
-                  aria-label={`Go to game ${index + 1}`}
-                />
-              ))}
-            </div>
-
             <button
               onClick={nextSlide}
-              className="p-2 rounded-full bg-gray-200 hover:bg-gray-300 transition-colors"
+              className="p-3 rounded-full bg-gray-200 hover:bg-gray-300 transition-colors"
               aria-label="Next games"
             >
-              <ChevronRight className="w-6 h-6 text-gray-800" />
+              <ChevronRight className="w-6 h-6 text-gray-700" />
             </button>
           </div>
         </div>

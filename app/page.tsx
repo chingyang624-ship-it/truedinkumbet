@@ -1,8 +1,11 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CarouselSection from "@/components/landing/CarouselSection";
+import NewsTickerSection from "@/components/landing/NewsTickerSection";
 import TitleSection from "@/components/landing/TitleSection";
 import HeroSection from "@/components/landing/HeroSection";
+import WelcomeSection from "@/components/landing/WelcomeSection";
+import GamingCategoriesSection from "@/components/landing/GamingCategoriesSection";
 import FeaturesSection from "@/components/landing/FeaturesSection";
 import DetailedWhyChooseSection from "@/components/landing/DetailedWhyChooseSection";
 import GamesSection from "@/components/landing/GamesSection";
@@ -10,6 +13,9 @@ import BonusesSection from "@/components/landing/BonusesSection";
 import TestimonialsSection from "@/components/landing/TestimonialsSection";
 import LiveCasinoGamesSection from "@/components/landing/LiveCasinoGamesSection";
 import PopularGamesSection from "@/components/landing/PopularGamesSection";
+import WhyChooseBK8Section from "@/components/landing/WhyChooseBK8Section";
+import PaymentMethodsSection from "@/components/landing/PaymentMethodsSection";
+import GameProvidersSection from "@/components/landing/GameProvidersSection";
 import PromoSection from "@/components/landing/PromoSection";
 import VIPSection from "@/components/landing/VIPSection";
 import MobileAppSection from "@/components/landing/MobileAppSection";
@@ -57,6 +63,7 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         <CarouselSection />
+        <NewsTickerSection />
         <section className="w-full">
           <div className="hidden md:flex gap-4 justify-center py-6 px-4">
             <a
@@ -100,18 +107,14 @@ export default function Home() {
             </a>
           </div>
         </section>
-        <TitleSection />
-        <HeroSection />
-        <FeaturesSection />
-        <DetailedWhyChooseSection />
-        <GamesSection />
+        <WelcomeSection />
+        <GamingCategoriesSection />
+        <TestimonialsSection />
         <LiveCasinoGamesSection />
         <PopularGamesSection />
-        <BonusesSection />
-        <TestimonialsSection />
-        <PromoSection />
-        <VIPSection />
-        <MobileAppSection />
+        <WhyChooseBK8Section />
+        <PaymentMethodsSection />
+        <GameProvidersSection />
         <FAQSection />
       </main>
       <Footer />

@@ -1,7 +1,7 @@
-'use client';
+"use client";
 
-import { useState, useEffect } from 'react';
-import { ChevronLeft, ChevronRight } from 'lucide-react';
+import { useState, useEffect } from "react";
+import { ChevronLeft, ChevronRight } from "lucide-react";
 
 interface Testimonial {
   id: number;
@@ -9,191 +9,149 @@ interface Testimonial {
   text: string;
   source: string;
   verified: boolean;
-  author: string;
-  platform: string;
 }
 
 const testimonials: Testimonial[] = [
   {
     id: 1,
     rating: 5,
-    text: 'Very good and reliable bookmaker I ever come across. Strong and supportive Customer Service that can be reached out at anytime 24/7. Good promotion been offered time to time especially on VIP members',
-    source: 'trustpilot.com',
+    text: "Very good and reliable bookmaker I ever come across. Strong and supportive Customer Service that can be reached out at anytime 24/7. Good promotion been offered time to time especially on VIP members",
+    source: "trustpilot.com",
     verified: true,
-    author: 'James M.',
-    platform: 'Trustpilot',
   },
   {
     id: 2,
     rating: 5,
-    text: 'Truedinkumbet Online Casino is licensed and regulated, ensuring a safe and secure gambling experience.',
-    source: 'onlinecasinomalaysia.bet',
+    text: "BK8 Online Casino is licensed and regulated, ensuring a safe and secure gambling experience.",
+    source: "onlinecasinomalaysia.bet",
     verified: true,
-    author: 'Sarah L.',
-    platform: 'OnlineCasinoMalaysia',
   },
   {
     id: 3,
     rating: 5,
-    text: 'To sum up, Truedinkumbet is a reputable online gaming platform that offers a diverse range of betting and gambling opportunities.',
-    source: 'onlinecasinoz.vegas',
+    text: "To sum up, BK8 is a reputable online gaming platform that offers a diverse range of betting and gambling opportunities.",
+    source: "onlinecasinoz.vegas",
     verified: true,
-    author: 'David K.',
-    platform: 'OnlineCasinoZ',
   },
   {
     id: 4,
     rating: 5,
-    text: 'In my experience, the site feels safe, user-friendly, and fun. The interface is smooth and well-designed, so playing at Truedinkumbet always feels enjoyable and hassle-free. Overall, Truedinkumbet has quickly become one of my favorite online gaming destinations.',
-    source: 'casino.com',
+    text: "In my experience, the site feels safe, user-friendly, and fun. The interface is smooth and well-designed, so playing at BK8 always feels enjoyable and hassle-free. Overall, BK8 has quickly become one of my favorite online gaming destinations in Malaysia.",
+    source: "casino.com",
     verified: true,
-    author: 'Michael P.',
-    platform: 'Casino.com',
   },
   {
     id: 5,
     rating: 5,
-    text: 'All in all, Truedinkumbet Casino has landed a High Safety Index. This casino can be considered a recommendable option for most players since it fosters fairness and honesty in their treatment of customers.',
-    source: 'casino.guru',
+    text: "All in all, when combined with other factors that come into play in our review, BK8 Casino has landed a High Safety Index of 8.9. This casino can be considered a recommendable option for most players since it fosters fairness and honesty in their treatment of customers.",
+    source: "casino.guru",
     verified: true,
-    author: 'Emma R.',
-    platform: 'Casino.Guru',
   },
   {
     id: 6,
     rating: 5,
-    text: 'Truedinkumbet Casino has a great games lobby! There is a good mix of games, which is coupled with some fantastic and user-friendly features.',
-    source: 'askgamblers.com',
+    text: "BK8 Casino has a great games lobby! There is a good mix of games, which is coupled with some fantastic and user-friendly features.",
+    source: "askgamblers.com",
     verified: true,
-    author: 'Robert T.',
-    platform: 'AskGamblers',
   },
 ];
 
 export default function TestimonialsSection() {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [itemsPerPage, setItemsPerPage] = useState(3);
 
   useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentIndex((prev) => (prev + 1) % testimonials.length);
-    }, 6000);
+    const handleResize = () => {
+      if (window.innerWidth < 768) {
+        setItemsPerPage(1);
+      } else if (window.innerWidth < 1024) {
+        setItemsPerPage(2);
+      } else {
+        setItemsPerPage(3);
+      }
+    };
 
-    return () => clearInterval(interval);
+    handleResize();
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const goToSlide = (index: number) => {
-    setCurrentIndex(index % testimonials.length);
-  };
-
   const nextSlide = () => {
-    setCurrentIndex((prev) => (prev + 1) % testimonials.length);
+    setCurrentIndex((prev) =>
+      prev + itemsPerPage >= testimonials.length ? 0 : prev + itemsPerPage
+    );
   };
 
   const prevSlide = () => {
     setCurrentIndex((prev) =>
-      prev === 0 ? testimonials.length - 1 : prev - 1
+      prev === 0
+        ? Math.floor((testimonials.length - 1) / itemsPerPage) * itemsPerPage
+        : prev - itemsPerPage
     );
   };
 
-  const renderStars = (rating: number) => {
-    return (
-      <div className="flex gap-1 justify-center mb-4">
-        {[...Array(5)].map((_, i) => (
-          <span
-            key={i}
-            className={`text-lg ${
-              i < rating ? 'text-orange-500' : 'text-gray-300'
-            }`}
-          >
-            ★
-          </span>
-        ))}
-      </div>
-    );
+  const getVisibleTestimonials = () => {
+    const visible = [];
+    for (let i = 0; i < itemsPerPage; i++) {
+      const index = (currentIndex + i) % testimonials.length;
+      visible.push(testimonials[index]);
+    }
+    return visible;
   };
 
   return (
-    <section className="py-20 px-4 bg-gray-50">
+    <section className="py-20 px-4 bg-white">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-center text-gray-900 mb-16">
-          What Truedinkumbet Players Say
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-4">
+          BK8 Feedback: What the Top Malaysia Casino Review Sites Really Think
         </h2>
 
-        <div className="relative">
-          {/* Carousel Container */}
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12">
-            {testimonials.map((testimonial, index) => {
-              const position =
-                (index - currentIndex + testimonials.length) % testimonials.length;
-              const isVisible = position < 3;
-
-              return (
-                <div
-                  key={testimonial.id}
-                  className={`transition-all duration-500 ${
-                    isVisible ? 'opacity-100 visible' : 'opacity-0 hidden'
-                  }`}
-                >
-                  <div className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow h-full flex flex-col">
-                    {/* Star Rating */}
-                    {renderStars(testimonial.rating)}
-
-                    {/* Quote */}
-                    <p className="text-gray-600 text-sm leading-relaxed mb-4 flex-grow italic">
-                      "{testimonial.text}"
-                    </p>
-
-                    {/* Source and Verified Badge */}
-                    <div className="border-t pt-4">
-                      <p className="text-xs font-semibold text-gray-800 mb-1">
-                        {testimonial.platform}
-                      </p>
-                      <p className="text-xs text-gray-500 mb-3">
-                        {testimonial.source}
-                      </p>
-                      {testimonial.verified && (
-                        <div className="flex items-center gap-1 text-green-600">
-                          <span className="text-sm">✓</span>
-                          <span className="text-xs font-semibold">Verified</span>
-                        </div>
-                      )}
-                    </div>
-                  </div>
+        <div className="relative mt-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            {getVisibleTestimonials().map((testimonial) => (
+              <div
+                key={testimonial.id}
+                className="bg-white rounded-lg shadow-md p-6 border border-gray-200"
+              >
+                <div className="flex gap-1 mb-4">
+                  {[...Array(testimonial.rating)].map((_, i) => (
+                    <span key={i} className="text-yellow-400 text-xl">
+                      ⭐
+                    </span>
+                  ))}
                 </div>
-              );
-            })}
+                <p className="text-gray-700 text-sm mb-4 leading-relaxed min-h-[120px]">
+                  {testimonial.text}
+                </p>
+                <div className="flex items-center justify-between text-xs">
+                  <div className="text-gray-900 font-medium">
+                    {testimonial.source}
+                  </div>
+                  {testimonial.verified && (
+                    <div className="flex items-center gap-1 text-green-600">
+                      <span>✓</span>
+                      <span>Verified</span>
+                    </div>
+                  )}
+                </div>
+              </div>
+            ))}
           </div>
 
-          {/* Navigation Arrows */}
-          <div className="flex justify-between items-center gap-4 mb-8">
+          <div className="flex items-center justify-center gap-4 mt-8">
             <button
               onClick={prevSlide}
-              className="p-2 rounded-full bg-white shadow-md hover:bg-gray-50 transition-colors"
+              className="p-3 rounded-full bg-gray-200 hover:bg-gray-300 transition-colors"
               aria-label="Previous testimonials"
             >
-              <ChevronLeft className="w-6 h-6 text-gray-800" />
+              <ChevronLeft className="w-6 h-6 text-gray-700" />
             </button>
-
-            {/* Indicator Dots */}
-            <div className="flex gap-2 justify-center flex-1">
-              {testimonials.map((_, index) => (
-                <button
-                  key={index}
-                  onClick={() => goToSlide(index)}
-                  className={`w-2 h-2 rounded-full transition-colors ${
-                    currentIndex === index ? 'bg-orange-500' : 'bg-gray-300'
-                  }`}
-                  aria-label={`Go to testimonial ${index + 1}`}
-                />
-              ))}
-            </div>
-
             <button
               onClick={nextSlide}
-              className="p-2 rounded-full bg-white shadow-md hover:bg-gray-50 transition-colors"
+              className="p-3 rounded-full bg-gray-200 hover:bg-gray-300 transition-colors"
               aria-label="Next testimonials"
             >
-              <ChevronRight className="w-6 h-6 text-gray-800" />
+              <ChevronRight className="w-6 h-6 text-gray-700" />
             </button>
           </div>
         </div>
