@@ -144,7 +144,6 @@ export default function RootLayout({
       </head>
       <body>
         {children}
-        <Toaster />
       </body>
     </html>
   );
