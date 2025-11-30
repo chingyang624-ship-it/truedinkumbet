@@ -2,7 +2,6 @@ export default function LiveCasinoAllGamesGridSection() {
   const games = [
     { name: "Lightning Baccarat", image: "https://www.bk8.services/wp-content/uploads/2023/08/casino-lightning-baccarat.webp" },
     { name: "Super Sic Bo", image: "https://www.bk8.services/wp-content/uploads/2023/08/casino-super-sic-bo.webp" },
-    { name: "Truedinkumbet Salon Privé Baccarat", image: "https://www.bk8.services/wp-content/uploads/2023/08/casino-salon-prive-baccarat.webp" },
     { name: "Speed Roulette", image: "https://www.bk8.services/wp-content/uploads/2023/08/casino-speed-roulette.webp" },
     { name: "Thai Baccarat", image: "https://www.bk8.services/wp-content/uploads/2023/08/casino-thai-baccarat.webp" },
     { name: "Korean Speed Baccarat", image: "https://www.bk8.services/wp-content/uploads/2023/08/casino-korean-speed-baccarat.webp" },
