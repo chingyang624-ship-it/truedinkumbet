@@ -3,14 +3,13 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CarouselSection from "@/components/landing/CarouselSection";
-import TitleSection from "@/components/landing/TitleSection";
-import HeroSection from "@/components/landing/HeroSection";
-import FeaturesSection from "@/components/landing/FeaturesSection";
-import GamesSection from "@/components/landing/GamesSection";
-import BonusesSection from "@/components/landing/BonusesSection";
-import VIPSection from "@/components/landing/VIPSection";
-import MobileAppSection from "@/components/landing/MobileAppSection";
-import FAQSection from "@/components/landing/FAQSection";
+import NewsTickerSection from "@/components/landing/NewsTickerSection";
+import WelcomeSection from "@/components/landing/WelcomeSection";
+import GamingCategoriesSection from "@/components/landing/GamingCategoriesSection";
+import TestimonialsSection from "@/components/landing/TestimonialsSection";
+import LiveCasinoGamesSection from "@/components/landing/LiveCasinoGamesSection";
+import PopularGamesSection from "@/components/landing/PopularGamesSection";
+import WhyChooseBK8Section from "@/components/landing/WhyChooseBK8Section";
 
 export default function Home() {
   return (
@@ -18,6 +17,7 @@ export default function Home() {
       <Header />
       <main className="flex-1">
         <CarouselSection />
+        <NewsTickerSection />
         <section className="w-full">
           <div className="hidden md:flex gap-4 justify-center py-6 px-4">
             <a
@@ -61,14 +61,12 @@ export default function Home() {
             </a>
           </div>
         </section>
-        <TitleSection />
-        <HeroSection />
-        <FeaturesSection />
-        <GamesSection />
-        <BonusesSection />
-        <VIPSection />
-        <MobileAppSection />
-        <FAQSection />
+        <WelcomeSection />
+        <GamingCategoriesSection />
+        <TestimonialsSection />
+        <LiveCasinoGamesSection />
+        <PopularGamesSection />
+        <WhyChooseBK8Section />
       </main>
       <Footer />
     </div>
