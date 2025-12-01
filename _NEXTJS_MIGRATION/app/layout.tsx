@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
-import { Toaster } from "sonner";
 import "./globals.css";
+import { ToasterProvider } from "./toaster-provider";
 
 export const dynamicParams = true;
 
