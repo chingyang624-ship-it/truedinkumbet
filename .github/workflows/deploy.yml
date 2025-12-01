@@ -38,23 +38,7 @@ jobs:
         run: cd _NEXTJS_MIGRATION && npm install
 
       - name: Build
-        run: cd _NEXTJS_MIGRATION && npm run build 2>&1 || echo "Build completed with warnings"
-
-      - name: Create deployment output
-        run: |
-          mkdir -p _NEXTJS_MIGRATION/out
-          echo '<!DOCTYPE html>
-          <html>
-          <head>
-            <title>Truedinkumbet</title>
-            <meta name="description" content="Truedinkumbet - Online Casino, Sports Betting & Live Casino Australia">
-          </head>
-          <body>
-            <h1>Truedinkumbet</h1>
-            <p>Application deployed successfully.</p>
-            <p>This is a Next.js server-side rendered application. For the best experience, deploy to a Node.js hosting platform like Netlify or Vercel.</p>
-          </body>
-          </html>' > _NEXTJS_MIGRATION/out/index.html
+        run: cd _NEXTJS_MIGRATION && npm run build
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
