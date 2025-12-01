@@ -34,7 +34,7 @@ export default function SportsComprehensiveSEOContent() {
                 Our betting site also offers different games to bet upon like tennis, soccer, basketball, baseball, horse racing, F1, etc. You can go ahead with the popular F1 betting, Golf betting, and Cricket betting and play with the fixed tennis odds too.
               </p>
               <p className="text-sm text-gray-500 mb-3">
-                Smart punters can try their hands on eSports gaming like CSGO, League of Legends, PUBG, and DOTA2. You can view all supported titles at the Truedinkumbet Esports page. The brand IM eSports offer all these games at Truedinkumbet Malaysia. FIFA World, Malaysia Cup, FA Cup, Premier League, etc., are some popular Champion League matches on which players mostly bet.
+                Smart punters can try their hands on eSports gaming like CSGO, League of Legends, PUBG, and DOTA2. You can view all supported titles at the Truedinkumbet Esports page. The brand IM eSports offer all these games at Truedinkumbet Australia. FIFA World, Australian Cup, FA Cup, Premier League, etc., are some popular Champion League matches on which players mostly bet.
               </p>
 
               <h2 className="text-base font-bold mb-2 text-yellow-500">
