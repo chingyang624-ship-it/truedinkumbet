@@ -5,6 +5,7 @@ import "./globals.css";
 export const dynamicParams = true;
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://truedinkumbet.com"),
   title:
     "Truedinkumbet - Online Casino, Sports Betting & Live Casino Australia",
   description:
