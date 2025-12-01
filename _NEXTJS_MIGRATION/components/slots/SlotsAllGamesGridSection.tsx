@@ -80,17 +80,16 @@ export default function SlotsAllGamesGridSection() {
                     loading="lazy"
                     decoding="async"
                     alt={`Truedinkumbet ${game.title}`}
-                    width="240"
-                    height="300"
                     src={game.image}
                     style={{
-                      aspectRatio: "240 / 300",
+                      aspectRatio: "4 / 5",
                       cursor: "pointer",
                       display: "block",
                       width: "100%",
                       height: "auto",
                       objectFit: "contain",
                       transition: "transform 0.3s ease",
+                      borderRadius: "8px",
                     }}
                   />
                 </a>
