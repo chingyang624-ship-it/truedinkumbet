@@ -53,11 +53,11 @@ export default function SlotsCarouselSection() {
               key={index}
               className="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow bg-white"
             >
-              <div className="relative pb-[133%]">
+              <div className="relative pb-[125%]">
                 <img
                   src={game.image}
                   alt={game.title}
-                  className="absolute inset-0 w-full h-full object-cover"
+                  className="absolute inset-0 w-full h-full object-contain"
                 />
               </div>
               <div className="p-3">
