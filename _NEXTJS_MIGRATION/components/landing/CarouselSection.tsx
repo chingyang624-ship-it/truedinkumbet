@@ -2,27 +2,23 @@ export default function CarouselSection() {
   const slides = [
     {
       id: 1,
-      image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F34fc7e65b06f49549fa6e2c5b7d7f866",
-      alt: "BETA-ALL-GresiniAnnouncement-2000x525-en 1",
+      image: "https://static.gwvkyk.com/media/5307c1b56d296b57af7db.png",
+      alt: "Banner 1",
     },
     {
       id: 2,
-      image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F0df3ad2b4eaf44a397adf42d1f2a79e2",
-      alt: "Truedinkumbet-Burnley-FC-Partnership",
+      image: "https://static.gwvkyk.com/media/a7b8da74e1986ee754f17.png",
+      alt: "Banner 2",
     },
     {
       id: 3,
-      image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F21e7fa3f1b184f178c7c5f0f9e5a5b0a",
-      alt: "banner20250124082758635",
+      image: "https://static.gwvkyk.com/media/40882c84e198683d1cbb1.png",
+      alt: "Banner 3",
     },
     {
       id: 4,
-      image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F1fca8e6ecd704ea1b3d5e8f1a2c3d4e5",
-      alt: "banner20250228093805642",
+      image: "https://static.gwvkyk.com/media/29334a60339864d3c7a06.png",
+      alt: "Banner 4",
     },
   ];
 
