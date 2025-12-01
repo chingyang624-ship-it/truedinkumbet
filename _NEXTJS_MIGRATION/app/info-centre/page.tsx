@@ -1,3 +1,5 @@
+export const dynamic = 'force-dynamic';
+
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import InfoCentreHeroSection from "@/components/info-centre/InfoCentreHeroSection";
