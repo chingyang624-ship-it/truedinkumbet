@@ -38,7 +38,28 @@ jobs:
         run: cd _NEXTJS_MIGRATION && npm install
 
       - name: Build
-        run: cd _NEXTJS_MIGRATION && npm run build
+        run: cd _NEXTJS_MIGRATION && npm run build && npm run export
+
+      - name: Create GitHub Pages redirect
+        run: |
+          cat > _NEXTJS_MIGRATION/out/404.html << 'EOF'
+          <!DOCTYPE html>
+          <html>
+          <head>
+            <title>Truedinkumbet</title>
+            <meta charset="utf-8">
+            <script>
+              var pathSegments = window.location.pathname.split('/').filter(Boolean);
+              if (pathSegments.length > 0) {
+                window.location.replace('/?path=' + window.location.pathname);
+              }
+            </script>
+          </head>
+          <body>
+            Redirecting...
+          </body>
+          </html>
+          EOF
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
