@@ -10,23 +10,30 @@ export default function SlotsCarouselSection() {
     {
       title: "Coin Strike 2",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F5e8f1a2c3d4e5f6a7b8c9d0e1f2g3h4i",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2d750595f6854b1ebec8d6a1de0f6e05",
       provider: "BNG",
-      rtp: "96.50",
+      rtp: "96.75",
     },
     {
-      title: "Lucky Fortune",
+      title: "Cash Coin",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F6f9g2b3c4d5e6f7g8h9i0j1k2l3m4n5o",
-      provider: "BNG",
-      rtp: "95.20",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2aac83baa38f45a893130b9537416678",
+      provider: "JILI",
+      rtp: "96.73",
     },
     {
-      title: "Golden Dragon",
+      title: "Pirate Queen 2",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F7g0h3c4d5e6f7g8h9i0j1k2l3m4n5o6p",
-      provider: "Pragmatic",
-      rtp: "96.80",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fdea56528893740118078f68cd11c8549",
+      provider: "JILI",
+      rtp: "96.73",
+    },
+    {
+      title: "Treasure Aztec",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F6aa8e0ce5b74489bbae7a48bdbf52db6",
+      provider: "SLOT MANIA",
+      rtp: "96.95",
     },
   ];
 
@@ -40,7 +47,7 @@ export default function SlotsCarouselSection() {
           Play our most popular slot games
         </p>
 
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
           {featuredGames.map((game, index) => (
             <div
               key={index}
