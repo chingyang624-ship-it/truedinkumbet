@@ -51,9 +51,9 @@ export default function SlotsCarouselSection() {
           {featuredGames.map((game, index) => (
             <div
               key={index}
-              className="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow bg-white"
+              className="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow bg-white flex flex-col h-full"
             >
-              <div className="relative pb-[125%]">
+              <div className="relative pb-[125%] flex-shrink-0">
                 <img
                   src={game.image}
                   alt={game.title}
