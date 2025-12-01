@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import { Toaster } from "sonner";
 import "./globals.css";
 
+export const dynamicParams = true;
+
 export const metadata: Metadata = {
   title:
     "Truedinkumbet - Online Casino, Sports Betting & Live Casino Australia",
