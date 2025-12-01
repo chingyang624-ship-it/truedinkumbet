@@ -1,10 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import dynamic from "next/dynamic";
-
-const ToasterProvider = dynamic(() => import("./toaster-provider").then(mod => ({ default: mod.ToasterProvider })), {
-  ssr: false,
-});
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://truedinkumbet.com"),
@@ -34,7 +29,6 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body>
         {children}
-        <ToasterProvider />
       </body>
     </html>
   );
