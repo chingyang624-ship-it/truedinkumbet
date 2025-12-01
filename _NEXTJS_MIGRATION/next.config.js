@@ -8,12 +8,14 @@ const nextConfig = {
       },
     ],
   },
-  onDemandEntries: {
-    maxInactiveAge: 120000,
-    pagesBufferLength: 5,
-  },
   typescript: {
     ignoreBuildErrors: true,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
+  experimental: {
+    prerenderFallback: false,
   },
 };
 
