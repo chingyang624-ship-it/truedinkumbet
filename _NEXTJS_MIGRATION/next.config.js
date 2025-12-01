@@ -8,8 +8,9 @@ const nextConfig = {
       },
     ],
   },
-  experimental: {
-    isrMemoryCacheSize: 0,
+  onDemandEntries: {
+    maxInactiveAge: 120000,
+    pagesBufferLength: 5,
   },
 };
 
