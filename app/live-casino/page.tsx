@@ -4,7 +4,6 @@ import LiveCasinoHeroSection from "@/components/livecasino/LiveCasinoHeroSection
 import LiveCasinoFeaturedSection from "@/components/livecasino/LiveCasinoFeaturedSection";
 import LiveCasinoIntroSection from "@/components/livecasino/LiveCasinoIntroSection";
 import LiveCasinoWhyChooseSection from "@/components/livecasino/LiveCasinoWhyChooseSection";
-import LiveCasinoProvidersSection from "@/components/livecasino/LiveCasinoProvidersSection";
 import LiveCasinoPopularGamesSection from "@/components/livecasino/LiveCasinoPopularGamesSection";
 import LiveCasinoMobileAppSection from "@/components/livecasino/LiveCasinoMobileAppSection";
 import LiveCasinoFAQSection from "@/components/livecasino/LiveCasinoFAQSection";
@@ -129,7 +128,6 @@ export default function LiveCasinoPage() {
         <LiveCasinoIntroSection />
         <LiveCasinoComprehensiveSEOContent />
         <LiveCasinoWhyChooseSection />
-        <LiveCasinoProvidersSection />
         <LiveCasinoPopularGamesSection />
         <LiveCasinoMobileAppSection />
         <LiveCasinoFAQSection />
