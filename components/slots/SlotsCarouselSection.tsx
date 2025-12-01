@@ -194,17 +194,14 @@ export default function SlotsCarouselSection() {
                       alt={`Truedinkumbet ${game.title} Slots Game`}
                       loading="lazy"
                       src={game.image}
-                      className="w-full h-auto object-cover"
-                      style={
-                        [2, 3, 4].includes(index) ? { height: "225px" } : {}
-                      }
+                      className="w-full h-auto object-contain"
+                      style={{ height: "225px" }}
                     />
                   </a>
                 </div>
 
                 <div
                   className="bg-white p-3 rounded-lg"
-                  style={[2].includes(index) ? { marginTop: "13px" } : {}}
                 >
                   <div className="flex justify-between items-start mb-1">
                     <h3
