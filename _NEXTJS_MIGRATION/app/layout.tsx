@@ -30,7 +30,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body>
         {children}
-        <ToasterProvider />
+        {typeof window !== "undefined" && <ToasterProvider />}
       </body>
     </html>
   );
