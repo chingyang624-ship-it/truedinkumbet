@@ -1,22 +1,10 @@
 export default function LiveCasinoFeaturedSection() {
   const featuredProviders = [
     {
-      name: "Evolution Gaming",
+      name: "Evolution Live Casino",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F5e8f1a2c3d4e5f6a7b8c9d0e1f2g3h4i",
+        "https://www.bk8.services/wp-content/uploads/2023/08/casino-evo.webp",
       games: "Roulette, Blackjack, Baccarat",
-    },
-    {
-      name: "Pragmatic Live",
-      image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F6f9g2b3c4d5e6f7g8h9i0j1k2l3m4n5o",
-      games: "Live Slots, Card Games",
-    },
-    {
-      name: "Microgaming Live",
-      image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F7g0h3c4d5e6f7g8h9i0j1k2l3m4n5o6p",
-      games: "Live Roulette, Blackjack",
     },
   ];
 
@@ -36,6 +24,13 @@ export default function LiveCasinoFeaturedSection() {
               key={index}
               className="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow bg-white"
             >
+              <div className="relative pb-[133%]">
+                <img
+                  src={provider.image}
+                  alt={provider.name}
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
+              </div>
               <div className="p-4">
                 <h3 className="font-bold text-gray-900 mb-2">
                   {provider.name}
