@@ -1,5 +1,24 @@
 export default function LiveCasinoProvidersSection() {
-  const providers: any[] = [];
+  const providers = [
+    {
+      name: 'Evolution Live Casino',
+      description: 'Experience the excitement of Evolution Live Casino, featuring premium games like blackjack, baccarat, and roulette. With flawless streaming, professional dealers, and multi-language support, it\'s the ultimate live casino experience for players in Australia and beyond.',
+      logo: 'https://www.bk8.services/wp-content/uploads/2023/08/casino-evo.webp',
+      imageStyle: {},
+    },
+    {
+      name: 'AE Live Casino',
+      description: 'AE Live Casino offers a clean, reliable interface with classic games like roulette, blackjack, and baccarat. The streams are smooth, the betting system is intuitive, and mobile performance is top-notch.',
+      logo: 'https://www.bk8.services/wp-content/uploads/2023/08/casino-ug.webp',
+      imageStyle: {},
+    },
+    {
+      name: 'Pragmatic Play Live Casino',
+      description: 'Pragmatic Play Live Casino is one of the most popular live casino options among Australian players. With friendly, English-speaking dealers and an energetic atmosphere, each table feels personal and engaging.',
+      logo: 'https://www.bk8.services/wp-content/uploads/2023/08/casino-pp.webp',
+      imageStyle: {},
+    },
+  ];
 
   return (
     <section className="py-20 px-4" style={{ backgroundColor: '#ffffff' }}>
