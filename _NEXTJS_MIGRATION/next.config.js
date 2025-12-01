@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: "https",
@@ -14,18 +15,8 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  headers: async () => {
-    return [
-      {
-        source: "/:path*",
-        headers: [
-          {
-            key: "Cache-Control",
-            value: "public, max-age=3600, s-maxage=3600",
-          },
-        ],
-      },
-    ];
+  experimental: {
+    esmExternals: false,
   },
 };
 
