@@ -48,10 +48,11 @@ export default function SlotsAllGamesGridSection() {
           <div
             style={{
               display: "grid",
-              gridTemplateColumns: "repeat(3, 1fr)",
-              gap: "20px",
+              gridTemplateColumns: "repeat(7, minmax(140px, 1fr))",
+              gap: "16px",
               padding: "15px 0",
               maxWidth: "100%",
+              justifyContent: "center",
             }}
           >
             {games.map((game, index) => (
