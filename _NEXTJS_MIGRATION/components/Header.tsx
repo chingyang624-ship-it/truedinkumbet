@@ -45,14 +45,10 @@ export default function Header() {
                 </li>
               ))}
               <li className="inline-block relative group">
-                <a
-                  href="#"
-                  onClick={(e) => e.preventDefault()}
-                  className="font-medium text-gray-800 hover:text-gray-600 transition-colors leading-[52px] flex items-center gap-1"
-                >
+                <span className="font-medium text-gray-800 leading-[52px] flex items-center gap-1 cursor-default">
                   Blog
                   <span className="text-xs">▼</span>
-                </a>
+                </span>
                 <ul className="absolute hidden group-hover:block bg-white top-full left-0 w-48 p-4 shadow-lg rounded-lg z-50 mt-0">
                   <li>
                     <Link
@@ -85,18 +81,18 @@ export default function Header() {
 
         <div className="md:hidden w-full py-3 px-2">
           <div className="flex gap-2">
-            <Link
+            <a
               href="https://truedinkumbet.com/RFSEOTDK"
               className="flex-1 text-center py-2 text-gray-800 font-medium border border-gray-300 rounded-lg hover:bg-gray-50 transition-colors text-sm"
             >
               Login
-            </Link>
-            <Link
+            </a>
+            <a
               href="https://truedinkumbet.com/RFSEOTDK"
               className="flex-1 text-center py-2 text-white font-bold bg-orange-500 rounded-lg hover:bg-orange-600 transition-colors text-sm"
             >
               Join Now
-            </Link>
+            </a>
           </div>
         </div>
       </div>
