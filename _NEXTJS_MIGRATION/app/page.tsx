@@ -2,24 +2,6 @@ export const dynamic = "force-dynamic";
 
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
-import CarouselSection from "@/components/landing/CarouselSection";
-import NewsTickerSection from "@/components/landing/NewsTickerSection";
-import TitleSection from "@/components/landing/TitleSection";
-import HeroSection from "@/components/landing/HeroSection";
-import WelcomeSection from "@/components/landing/WelcomeSection";
-import GamingCategoriesSection from "@/components/landing/GamingCategoriesSection";
-import FeaturesSection from "@/components/landing/FeaturesSection";
-import GamesSection from "@/components/landing/GamesSection";
-import BonusesSection from "@/components/landing/BonusesSection";
-import TestimonialsSection from "@/components/landing/TestimonialsSection";
-import LiveCasinoGamesSection from "@/components/landing/LiveCasinoGamesSection";
-import PopularGamesSection from "@/components/landing/PopularGamesSection";
-import WhyChooseTruedinkumbetSection from "@/components/landing/WhyChooseTruedinkumbetSection";
-import PaymentMethodsSection from "@/components/landing/PaymentMethodsSection";
-import GameProvidersSection from "@/components/landing/GameProvidersSection";
-import VIPSection from "@/components/landing/VIPSection";
-import MobileAppSection from "@/components/landing/MobileAppSection";
-import FAQSection from "@/components/landing/FAQSection";
 
 export default function Home() {
   return (
