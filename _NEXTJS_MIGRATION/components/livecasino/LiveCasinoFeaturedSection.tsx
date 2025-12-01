@@ -1,150 +1,60 @@
-"use client";
-
-import { useState, useRef } from "react";
-
-const featuredProviders = [
-  {
-    title: "Sexy Baccarat Live Casino",
-    image:
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ffa6122ff258b496e9a87e8522f7f2e27",
-    badge: "Hot",
-  },
-  {
-    title: "Big Gaming Live Casino",
-    image:
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F392af0e5d9cc4ac09548568a64679cc7",
-    badge: "Hot",
-  },
-  {
-    title: "Pragmatic Play Live Casino",
-    image:
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fc7b18a7d6f2a4cb58fac818acd3a91a8",
-    badge: "New",
-  },
-  {
-    title: "Yeebet Live Casino",
-    image:
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fadd339ac6d4546188cd424454da935f6",
-    badge: "Hot",
-  },
-  {
-    title: "Playtech Live Casino",
-    image:
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fd06cde696c644e1b9a1992d279378bcb",
-    badge: "Hot",
-  },
-];
-
 export default function LiveCasinoFeaturedSection() {
-  const [scrollPosition, setScrollPosition] = useState(0);
-  const carouselRef = useRef<HTMLDivElement>(null);
-
-  const scroll = (direction: "left" | "right") => {
-    const carousel = carouselRef.current;
-    if (!carousel) return;
-
-    const scrollAmount = 250;
-    const newPosition =
-      direction === "left"
-        ? scrollPosition - scrollAmount
-        : scrollPosition + scrollAmount;
-
-    carousel.scrollTo({ left: newPosition, behavior: "smooth" });
-    setScrollPosition(newPosition);
-  };
+  const featuredProviders = [
+    {
+      name: "Evolution Gaming",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F5e8f1a2c3d4e5f6a7b8c9d0e1f2g3h4i",
+      games: "Roulette, Blackjack, Baccarat",
+    },
+    {
+      name: "Pragmatic Live",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F6f9g2b3c4d5e6f7g8h9i0j1k2l3m4n5o",
+      games: "Live Slots, Card Games",
+    },
+    {
+      name: "Microgaming Live",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F7g0h3c4d5e6f7g8h9i0j1k2l3m4n5o6p",
+      games: "Live Roulette, Blackjack",
+    },
+  ];
 
   return (
-    <section className="py-20 px-4" style={{ backgroundColor: "#f8f8f8" }}>
-      <div className="max-w-6xl mx-auto">
-        <h2
-          className="text-4xl font-bold text-center mb-12"
-          style={{ color: "#1f2124" }}
-        >
-          Featured Live Casino Providers
+    <section className="w-full py-12 md:py-20 bg-white">
+      <div className="max-w-7xl mx-auto px-4">
+        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+          Live Casino Providers
         </h2>
+        <p className="text-gray-600 text-lg mb-8">
+          Play with the best live casino providers
+        </p>
 
-        <div className="relative mb-8">
-          <button
-            onClick={() => scroll("left")}
-            className="absolute left-0 top-1/2 transform -translate-y-1/2 z-10 bg-white/80 hover:bg-white p-2 rounded-full shadow-lg transition-all"
-            aria-label="Previous providers"
-          >
-            ←
-          </button>
-
-          <div
-            ref={carouselRef}
-            className="flex gap-5 overflow-x-auto scroll-smooth pb-4"
-            style={{ scrollBehavior: "smooth", marginRight: "-4px" }}
-          >
-            {featuredProviders.map((provider, index) => (
-              <div
-                key={index}
-                className="flex-shrink-0 w-56 cursor-pointer transition-transform hover:scale-105"
-              >
-                <div className="relative overflow-hidden rounded-lg mb-3">
-                  {provider.badge && (
-                    <p
-                      style={{
-                        backgroundColor:
-                          provider.badge === "Hot"
-                            ? "rgb(255, 101, 15)"
-                            : "rgb(224, 9, 44)",
-                        borderRadius: "15px",
-                        color: "rgb(255, 255, 255)",
-                        fontSize: "11px",
-                        fontWeight: "600",
-                        lineHeight: "11px",
-                        paddingBottom: "2px",
-                        paddingLeft: "8px",
-                        paddingRight: "8px",
-                        paddingTop: "2px",
-                        position: "absolute",
-                        right: "10px",
-                        textAlign: "center",
-                        top: "10px",
-                        zIndex: 10,
-                      }}
-                    >
-                      {provider.badge}
-                    </p>
-                  )}
-                  <a
-                    href="https://truedinkumbet.com/RFSEOTDK"
-                    target="_blank"
-                    rel="sponsored noopener"
-                    className="block"
-                  >
-                    <img
-                      decoding="async"
-                      alt={`Truedinkumbet ${provider.title}`}
-                      loading="lazy"
-                      src={provider.image}
-                      className="w-full h-auto object-cover"
-                      style={{ height: "310px" }}
-                    />
-                  </a>
-                </div>
-
-                <div className="bg-white p-3 rounded-lg">
-                  <h3
-                    className="font-semibold text-base"
-                    style={{ color: "#1f2124" }}
-                  >
-                    {provider.title}
-                  </h3>
-                </div>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          {featuredProviders.map((provider, index) => (
+            <div
+              key={index}
+              className="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow bg-white"
+            >
+              <div className="relative pb-[133%]">
+                <img
+                  src={provider.image}
+                  alt={provider.name}
+                  className="absolute inset-0 w-full h-full object-cover"
+                />
               </div>
-            ))}
-          </div>
-
-          <button
-            onClick={() => scroll("right")}
-            className="absolute right-0 top-1/2 transform -translate-y-1/2 z-10 bg-white/80 hover:bg-white p-2 rounded-full shadow-lg transition-all"
-            aria-label="Next providers"
-          >
-            →
-          </button>
+              <div className="p-4">
+                <h3 className="font-bold text-gray-900 mb-2">{provider.name}</h3>
+                <p className="text-sm text-gray-600 mb-4">{provider.games}</p>
+                <a
+                  href="https://truedinkumbet.com/RFSEOTDK"
+                  className="w-full bg-orange-500 text-white font-bold py-2 rounded-lg hover:bg-orange-600 transition-colors text-center block"
+                >
+                  Play Now
+                </a>
+              </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>
