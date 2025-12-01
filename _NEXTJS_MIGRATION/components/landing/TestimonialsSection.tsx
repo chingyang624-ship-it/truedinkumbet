@@ -45,38 +45,37 @@ export default function TestimonialsSection() {
   ];
 
   return (
-    <section className="w-full py-12 md:py-20 bg-white">
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            What Our Players Say
-          </h2>
-          <p className="text-gray-600 text-lg">
-            Real reviews from satisfied Truedinkumbet players
-          </p>
-        </div>
+    <section className="py-20 px-4 bg-white">
+      <div className="max-w-6xl mx-auto">
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-4">
+          BK8 Feedback: What the Top Malaysia Casino Review Sites Really Think
+        </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-12">
           {testimonials.map((testimonial) => (
-            <div key={testimonial.id} className="bg-gray-50 rounded-lg p-6">
-              <div className="flex items-center mb-4">
+            <div
+              key={testimonial.id}
+              className="bg-white rounded-lg shadow-md p-6 border border-gray-200"
+            >
+              <div className="flex gap-1 mb-4">
                 {[...Array(testimonial.rating)].map((_, i) => (
-                  <span key={i} className="text-yellow-400">
-                    ★
+                  <span key={i} className="text-yellow-400 text-xl">
+                    ⭐
                   </span>
                 ))}
               </div>
-              <p className="text-gray-700 mb-4">
-                &quot;{testimonial.text}&quot;
+              <p className="text-gray-700 text-sm mb-4 leading-relaxed min-h-[120px]">
+                {testimonial.text}
               </p>
-              <div className="flex items-center justify-between">
-                <span className="font-semibold text-gray-900">
+              <div className="flex items-center justify-between text-xs">
+                <div className="text-gray-900 font-medium">
                   {testimonial.source}
-                </span>
+                </div>
                 {testimonial.verified && (
-                  <span className="text-xs bg-green-100 text-green-800 px-2 py-1 rounded">
-                    Verified
-                  </span>
+                  <div className="flex items-center gap-1 text-green-600">
+                    <span>✓</span>
+                    <span>Verified</span>
+                  </div>
                 )}
               </div>
             </div>
