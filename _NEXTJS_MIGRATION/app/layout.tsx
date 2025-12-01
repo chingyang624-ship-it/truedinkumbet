@@ -2,8 +2,6 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { ToasterProvider } from "./toaster-provider";
 
-export const dynamicParams = true;
-
 export const metadata: Metadata = {
   metadataBase: new URL("https://truedinkumbet.com"),
   title:
