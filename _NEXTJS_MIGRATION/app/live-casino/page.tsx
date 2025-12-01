@@ -1,7 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import LiveCasinoHeroSection from "@/components/livecasino/LiveCasinoHeroSection";
-import LiveCasinoFeaturedSection from "@/components/livecasino/LiveCasinoFeaturedSection";
 import LiveCasinoIntroSection from "@/components/livecasino/LiveCasinoIntroSection";
 import LiveCasinoWhyChooseSection from "@/components/livecasino/LiveCasinoWhyChooseSection";
 import LiveCasinoPopularGamesSection from "@/components/livecasino/LiveCasinoPopularGamesSection";
@@ -88,7 +87,6 @@ export default function LiveCasinoPage() {
             </a>
           </div>
         </section>
-        <LiveCasinoFeaturedSection />
         <LiveCasinoAllProvidersGridSection />
         <LiveCasinoAllGamesGridSection />
         <LiveCasinoIntroSection />
