@@ -14,9 +14,6 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
-  experimental: {
-    prerenderFallback: false,
-  },
 };
 
 module.exports = nextConfig;
