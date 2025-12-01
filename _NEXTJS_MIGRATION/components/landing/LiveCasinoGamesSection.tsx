@@ -61,7 +61,7 @@ export default function LiveCasinoGamesSection() {
               <div className="rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-all">
                 <img
                   src={game.image}
-                  alt={`BK8 ${game.title} Live Casino`}
+                  alt={`Truedinkumbet ${game.title} Live Casino`}
                   className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 <div className="p-4 bg-gray-50">
