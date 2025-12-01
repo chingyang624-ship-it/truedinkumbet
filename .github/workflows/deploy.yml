@@ -38,20 +38,23 @@ jobs:
         run: cd _NEXTJS_MIGRATION && npm install
 
       - name: Build
-        run: cd _NEXTJS_MIGRATION && npm run build || true
+        run: cd _NEXTJS_MIGRATION && npm run build 2>&1 || true
 
-      - name: Create export output
+      - name: Check if build succeeded
         run: |
-          mkdir -p _NEXTJS_MIGRATION/out
-          cp -r _NEXTJS_MIGRATION/.next/static _NEXTJS_MIGRATION/out/ 2>/dev/null || true
-          cp _NEXTJS_MIGRATION/public/* _NEXTJS_MIGRATION/out/ 2>/dev/null || true
-          cat > _NEXTJS_MIGRATION/out/index.html << 'EOF'
-          <!DOCTYPE html>
-          <html>
-          <head><title>Truedinkumbet</title></head>
-          <body><p>App deployed. Please visit the site directly.</p></body>
-          </html>
+          if [ -d "_NEXTJS_MIGRATION/.next" ]; then
+            echo "Build completed"
+            # Create a placeholder out directory for GitHub Pages
+            mkdir -p _NEXTJS_MIGRATION/out
+            # Add a deployment marker
+            cat > _NEXTJS_MIGRATION/out/deployment-marker.txt << 'EOF'
+          Next.js build completed. This is a server-side rendered application.
+          For production deployment, use Netlify, Vercel, or another Node.js hosting platform.
           EOF
+          else
+            echo "Build failed"
+            exit 1
+          fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
