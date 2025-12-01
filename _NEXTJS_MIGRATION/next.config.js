@@ -14,6 +14,10 @@ const nextConfig = {
   eslint: {
     ignoreDuringBuilds: true,
   },
+  onDemandEntries: {
+    maxInactiveAge: 60 * 1000,
+    pagesBufferLength: 5,
+  },
 };
 
 module.exports = nextConfig;
