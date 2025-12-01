@@ -32,7 +32,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body>
         {children}
-        <Toaster />
+        <ToasterProvider />
       </body>
     </html>
   );
