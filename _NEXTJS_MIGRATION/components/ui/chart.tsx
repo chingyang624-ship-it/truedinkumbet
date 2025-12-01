@@ -269,11 +269,11 @@ const ChartLegend = RechartsPrimitive.Legend;
 const ChartLegendContent = React.forwardRef<
   HTMLDivElement,
   Omit<React.ComponentProps<"div">, "payload"> & {
-      payload?: Array<any>;
-      verticalAlign?: "top" | "bottom" | "middle";
-      hideIcon?: boolean;
-      nameKey?: string;
-    }
+    payload?: Array<any>;
+    verticalAlign?: "top" | "bottom" | "middle";
+    hideIcon?: boolean;
+    nameKey?: string;
+  }
 >(
   (
     { className, hideIcon = false, payload, verticalAlign = "bottom", nameKey },

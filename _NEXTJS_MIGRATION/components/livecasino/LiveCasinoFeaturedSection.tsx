@@ -44,7 +44,9 @@ export default function LiveCasinoFeaturedSection() {
                 />
               </div>
               <div className="p-4">
-                <h3 className="font-bold text-gray-900 mb-2">{provider.name}</h3>
+                <h3 className="font-bold text-gray-900 mb-2">
+                  {provider.name}
+                </h3>
                 <p className="text-sm text-gray-600 mb-4">{provider.games}</p>
                 <a
                   href="https://truedinkumbet.com/RFSEOTDK"

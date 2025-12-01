@@ -40,10 +40,14 @@ export default function TestimonialsSection() {
             <div key={testimonial.id} className="bg-gray-50 rounded-lg p-6">
               <div className="flex items-center mb-4">
                 {[...Array(testimonial.rating)].map((_, i) => (
-                  <span key={i} className="text-yellow-400">★</span>
+                  <span key={i} className="text-yellow-400">
+                    ★
+                  </span>
                 ))}
               </div>
-              <p className="text-gray-700 mb-4">&quot;{testimonial.text}&quot;</p>
+              <p className="text-gray-700 mb-4">
+                &quot;{testimonial.text}&quot;
+              </p>
               <div className="flex items-center justify-between">
                 <span className="font-semibold text-gray-900">
                   {testimonial.source}

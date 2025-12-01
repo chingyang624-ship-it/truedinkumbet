@@ -54,7 +54,9 @@ export default function SlotsCarouselSection() {
                 />
               </div>
               <div className="p-3">
-                <h3 className="font-bold text-sm text-gray-900">{game.title}</h3>
+                <h3 className="font-bold text-sm text-gray-900">
+                  {game.title}
+                </h3>
                 <p className="text-xs text-gray-600">{game.provider}</p>
                 <p className="text-xs text-orange-500 font-semibold">
                   RTP: {game.rtp}%
