@@ -1,46 +1,80 @@
+"use client";
+
+import { useState } from "react";
+
 export default function SportsFAQSection() {
+  const [openIndex, setOpenIndex] = useState(0);
+
   const faqs = [
     {
-      question: "What sports can I bet on at Truedinkumbet?",
+      question: "What sports can I bet on using Truedinkumbet?",
       answer:
-        "We offer betting on a wide range of sports including football, basketball, tennis, cricket, and many more. Check our sportsbook for the full list.",
+        "Truedinkumbet offers betting on football, basketball, tennis, badminton, boxing, cricket, rugby, horse racing—among many others.",
     },
     {
-      question: "What types of bets are available?",
+      question: "How do I deposit and withdraw for sports betting?",
       answer:
-        "We offer various bet types including single bets, accumulators, live betting, and many more options to suit your betting style.",
+        "You can deposit via local bank transfer, crypto, and e-wallets. Withdrawals are fast and processed within minutes after verification.",
     },
     {
-      question: "Can I live bet on sports events?",
+      question: "Which sportsbook provider has the best odds?",
       answer:
-        "Yes! Our live betting feature allows you to place bets on ongoing sporting events with real-time odds updates.",
+        "Each provider has its strengths, but M8Bet and WS Sport are known for offering highly competitive odds, especially for football and cricket.",
     },
     {
-      question: "How are winnings calculated?",
+      question: "Can I place live bets during matches?",
       answer:
-        "Winnings are calculated based on your bet amount and the odds at the time of placement. Accumulators multiply the odds of all selections.",
+        "Absolutely. Truedinkumbet supports in-play betting on most major sports, allowing you to wager while the game is still happening.",
+    },
+    {
+      question: "Are there any Truedinkumbet sports promotion offers?",
+      answer:
+        'Yes, Truedinkumbet offers a range of sportsbook promotions, including the popular "You Play, We Pay" bonus, which gives players cashback on losses for selected sports bets. Other promos include welcome bonuses, risk-free bets, accumulator boosters, and cashback on major events like football and horse racing.',
     },
   ];
 
   return (
-    <section className="w-full py-12 md:py-20 bg-white">
-      <div className="max-w-4xl mx-auto px-4">
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-12 text-center">
-          Sports Betting FAQ
+    <section className="py-20 px-4" style={{ backgroundColor: "#ffffff" }}>
+      <div className="max-w-6xl mx-auto">
+        <h2
+          className="text-3xl md:text-4xl font-bold text-center mb-12"
+          style={{ color: "#1f2124" }}
+        >
+          FAQ
         </h2>
 
         <div className="space-y-4">
           {faqs.map((faq, index) => (
             <details
               key={index}
-              className="border border-gray-200 rounded-lg overflow-hidden"
+              open={index === openIndex}
+              onClick={() => setOpenIndex(index === openIndex ? -1 : index)}
+              className="rounded-lg border"
+              style={{ borderColor: "#d5d8dc" }}
             >
-              <summary className="bg-gray-50 px-6 py-4 cursor-pointer hover:bg-gray-100 font-semibold text-gray-900 flex items-center justify-between">
-                {faq.question}
-                <span className="text-orange-500">+</span>
+              <summary
+                className="cursor-pointer p-4 flex justify-between items-center"
+                style={{
+                  backgroundColor:
+                    openIndex === index ? "#f9fafb" : "transparent",
+                  color: "#1f2124",
+                }}
+              >
+                <span className="font-semibold text-lg">{faq.question}</span>
+                <span style={{ fontSize: "18px", fontWeight: "bold" }}>
+                  {index === openIndex ? "−" : "+"}
+                </span>
               </summary>
-              <div className="px-6 py-4 bg-white border-t border-gray-200 text-gray-700">
-                {faq.answer}
+              <div
+                className="p-4"
+                style={{
+                  backgroundColor: "#f9fafb",
+                  borderTop: "1px solid #d5d8dc",
+                }}
+              >
+                <p style={{ color: "#6b7280", lineHeight: "1.8" }}>
+                  {faq.answer}
+                </p>
               </div>
             </details>
           ))}
