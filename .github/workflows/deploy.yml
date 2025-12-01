@@ -1,8 +1,17 @@
-name: Build
+name: Deploy to GitHub Pages
 
 on:
   push:
     branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -31,5 +40,18 @@ jobs:
       - name: Build
         run: cd _NEXTJS_MIGRATION && npm run build
 
-      - name: Build successful
-        run: echo "Build completed successfully"
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "_NEXTJS_MIGRATION/out"
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
