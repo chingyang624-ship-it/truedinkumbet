@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function NotFound() {
   return (
     <div
@@ -15,7 +13,7 @@ export default function NotFound() {
     >
       <h1>404 - Page Not Found</h1>
       <p>The page you're looking for doesn't exist.</p>
-      <Link
+      <a
         href="/"
         style={{
           marginTop: "20px",
@@ -24,10 +22,11 @@ export default function NotFound() {
           color: "white",
           textDecoration: "none",
           borderRadius: "4px",
+          display: "inline-block",
         }}
       >
         Go Home
-      </Link>
+      </a>
     </div>
   );
 }
