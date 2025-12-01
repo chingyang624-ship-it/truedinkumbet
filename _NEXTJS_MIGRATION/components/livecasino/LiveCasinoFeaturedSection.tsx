@@ -36,13 +36,6 @@ export default function LiveCasinoFeaturedSection() {
               key={index}
               className="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow bg-white"
             >
-              <div className="relative pb-[133%]">
-                <img
-                  src={provider.image}
-                  alt={provider.name}
-                  className="absolute inset-0 w-full h-full object-cover"
-                />
-              </div>
               <div className="p-4">
                 <h3 className="font-bold text-gray-900 mb-2">
                   {provider.name}

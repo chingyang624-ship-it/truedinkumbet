@@ -82,49 +82,6 @@ export default function LiveCasinoFeaturedSection() {
                 key={index}
                 className="flex-shrink-0 w-56 cursor-pointer transition-transform hover:scale-105"
               >
-                <div className="relative overflow-hidden rounded-lg mb-3">
-                  {provider.badge && (
-                    <p
-                      style={{
-                        backgroundColor:
-                          provider.badge === "Hot"
-                            ? "rgb(255, 101, 15)"
-                            : "rgb(224, 9, 44)",
-                        borderRadius: "15px",
-                        color: "rgb(255, 255, 255)",
-                        fontSize: "11px",
-                        fontWeight: "600",
-                        lineHeight: "11px",
-                        paddingBottom: "2px",
-                        paddingLeft: "8px",
-                        paddingRight: "8px",
-                        paddingTop: "2px",
-                        position: "absolute",
-                        right: "10px",
-                        textAlign: "center",
-                        top: "10px",
-                        zIndex: 10,
-                      }}
-                    >
-                      {provider.badge}
-                    </p>
-                  )}
-                  <a
-                    href="https://truedinkumbet.com/RFSEOTDK"
-                    target="_blank"
-                    rel="sponsored noopener"
-                    className="block"
-                  >
-                    <img
-                      decoding="async"
-                      alt={`Truedinkumbet ${provider.title}`}
-                      loading="lazy"
-                      src={provider.image}
-                      className="w-full h-auto object-cover"
-                      style={{ height: "225px" }}
-                    />
-                  </a>
-                </div>
 
                 <div className="bg-white p-3 rounded-lg">
                   <h3
