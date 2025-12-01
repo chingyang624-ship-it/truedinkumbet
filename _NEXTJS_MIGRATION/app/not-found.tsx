@@ -1,15 +1,23 @@
 export default function NotFound() {
   return (
-    <div style={{
-      display: "flex",
-      flexDirection: "column",
-      alignItems: "center",
-      justifyContent: "center",
-      minHeight: "100vh",
-      fontFamily: "system-ui"
-    }}>
-      <h1 style={{ fontSize: "2rem", fontWeight: "bold", marginBottom: "1rem" }}>404</h1>
-      <p style={{ fontSize: "1rem", color: "#666", marginBottom: "2rem" }}>Page not found</p>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        minHeight: "100vh",
+        fontFamily: "system-ui",
+      }}
+    >
+      <h1
+        style={{ fontSize: "2rem", fontWeight: "bold", marginBottom: "1rem" }}
+      >
+        404
+      </h1>
+      <p style={{ fontSize: "1rem", color: "#666", marginBottom: "2rem" }}>
+        Page not found
+      </p>
       <a
         href="/"
         style={{
@@ -17,7 +25,7 @@ export default function NotFound() {
           backgroundColor: "#ff6500",
           color: "white",
           borderRadius: "0.5rem",
-          textDecoration: "none"
+          textDecoration: "none",
         }}
       >
         Go back home
