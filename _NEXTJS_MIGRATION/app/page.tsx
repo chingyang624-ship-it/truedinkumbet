@@ -1,19 +1,20 @@
 export const dynamic = "force-dynamic";
 
-import Header from "@/components/Header";
-import Footer from "@/components/Footer";
-
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
-      <Header />
+      <header className="bg-white p-5">
+        <h1 className="text-2xl font-bold">Truedinkumbet</h1>
+      </header>
       <main className="flex-1 pt-16">
         <div className="text-center py-10">
-          <h1 className="text-4xl font-bold">Truedinkumbet</h1>
-          <p>Loading...</p>
+          <h2 className="text-4xl font-bold">Welcome</h2>
+          <p>App is loading...</p>
         </div>
       </main>
-      <Footer />
+      <footer className="bg-gray-100 p-5 text-center">
+        <p>&copy; 2024 Truedinkumbet</p>
+      </footer>
     </div>
   );
 }
