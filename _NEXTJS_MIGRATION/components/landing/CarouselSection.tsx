@@ -27,23 +27,50 @@ export default function CarouselSection() {
   ];
 
   return (
-    <div className="w-full max-w-7xl mx-auto px-4">
-      <div className="relative w-full rounded-xl overflow-hidden bg-gray-200 h-64 sm:h-80 md:h-96">
-        <img
-          src={slides[0].image}
-          alt={slides[0].alt}
-          className="w-full h-full object-cover"
-        />
-      </div>
-      <div className="flex gap-2 justify-center mt-4">
-        {slides.map((slide, idx) => (
-          <div
-            key={slide.id}
-            className={`w-2 h-2 rounded-full ${
-              idx === 0 ? "bg-orange-500" : "bg-gray-300"
-            }`}
-          />
-        ))}
+    <div className="w-full bg-slate-50 pt-20 pb-4">
+      <div className="max-w-7xl mx-auto px-4">
+        <style>{`
+          @keyframes carouselRotate {
+            0% { transform: translateX(0); }
+            ${100 / slides.length}% { transform: translateX(0); }
+            ${100 / slides.length + 0.1}% { transform: translateX(-100%); }
+            ${(2 * 100) / slides.length}% { transform: translateX(-100%); }
+            ${(2 * 100) / slides.length + 0.1}% { transform: translateX(-200%); }
+            ${(3 * 100) / slides.length}% { transform: translateX(-200%); }
+            ${(3 * 100) / slides.length + 0.1}% { transform: translateX(-300%); }
+            ${(4 * 100) / slides.length}% { transform: translateX(-300%); }
+            ${(4 * 100) / slides.length + 0.1}% { transform: translateX(0); }
+            100% { transform: translateX(0); }
+          }
+
+          .carousel-container {
+            animation: carouselRotate 20s infinite;
+          }
+        `}</style>
+        <div className="relative w-full overflow-hidden bg-gray-200 rounded-xl h-64 sm:h-80 md:h-96">
+          <div className="carousel-container flex w-full h-full">
+            {slides.map((slide) => (
+              <div
+                key={slide.id}
+                className="w-full h-full flex-shrink-0"
+              >
+                <img
+                  src={slide.image}
+                  alt={slide.alt}
+                  className="w-full h-full object-cover"
+                />
+              </div>
+            ))}
+          </div>
+        </div>
+        <div className="flex gap-2 justify-center mt-4">
+          {slides.map((slide) => (
+            <div
+              key={slide.id}
+              className="w-2 h-2 rounded-full bg-gray-300"
+            />
+          ))}
+        </div>
       </div>
     </div>
   );
