@@ -38,15 +38,12 @@ jobs:
         run: cd _NEXTJS_MIGRATION && npm install
 
       - name: Build
-        run: cd _NEXTJS_MIGRATION && npm run build && npm run start &
-
-      - name: Create out directory
-        run: mkdir -p _NEXTJS_MIGRATION/out && touch _NEXTJS_MIGRATION/out/index.html
+        run: cd _NEXTJS_MIGRATION && npm run build && npm run export
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "_NEXTJS_MIGRATION/.next"
+          path: "_NEXTJS_MIGRATION/out"
 
   deploy:
     environment:
