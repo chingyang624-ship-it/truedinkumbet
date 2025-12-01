@@ -45,41 +45,33 @@ export default function LiveCasinoGamesSection() {
   ];
 
   return (
-    <section className="w-full py-12 md:py-20 bg-gradient-to-b from-gray-50 to-white">
-      <div className="max-w-7xl mx-auto px-4">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Live Casino Games
-          </h2>
-          <p className="text-gray-600 text-lg">
-            Experience the thrill of live casino with real dealers
-          </p>
-        </div>
+    <section className="py-20 px-4 bg-white">
+      <div className="max-w-6xl mx-auto">
+        <h2 className="text-3xl md:text-4xl font-bold text-center text-gray-900 mb-16">
+          Best Live Casino Games
+        </h2>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {games.map((game) => (
-            <div
+            <a
               key={game.id}
-              className="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow bg-white"
+              href="/live-casino"
+              className="group cursor-pointer"
             >
-              <div className="relative pb-[133%]">
+              <div className="rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-all">
                 <img
                   src={game.image}
-                  alt={game.title}
-                  className="absolute inset-0 w-full h-full object-cover"
+                  alt={`BK8 ${game.title} Live Casino`}
+                  className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-300"
                 />
+                <div className="p-4 bg-gray-50">
+                  <h3 className="text-lg font-semibold text-gray-900 mb-1">
+                    {game.title}
+                  </h3>
+                  <p className="text-sm text-gray-600">{game.provider}</p>
+                </div>
               </div>
-              <div className="p-4">
-                <h3 className="font-bold text-gray-900 mb-2">{game.title}</h3>
-                <p className="text-sm text-gray-600 mb-4">{game.provider}</p>
-                <a
-                  href="https://truedinkumbet.com/RFSEOTDK"
-                  className="w-full bg-orange-500 text-white font-bold py-2 rounded-lg hover:bg-orange-600 transition-colors text-center block"
-                >
-                  Play Now
-                </a>
-              </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>
