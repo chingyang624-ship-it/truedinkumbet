@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SlotsHeroSection from "@/components/slots/SlotsHeroSection";
 import SlotsCarouselSection from "@/components/slots/SlotsCarouselSection";
+import SlotsAllGamesGridSection from "@/components/slots/SlotsAllGamesGridSection";
 import SlotsIntroSection from "@/components/slots/SlotsIntroSection";
 import SlotsWhyChooseSection from "@/components/slots/SlotsWhyChooseSection";
 import SlotsBonusesSection from "@/components/slots/SlotsBonusesSection";
@@ -80,6 +81,7 @@ export default function SlotsPage() {
       <main className="flex-1 pt-16">
         <SlotsHeroSection />
         <SlotsCarouselSection />
+        <SlotsAllGamesGridSection />
         <SlotsIntroSection />
         <SlotsWhyChooseSection />
         <SlotsBonusesSection />
