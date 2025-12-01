@@ -2,7 +2,11 @@
   "compilerOptions": {
     "target": "ES2020",
     "useDefineForClassFields": true,
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable"
+    ],
     "module": "ESNext",
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -17,10 +21,12 @@
     "noUnusedParameters": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
-    "jsx": "preserve",
+    "jsx": "react-jsx",
     "baseUrl": ".",
     "paths": {
-      "@/*": ["./*"]
+      "@/*": [
+        "./*"
+      ]
     },
     "allowJs": true,
     "noEmit": true,
@@ -41,5 +47,9 @@
     "components/**/*.tsx",
     ".next/types/**/*.ts"
   ],
-  "exclude": ["node_modules", "client", "NEXTJS_MIGRATION"]
+  "exclude": [
+    "node_modules",
+    "client",
+    "NEXTJS_MIGRATION"
+  ]
 }
