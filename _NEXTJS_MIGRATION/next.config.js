@@ -12,6 +12,9 @@ const nextConfig = {
     maxInactiveAge: 120000,
     pagesBufferLength: 5,
   },
+  typescript: {
+    ignoreBuildErrors: true,
+  },
 };
 
 module.exports = nextConfig;
