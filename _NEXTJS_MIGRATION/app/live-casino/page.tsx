@@ -44,7 +44,7 @@ export default function LiveCasinoPage() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
-      <main className="flex-1">
+      <main className="flex-1 pt-16">
         <LiveCasinoHeroSection />
         <section className="w-full">
           <div className="hidden md:flex gap-4 justify-center py-6 px-4">
