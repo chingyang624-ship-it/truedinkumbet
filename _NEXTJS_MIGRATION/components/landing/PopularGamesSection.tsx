@@ -2,24 +2,51 @@ export default function PopularGamesSection() {
   const games = [
     {
       id: 1,
-      title: "Bonanza 2",
+      title: "Candy Bonanza",
+      provider: "Next Spin",
+      rtp: "96.73",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F5e8f1a2c3d4e5f6a7b8c9d0e1f2g3h4i",
-      provider: "Pragmatic",
+        "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-1.webp",
     },
     {
       id: 2,
-      title: "Sweet Bonanza",
+      title: "Triple Panda",
+      provider: "Next Spin",
+      rtp: "96.93",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F6f9g2b3c4d5e6f7g8h9i0j1k2l3m4n5o",
-      provider: "Pragmatic",
+        "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-2.webp",
     },
     {
       id: 3,
-      title: "Gates of Olympus",
+      title: "Magical Lamp",
+      provider: "Next Spin",
+      rtp: "97.01",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F7g0h3c4d5e6f7g8h9i0j1k2l3m4n5o6p",
-      provider: "Pragmatic",
+        "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-3.webp",
+    },
+    {
+      id: 4,
+      title: "Dragon Clan",
+      provider: "Next Spin",
+      rtp: "96.93",
+      image:
+        "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-4.webp",
+    },
+    {
+      id: 5,
+      title: "Maya Quest",
+      provider: "Next Spin",
+      rtp: "96.84",
+      image:
+        "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-5.webp",
+    },
+    {
+      id: 6,
+      title: "Dragon Blitz",
+      provider: "Next Spin",
+      rtp: "96.87",
+      image:
+        "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-6.webp",
     },
   ];
 
