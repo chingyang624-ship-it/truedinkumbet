@@ -3,15 +3,15 @@
 import { useEffect } from "react";
 
 export default function Error({
-  error,
+  error: _error,
   reset,
 }: {
   error: Error & { digest?: string };
   reset: () => void;
 }) {
   useEffect(() => {
-    console.error(error.message);
-  }, [error]);
+    // Log error to console
+  }, []);
 
   return (
     <div
