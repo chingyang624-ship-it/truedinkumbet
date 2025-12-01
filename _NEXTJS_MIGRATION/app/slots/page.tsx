@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SlotsHeroSection from "@/components/slots/SlotsHeroSection";
 import SlotsCarouselSection from "@/components/slots/SlotsCarouselSection";
+import SlotsAllGamesGridSection from "@/components/slots/SlotsAllGamesGridSection";
 import SlotsIntroSection from "@/components/slots/SlotsIntroSection";
 import SlotsWhyChooseSection from "@/components/slots/SlotsWhyChooseSection";
 import SlotsProvidersSection from "@/components/slots/SlotsProvidersSection";
@@ -123,6 +124,7 @@ export default function SlotsPage() {
           </div>
         </section>
         <SlotsCarouselSection />
+        <SlotsAllGamesGridSection />
         <SlotsIntroSection />
         <SlotsWhyChooseSection />
         <SlotsBonusesSection />
