@@ -361,7 +361,7 @@ export default function TermsContentSection() {
               "Bonuses" or "Rewards". Within your account, you will see entries
               detailing any bonuses and rewards credited to your account, including the
               amount and the activity it was based on. All daily rewards are credited
-              to eligible accounts by 16:00 AEST each day for the previous day's play.
+              to eligible accounts by 4:00 PM Australian Eastern Time each day for the previous day's play.
               If a promotion has a specific period, any rewards from that promotion will
               be credited on the schedule stated in the promotion's terms.
             </p>
