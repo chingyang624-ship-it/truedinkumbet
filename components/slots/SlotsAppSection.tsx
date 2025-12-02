@@ -1,39 +1,52 @@
 export default function SlotsAppSection() {
   return (
-    <section className="py-20 px-4 bg-gray-50">
+    <section className="py-20 px-4 bg-white">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-yellow-600 mb-6">
-          Play on the Go with the BK8 App
+        <h2 className="text-4xl font-bold text-center text-gray-900 mb-6">
+          Play Slots Anytime, Anywhere
         </h2>
 
-        <div className="space-y-6 text-gray-600 leading-relaxed max-w-4xl">
-          <p>
-            Take your slot adventure wherever you are with the{" "}
-            <a
-              href="https://www.bk8.services/bk8-app/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-orange-500 hover:text-orange-600 underline transition-colors"
-            >
-              BK8 App
-            </a>
-            . The app is lightweight, fast, and perfectly suited for mobile play.
-            Whether you're spinning during lunch or relaxing at night, the app keeps
-            you connected to your favorite games.
+        <div className="max-w-3xl mx-auto">
+          <p className="text-lg text-gray-600 leading-relaxed mb-6">
+            Truedinkumbet's mobile-optimized platform means you can enjoy your
+            favorite slots anywhere. Whether you're commuting, on a break, or
+            relaxing at home, access your account instantly from your phone or
+            tablet.
           </p>
 
-          <p>
-            The BK8 App also allows you to check bonuses, manage your wallet, and
-            play live casino games like{" "}
-            <a
-              href="https://www.bk8.services/live-casino/"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-orange-500 hover:text-orange-600 underline transition-colors"
-            >
-              BK8 Live Casino
-            </a>
-            — all from one interface.
+          <ul className="space-y-4 text-gray-600 mb-6">
+            <li className="flex gap-3">
+              <span className="text-blue-600 font-bold">✓</span>
+              <span>
+                <strong>Fast Loading:</strong> Optimized for all internet speeds
+              </span>
+            </li>
+            <li className="flex gap-3">
+              <span className="text-blue-600 font-bold">✓</span>
+              <span>
+                <strong>Secure Connection:</strong> Bank-level encryption on all
+                devices
+              </span>
+            </li>
+            <li className="flex gap-3">
+              <span className="text-blue-600 font-bold">✓</span>
+              <span>
+                <strong>Access Everything:</strong> Play slots, check bonuses, and
+                manage withdrawals
+              </span>
+            </li>
+            <li className="flex gap-3">
+              <span className="text-blue-600 font-bold">✓</span>
+              <span>
+                <strong>Push Notifications:</strong> Get alerts about new games
+                and bonuses
+              </span>
+            </li>
+          </ul>
+
+          <p className="text-lg text-gray-600 leading-relaxed">
+            Download the Truedinkumbet app or play directly in your browser—both
+            offer the same seamless gaming experience.
           </p>
         </div>
       </div>
