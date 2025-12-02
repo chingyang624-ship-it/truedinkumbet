@@ -26,47 +26,32 @@ export default function Home() {
       <main className="flex-1 pt-16">
         <CarouselSection />
         <NewsTickerSection />
-        <section className="w-full">
-          <div className="hidden md:flex gap-4 justify-center py-6 px-4">
-            <a
-              href="https://truedinkumbet.com/RFSEOTDK"
-              className="px-8 py-3 rounded-lg font-semibold transition-colors"
-              style={{
-                backgroundColor: "#ffffff",
-                color: "#1f2124",
-                border: "1px solid #ddd",
-                textDecoration: "none",
-                display: "inline-block",
-              }}
-            >
-              Login
-            </a>
-            <a
-              href="https://truedinkumbet.com/RFSEOTDK"
-              className="px-8 py-3 rounded-lg font-bold text-white transition-colors"
-              style={{
-                backgroundColor: "#ff6500",
-              }}
-            >
-              Join Now
-            </a>
-          </div>
-
-          <div className="md:hidden w-full flex gap-0">
-            <a
-              href="https://truedinkumbet.com/RFSEOTDK"
-              className="flex-1 py-3 bg-red-700 text-white font-semibold text-center transition-colors"
-              style={{ borderRadius: 0 }}
-            >
-              Join
-            </a>
-            <a
-              href="https://truedinkumbet.com/RFSEOTDK"
-              className="flex-1 py-3 bg-blue-600 text-white font-semibold text-center transition-colors"
-              style={{ borderRadius: 0 }}
-            >
-              Login
-            </a>
+        <section className="w-full bg-gray-50">
+          <div className="max-w-7xl mx-auto px-4 py-4 md:py-6">
+            <div className="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center">
+              <a
+                href="https://truedinkumbet.com/RFSEOTDK"
+                className="flex-1 sm:flex-initial px-6 md:px-8 py-2.5 md:py-3 rounded-lg font-semibold transition-colors text-center text-sm md:text-base"
+                style={{
+                  backgroundColor: "#ffffff",
+                  color: "#1f2124",
+                  border: "1px solid #ddd",
+                  textDecoration: "none",
+                  display: "inline-block",
+                }}
+              >
+                Login
+              </a>
+              <a
+                href="https://truedinkumbet.com/RFSEOTDK"
+                className="flex-1 sm:flex-initial px-6 md:px-8 py-2.5 md:py-3 rounded-lg font-bold text-white transition-colors text-center text-sm md:text-base hover:opacity-90"
+                style={{
+                  backgroundColor: "#ff6500",
+                }}
+              >
+                Join Now
+              </a>
+            </div>
           </div>
         </section>
         <TitleSection />
