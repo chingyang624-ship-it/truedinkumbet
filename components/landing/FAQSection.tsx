@@ -10,54 +10,54 @@ interface FAQItem {
 
 const faqs: FAQItem[] = [
   {
-    question: "Is BK8 a licensed and regulated online casino?",
+    question: "Is Truedinkumbet a legal and licensed online casino in Australia?",
     answer:
-      "Yes, BK8 is fully licensed and regulated by the Government of the Autonomous Island of Anjouan, Union of Comoros (License No. ALSI-202504032-FI2). We also hold certifications from BMM Testlabs, iTech Labs, and Gaming Laboratories International (GLI), ensuring fair play and secure operations.",
+      "Yes, Truedinkumbet is fully licensed and regulated by the Philippine Amusement and Gaming Corporation (PAGCOR), ensuring a safe and secure gaming environment for Australian players. We hold certifications from BMM Testlabs and Gaming Laboratories International (GLI), ensuring fair play and secure operations.",
   },
   {
-    question: "What games can I play at BK8?",
+    question: "What types of casino games can I play on Truedinkumbet Australia?",
     answer:
-      "BK8 offers a wide variety of games including sports betting, live casino games (blackjack, baccarat, roulette), online slots, esports betting, fishing games, and lottery. All games are provided by certified and trusted developers.",
+      "Truedinkumbet offers a wide variety of games including sports betting, live casino games (blackjack, baccarat, roulette), online slots, esports betting, fishing games, and lottery. All games are provided by certified and trusted developers.",
   },
   {
-    question: "How long do withdrawals take at BK8?",
+    question: "How do I register for a Truedinkumbet account?",
     answer:
-      "BK8 processes 92% of withdrawals within 15 minutes, which is faster than most competing platforms. We prioritize quick and secure payouts to ensure you receive your winnings promptly.",
+      "Registering is simple and takes just a few minutes. Visit our website, click 'Join Now', fill in your personal details, verify your email address, and you're ready to start playing. You'll also need to provide some identification for account verification.",
   },
   {
-    question: "What payment methods does BK8 accept?",
+    question: "How can I deposit money into my Truedinkumbet account?",
     answer:
-      "BK8 accepts multiple payment methods including e-wallets (Touch 'n Go, GrabPay, Boost, ShopeePay), online banking (Maybank, CIMB, Public Bank, RHB, Hong Leong, AmBank), and cryptocurrencies (Bitcoin, Tether USDT, Ethereum).",
+      "Truedinkumbet accepts multiple deposit methods including e-wallets, online banking, bank transfers, and cryptocurrencies (Bitcoin, Tether USDT, Ethereum). Simply log in to your account, navigate to 'Deposit', select your preferred payment method, and follow the instructions.",
   },
   {
-    question: "What is the BK8 Welcome Bonus?",
+    question: "What are the withdrawal methods and how long do they take?",
     answer:
-      "New players can enjoy the 288% 'Have You BK8?' Welcome Bonus, offering up to MYR2,880 with a 35x turnover requirement. Members also receive 188 free spins on selected slots and access to seasonal promotions.",
+      "Truedinkumbet offers various withdrawal methods including e-wallets, bank transfers, and cryptocurrencies. Most withdrawals are processed within 24-48 hours. The exact timeframe depends on your chosen withdrawal method and bank processing times.",
   },
   {
-    question: "Is there a BK8 mobile app?",
+    question: "Is there a Truedinkumbet mobile app?",
     answer:
-      "Yes, BK8 offers a dedicated mobile app available for both Android and iOS devices. The app provides seamless betting and gaming experience with all features available on desktop.",
+      "Yes, Truedinkumbet offers a dedicated mobile app available for both Android and iOS devices. The app provides a seamless betting and gaming experience with all features available on desktop.",
   },
   {
-    question: "How do I contact BK8 customer support?",
+    question: "How Do I Claim the Truedinkumbet Casino Free Bonus?",
     answer:
-      "BK8 provides 24/7 customer support through live chat, email, and phone. Our dedicated support team is always ready to assist you with any questions or concerns.",
+      "New players can claim the welcome bonus automatically upon registration or after making their first deposit. The bonus typically includes a deposit match and free spins on selected slots. Check the promotions page for current bonus terms and conditions.",
   },
   {
-    question: "What makes BK8 different from other online casinos?",
+    question: "Is it safe to play and share personal information on Truedinkumbet?",
     answer:
-      "BK8 stands out with higher RTP rates, faster withdrawals (92% processed in under 15 minutes), exclusive promotions, wider sportsbook coverage, and strong security measures. We are certified by multiple international gaming authorities and prioritize player satisfaction above all.",
+      "Absolutely. Truedinkumbet uses SSL encryption and advanced data protection measures to safeguard all transactions and personal information. We are fully compliant with responsible gambling frameworks and undergo regular audits by independent testing agencies.",
   },
   {
-    question: "Can I play BK8 games for free?",
+    question: "What is the minimum deposit amount to start playing?",
     answer:
-      "Yes, many BK8 games offer demo or free play modes, allowing you to try them out before wagering real money. This is a great way to learn game mechanics and develop strategies.",
+      "The minimum deposit amount at Truedinkumbet is AUD 10 (or equivalent in other currencies). This low minimum ensures that players of all budgets can enjoy our games and services.",
   },
   {
-    question: "Is BK8 safe and secure?",
+    question: "How does Truedinkumbet ensure fair play and game integrity?",
     answer:
-      "Absolutely. BK8 uses SSL encryption and advanced data protection measures to safeguard all transactions and personal information. We are fully compliant with responsible gambling frameworks and undergo regular audits by independent testing agencies.",
+      "Truedinkumbet uses Random Number Generator (RNG) technology certified by Gaming Laboratories International (GLI) to ensure fair play. All games are regularly audited, and we maintain the highest standards of game integrity and player protection.",
   },
 ];
 
