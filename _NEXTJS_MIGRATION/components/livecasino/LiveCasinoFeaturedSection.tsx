@@ -3,7 +3,7 @@ export default function LiveCasinoFeaturedSection() {
     {
       name: "Evolution Live Casino",
       image:
-        "https://static.gwvkyk.com/media/providers/evolution-gaming.webp",
+        "https://www.bk8.services/wp-content/uploads/2023/08/casino-evo.webp",
       games: "Roulette, Blackjack, Baccarat",
     },
   ];
