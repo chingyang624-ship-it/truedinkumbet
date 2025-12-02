@@ -25,7 +25,7 @@ export default function SportsPage() {
         "Experience authentic live casino gaming with professional dealers. Play live blackjack, roulette, baccarat, and more.",
       href: "/live-casino",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F4d63e4c30b20476c8b60376956cab5d0",
     },
     {
       title: "Fishing Games",
