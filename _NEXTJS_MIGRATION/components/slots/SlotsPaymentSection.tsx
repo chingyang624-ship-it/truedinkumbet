@@ -2,31 +2,48 @@ export default function SlotsPaymentSection() {
   return (
     <section className="py-20 px-4 bg-white">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-3xl md:text-4xl font-bold text-yellow-600 mb-6">
-          Slot E-Wallet Malaysia: Fast and Safe Payments
+        <h2 className="text-4xl font-bold text-center text-gray-900 mb-6">
+          Safe & Secure Payment Options
         </h2>
 
-        <div className="space-y-6 text-gray-600 leading-relaxed max-w-4xl">
-          <p>
-            Online slot players in Malaysia love convenience — and BK8 delivers.
-            With <strong className="text-gray-600">Touch 'n Go, Boost, and GrabPay</strong>,
-            you can deposit funds instantly without dealing with credit cards or
-            bank delays.
+        <div className="max-w-3xl mx-auto">
+          <p className="text-lg text-gray-600 leading-relaxed mb-6">
+            At Truedinkumbet, we support a range of deposit and withdrawal methods
+            to make your transactions smooth and secure. From credit cards to bank
+            transfers, we've got you covered with AUD-friendly options.
           </p>
 
-          <p>
-            E-wallet slots have become a favorite payment option because they're{" "}
-            <strong className="text-gray-600">
-              fast, secure, and accepted for MYR transactions
-            </strong>
-            . You can also withdraw your winnings quickly using the same wallet
-            method you used for deposit.
-          </p>
+          <ul className="space-y-4 text-gray-600">
+            <li className="flex gap-3">
+              <span className="text-blue-600 font-bold">✓</span>
+              <span>
+                <strong>Credit & Debit Cards:</strong> Visa and Mastercard accepted
+              </span>
+            </li>
+            <li className="flex gap-3">
+              <span className="text-blue-600 font-bold">✓</span>
+              <span>
+                <strong>Bank Transfers:</strong> Direct deposits to your gaming
+                wallet
+              </span>
+            </li>
+            <li className="flex gap-3">
+              <span className="text-blue-600 font-bold">✓</span>
+              <span>
+                <strong>E-wallets:</strong> Fast and convenient digital payments
+              </span>
+            </li>
+            <li className="flex gap-3">
+              <span className="text-blue-600 font-bold">✓</span>
+              <span>
+                <strong>Cryptocurrency:</strong> Bitcoin and other digital currencies
+              </span>
+            </li>
+          </ul>
 
-          <p>
-            <strong className="text-gray-600">Pro Tip:</strong> Always check your
-            e-wallet balance before playing. Deposits usually reflect within seconds,
-            and withdrawals are processed in under 15 minutes at BK8.
+          <p className="text-lg text-gray-600 leading-relaxed mt-6">
+            All transactions are encrypted and secured. Withdrawals are typically
+            processed within 24-48 hours, with some methods even faster.
           </p>
         </div>
       </div>
