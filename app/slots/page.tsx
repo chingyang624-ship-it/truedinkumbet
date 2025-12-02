@@ -17,32 +17,32 @@ import RelatedGamesSection from "@/components/RelatedGamesSection";
 
 export const metadata = {
   title:
-    "Online Slots Australia | Best Slot Games at Truedinkumbet | High RTP Slots",
+    "Slot Malaysia | Best Online Slot Games at BK8 | Play with MYR",
   description:
-    "Play thousands of online slot games at Truedinkumbet with high RTP, progressive jackpots, and exclusive slot bonuses. Enjoy the best slots experience in Australia from top providers like Pragmatic Play and JILI.",
+    "Play the best online slot games at BK8 Malaysia with top providers like 918Kiss, Mega888, Microgaming and more. Enjoy high RTP slots, exciting bonuses, and fast MYR withdrawals.",
   keywords:
-    "online slots Australia, best slot games, progressive jackpots, high RTP slots, Pragmatic Play slots, JILI slots, slot machine games, Truedinkumbet slots",
-  authors: [{ name: "Truedinkumbet" }],
+    "slot Malaysia, online slots Malaysia, BK8 slots, 918Kiss, Mega888, Microgaming, best slot games Malaysia, MYR slots",
+  authors: [{ name: "BK8 Malaysia" }],
   openGraph: {
-    title: "Online Slots Australia - Thousands of Slot Games at Truedinkumbet",
+    title: "Slot Malaysia - Best Online Slot Games at BK8",
     description:
-      "Play thousands of online slot games with high RTP, progressive jackpots, and exclusive bonuses at Truedinkumbet. Licensed and secure slots gaming for Australian players.",
+      "Play the best online slot games at BK8 Malaysia with fast payouts, exciting bonuses, and top providers. Licensed and secure slots gaming.",
     type: "website",
-    url: "https://truedinkumbetaucasino.com/slots",
+    url: "https://www.bk8.services/",
     images: [
       {
         url: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
         width: 1200,
         height: 630,
-        alt: "Truedinkumbet Slots Games",
+        alt: "BK8 Malaysia Slots Games",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Online Slots Australia - Best Slot Games at Truedinkumbet",
+    title: "Slot Malaysia - Best Online Slot Games at BK8",
     description:
-      "Play online slot games with high RTP, progressive jackpots, and exclusive bonuses at Truedinkumbet.",
+      "Play online slot games at BK8 with top providers, fast payouts, and exclusive bonuses. Licensed for Malaysia.",
     images: [
       "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
     ],
