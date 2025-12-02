@@ -1,8 +1,6 @@
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SlotsHeroSection from "@/components/slots/SlotsHeroSection";
-import SlotsCarouselSection from "@/components/slots/SlotsCarouselSection";
-import SlotsAllGamesGridSection from "@/components/slots/SlotsAllGamesGridSection";
 import SlotsIntroSection from "@/components/slots/SlotsIntroSection";
 import SlotsProvidersSection from "@/components/slots/SlotsProvidersSection";
 import SlotsBonusesSection from "@/components/slots/SlotsBonusesSection";
@@ -55,16 +53,16 @@ export default function SlotsPage() {
     {
       title: "Live Casino",
       description:
-        "Experience authentic live casino gaming with professional dealers. Play live blackjack, roulette, baccarat, and more.",
-      href: "/live-casino",
+        "Experience authentic live casino gaming with professional dealers. Play live blackjack, roulette, baccarat, and more at BK8 Malaysia.",
+      href: "https://www.bk8.services/live-casino/",
       image:
         "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F8c37345aca9d46bebb44b8219a5c1529",
     },
     {
       title: "Sports Betting",
       description:
-        "Place bets on all major sports with competitive odds and live betting options. Football, basketball, cricket, tennis, and more.",
-      href: "/sports",
+        "Place bets on all major sports with competitive odds. Football, basketball, cricket, tennis, and more with BK8.",
+      href: "https://www.bk8.services/",
       image:
         "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F5443f7041c3f4b079179c988f0da43b2",
     },
@@ -72,7 +70,7 @@ export default function SlotsPage() {
       title: "Fishing Games",
       description:
         "Play exciting fishing games with stunning graphics and big payouts. Easy to play and loaded with bonus features.",
-      href: "/fishing",
+      href: "https://www.bk8.services/",
       image:
         "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F159a9265e32840a3a0b88b88fc82f47f",
     },
