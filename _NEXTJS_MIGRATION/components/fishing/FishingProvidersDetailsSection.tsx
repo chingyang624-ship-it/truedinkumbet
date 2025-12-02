@@ -2,19 +2,19 @@ export default function FishingProvidersDetailsSection() {
   const providers = [
     {
       title: 'Spadegaming',
-      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F3978d86782704225ab7bca9eb7655846',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F198349e6714a4cc3a3b63c51b7968ffe',
       description:
         'A pioneer in the Asian arcade game market, Spadegaming is best known for titles like Fishing War and Fishing God. Their games are certified for fairness, and they consistently deliver top-tier graphics, multipliers, and engaging bonus features.',
     },
     {
       title: 'JILI',
-      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F32f47ae662a4414785c5685d9e7d240e',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F555b5721e283415083fd5e5f10fdd826',
       description:
         'JILI specializes in mobile-first design. Their fishing games are smooth, user-friendly, and optimized for low-lag gameplay. Happy Fishing is a perfect example of how JILI merges casual fun with high payout potential.',
     },
     {
       title: 'YL Gaming',
-      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F24e3b9630802496099b0ec46185eb0b5',
+      image: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F8fe8d9b9688a41e9b75595f028b4cda4',
       description:
         'A rising star in the fishing game Australia scene, YL Gaming is known for innovation and visual polish. Fishing 2 is one of their flagship titles, offering jackpot modes, high RTPs, and an engaging user experience across devices.',
     },
