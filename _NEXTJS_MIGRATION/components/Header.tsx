@@ -7,7 +7,6 @@ export default function Header() {
     { name: "Esports", href: "https://truedinkumbet.com/RFSEOTDK" },
     { name: "Sports", href: "/sports" },
     { name: "Fishing", href: "/fishing" },
-    { name: "Reviews", href: "/reviews" },
     { name: "App Download", href: "/app-download" },
   ];
 
@@ -57,6 +56,14 @@ export default function Header() {
                       className="font-medium text-gray-800 hover:text-gray-600 hover:bg-gray-100 transition-colors text-sm block px-3 py-2 rounded"
                     >
                       Crypto casino
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href="/reviews"
+                      className="font-medium text-gray-800 hover:text-gray-600 hover:bg-gray-100 transition-colors text-sm block px-3 py-2 rounded"
+                    >
+                      Reviews
                     </Link>
                   </li>
                 </ul>
