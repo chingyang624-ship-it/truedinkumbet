@@ -1,94 +1,71 @@
 const providers = [
   {
-    name: "Pragmatic Play",
+    name: "918Kiss / Kiss918",
     description:
-      'This fan-favorite provider powers some of the most dynamic slots at Truedinkumbet. Games like Gates of Olympus offer high volatility, multipliers, and regular "Drops & Wins" tournaments for cash prizes.',
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fd311eed0693347ae8ec9768f049bf589?format=webp",
-    featured: "Gates of Olympus",
+      "A Malaysian favorite for years, 918Kiss (also known as Kiss918) is known for its smooth gameplay, classic slot feel, and high RTP rates. Players love titles like Great Blue and Highway Kings for their nostalgic yet rewarding experience.",
   },
   {
-    name: "Booongo",
+    name: "SCR888",
     description:
-      "Popular in the Asia-Pacific market, BNG has also gained strong traction in the Australian market. Known for vibrant visuals and creative gameplay. Titles like Super Pink Joker feature free spin bonuses and engaging themes optimized for mobile.",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F9d1a8148f05547549c43fa2220f56fef",
-    featured: "Super Pink Joker",
+      "SCR888 is one of the oldest online slot providers in Malaysia. With simple mechanics and straightforward wins, it's the go-to for beginners. The platform focuses on player experience, offering consistent payouts and stable performance across devices.",
   },
   {
-    name: "Imperium Games",
+    name: "Mega888",
     description:
-      "A trusted name for Australian players, Imperium Games delivers culturally relevant games like Thunder Cash with rich storylines, bonus games, and high win potential.",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F0db731b988cd4a6681d0793a165b4270",
-    featured: "Thunder Cash",
+      "Mega888 is popular among mobile users. The app offers a mix of slots and mini-games, all with fast loading and attractive bonuses. Many Malaysian players rate Mega888 as the 'easiest to win' slot platform.",
   },
   {
-    name: "Vpower",
+    name: "Asia Gaming",
     description:
-      "An iconic brand in the slot game Australia scene, 918Kiss focuses on simplicity and fast gameplay. Its classic slots remain a go-to choice for players who enjoy retro-style games with real win potential.",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F411c79e09cbd446487ea5b3b4ab25990",
-    featured: "Black Myth Wukong",
+      "Asia Gaming (AG) provides locally themed slot titles inspired by Asian myths and traditions. Their graphics and sounds appeal strongly to Malaysian players who enjoy a cultural connection while spinning for prizes.",
   },
   {
-    name: "JILI",
+    name: "SpadeGaming",
     description:
-      "JILI Games is one of the rising stars in online slots, known for its vibrant graphics, smooth gameplay, and creative bonus features. Popular titles like Golden Empire, Roma X, and Crazy 777 deliver high volatility action and exciting rewards, making JILI a favorite among Australian players.",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fdbdac6c97dc34011872a1bcffbd16e5e",
-    featured: "Crazy 7",
+      "With hits like Cai Shen 888 and Double Flame, SpadeGaming has a cult following. The games are colorful, fast-paced, and built to attract players who enjoy quick action and high volatility slots.",
+  },
+  {
+    name: "Microgaming",
+    description:
+      "Microgaming is a global legend in online slot software. Their titles — such as Mega Moolah and Immortal Romance — are loved for big jackpots and progressive prizes. If you want to chase life-changing wins, Microgaming's slots are the place to start.",
+  },
+  {
+    name: "SA Gaming",
+    description:
+      "SA Gaming brings triple-A graphics and immersive sound effects to the table. Every slot feels premium, and it's clear why SA Gaming remains one of Asia's top developers for both live and slot games.",
+  },
+  {
+    name: "Playtech",
+    description:
+      "As one of the world's biggest software brands, Playtech continues to innovate with every release. Their omnichannel gaming experience means you can switch between desktop and mobile without losing progress — ideal for Malaysian players on the go.",
   },
 ];
 
 export default function SlotsProvidersSection() {
   return (
-    <section className="py-20 px-4 bg-gray-50">
+    <section className="py-20 px-4 bg-white">
       <div className="max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-center text-gray-900 mb-6">
-          Trusted Online Slot Game Providers and Their Exclusive Offers
+        <h2 className="text-3xl md:text-4xl font-bold text-yellow-600 mb-6">
+          Top Online Slot Providers at BK8 Malaysia
         </h2>
-        <p className="text-lg text-gray-600 text-center max-w-3xl mx-auto mb-16">
-          Truedinkumbet partners only with certified, respected slot developers,
-          ensuring fair play, smooth gameplay, and exciting bonus features. Here
-          are some of the trusted slot game Australia providers featured at
-          Truedinkumbet:
-        </p>
 
         <div className="space-y-12">
           {providers.map((provider, index) => (
-            <div
-              key={index}
-              className={`flex flex-col ${index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"} gap-8 items-center`}
-            >
-              <div className="md:w-1/3">
-                <img
-                  src={provider.logo}
-                  alt={provider.name}
-                  className="max-h-20 w-auto"
-                  style={
-                    index === 0
-                      ? {}
-                      : index === 3
-                        ? { maxHeight: "200px", minHeight: "110px" }
-                        : {}
-                  }
-                />
-              </div>
-              <div className="md:w-2/3">
-                <h3 className="text-2xl font-semibold text-gray-900 mb-3">
-                  {provider.name}
-                </h3>
-                <p className="text-gray-600 leading-relaxed mb-2">
-                  {provider.description}
-                </p>
-                <p className="text-sm text-gray-500">
-                  Featured Game: <em>{provider.featured}</em>
-                </p>
-              </div>
+            <div key={index} className="border-b pb-8 last:border-b-0">
+              <h3 className="text-2xl font-bold text-yellow-600 mb-4">
+                {index + 1}. {provider.name}
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                {provider.description}
+              </p>
             </div>
           ))}
         </div>
 
-        <div className="mt-12 p-6 bg-white rounded-lg">
+        <div className="mt-12 p-6 bg-gray-50 rounded-lg">
           <p className="text-center text-gray-600">
-            All of these providers are available in the Truedinkumbet slot
-            section, accessible with just a few clicks.
+            All of these providers are available in the BK8 slot section, accessible
+            with just a few clicks.
           </p>
         </div>
       </div>
