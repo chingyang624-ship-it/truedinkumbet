@@ -26,11 +26,11 @@ export default function EWalletHeroSection() {
           </h1>
           
           <p className="text-lg text-gray-700 mb-6 leading-relaxed">
-            Is wagering on casino games your favourite activity to enjoy leisure? Then, undoubtedly, you trust no alternatives over online casino sites. Being a casino admirer from Australia, you won't find any scarcity of web-based casinos operating for players across this region. But is there anything bad in receiving much more facilities than everything you will ever ask for or need as an online gambling lover? This is why Truedinkumbet, ensures a permanent place in the hearts of Australian gamblers like you!
+            Is wagering on casino games your favourite activity to enjoy leisure? Then, undoubtedly, you trust no alternatives over online casino sites. Being a casino admirer from Australia, you won't find any scarcity of web-based casinos operating for players across this region. But is there anything bad in receiving much more facilities than everything you will ever ask for or need as an online gambling lover? This is why our industry-leading platform, Truedinkumbet, ensures a permanent place in the hearts of Australian gamblers like you! But, how are we able to persist in such an apex position for all these years?
           </p>
 
           <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-            On this page, we will introduce the best E-Wallet Casino experience for all you gambling lovers. Truedinkumbet brings a never-ending assortment of casino gaming options, a plethora of attractive and frequent bonuses and promotional offers, and multiple trusted and safe online payment methods.
+            On this page, we will introduce the best E-Wallet Casino in Australia for all you gambling lovers. Truedinkumbet witnesses our services backed by a never-ending assortment of casino gaming options, a plethora of attractive and frequent bonuses and promotional offers, multiple trusted and safe online payment methods, such as Touch N'Go, DuitNow, PayPal and more. We continue to be a leading name in the gaming industry, nurturing a user base of players across Australia and beyond.
           </p>
 
           <div className="flex gap-4 flex-wrap">
