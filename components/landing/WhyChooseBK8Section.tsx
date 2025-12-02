@@ -1,27 +1,27 @@
 "use client";
 
-export default function WhyChooseBK8Section() {
+export default function WhyChooseTruedinkumbetSection() {
   return (
     <section className="py-20 px-4 bg-gradient-to-br from-blue-50 to-purple-50">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Top Reasons Malaysian Players Pick BK8 Over Other Casinos
+            Top Reasons Australian Players Pick Truedinkumbet Over Other Casinos
           </h2>
           <p className="text-gray-600 max-w-3xl mx-auto">
-            Malaysian players choose us because it offers higher RTP, faster
+            Australian players choose us because it offers higher RTP, faster
             withdrawals, and more exclusive promotions than others. With
             certified fair play, strong security, and wider sportsbook coverage,
             we delivers a safer and more rewarding experience. This combination
             of trust and performance makes us the top choice for online casino
-            players in Malaysia.
+            players in Australia.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-white rounded-lg p-8 shadow-lg">
             <h3 className="text-xl font-bold text-gray-900 mb-4">
-              BK8 Licensing, Regulation, and Certified Fair Play
+              Truedinkumbet Licensing, Regulation, and Certified Fair Play
             </h3>
             <p className="text-gray-600 leading-relaxed">
               We a licensed and regulated online casino. We are authorized by
@@ -40,14 +40,14 @@ export default function WhyChooseBK8Section() {
 
           <div className="bg-white rounded-lg p-8 shadow-lg">
             <h3 className="text-xl font-bold text-gray-900 mb-4">
-              Why Players Trust BK8 Over Competitors
+              Why Players Trust Truedinkumbet Over Competitors
             </h3>
             <p className="text-gray-600 leading-relaxed mb-4">
               We consistently delivers higher RTP, better odds, faster
               withdrawals, and more exclusive promotions. Where others limit
               options, we provide broader sportsbook coverage and
               industry-leading transparency. This commitment to excellence is
-              why we are recognized as the most reliable online casino Malaysia.
+              why we are recognized as the most reliable online casino in Australia.
             </p>
             <p className="text-gray-600 leading-relaxed">
               Our platform is secured with SSL encryption and advanced data
@@ -59,17 +59,17 @@ export default function WhyChooseBK8Section() {
 
           <div className="bg-white rounded-lg p-8 shadow-lg">
             <h3 className="text-xl font-bold text-gray-900 mb-4">
-              Exclusive BK8 Promotions
+              Exclusive Truedinkumbet Promotions
             </h3>
             <p className="text-gray-600 leading-relaxed mb-4">
-              Start your journey with the 288% "Have You BK8?" Welcome Bonus,
-              offering up to MYR2,880 with a 35x turnover requirement. Members
+              Start your journey with the 288% "Join Truedinkumbet Today" Welcome Bonus,
+              offering up to AUD 2,880 with a 35x turnover requirement. Members
               can also enjoy 188 free spins on slots and seasonal rewards such
-              as the BK8 Sports 2025 English Premier League Promotion.
+              as the Truedinkumbet Sports 2025 English Premier League Promotion.
             </p>
             <p className="text-gray-600 leading-relaxed mb-4">
-              Compared to other casinos, BK8 stands out clearly. We gives
-              players a 288% bonus up to MYR2,880 and processes 92% of
+              Compared to other casinos, Truedinkumbet stands out clearly. We gives
+              players a 288% bonus up to AUD 2,880 and processes 92% of
               withdrawals in under 15 minutes across sports, live casino, slots,
               and crypto games.
             </p>
@@ -81,17 +81,17 @@ export default function WhyChooseBK8Section() {
 
           <div className="bg-white rounded-lg p-8 shadow-lg">
             <h3 className="text-xl font-bold text-gray-900 mb-4">
-              Play Anywhere with the BK8 App
+              Play Anywhere with the Truedinkumbet App
             </h3>
             <p className="text-gray-600 leading-relaxed">
               Enjoy seamless betting across devices with the official{" "}
-              <a href="/bk8-app" className="text-orange-500 hover:underline">
-                BK8 App
+              <a href="/app-download" className="text-orange-500 hover:underline">
+                Truedinkumbet App
               </a>
               , available for Android and iOS.
             </p>
             <p className="text-gray-600 leading-relaxed mt-4">
-              BK8 is more than just a casino—it's a complete gaming experience
+              Truedinkumbet is more than just a casino—it's a complete gaming experience
               built on trust, speed, and player satisfaction.
             </p>
           </div>
