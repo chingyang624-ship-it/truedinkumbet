@@ -92,17 +92,6 @@ export default function LiveCasinoAllProvidersGridSection() {
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-4">
           {providers.map((provider, index) => (
             <div key={index} className="relative">
-              {provider.badge && (
-                <p
-                  className={`absolute top-2 left-2 z-10 px-3 py-1 text-xs font-bold rounded ${
-                    provider.badge === "Hot"
-                      ? "bg-red-500 text-white"
-                      : "bg-green-500 text-white"
-                  }`}
-                >
-                  {provider.badge}
-                </p>
-              )}
               <img
                 decoding="async"
                 alt={provider.name}
