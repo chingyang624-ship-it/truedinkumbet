@@ -100,7 +100,7 @@ export default function LiveCasinoAllGamesGridSection() {
                   width="25"
                   height="25"
                   loading="lazy"
-                  src="https://www.bk8.services/wp-content/uploads/2023/08/info.webp"
+                  src="https://static.gwvkyk.com/media/icons/info.webp"
                   className="w-4 h-4 rounded-lg"
                 />
               </div>
