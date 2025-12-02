@@ -327,7 +327,7 @@ export default function TermsContentSection() {
             <p>
               Truedinkumbet's reward programs are calculated on a daily basis according
               to your betting activity. At the end of each day (cut-off time is
-              23:59:59 AEST), Truedinkumbet's system totals up the amount you wagered
+              11:59 PM Australian Eastern Time), Truedinkumbet's system totals up the amount you wagered
               on eligible games. Based on that daily total, a reward (as a percentage
               of your wagers, as defined by our reward scheme) is computed. The
               appropriate reward amount is then credited to your account the next day.
