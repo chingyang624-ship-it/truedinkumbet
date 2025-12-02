@@ -47,12 +47,16 @@ export default function EWalletBonusesSection() {
           ))}
         </div>
 
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-8">
-          <p className="text-gray-700 mb-4">
-            In addition to these main offers, our webpage of promotions remains occupied with various cash rebates, cashback offers, promotions of games and software providers, and exclusive seasonal campaigns.
+        <div className="bg-blue-50 border border-blue-200 rounded-lg p-8 mb-12">
+          <h3 className="text-xl font-bold text-gray-900 mb-4">About Our Bonus Range</h3>
+          <p className="text-gray-700 mb-4 leading-relaxed">
+            We know that no other facilities of online casinos can suffice the scarcity of promotions and bonuses offered by the platform provider. Hence, we would love to keep you amidst the prosperity of both of them. A galore of offers come from our end routinely and remain active so that each of our eligible users can enjoy their benefits.
+          </p>
+          <p className="text-gray-700 mb-4 leading-relaxed">
+            Free credit bonuses have been more widely available in Australia in recent years. They are also often known as bonus credit opportunities. Our e-wallet bonus range occurs in free credit offers, money discounts, and many exclusive prizes that players continuously receive from us.
           </p>
           <p className="text-sm text-gray-600">
-            Free credit bonuses are widely available in Australia and often known as bonus credit opportunities. Each offer comes with specific terms and conditions to maximize your gaming experience.
+            Besides, we also have an elongated catalogue of welcome offers. Simultaneously, you will find several competitions and campaigns concurrently tendering gamblers with free spins, monetary prizes, wager credits, and more.
           </p>
         </div>
 
