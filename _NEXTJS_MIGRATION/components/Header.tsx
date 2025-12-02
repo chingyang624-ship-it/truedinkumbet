@@ -66,6 +66,14 @@ export default function Header() {
                       Reviews
                     </Link>
                   </li>
+                  <li>
+                    <Link
+                      href="/e-wallet-casino"
+                      className="font-medium text-gray-800 hover:text-gray-600 hover:bg-gray-100 transition-colors text-sm block px-3 py-2 rounded"
+                    >
+                      E-Wallet Casino
+                    </Link>
+                  </li>
                 </ul>
               </li>
             </ul>
