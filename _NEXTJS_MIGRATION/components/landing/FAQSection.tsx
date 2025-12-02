@@ -10,29 +10,29 @@ interface FAQItem {
 
 const faqs: FAQItem[] = [
   {
-    question: "Is Truedinkumbet a licensed and regulated online casino?",
+    question: "Is Truedinkumbet a legal and licensed online casino in Australia?",
     answer:
       "Yes, Truedinkumbet is fully licensed and regulated by the Philippine Amusement and Gaming Corporation (PAGCOR), ensuring a safe and secure gaming environment for Australian players. We hold certifications from BMM Testlabs and Gaming Laboratories International (GLI), ensuring fair play and secure operations.",
   },
   {
-    question: "What games can I play at Truedinkumbet?",
+    question: "What types of casino games can I play on Truedinkumbet Australia?",
     answer:
       "Truedinkumbet offers a wide variety of games including sports betting, live casino games (blackjack, baccarat, roulette), online slots, esports betting, fishing games, and lottery. All games are provided by certified and trusted developers.",
   },
   {
-    question: "How long do withdrawals take at Truedinkumbet?",
+    question: "How do I register for a Truedinkumbet account?",
     answer:
-      "Truedinkumbet processes withdrawals quickly and efficiently. Most withdrawals are processed within 24-48 hours, allowing you to access your winnings promptly.",
+      "Registering is simple and takes just a few minutes. Visit our website, click 'Join Now', fill in your personal details, verify your email address, and you're ready to start playing. You'll also need to provide some identification for account verification.",
   },
   {
-    question: "What payment methods does Truedinkumbet accept?",
+    question: "How can I deposit money into my Truedinkumbet account?",
     answer:
-      "Truedinkumbet accepts multiple payment methods including e-wallets, online banking, bank transfers, and cryptocurrencies (Bitcoin, Tether USDT, Ethereum).",
+      "Truedinkumbet accepts multiple deposit methods including e-wallets, online banking, bank transfers, and cryptocurrencies (Bitcoin, Tether USDT, Ethereum). Simply log in to your account, navigate to 'Deposit', select your preferred payment method, and follow the instructions.",
   },
   {
-    question: "What is the Truedinkumbet Welcome Bonus?",
+    question: "What are the withdrawal methods and how long do they take?",
     answer:
-      "New players can enjoy generous welcome bonuses offering significant deposit matches with reasonable turnover requirements. Members also receive free spins on selected slots and access to seasonal promotions.",
+      "Truedinkumbet offers various withdrawal methods including e-wallets, bank transfers, and cryptocurrencies. Most withdrawals are processed within 24-48 hours. The exact timeframe depends on your chosen withdrawal method and bank processing times.",
   },
   {
     question: "Is there a Truedinkumbet mobile app?",
@@ -40,24 +40,24 @@ const faqs: FAQItem[] = [
       "Yes, Truedinkumbet offers a dedicated mobile app available for both Android and iOS devices. The app provides a seamless betting and gaming experience with all features available on desktop.",
   },
   {
-    question: "How do I contact Truedinkumbet customer support?",
+    question: "How Do I Claim the Truedinkumbet Casino Free Bonus?",
     answer:
-      "Truedinkumbet provides 24/7 customer support through live chat, email, and phone. Our dedicated support team is always ready to assist you with any questions or concerns.",
+      "New players can claim the welcome bonus automatically upon registration or after making their first deposit. The bonus typically includes a deposit match and free spins on selected slots. Check the promotions page for current bonus terms and conditions.",
   },
   {
-    question: "What makes Truedinkumbet different from other online casinos?",
-    answer:
-      "Truedinkumbet stands out with competitive RTP rates, fast withdrawals, exclusive promotions, wide sportsbook coverage, and strong security measures. We are certified by multiple international gaming authorities and prioritize player satisfaction above all.",
-  },
-  {
-    question: "Can I play Truedinkumbet games for free?",
-    answer:
-      "Yes, many Truedinkumbet games offer demo or free play modes, allowing you to try them out before wagering real money. This is a great way to learn game mechanics and develop strategies.",
-  },
-  {
-    question: "Is Truedinkumbet safe and secure?",
+    question: "Is it safe to play and share personal information on Truedinkumbet?",
     answer:
       "Absolutely. Truedinkumbet uses SSL encryption and advanced data protection measures to safeguard all transactions and personal information. We are fully compliant with responsible gambling frameworks and undergo regular audits by independent testing agencies.",
+  },
+  {
+    question: "What is the minimum deposit amount to start playing?",
+    answer:
+      "The minimum deposit amount at Truedinkumbet is AUD 10 (or equivalent in other currencies). This low minimum ensures that players of all budgets can enjoy our games and services.",
+  },
+  {
+    question: "How does Truedinkumbet ensure fair play and game integrity?",
+    answer:
+      "Truedinkumbet uses Random Number Generator (RNG) technology certified by Gaming Laboratories International (GLI) to ensure fair play. All games are regularly audited, and we maintain the highest standards of game integrity and player protection.",
   },
 ];
 
