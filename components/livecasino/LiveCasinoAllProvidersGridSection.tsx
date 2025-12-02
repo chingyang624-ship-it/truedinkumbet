@@ -49,9 +49,9 @@ export default function LiveCasinoAllProvidersGridSection() {
       badge: "New",
     },
     {
-      name: "Truedinkumbet Live Casino",
+      name: "Binl Live Casino",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-ebet.webp",
+        "https://www.bk8.services/wp-content/uploads/2023/08/casino-binl.webp",
       badge: null,
     },
     {
@@ -76,12 +76,6 @@ export default function LiveCasinoAllProvidersGridSection() {
       name: "Playtech Live Casino",
       image:
         "https://www.bk8.services/wp-content/uploads/2023/08/casino-pt.webp",
-      badge: null,
-    },
-    {
-      name: "Binl Live Casino",
-      image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-binl.webp",
       badge: null,
     },
   ];
