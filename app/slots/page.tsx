@@ -4,11 +4,14 @@ import SlotsHeroSection from "@/components/slots/SlotsHeroSection";
 import SlotsCarouselSection from "@/components/slots/SlotsCarouselSection";
 import SlotsAllGamesGridSection from "@/components/slots/SlotsAllGamesGridSection";
 import SlotsIntroSection from "@/components/slots/SlotsIntroSection";
-import SlotsWhyChooseSection from "@/components/slots/SlotsWhyChooseSection";
-import SlotsBonusesSection from "@/components/slots/SlotsBonusesSection";
 import SlotsProvidersSection from "@/components/slots/SlotsProvidersSection";
-import SlotsPopularGamesSection from "@/components/slots/SlotsPopularGamesSection";
-import SlotsTipsSection from "@/components/slots/SlotsTipsSection";
+import SlotsBonusesSection from "@/components/slots/SlotsBonusesSection";
+import SlotsPaymentSection from "@/components/slots/SlotsPaymentSection";
+import SlotsDemoSection from "@/components/slots/SlotsDemoSection";
+import SlotsWhyChooseSection from "@/components/slots/SlotsWhyChooseSection";
+import SlotsAppSection from "@/components/slots/SlotsAppSection";
+import SlotsResponsibleGamingSection from "@/components/slots/SlotsResponsibleGamingSection";
+import SlotsConclusionSection from "@/components/slots/SlotsConclusionSection";
 import SlotsFAQSection from "@/components/slots/SlotsFAQSection";
 import RelatedGamesSection from "@/components/RelatedGamesSection";
 
