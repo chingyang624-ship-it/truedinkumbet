@@ -1,6 +1,7 @@
 "use client";
 
 import { Star } from "lucide-react";
+import { useSearchParams } from "next/navigation";
 
 interface Review {
   id: number;
@@ -358,13 +359,21 @@ const StarRating = ({ rating }: { rating: number }) => {
 };
 
 export default function ReviewsArchiveSection() {
+  const searchParams = useSearchParams();
+  const page = parseInt(searchParams.get("page") || "1", 10);
+
+  const itemsPerPage = page === 1 ? 20 : 7;
+  const startIndex = page === 1 ? 0 : 20;
+  const endIndex = startIndex + itemsPerPage;
+  const paginatedReviews = reviews.slice(startIndex, endIndex);
+
   return (
     <div className="w-full bg-white py-12">
       <div className="max-w-7xl mx-auto px-4">
         <h1 className="text-4xl font-bold mb-12 text-center">Reviews Archive</h1>
 
         <div className="space-y-6">
-          {reviews.map((review) => (
+          {paginatedReviews.map((review) => (
             <div
               key={review.id}
               className="bg-gray-50 border border-gray-200 rounded-lg p-6 flex flex-col md:flex-row gap-6 hover:shadow-md transition-shadow"
@@ -442,21 +451,46 @@ export default function ReviewsArchiveSection() {
 
         {/* Pagination */}
         <div className="flex justify-center gap-2 mt-12">
-          <span className="inline-block bg-gray-800 text-white px-4 py-2 rounded opacity-40">
+          {page === 1 ? (
+            <span className="inline-block bg-gray-800 text-white px-4 py-2 rounded opacity-40">
+              1
+            </span>
+          ) : (
+            <a
+              href="/reviews?page=1"
+              className="inline-block bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-900 transition-colors"
+            >
+              « Previous
+            </a>
+          )}
+          <a
+            href="/reviews?page=1"
+            className={`inline-block px-4 py-2 rounded transition-colors ${
+              page === 1
+                ? "bg-gray-800 text-white opacity-40"
+                : "bg-gray-800 text-white hover:bg-gray-900"
+            }`}
+          >
             1
-          </span>
+          </a>
           <a
             href="/reviews?page=2"
-            className="inline-block bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-900 transition-colors"
+            className={`inline-block px-4 py-2 rounded transition-colors ${
+              page === 2
+                ? "bg-gray-800 text-white opacity-40"
+                : "bg-gray-800 text-white hover:bg-gray-900"
+            }`}
           >
             2
           </a>
-          <a
-            href="/reviews?page=2"
-            className="inline-block bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-900 transition-colors"
-          >
-            Next »
-          </a>
+          {page === 1 && (
+            <a
+              href="/reviews?page=2"
+              className="inline-block bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-900 transition-colors"
+            >
+              Next »
+            </a>
+          )}
         </div>
       </div>
     </div>
