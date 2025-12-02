@@ -42,8 +42,12 @@ export default function EWalletPaymentSection() {
           Top 3 E-Wallets to Use in Australian Casino 2024
         </h2>
         
+        <p className="text-lg text-gray-700 text-center max-w-3xl mx-auto mb-6 leading-relaxed">
+          We pride ourselves in serving you the best possible online casino gaming offerings across Australia. Such meticulousness is impossible to form without retaining proficiency in several divisions of our offerings, involving the aspect of online payment methods we accept.
+        </p>
+
         <p className="text-lg text-gray-700 text-center max-w-3xl mx-auto mb-12 leading-relaxed">
-          We pride ourselves in serving you the best possible online casino gaming offerings across Australia. All the payment methods permitted by us are widely used and known for being safe and not taking extensive periods for payment processing.
+          All the payment methods permitted by us are widely used and known for being safe and not taking extensive periods for payment processing. You can make fiscal transactions with our site anytime you want during the day, and you will never find us inactive, even on public holidays. To endow players with as much convenience as possible in depositing and withdrawing, we accept cryptocurrencies like Bitcoin, Tether, and Ethereum. In addition to them, we also accept other methods like FP, Help2Pay, EeziePay, and other e-wallet options in casino. You always find yourself flexible with multiple obtainable options at your hand.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
