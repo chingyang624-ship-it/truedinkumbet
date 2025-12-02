@@ -46,74 +46,62 @@ export default function CarouselSection() {
 
   return (
     <div
-      className="relative w-full bg-slate-50 pt-20 pb-4"
+      className="relative w-full bg-slate-50 pt-16 md:pt-20 pb-4"
       role="region"
       aria-label="Home Page"
       tabIndex={0}
     >
-      <div className="text-center w-full">
-        <div className="relative overflow-hidden">
-          <div className="relative text-center">
+      <div className="w-full px-4 md:px-0">
+        <div className="relative overflow-hidden rounded-lg md:rounded-xl">
+          <div className="relative w-full aspect-video md:aspect-auto" style={{ minHeight: "250px", maxHeight: "500px" }}>
             {/* Slides */}
-            <ul className="relative text-center list-none m-0 p-0">
+            <div className="relative w-full h-full">
               {slides.map((slide, index) => (
-                <li
+                <div
                   key={index}
-                  className={`absolute left-0 top-0 w-full text-center ${
-                    index === currentSlide
-                      ? "relative z-20 opacity-100 visible"
-                      : "opacity-0 invisible"
+                  className={`absolute inset-0 w-full h-full transition-opacity duration-500 ${
+                    index === currentSlide ? "opacity-100" : "opacity-0"
                   }`}
-                  style={{
-                    backfaceVisibility: "hidden",
-                    float: index === currentSlide ? "left" : "left",
-                    marginRight: "-100%",
-                    width: "100%",
-                  }}
                 >
                   <a
                     target="_blank"
                     rel="noopener noreferrer"
                     href="https://truedinkumbet.com/RFSEOTDK"
-                    className="inline-block"
+                    className="block w-full h-full"
                     aria-label="View Slide Details"
                   >
                     <img
-                      height="349"
-                      width="1200"
                       alt={slide.title}
                       title={slide.title}
                       draggable="false"
                       loading="lazy"
                       src={slide.image}
-                      className="w-full h-auto"
-                      style={{ paddingRight: "2px", margin: "0 200px -5px 0" }}
+                      className="w-full h-full object-cover"
                     />
                   </a>
-                </li>
+                </div>
               ))}
-            </ul>
+            </div>
 
             {/* Slide Controls */}
-            <ol
+            <div
               aria-label="Slide controls"
-              className="absolute bottom-6 left-10 flex gap-3 z-20 list-none m-0 p-0"
+              className="absolute bottom-3 left-1/2 -translate-x-1/2 flex gap-2 z-20"
             >
               {slides.map((_, index) => (
-                <li key={index} role="presentation">
-                  <button
-                    aria-label={`Show slide ${index + 1} of ${slides.length}`}
-                    role="tab"
-                    onClick={() => goToSlide(index)}
-                    className={`h-3 rounded-full transition-all ${
-                      index === currentSlide
-                        ? "bg-yellow-400 w-8 cursor-default"
-                        : "bg-white w-3 cursor-pointer hover:w-4"
-                    }`}
-                  />
-                </li>
+                <button
+                  key={index}
+                  aria-label={`Show slide ${index + 1} of ${slides.length}`}
+                  role="tab"
+                  onClick={() => goToSlide(index)}
+                  className={`transition-all rounded-full ${
+                    index === currentSlide
+                      ? "bg-yellow-400 w-8 h-3 cursor-default"
+                      : "bg-white/70 hover:bg-white w-3 h-3 cursor-pointer"
+                  }`}
+                />
               ))}
-            </ol>
+            </div>
           </div>
         </div>
       </div>
