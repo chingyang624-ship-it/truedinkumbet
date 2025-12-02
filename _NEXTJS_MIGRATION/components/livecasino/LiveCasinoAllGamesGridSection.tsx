@@ -3,77 +3,77 @@ export default function LiveCasinoAllGamesGridSection() {
     {
       name: "Lightning Baccarat",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-lightning-baccarat.webp",
+        "https://static.gwvkyk.com/media/games/live-casino/lightning-baccarat.webp",
     },
     {
       name: "Super Sic Bo",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-super-sic-bo.webp",
+        "https://static.gwvkyk.com/media/games/live-casino/super-sic-bo.webp",
     },
     {
       name: "Speed Roulette",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-speed-roulette.webp",
+        "https://static.gwvkyk.com/media/games/live-casino/speed-roulette.webp",
     },
     {
       name: "Thai Baccarat",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-thai-baccarat.webp",
+        "https://static.gwvkyk.com/media/games/live-casino/thai-baccarat.webp",
     },
     {
       name: "Korean Speed Baccarat",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-korean-speed-baccarat.webp",
+        "https://static.gwvkyk.com/media/games/live-casino/korean-speed-baccarat.webp",
     },
     {
       name: "Dragon Tiger",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-dragon-tiger.webp",
+        "https://static.gwvkyk.com/media/games/live-casino/dragon-tiger.webp",
     },
     {
       name: "French Gold Roulette",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-french-gold-roulette.webp",
+        "https://static.gwvkyk.com/media/games/live-casino/french-gold-roulette.webp",
     },
     {
       name: "Lightning Roulette",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-lightning-roulette.webp",
+        "https://static.gwvkyk.com/media/games/live-casino/lightning-roulette.webp",
     },
     {
       name: "Live Blackjack",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-live-blackjack.webp",
+        "https://static.gwvkyk.com/media/games/live-casino/live-blackjack.webp",
     },
     {
       name: "Craps",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-craps.webp",
+        "https://static.gwvkyk.com/media/games/live-casino/craps.webp",
     },
     {
       name: "Japanese Baccarat",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-japanese-baccarat.webp",
+        "https://static.gwvkyk.com/media/games/live-casino/japanese-baccarat.webp",
     },
     {
       name: "Speed Baccarat",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-live-speed-baccarat.webp",
+        "https://static.gwvkyk.com/media/games/live-casino/speed-baccarat.webp",
     },
     {
       name: "Free Bet Blackjack",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-free-bet-blackjack.webp",
+        "https://static.gwvkyk.com/media/games/live-casino/free-bet-blackjack.webp",
     },
     {
       name: "Infinite Blackjack",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-infinite-blackjack.webp",
+        "https://static.gwvkyk.com/media/games/live-casino/infinite-blackjack.webp",
     },
     {
       name: "Live Blackjack",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-lightning-blackjack.webp",
+        "https://static.gwvkyk.com/media/games/live-casino/lightning-blackjack.webp",
     },
   ];
 
