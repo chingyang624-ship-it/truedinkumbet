@@ -479,6 +479,12 @@ export default function ReviewsArchiveSection() {
             2
           </a>
           <a
+            href="/reviews?page=3"
+            className="inline-block bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-900 transition-colors"
+          >
+            3
+          </a>
+          <a
             href="/reviews?page=2"
             className="inline-block bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-900 transition-colors"
           >
