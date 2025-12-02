@@ -8,43 +8,31 @@ export default function EWalletFAQSection() {
   const faqs = [
     {
       question: "What gaming options does Truedinkumbet E-Wallet Casino offer?",
-      answer: "Truedinkumbet offers a wide range of gaming options including live casino titles, sports betting, fish slot games, and an extensive collection of free credit e-wallet slot games with premium graphics and engaging gameplay.",
+      answer: "Truedinkumbet offers a wide range of gaming options including live casino titles, sports betting, fish slot games, and an extensive collection of free credit e-wallet slot games.",
     },
     {
       question: "How long has Truedinkumbet been in the gaming industry?",
-      answer: "Truedinkumbet has been a leading name in the gaming industry, serving Australian and international players with premium gaming experiences and trusted services.",
+      answer: "Truedinkumbet has been a leading name in the gaming industry, nurturing a user base of players across Australia with premium gaming experiences and trusted services.",
     },
     {
       question: "Which top slot game providers are featured at Truedinkumbet?",
-      answer: "Truedinkumbet features games from top-tier providers like NextSpin, SpadeGaming, JILI, Playtech, MEGA888, and 918Kiss, ensuring quality and variety.",
+      answer: "Truedinkumbet features games from top-tier providers like NextSpin, SpadeGaming, JILI, Playtech Funky Games, MEGA888, and 918Kiss, ensuring quality and variety.",
     },
     {
       question: "What types of bonuses does Truedinkumbet offer?",
-      answer: "Truedinkumbet offers a variety of bonuses including free credit offers, welcome bonuses up to AUD 1,080, daily reload bonuses, and referral bonuses.",
+      answer: "Truedinkumbet offers a variety of bonuses including free credit offers, welcome bonuses, daily reload bonuses, and referral bonuses. Our e-wallet bonus range occurs in free credit offers, money discounts, and many exclusive prizes.",
     },
     {
       question: "Can I play at Truedinkumbet without making a deposit?",
-      answer: "Yes, Truedinkumbet offers free credit options where you can play without making a deposit, allowing you to win real money with our generous free credit promotions.",
+      answer: "Yes, Truedinkumbet offers free credit bonuses where you don't need to make any deposit, but we will load your account with the offer value. You can invest that value in different games and win real money.",
     },
     {
       question: "What e-wallet payment methods are accepted at Truedinkumbet?",
-      answer: "Truedinkumbet accepts various e-wallets including Touch'n Go, DuitNow, and PayPal, along with other payment methods like internet banking and cryptocurrencies.",
+      answer: "Truedinkumbet accepts various e-wallets including Touch'n Go, DuitNow, and PayPal, along with other methods like FP, Help2Pay, EeziePay, and cryptocurrencies like Bitcoin, Tether, and Ethereum.",
     },
     {
       question: "Is it easy to make deposits and withdrawals at Truedinkumbet?",
-      answer: "Yes, making deposits and withdrawals at Truedinkumbet is straightforward and user-friendly, with multiple safe and trusted online payment methods available for your convenience.",
-    },
-    {
-      question: "What is the minimum deposit amount at Truedinkumbet?",
-      answer: "Minimum deposit amounts vary by payment method. Please check with our support team for specific details on your chosen deposit method.",
-    },
-    {
-      question: "How quickly are withdrawals processed?",
-      answer: "Withdrawals are typically processed within 24-48 hours, depending on your chosen payment method and bank processing times.",
-    },
-    {
-      question: "Is my personal information safe at Truedinkumbet?",
-      answer: "Yes, Truedinkumbet uses advanced encryption technology and follows strict security protocols to protect all your personal and financial information.",
+      answer: "Yes, making deposits and withdrawals at Truedinkumbet is straightforward and user-friendly. All payment methods permitted by us are widely used and known for being safe and not taking extensive periods for payment processing.",
     },
   ];
 
