@@ -6,13 +6,18 @@ import SlotsAllGamesGridSection from "@/components/slots/SlotsAllGamesGridSectio
 import SlotsIntroSection from "@/components/slots/SlotsIntroSection";
 import SlotsProvidersSection from "@/components/slots/SlotsProvidersSection";
 import SlotsBonusesSection from "@/components/slots/SlotsBonusesSection";
+import SlotsTipsSection from "@/components/slots/SlotsTipsSection";
+import SlotsPopularGamesSection from "@/components/slots/SlotsPopularGamesSection";
+import SlotsFAQSection from "@/components/slots/SlotsFAQSection";
+import SlotsNewIntroSection from "@/components/slots/SlotsNewIntroSection";
+import SlotsNewProvidersSection from "@/components/slots/SlotsNewProvidersSection";
+import SlotsNewBonusesSection from "@/components/slots/SlotsNewBonusesSection";
 import SlotsPaymentSection from "@/components/slots/SlotsPaymentSection";
 import SlotsDemoSection from "@/components/slots/SlotsDemoSection";
 import SlotsWhyChooseSection from "@/components/slots/SlotsWhyChooseSection";
-import SlotsPopularGamesSection from "@/components/slots/SlotsPopularGamesSection";
-import SlotsTipsSection from "@/components/slots/SlotsTipsSection";
+import SlotsAppSection from "@/components/slots/SlotsAppSection";
 import SlotsResponsibleGamingSection from "@/components/slots/SlotsResponsibleGamingSection";
-import SlotsFAQSection from "@/components/slots/SlotsFAQSection";
+import SlotsConclusionSection from "@/components/slots/SlotsConclusionSection";
 import RelatedGamesSection from "@/components/RelatedGamesSection";
 
 export const metadata = {
@@ -88,13 +93,18 @@ export default function SlotsPage() {
         <SlotsIntroSection />
         <SlotsProvidersSection />
         <SlotsBonusesSection />
+        <SlotsTipsSection />
+        <SlotsPopularGamesSection />
+        <SlotsFAQSection />
+        <SlotsNewIntroSection />
+        <SlotsNewProvidersSection />
+        <SlotsNewBonusesSection />
         <SlotsPaymentSection />
         <SlotsDemoSection />
         <SlotsWhyChooseSection />
-        <SlotsPopularGamesSection />
-        <SlotsTipsSection />
+        <SlotsAppSection />
         <SlotsResponsibleGamingSection />
-        <SlotsFAQSection />
+        <SlotsConclusionSection />
         <RelatedGamesSection relatedGames={relatedGames} />
       </main>
       <Footer />
