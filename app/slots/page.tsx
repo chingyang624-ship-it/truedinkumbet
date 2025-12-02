@@ -83,14 +83,15 @@ export default function SlotsPage() {
       <Header />
       <main className="flex-1 pt-16">
         <SlotsHeroSection />
-        <SlotsCarouselSection />
-        <SlotsAllGamesGridSection />
         <SlotsIntroSection />
-        <SlotsWhyChooseSection />
-        <SlotsBonusesSection />
         <SlotsProvidersSection />
-        <SlotsPopularGamesSection />
-        <SlotsTipsSection />
+        <SlotsBonusesSection />
+        <SlotsPaymentSection />
+        <SlotsDemoSection />
+        <SlotsWhyChooseSection />
+        <SlotsAppSection />
+        <SlotsResponsibleGamingSection />
+        <SlotsConclusionSection />
         <SlotsFAQSection />
         <RelatedGamesSection relatedGames={relatedGames} />
       </main>
