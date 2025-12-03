@@ -29,7 +29,8 @@ export const metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Reviews Archive - Gaming Provider Reviews",
-    description: "Explore comprehensive reviews of gaming providers and casino platforms.",
+    description:
+      "Explore comprehensive reviews of gaming providers and casino platforms.",
     images: [
       "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
     ],
@@ -41,10 +42,15 @@ function ReviewsLoading() {
   return (
     <div className="w-full bg-white py-12">
       <div className="max-w-7xl mx-auto px-4">
-        <h1 className="text-4xl font-bold mb-12 text-center">Reviews Archive</h1>
+        <h1 className="text-4xl font-bold mb-12 text-center">
+          Reviews Archive
+        </h1>
         <div className="space-y-6">
           {[...Array(5)].map((_, i) => (
-            <div key={i} className="bg-gray-50 border border-gray-200 rounded-lg p-6 h-24 animate-pulse" />
+            <div
+              key={i}
+              className="bg-gray-50 border border-gray-200 rounded-lg p-6 h-24 animate-pulse"
+            />
           ))}
         </div>
       </div>
