@@ -46,15 +46,68 @@ export const metadata: Metadata = {
 
 export default function AboutPage() {
   return (
-    <div className="min-h-screen flex flex-col">
-      <Header />
-      <main className="flex-1">
-        <AboutHeroSection />
-        <AboutIntroSection />
-        <AboutMissionSection />
-        <AboutValuesSection />
-      </main>
-      <Footer />
-    </div>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "AboutPage",
+                mainEntity: {
+                  "@type": "Organization",
+                  name: "Truedinkumbet Australia",
+                  foundingDate: "2017",
+                  url: "https://truedinkumbetaucasino.com/",
+                  logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+                  sameAs: [
+                    "https://x.com/truedinkumbet",
+                    "https://t.me/truedinkumbetau",
+                  ],
+                  contactPoint: {
+                    "@type": "ContactPoint",
+                    contactType: "customer support",
+                    email: "vip.truedinkumbet@gmail.com",
+                    areaServed: "AU",
+                  },
+                },
+              },
+              {
+                "@type": "FAQPage",
+                mainEntity: [
+                  {
+                    "@type": "Question",
+                    name: "When was Truedinkumbet established?",
+                    acceptedAnswer: {
+                      "@type": "Answer",
+                      text: "Truedinkumbet was established in 2017 and has since grown to become one of Australia's most trusted online gaming platforms.",
+                    },
+                  },
+                  {
+                    "@type": "Question",
+                    name: "Is Truedinkumbet licensed?",
+                    acceptedAnswer: {
+                      "@type": "Answer",
+                      text: "Yes, we operate under a strict Curacao Gaming License, ensuring fair play and security for all our players.",
+                    },
+                  },
+                ],
+              },
+            ],
+          }),
+        }}
+      />
+      <div className="min-h-screen flex flex-col">
+        <Header />
+        <main className="flex-1">
+          <AboutHeroSection />
+          <AboutIntroSection />
+          <AboutMissionSection />
+          <AboutValuesSection />
+        </main>
+        <Footer />
+      </div>
+    </>
   );
 }
