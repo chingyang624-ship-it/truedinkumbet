@@ -43,17 +43,17 @@ export default function CarouselSection() {
             animation: carouselRotate 20s infinite;
           }
         `}</style>
-        <div className="relative w-full overflow-hidden bg-gray-200" style={{ aspectRatio: "16 / 9", minHeight: "300px" }}>
-          <div className="carousel-container flex w-full h-full">
+        <div className="relative w-full overflow-hidden bg-gray-200">
+          <div className="carousel-container flex w-full">
             {slides.map((slide) => (
               <div
                 key={slide.id}
-                className="w-full h-full flex-shrink-0"
+                className="w-full flex-shrink-0"
               >
                 <img
                   src={slide.image}
                   alt={slide.alt}
-                  className="w-full h-full object-cover"
+                  style={{ width: "100%", height: "auto", display: "block" }}
                 />
               </div>
             ))}
