@@ -2,21 +2,44 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://truedinkumbet.com"),
-  title:
-    "Truedinkumbet - Online Casino, Sports Betting & Live Casino Australia",
+  metadataBase: new URL("https://truedinkumbetaucasino.com"),
+  title: "Truedinkumbet Australia: Best Trusted Online Casino & Betting Site 2025",
   description:
-    "Truedinkumbet - Online Casino, Sports Betting, Live Casino, Slots & Crypto Gaming in Australia. Licensed by PAGCOR.",
+    "Join Truedinkumbet Australia for the ultimate gaming experience. Play Slots, Live Casino & Sports Betting with instant crypto withdrawals. Claim your 100% Welcome Bonus now!",
   keywords:
-    "online casino, sports betting, live casino, slots, crypto casino, Australia, Truedinkumbet",
-  authors: [{ name: "Truedinkumbet" }],
+    "Truedinkumbet Australia, Truedinkumbet casino login, best online casino Australia 2025, trusted betting site Australia, crypto casino AU, Truedinkumbet app download",
+  authors: [{ name: "Truedinkumbet Australia Team" }],
+  themeColor: "#1f2937",
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "https://truedinkumbetaucasino.com/",
+  },
   openGraph: {
-    title: "Truedinkumbet - Online Casino & Sports Betting Australia",
+    type: "website",
+    siteName: "Truedinkumbet Casino",
+    title: "Truedinkumbet: #1 Trusted Casino in Australia",
     description:
-      "Play online casino games, sports betting, live dealers, and crypto gaming. Licensed and regulated by PAGCOR.",
+      "Play with confidence. Licensed, Secure, and Fast Payouts. Join 50,000+ Aussie players today.",
+    url: "https://truedinkumbetaucasino.com/",
     images: [
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+      {
+        url: "https://static.gwvkyk.com/media/5307c1b56d296b57af7db.png",
+        width: 1200,
+        height: 630,
+        alt: "Truedinkumbet Casino",
+      },
     ],
+    locale: "en_AU",
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@truedinkumbet",
+    title: "Truedinkumbet Australia - Play & Win",
+    description: "Best odds, huge jackpots, and instant withdrawals.",
+    images: ["https://static.gwvkyk.com/media/5307c1b56d296b57af7db.png"],
   },
 };
 
