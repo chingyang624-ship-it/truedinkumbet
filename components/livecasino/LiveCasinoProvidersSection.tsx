@@ -3,19 +3,19 @@ export default function LiveCasinoProvidersSection() {
     {
       name: 'Evolution Live Casino',
       description: 'Experience the excitement of Evolution Live Casino, featuring premium games like blackjack, baccarat, and roulette. With flawless streaming, professional dealers, and multi-language support, it\'s the ultimate live casino experience for players in Australia and beyond.',
-      logo: 'https://www.bk8.services/wp-content/uploads/2023/08/casino-evo.webp',
+      logo: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff3e0ffe7b8494ee78cf10d83983e5dd6',
       imageStyle: {},
     },
     {
       name: 'AE Live Casino',
       description: 'AE Live Casino offers a clean, reliable interface with classic games like roulette, blackjack, and baccarat. The streams are smooth, the betting system is intuitive, and mobile performance is top-notch.',
-      logo: 'https://www.bk8.services/wp-content/uploads/2023/08/casino-ug.webp',
+      logo: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2d750595f6854b1ebec8d6a1de0f6e05',
       imageStyle: {},
     },
     {
       name: 'Pragmatic Play Live Casino',
       description: 'Pragmatic Play Live Casino is one of the most popular live casino options among Australian players. With friendly, English-speaking dealers and an energetic atmosphere, each table feels personal and engaging.',
-      logo: 'https://www.bk8.services/wp-content/uploads/2023/08/casino-pp.webp',
+      logo: 'https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2aac83baa38f45a893130b9537416678',
       imageStyle: {},
     },
   ];
