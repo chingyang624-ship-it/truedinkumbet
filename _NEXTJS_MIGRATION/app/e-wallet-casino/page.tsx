@@ -9,12 +9,15 @@ import EWalletFAQSection from "@/components/e-wallet-casino/EWalletFAQSection";
 
 export const metadata = {
   title: "E-Wallet Casino Australia 2024 | Truedinkumbet",
-  description: "Discover the best e-wallet casino in Australia with Truedinkumbet. Enjoy safe deposits via Apple Pay, Google Pay, Neteller, Skrill and more. Play premium slots with AUD 1,080 welcome bonus.",
-  keywords: "e-wallet casino Australia, online casino e-wallet, safe deposit methods, slots Australia, Truedinkumbet",
+  description:
+    "Discover the best e-wallet casino in Australia with Truedinkumbet. Enjoy safe deposits via Apple Pay, Google Pay, Neteller, Skrill and more. Play premium slots with AUD 1,080 welcome bonus.",
+  keywords:
+    "e-wallet casino Australia, online casino e-wallet, safe deposit methods, slots Australia, Truedinkumbet",
   authors: [{ name: "Truedinkumbet" }],
   openGraph: {
     title: "E-Wallet Casino Australia 2024 | Truedinkumbet",
-    description: "The best e-wallet casino in Australia with premium games and safe payment methods.",
+    description:
+      "The best e-wallet casino in Australia with premium games and safe payment methods.",
     type: "website",
     url: "https://truedinkumbetaucasino.com/e-wallet-casino",
     images: [
