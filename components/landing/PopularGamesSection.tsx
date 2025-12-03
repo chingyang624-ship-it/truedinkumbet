@@ -18,7 +18,7 @@ const popularGames: PopularGame[] = [
     provider: "Next Spin",
     rtp: "96.73",
     image:
-      "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-1.webp",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fc1f22ae8e0cb4b72ac18d2e3d886314b",
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const popularGames: PopularGame[] = [
     provider: "Next Spin",
     rtp: "96.93",
     image:
-      "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-2.webp",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2d750595f6854b1ebec8d6a1de0f6e05",
   },
   {
     id: 3,
@@ -34,7 +34,7 @@ const popularGames: PopularGame[] = [
     provider: "Next Spin",
     rtp: "97.01",
     image:
-      "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-3.webp",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2aac83baa38f45a893130b9537416678",
   },
   {
     id: 4,
@@ -42,7 +42,7 @@ const popularGames: PopularGame[] = [
     provider: "Next Spin",
     rtp: "96.93",
     image:
-      "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-4.webp",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fdea56528893740118078f68cd11c8549",
   },
   {
     id: 5,
@@ -50,7 +50,7 @@ const popularGames: PopularGame[] = [
     provider: "Next Spin",
     rtp: "96.84",
     image:
-      "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-5.webp",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F6aa8e0ce5b74489bbae7a48bdbf52db6",
   },
   {
     id: 6,
@@ -58,7 +58,7 @@ const popularGames: PopularGame[] = [
     provider: "Next Spin",
     rtp: "96.87",
     image:
-      "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-6.webp",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff3e0ffe7b8494ee78cf10d83983e5dd6",
   },
 ];
 
