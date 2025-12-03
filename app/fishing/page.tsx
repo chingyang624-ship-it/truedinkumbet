@@ -13,37 +13,39 @@ import FishingComprehensiveSEOContent from "@/components/fishing/FishingComprehe
 import RelatedGamesSection from "@/components/RelatedGamesSection";
 
 export const metadata = {
-  title: "Online Fishing Games Australia | Play at Truedinkumbet | Big Payouts",
-  description:
-    "Play exciting online fishing games at Truedinkumbet with stunning graphics, big payouts, and exclusive bonuses. Licensed fishing game entertainment for Australian players.",
-  keywords:
-    "fishing games Australia, online fishing games, fishing game casino, fish hunting games, fishing slots, Truedinkumbet fishing",
-  authors: [{ name: "Truedinkumbet" }],
+  title: "Best Online Fishing Games Australia | Play Real Money Fish Shooting",
+  description: "Play the best arcade fishing games online at Truedinkumbet. Shoot fish, hunt dragons, and win real money in Fishing War & Fishing God. Instant crypto payouts.",
+  keywords: "online fishing games Australia, fish shooting gambling, play fishing war, fishing god casino, JILI fishing games, arcade casino games, real money fish hunter",
+  authors: [{ name: "Truedinkumbet Arcade" }],
+  themeColor: "#0a0a0a",
+  robots: {
+    index: true,
+    follow: true,
+  },
+  canonical: "https://truedinkumbetaucasino.com/fishing",
   openGraph: {
-    title: "Online Fishing Games Australia - Play at Truedinkumbet",
-    description:
-      "Enjoy thrilling fishing games with great graphics, big payouts, and exclusive bonuses at Truedinkumbet. Play and win today!",
     type: "website",
+    siteName: "Truedinkumbet Fishing",
+    title: "Shoot & Win: Online Fishing Casino Australia",
+    description: "Join the underwater hunt! Play top-rated fishing arcade games with high multipliers.",
     url: "https://truedinkumbetaucasino.com/fishing",
     images: [
       {
-        url: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+        url: "https://static.gwvkyk.com/media/5307c1b56d296b57af7db.png",
         width: 1200,
         height: 630,
         alt: "Truedinkumbet Fishing Games",
       },
     ],
+    locale: "en_AU",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Online Fishing Games Australia - Play at Truedinkumbet",
-    description:
-      "Play exciting fishing games with great graphics, big payouts, and exclusive bonuses at Truedinkumbet.",
-    images: [
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
-    ],
+    site: "@truedinkumbet",
+    title: "Real Money Fishing Games",
+    description: "Fishing War, Fishing God & more. Instant payouts.",
+    image: "https://static.gwvkyk.com/media/5307c1b56d296b57af7db.png",
   },
-  robots: "index, follow",
 };
 
 export default function FishingPage() {
