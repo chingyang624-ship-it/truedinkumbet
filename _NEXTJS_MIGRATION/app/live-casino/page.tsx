@@ -12,9 +12,12 @@ import LiveCasinoComprehensiveSEOContent from "@/components/livecasino/LiveCasin
 import RelatedGamesSection from "@/components/RelatedGamesSection";
 
 export const metadata = {
-  title: "Play Live Casino Australia | Real Dealer Blackjack, Roulette & Baccarat",
-  description: "Experience the thrill of Truedinkumbet Live Casino. HD streaming with professional dealers. Play Live Blackjack, Roulette, Baccarat & Game Shows. 24/7 tables.",
-  keywords: "live casino Australia, live dealer games, online roulette Australia, live blackjack real money, evolution gaming casino, pragmatic play live, Truedinkumbet live casino",
+  title:
+    "Play Live Casino Australia | Real Dealer Blackjack, Roulette & Baccarat",
+  description:
+    "Experience the thrill of Truedinkumbet Live Casino. HD streaming with professional dealers. Play Live Blackjack, Roulette, Baccarat & Game Shows. 24/7 tables.",
+  keywords:
+    "live casino Australia, live dealer games, online roulette Australia, live blackjack real money, evolution gaming casino, pragmatic play live, Truedinkumbet live casino",
   authors: [{ name: "Truedinkumbet Live" }],
   themeColor: "#0a0a0a",
   robots: {
@@ -26,7 +29,8 @@ export const metadata = {
     type: "website",
     siteName: "Truedinkumbet Live",
     title: "Live Casino: Real Dealers, Real Wins",
-    description: "Join the table now! HD Live Baccarat, Roulette & Blackjack with instant crypto payouts.",
+    description:
+      "Join the table now! HD Live Baccarat, Roulette & Blackjack with instant crypto payouts.",
     url: "https://truedinkumbetaucasino.com/live-casino",
     images: [
       {
@@ -42,7 +46,8 @@ export const metadata = {
     card: "summary_large_image",
     site: "@truedinkumbet",
     title: "Truedinkumbet Live Dealer Casino",
-    description: "Play against real dealers in HD. Join now for a $20 Free Chip.",
+    description:
+      "Play against real dealers in HD. Join now for a $20 Free Chip.",
     image: "https://static.gwvkyk.com/media/5307c1b56d296b57af7db.png",
   },
 };
