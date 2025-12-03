@@ -61,7 +61,7 @@ export default function EWalletPaymentSection() {
           All the payment methods permitted by us are widely used and known for being safe and not taking extensive periods for payment processing. You can make fiscal transactions with our site anytime you want during the day, and you will never find us inactive, even on public holidays. To endow players with as much convenience as possible in depositing and withdrawing, we accept cryptocurrencies like Bitcoin, Tether, and Ethereum. In addition to them, we also accept other methods like FP, Help2Pay, EeziePay, and other e-wallet options in casino. You always find yourself flexible with multiple obtainable options at your hand.
         </p>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
           {ewallets.map((ewallet, index) => (
             <div key={index} className="bg-white rounded-lg shadow-md overflow-hidden">
               <div className="p-6 text-center border-b border-gray-200">
