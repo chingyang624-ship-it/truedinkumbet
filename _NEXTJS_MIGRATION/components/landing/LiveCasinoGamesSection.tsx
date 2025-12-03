@@ -1,47 +1,47 @@
 export default function LiveCasinoGamesSection() {
   const games = [
     {
-    id: 1,
-    title: "Crazy Time",
-    provider: "Evolution Gaming",
-    image:
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fa28bb5330f374d219b02919323ce5c1b?format=webp",
-  },
-  {
-    id: 2,
-    title: "Super Sic-Bo",
-    provider: "Evolution Gaming",
-    image:
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fd6bbab2a1d7b405fa8ec3a7cff1ca43f?format=webp",
-  },
-  {
-    id: 3,
-    title: "Mega Ball",
-    provider: "Evolution Gaming",
-    image:
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fb24cf2cf4db04eb0a3ac5561f30a550b?format=webp",
-  },
-  {
-    id: 4,
-    title: "Lightning Dice",
-    provider: "Evolution Gaming",
-    image:
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F65ae0a7817b146f7be5489a52441fb23?format=webp",
-  },
-  {
-    id: 5,
-    title: "Lightning Baccarat",
-    provider: "Evolution Gaming",
-    image:
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F31ada08a59ed4b1dbba0a2efd3a6eb89?format=webp",
-  },
-  {
-    id: 6,
-    title: "Lightning Roulette",
-    provider: "Evolution Gaming",
-    image:
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F487be4e0350d44e597114dfcd7621146?format=webp",
-  },
+      id: 1,
+      title: "Crazy Time",
+      provider: "Evolution Gaming",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fa28bb5330f374d219b02919323ce5c1b?format=webp",
+    },
+    {
+      id: 2,
+      title: "Super Sic-Bo",
+      provider: "Evolution Gaming",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fd6bbab2a1d7b405fa8ec3a7cff1ca43f?format=webp",
+    },
+    {
+      id: 3,
+      title: "Mega Ball",
+      provider: "Evolution Gaming",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fb24cf2cf4db04eb0a3ac5561f30a550b?format=webp",
+    },
+    {
+      id: 4,
+      title: "Lightning Dice",
+      provider: "Evolution Gaming",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F65ae0a7817b146f7be5489a52441fb23?format=webp",
+    },
+    {
+      id: 5,
+      title: "Lightning Baccarat",
+      provider: "Evolution Gaming",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F31ada08a59ed4b1dbba0a2efd3a6eb89?format=webp",
+    },
+    {
+      id: 6,
+      title: "Lightning Roulette",
+      provider: "Evolution Gaming",
+      image:
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F487be4e0350d44e597114dfcd7621146?format=webp",
+    },
   ];
 
   return (
