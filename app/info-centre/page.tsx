@@ -44,13 +44,66 @@ export const metadata: Metadata = {
 
 export default function InfoCentrePage() {
   return (
-    <div className="min-h-screen flex flex-col">
-      <Header />
-      <main className="flex-1 pt-16">
-        <InfoCentreHeroSection />
-        <InfoCentreFAQSection />
-      </main>
-      <Footer />
-    </div>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "CollectionPage",
+                name: "Truedinkumbet Information Hub",
+                description:
+                  "A centralized resource for all Truedinkumbet guides, policies, and tutorials.",
+                hasPart: [
+                  { "@type": "WebPage", name: "Account Management Guide" },
+                  { "@type": "WebPage", name: "Deposit & Withdrawal Guide" },
+                  { "@type": "WebPage", name: "Bonus & Promotion Rules" },
+                  { "@type": "WebPage", name: "Security & Safety" },
+                ],
+              },
+              {
+                "@type": "FAQPage",
+                mainEntity: [
+                  {
+                    "@type": "Question",
+                    name: "How do I verify my Truedinkumbet account?",
+                    acceptedAnswer: {
+                      "@type": "Answer",
+                      text: "To verify your account, go to 'My Profile' and upload a valid photo ID and proof of address. Verification is typically completed within 24 hours.",
+                    },
+                  },
+                  {
+                    "@type": "Question",
+                    name: "What should I do if I forgot my password?",
+                    acceptedAnswer: {
+                      "@type": "Answer",
+                      text: "Click the 'Forgot Password' link on the login page. Enter your registered email or phone number to receive a reset link instantly.",
+                    },
+                  },
+                  {
+                    "@type": "Question",
+                    name: "Is Truedinkumbet safe?",
+                    acceptedAnswer: {
+                      "@type": "Answer",
+                      text: "Yes, Truedinkumbet uses advanced SSL encryption and is fully licensed, ensuring your personal data and funds are always secure.",
+                    },
+                  },
+                ],
+              },
+            ],
+          }),
+        }}
+      />
+      <div className="min-h-screen flex flex-col">
+        <Header />
+        <main className="flex-1 pt-16">
+          <InfoCentreHeroSection />
+          <InfoCentreFAQSection />
+        </main>
+        <Footer />
+      </div>
+    </>
   );
 }
