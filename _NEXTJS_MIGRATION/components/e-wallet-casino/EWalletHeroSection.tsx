@@ -30,7 +30,7 @@ export default function EWalletHeroSection() {
           </p>
 
           <p className="text-lg text-gray-700 mb-8 leading-relaxed">
-            On this page, we will introduce the best E-Wallet Casino in Australia for all you gambling lovers. Truedinkumbet witnesses our services backed by a never-ending assortment of casino gaming options, a plethora of attractive and frequent bonuses and promotional offers, multiple trusted and safe online payment methods, such as Touch N'Go, DuitNow, PayPal and more. We continue to be a leading name in the gaming industry, nurturing a user base of players across Australia and beyond.
+            On this page, we will introduce the best E-Wallet Casino in Australia for all you gambling lovers. Truedinkumbet witnesses our services backed by a never-ending assortment of casino gaming options, a plethora of attractive and frequent bonuses and promotional offers, multiple trusted and safe online payment methods, such as Apple Pay, Google Pay, Neteller, Skrill and more. We continue to be a leading name in the gaming industry, nurturing a user base of players across Australia and beyond.
           </p>
 
           <div className="flex gap-4 flex-wrap">
