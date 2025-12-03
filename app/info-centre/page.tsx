@@ -21,7 +21,8 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "Truedinkumbet Help",
     title: "Truedinkumbet Knowledge Base & FAQ",
-    description: "Everything you need to know about playing at Truedinkumbet. Guides, Rules & Tips.",
+    description:
+      "Everything you need to know about playing at Truedinkumbet. Guides, Rules & Tips.",
     url: "https://truedinkumbetaucasino.com/info-centre",
     images: [
       {

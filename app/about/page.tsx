@@ -7,7 +7,8 @@ import AboutMissionSection from "@/components/about/AboutMissionSection";
 import AboutValuesSection from "@/components/about/AboutValuesSection";
 
 export const metadata: Metadata = {
-  title: "About Truedinkumbet | Australia's #1 Trusted Online Casino Since 2017",
+  title:
+    "About Truedinkumbet | Australia's #1 Trusted Online Casino Since 2017",
   description:
     "Truedinkumbet is Australia's premier licensed crypto casino. Established in 2017, we offer 5000+ games, instant withdrawals, and 24/7 support. Learn our story.",
   keywords:
@@ -23,7 +24,8 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "Truedinkumbet About",
     title: "Who is Truedinkumbet? The Story Behind #1 Aussie Casino",
-    description: "Licensed. Secure. Fast. Discover why 50,000+ Australians choose us.",
+    description:
+      "Licensed. Secure. Fast. Discover why 50,000+ Australians choose us.",
     url: "https://truedinkumbetaucasino.com/about",
     images: [
       {

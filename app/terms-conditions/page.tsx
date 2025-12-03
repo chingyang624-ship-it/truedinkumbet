@@ -5,7 +5,8 @@ import TermsHeroSection from "@/components/terms/TermsHeroSection";
 import TermsContentSection from "@/components/terms/TermsContentSection";
 
 export const metadata: Metadata = {
-  title: "Truedinkumbet Terms & Conditions | Player Rights & Betting Rules 2025",
+  title:
+    "Truedinkumbet Terms & Conditions | Player Rights & Betting Rules 2025",
   description:
     "Read the official Truedinkumbet Terms of Service. Clear rules on bonuses, withdrawals, and account security. We ensure fair play and transparent gaming for all Australian players.",
   keywords:
@@ -21,7 +22,8 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "Truedinkumbet Legal",
     title: "Truedinkumbet User Agreement & Policies",
-    description: "Understand your rights. Fair terms, secure gaming, and instant payouts.",
+    description:
+      "Understand your rights. Fair terms, secure gaming, and instant payouts.",
     url: "https://truedinkumbetaucasino.com/terms-conditions",
     images: [
       {
@@ -54,7 +56,8 @@ export default function TermsConditionsPage() {
               {
                 "@type": "WebPage",
                 name: "Terms and Conditions",
-                description: "The legal agreement between Truedinkumbet and its players.",
+                description:
+                  "The legal agreement between Truedinkumbet and its players.",
                 datePublished: "2025-01-01",
                 dateModified: "2025-12-03",
                 publisher: {

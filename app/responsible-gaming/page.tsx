@@ -9,7 +9,8 @@ import ResponsibleGamingSelfExclusionSection from "@/components/responsible-gami
 import ResponsibleGamingResourcesSection from "@/components/responsible-gaming/ResponsibleGamingResourcesSection";
 
 export const metadata: Metadata = {
-  title: "Responsible Gambling | Safe Gaming Tools & Self-Exclusion - Truedinkumbet",
+  title:
+    "Responsible Gambling | Safe Gaming Tools & Self-Exclusion - Truedinkumbet",
   description:
     "Play safely at Truedinkumbet. Access tools for Deposit Limits, Time-Outs, and Self-Exclusion. Get confidential support 24/7. We care about you.",
   keywords:
@@ -25,7 +26,8 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "Truedinkumbet Safer Gaming",
     title: "Play Responsibly: You Are In Control",
-    description: "Access our suite of player protection tools. Set limits or take a break anytime.",
+    description:
+      "Access our suite of player protection tools. Set limits or take a break anytime.",
     url: "https://truedinkumbetaucasino.com/responsible-gaming",
     images: [
       {
