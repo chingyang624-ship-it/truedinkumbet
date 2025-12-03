@@ -37,7 +37,7 @@ export default function EWalletSlotsSection() {
             </div>
             <div>
               <img
-                src="https://www.bk8.services/wp-content/uploads/2022/06/BK8-E-Wallet-Slot-Games-Providers.png"
+                src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7"
                 alt="Slot Game Providers"
                 className="w-full max-h-64 object-contain rounded-lg"
                 loading="lazy"
