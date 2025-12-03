@@ -9,6 +9,42 @@ import CryptoCasinoFAQSection from "@/components/crypto-casino/CryptoCasinoFAQSe
 import CryptoCasinoComprehensiveSEOContent from "@/components/crypto-casino/CryptoCasinoComprehensiveSEOContent";
 import RelatedGamesSection from "@/components/RelatedGamesSection";
 
+export const metadata = {
+  title: "Best Crypto Casino Australia | Play with Bitcoin & USDT - Truedinkumbet",
+  description: "Join Truedinkumbet, the #1 Crypto Casino in Australia. Deposit & withdraw instantly with Bitcoin (BTC), Ethereum (ETH), and Tether (USDT). 100% Anonymous & Secure.",
+  keywords: "crypto casino Australia, bitcoin gambling site, USDT casino, ethereum slots, play casino with crypto, instant withdrawal crypto casino, anonymous gambling Australia",
+  authors: [{ name: "Truedinkumbet Crypto" }],
+  themeColor: "#0a0a0a",
+  robots: {
+    index: true,
+    follow: true,
+  },
+  canonical: "https://truedinkumbetaucasino.com/crypto-casino",
+  openGraph: {
+    type: "website",
+    siteName: "Truedinkumbet Crypto",
+    title: "Play & Win Crypto Instantly at Truedinkumbet",
+    description: "The fastest way to gamble online. Accept BTC, ETH, USDT. No waiting for bank transfers.",
+    url: "https://truedinkumbetaucasino.com/crypto-casino",
+    images: [
+      {
+        url: "https://static.gwvkyk.com/media/5307c1b56d296b57af7db.png",
+        width: 1200,
+        height: 630,
+        alt: "Truedinkumbet Crypto Casino",
+      },
+    ],
+    locale: "en_AU",
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@truedinkumbet",
+    title: "Australia's Best Bitcoin Casino",
+    description: "Anonymous play. Instant payouts. 5000+ games.",
+    image: "https://static.gwvkyk.com/media/5307c1b56d296b57af7db.png",
+  },
+};
+
 export default function CryptoCasinoPage() {
   const relatedGames = [
     {
