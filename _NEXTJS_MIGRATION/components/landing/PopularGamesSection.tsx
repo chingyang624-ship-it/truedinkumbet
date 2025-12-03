@@ -6,7 +6,7 @@ export default function PopularGamesSection() {
       provider: "Next Spin",
       rtp: "96.73",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+        "https://cdn.builder.io/o/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F89f32c21a127485598613bc6b5ad3357?alt=media&token=2278407d-4269-4235-be64-6a4129cf2fad&apiKey=4dfa7c46dbc1480caa7368c3233e05a7",
     },
     {
       id: 2,
@@ -14,7 +14,7 @@ export default function PopularGamesSection() {
       provider: "Next Spin",
       rtp: "96.93",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F9e4ee8ae278c49268b1461c9cdc7a2a7?format=webp",
     },
     {
       id: 3,
@@ -22,7 +22,7 @@ export default function PopularGamesSection() {
       provider: "Next Spin",
       rtp: "97.01",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fcdfe2d4276c4413695b999543c26aa11?format=webp",
     },
     {
       id: 4,
@@ -30,7 +30,7 @@ export default function PopularGamesSection() {
       provider: "Next Spin",
       rtp: "96.93",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F8c2598bb6d7e4dae90333b3576d38511?format=webp",
     },
     {
       id: 5,
@@ -38,7 +38,7 @@ export default function PopularGamesSection() {
       provider: "Next Spin",
       rtp: "96.84",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F9d52c73df9ae47398531fb29e36cd4e1",
     },
     {
       id: 6,
@@ -46,7 +46,7 @@ export default function PopularGamesSection() {
       provider: "Next Spin",
       rtp: "96.87",
       image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F752be5ddc23247fa9e900a455bab2b88?format=webp",
     },
   ];
 
