@@ -6,7 +6,7 @@ const featuredProviders = [
   {
     title: "Evolution Live Casino",
     image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-evo.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff3e0ffe7b8494ee78cf10d83983e5dd6",
     badge: "Hot",
   },
 ];
