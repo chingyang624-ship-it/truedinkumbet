@@ -22,7 +22,8 @@ import FAQSection from "@/components/landing/FAQSection";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "Truedinkumbet Australia: Best Trusted Online Casino & Betting Site 2025",
+  title:
+    "Truedinkumbet Australia: Best Trusted Online Casino & Betting Site 2025",
   description:
     "Join Truedinkumbet Australia for the ultimate gaming experience. Play Slots, Live Casino & Sports Betting with instant crypto withdrawals. Claim your 100% Welcome Bonus now!",
   keywords:
@@ -63,7 +64,8 @@ const jsonLd = {
         ratingValue: "5",
         bestRating: "5",
       },
-      reviewBody: "Very good and reliable bookmaker. Strong customer service 24/7.",
+      reviewBody:
+        "Very good and reliable bookmaker. Strong customer service 24/7.",
     },
     {
       "@type": "FAQPage",

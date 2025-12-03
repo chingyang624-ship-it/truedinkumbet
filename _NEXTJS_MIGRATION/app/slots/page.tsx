@@ -23,7 +23,8 @@ import SlotsConclusionSection from "@/components/slots/SlotsConclusionSection";
 import RelatedGamesSection from "@/components/RelatedGamesSection";
 
 export const metadata: Metadata = {
-  title: "Play Online Slots Australia | High RTP Pokies & Jackpots - Truedinkumbet",
+  title:
+    "Play Online Slots Australia | High RTP Pokies & Jackpots - Truedinkumbet",
   description:
     "Spin 3000+ top-rated online slots and pokies at Truedinkumbet. Featuring Pragmatic Play, JILI, and Microgaming. High RTP, huge jackpots, and 100% Welcome Bonus.",
   keywords:
@@ -41,7 +42,8 @@ export const metadata: Metadata = {
     type: "website",
     siteName: "Truedinkumbet Slots",
     title: "Best Online Slots & Pokies in Australia 2025",
-    description: "Play 3000+ slots with instant crypto payouts. Join now for a $20 Free Chip.",
+    description:
+      "Play 3000+ slots with instant crypto payouts. Join now for a $20 Free Chip.",
     url: "https://truedinkumbetaucasino.com/slots",
     images: [
       {
@@ -94,7 +96,8 @@ export default function SlotsPage() {
     "@context": "https://schema.org",
     "@type": "CollectionPage",
     name: "Online Slots Collection",
-    description: "A curated collection of the best online slots and pokies available in Australia.",
+    description:
+      "A curated collection of the best online slots and pokies available in Australia.",
     url: "https://truedinkumbetaucasino.com/slots",
     hasPart: [
       {
@@ -157,7 +160,9 @@ export default function SlotsPage() {
       <Script
         id="collection-page-schema"
         type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionPageSchema) }}
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify(collectionPageSchema),
+        }}
         strategy="afterInteractive"
       />
       <Script

@@ -3,7 +3,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://truedinkumbetaucasino.com"),
-  title: "Truedinkumbet Australia: Best Trusted Online Casino & Betting Site 2025",
+  title:
+    "Truedinkumbet Australia: Best Trusted Online Casino & Betting Site 2025",
   description:
     "Join Truedinkumbet Australia for the ultimate gaming experience. Play Slots, Live Casino & Sports Betting with instant crypto withdrawals. Claim your 100% Welcome Bonus now!",
   keywords:
