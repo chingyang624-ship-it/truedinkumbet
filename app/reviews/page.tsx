@@ -1,9 +1,10 @@
+import { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ReviewsHeroSection from "@/components/reviews/ReviewsHeroSection";
 import ReviewsArchiveSection from "@/components/reviews/ReviewsArchiveSection";
 
-export const metadata = {
+export const metadata: Metadata = {
   title:
     "Best E-Wallet Casino Australia 2025 | Instant PayID & Crypto Withdrawals",
   description:
