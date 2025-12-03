@@ -43,7 +43,7 @@ export default function CarouselSection() {
             animation: carouselRotate 20s infinite;
           }
         `}</style>
-        <div className="relative w-full overflow-hidden bg-gray-200 rounded-lg sm:rounded-xl" style={{ aspectRatio: "16 / 6" }}>
+        <div className="relative w-full overflow-hidden bg-gray-200" style={{ aspectRatio: "16 / 6" }}>
           <div className="carousel-container flex w-full h-full">
             {slides.map((slide) => (
               <div
@@ -58,14 +58,6 @@ export default function CarouselSection() {
               </div>
             ))}
           </div>
-        </div>
-        <div className="flex gap-2 justify-center mt-4">
-          {slides.map((slide) => (
-            <div
-              key={slide.id}
-              className="w-2 h-2 rounded-full bg-gray-300"
-            />
-          ))}
         </div>
       </div>
     </div>
