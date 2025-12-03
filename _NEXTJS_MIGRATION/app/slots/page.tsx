@@ -1,3 +1,5 @@
+import { Metadata } from "next";
+import Script from "next/script";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import SlotsHeroSection from "@/components/slots/SlotsHeroSection";
@@ -20,39 +22,44 @@ import SlotsResponsibleGamingSection from "@/components/slots/SlotsResponsibleGa
 import SlotsConclusionSection from "@/components/slots/SlotsConclusionSection";
 import RelatedGamesSection from "@/components/RelatedGamesSection";
 
-export const metadata = {
-  title:
-    "Online Slots Australia | Best Slot Games at Truedinkumbet | High RTP Slots",
+export const metadata: Metadata = {
+  title: "Play Online Slots Australia | High RTP Pokies & Jackpots - Truedinkumbet",
   description:
-    "Play thousands of online slot games at Truedinkumbet with high RTP, progressive jackpots, and exclusive slot bonuses. Enjoy the best slots experience in Australia from top providers like Pragmatic Play and JILI.",
+    "Spin 3000+ top-rated online slots and pokies at Truedinkumbet. Featuring Pragmatic Play, JILI, and Microgaming. High RTP, huge jackpots, and 100% Welcome Bonus.",
   keywords:
-    "online slots Australia, best slot games, progressive jackpots, high RTP slots, Pragmatic Play slots, JILI slots, slot machine games, Truedinkumbet slots",
-  authors: [{ name: "Truedinkumbet" }],
+    "online slots Australia, play pokies online, crypto slots, Pragmatic Play slots, JILI slots, jackpot pokies, high RTP slots, Truedinkumbet slots",
+  authors: [{ name: "Truedinkumbet Casino" }],
+  themeColor: "#0a0a0a",
+  robots: {
+    index: true,
+    follow: true,
+  },
+  alternates: {
+    canonical: "https://truedinkumbetaucasino.com/slots",
+  },
   openGraph: {
-    title: "Online Slots Australia - Thousands of Slot Games at Truedinkumbet",
-    description:
-      "Play thousands of online slot games with high RTP, progressive jackpots, and exclusive bonuses at Truedinkumbet. Licensed and secure slots gaming for Australian players.",
     type: "website",
+    siteName: "Truedinkumbet Slots",
+    title: "Best Online Slots & Pokies in Australia 2025",
+    description: "Play 3000+ slots with instant crypto payouts. Join now for a $20 Free Chip.",
     url: "https://truedinkumbetaucasino.com/slots",
     images: [
       {
-        url: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+        url: "https://static.gwvkyk.com/media/ef3d53a54b296d128f1f3.png",
         width: 1200,
         height: 630,
-        alt: "Truedinkumbet Slots Games",
+        alt: "Truedinkumbet Slots",
       },
     ],
+    locale: "en_AU",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Online Slots Australia - Best Slot Games at Truedinkumbet",
-    description:
-      "Play online slot games with high RTP, progressive jackpots, and exclusive bonuses at Truedinkumbet.",
-    images: [
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
-    ],
+    site: "@truedinkumbet",
+    title: "Play Premium Slots & Win Big",
+    description: "Top-tier pokies from Pragmatic & JILI. Instant withdrawals.",
+    images: ["https://static.gwvkyk.com/media/ef3d53a54b296d128f1f3.png"],
   },
-  robots: "index, follow",
 };
 
 export default function SlotsPage() {
