@@ -90,8 +90,82 @@ export default function SlotsPage() {
     },
   ];
 
+  const collectionPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "CollectionPage",
+    name: "Online Slots Collection",
+    description: "A curated collection of the best online slots and pokies available in Australia.",
+    url: "https://truedinkumbetaucasino.com/slots",
+    hasPart: [
+      {
+        "@type": "VideoGame",
+        name: "Gates of Olympus",
+        author: { "@type": "Organization", name: "Pragmatic Play" },
+        description: "High volatility slot with multipliers up to 5000x.",
+        operatingSystem: "Any",
+      },
+      {
+        "@type": "VideoGame",
+        name: "Sweet Bonanza",
+        author: { "@type": "Organization", name: "Pragmatic Play" },
+        description: "Candy-themed slot with tumbling reels and free spins.",
+        operatingSystem: "Any",
+      },
+      {
+        "@type": "VideoGame",
+        name: "Roma X",
+        author: { "@type": "Organization", name: "JILI Games" },
+        description: "Popular action slot with bonus games and combos.",
+        operatingSystem: "Any",
+      },
+    ],
+    publisher: {
+      "@type": "Organization",
+      name: "Truedinkumbet",
+      logo: {
+        "@type": "ImageObject",
+        url: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+      },
+    },
+  };
+
+  const faqPageSchema = {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    mainEntity: [
+      {
+        "@type": "Question",
+        name: "What are the best paying slots at Truedinkumbet?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "We offer high RTP slots like Gates of Olympus (96.5%), Sweet Bonanza, and Money Train 3, giving players the best chance to win.",
+        },
+      },
+      {
+        "@type": "Question",
+        name: "Can I play slots for free?",
+        acceptedAnswer: {
+          "@type": "Answer",
+          text: "Yes! Most of our slot games have a 'Demo Mode' allowing you to practice and have fun without risking real money.",
+        },
+      },
+    ],
+  };
+
   return (
     <div className="min-h-screen flex flex-col">
+      <Script
+        id="collection-page-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(collectionPageSchema) }}
+        strategy="afterInteractive"
+      />
+      <Script
+        id="faq-page-schema"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(faqPageSchema) }}
+        strategy="afterInteractive"
+      />
       <Header />
       <main className="flex-1 pt-16">
         <SlotsHeroSection />
