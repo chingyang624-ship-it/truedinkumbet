@@ -48,17 +48,68 @@ export const metadata: Metadata = {
 
 export default function ResponsibleGamingPage() {
   return (
-    <div className="min-h-screen flex flex-col">
-      <Header />
-      <main className="flex-1 pt-16">
-        <ResponsibleGamingHeroSection />
-        <ResponsibleGamingIntroSection />
-        <ResponsibleGamingStepsSection />
-        <ResponsibleGamingSignsSection />
-        <ResponsibleGamingSelfExclusionSection />
-        <ResponsibleGamingResourcesSection />
-      </main>
-      <Footer />
-    </div>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "WebPage",
+                name: "Responsible Gambling Policy",
+                description:
+                  "Comprehensive guide on safer gambling tools and resources provided by Truedinkumbet.",
+                mainEntity: {
+                  "@type": "Organization",
+                  name: "Truedinkumbet Australia",
+                },
+              },
+              {
+                "@type": "FAQPage",
+                mainEntity: [
+                  {
+                    "@type": "Question",
+                    name: "How do I set a deposit limit?",
+                    acceptedAnswer: {
+                      "@type": "Answer",
+                      text: "Log in to your account, go to 'Responsible Gaming' settings, and choose a Daily, Weekly, or Monthly deposit limit. Decreases are instant.",
+                    },
+                  },
+                  {
+                    "@type": "Question",
+                    name: "Can I self-exclude from Truedinkumbet?",
+                    acceptedAnswer: {
+                      "@type": "Answer",
+                      text: "Yes, you can request self-exclusion for a period ranging from 6 months to permanent by contacting our 24/7 Customer Support.",
+                    },
+                  },
+                  {
+                    "@type": "Question",
+                    name: "Where can I get help for gambling addiction?",
+                    acceptedAnswer: {
+                      "@type": "Answer",
+                      text: "We recommend contacting independent organizations such as Gambling Help Online (1800 858 858) or GamCare for confidential advice.",
+                    },
+                  },
+                ],
+              },
+            ],
+          }),
+        }}
+      />
+      <div className="min-h-screen flex flex-col">
+        <Header />
+        <main className="flex-1 pt-16">
+          <ResponsibleGamingHeroSection />
+          <ResponsibleGamingIntroSection />
+          <ResponsibleGamingStepsSection />
+          <ResponsibleGamingSignsSection />
+          <ResponsibleGamingSelfExclusionSection />
+          <ResponsibleGamingResourcesSection />
+        </main>
+        <Footer />
+      </div>
+    </>
   );
 }
