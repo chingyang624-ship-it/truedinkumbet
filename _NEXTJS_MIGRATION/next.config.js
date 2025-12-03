@@ -1,6 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export",
+  // Removed static export to fix build timeout
+  // Using ISR (Incremental Static Regeneration) instead
   basePath: "",
   images: {
     unoptimized: true,
@@ -20,6 +21,9 @@ const nextConfig = {
   experimental: {
     esmExternals: false,
   },
+  // Optimize build performance
+  swcMinify: true,
+  compress: true,
 };
 
 module.exports = nextConfig;
