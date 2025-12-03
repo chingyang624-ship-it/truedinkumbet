@@ -20,7 +20,7 @@ const reviews: Review[] = [
   {
     id: 1,
     name: "CMD368",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2229e3be2cc448b9960574a393a0a2e4",
     bonus: "Sports",
     bonusPercentage: "100%",
     bonusAmount: "AUD 800",
@@ -33,7 +33,7 @@ const reviews: Review[] = [
   {
     id: 2,
     name: "Ultimate Gaming",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F37ebd4ebace24537b24a8967cd6f4d7a",
     bonus: "Slots",
     bonusPercentage: "20%",
     bonusAmount: "AUD 300",
@@ -46,7 +46,7 @@ const reviews: Review[] = [
   {
     id: 3,
     name: "TopTrend Gaming",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fb619da356953448a929ad71aba313b38",
     bonus: "Slots",
     bonusPercentage: "20%",
     bonusAmount: "AUD 300",
@@ -59,7 +59,7 @@ const reviews: Review[] = [
   {
     id: 4,
     name: "SpadeGaming",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F7c88345237174b53b86f3ee7b3aa26a9",
     bonus: "Slots",
     bonusPercentage: "50%",
     bonusAmount: "AUD 1,080",
@@ -72,7 +72,7 @@ const reviews: Review[] = [
   {
     id: 5,
     name: "SCR888",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fae080888adac4235ae1d5bfd79db7d86",
     bonus: "Daily Reload",
     bonusPercentage: "50%",
     bonusAmount: "AUD 100",
@@ -85,7 +85,7 @@ const reviews: Review[] = [
   {
     id: 6,
     name: "SA Gaming",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fcbefd0f5109e41968ecff9cc2a473545",
     bonus: "Live",
     bonusPercentage: "50%",
     bonusAmount: "AUD 1,080",
@@ -98,7 +98,7 @@ const reviews: Review[] = [
   {
     id: 7,
     name: "QQKeno",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fdd31610e8fc34f33912d2101ac96445e",
     bonus: "Weekly Turnover",
     bonusPercentage: "",
     bonusAmount: "AUD 128",
@@ -111,7 +111,7 @@ const reviews: Review[] = [
   {
     id: 8,
     name: "Pragmatic Play",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fe5390d8bdeb5475f852e8fd2f147e42c",
     bonus: "Slots",
     bonusPercentage: "50%",
     bonusAmount: "AUD 1,080",
@@ -124,7 +124,7 @@ const reviews: Review[] = [
   {
     id: 9,
     name: "PlayTech",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fa22d11fdf9634d8ea67cac9d2d43980e",
     bonus: "Live",
     bonusPercentage: "5%",
     bonusAmount: "AUD 150",
@@ -137,7 +137,7 @@ const reviews: Review[] = [
   {
     id: 10,
     name: "Play'n GO",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F22c7f7ebd1994f4f8f9ed4e6314ad7dc",
     bonus: "Slots",
     bonusPercentage: "50%",
     bonusAmount: "AUD 1,080",
@@ -150,7 +150,7 @@ const reviews: Review[] = [
   {
     id: 11,
     name: "Microgaming",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F6a30c00a0c014ff8b59782518e9cc56d",
     bonus: "Live",
     bonusPercentage: "50%",
     bonusAmount: "AUD 1,080",
@@ -163,7 +163,7 @@ const reviews: Review[] = [
   {
     id: 12,
     name: "Mega888",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F13656b7825ba4288ae84df3a5f51889a",
     bonus: "Mega & Kiss",
     bonusPercentage: "50%",
     bonusAmount: "AUD 100",
@@ -176,7 +176,7 @@ const reviews: Review[] = [
   {
     id: 13,
     name: "MaxBet",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fcdd5bc0304d24d918287efbc51a38af4",
     bonus: "Sports",
     bonusPercentage: "100%",
     bonusAmount: "AUD 800",
@@ -189,7 +189,7 @@ const reviews: Review[] = [
   {
     id: 14,
     name: "IDNPoker",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F62884cbba2654f0f82175f464a2f5b64",
     bonus: "VIP Program",
     bonusPercentage: "",
     bonusAmount: "",
@@ -202,7 +202,7 @@ const reviews: Review[] = [
   {
     id: 15,
     name: "Gold Deluxe",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fcef824e65aec4ba9b90e699b815d1006",
     bonus: "Live",
     bonusPercentage: "5%",
     bonusAmount: "AUD 150",
@@ -215,7 +215,7 @@ const reviews: Review[] = [
   {
     id: 16,
     name: "GamePlay Interactive",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F12c3b8f8a04049e0ba06c3a67c2fb317",
     bonus: "Live",
     bonusPercentage: "50%",
     bonusAmount: "AUD 1,080",
@@ -228,7 +228,7 @@ const reviews: Review[] = [
   {
     id: 17,
     name: "GG Fishing",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F509a89c66e9341b98dfcf690b63f366c",
     bonus: "Fishing",
     bonusPercentage: "30%",
     bonusAmount: "AUD 1,000",
@@ -241,7 +241,7 @@ const reviews: Review[] = [
   {
     id: 18,
     name: "Fishing War",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F4c878222a2ab44a68b2169dbe010e27c",
     bonus: "Fishing",
     bonusPercentage: "50%",
     bonusAmount: "AUD 1,080",
@@ -254,7 +254,7 @@ const reviews: Review[] = [
   {
     id: 19,
     name: "Fishing God",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fcdb7d82cdad74294b9a043ab17b5c074",
     bonus: "Fishing",
     bonusPercentage: "",
     bonusAmount: "AUD 888",
@@ -267,7 +267,7 @@ const reviews: Review[] = [
   {
     id: 20,
     name: "SA Fishing",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fba82fda383864a56bc1572aa117e30a9",
     bonus: "Fishing",
     bonusPercentage: "",
     bonusAmount: "AUD 888",
