@@ -28,7 +28,7 @@ export default function EWalletFAQSection() {
     },
     {
       question: "What e-wallet payment methods are accepted at Truedinkumbet?",
-      answer: "Truedinkumbet accepts various e-wallets including Touch'n Go, DuitNow, and PayPal, along with other methods like FP, Help2Pay, EeziePay, and cryptocurrencies like Bitcoin, Tether, and Ethereum.",
+      answer: "Truedinkumbet accepts various payment methods including Apple Pay, Google Pay, Neteller, and Skrill, along with other methods like FP, Help2Pay, EeziePay, and cryptocurrencies like Bitcoin, Tether, and Ethereum.",
     },
     {
       question: "Is it easy to make deposits and withdrawals at Truedinkumbet?",
