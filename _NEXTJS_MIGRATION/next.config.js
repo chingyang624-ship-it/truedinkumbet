@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // output: "export",  // Temporarily disabled for debugging
+  output: "export",
   basePath: "",
   images: {
     unoptimized: true,
