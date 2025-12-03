@@ -14,8 +14,10 @@ import RelatedGamesSection from "@/components/RelatedGamesSection";
 
 export const metadata = {
   title: "Best Online Fishing Games Australia | Play Real Money Fish Shooting",
-  description: "Play the best arcade fishing games online at Truedinkumbet. Shoot fish, hunt dragons, and win real money in Fishing War & Fishing God. Instant crypto payouts.",
-  keywords: "online fishing games Australia, fish shooting gambling, play fishing war, fishing god casino, JILI fishing games, arcade casino games, real money fish hunter",
+  description:
+    "Play the best arcade fishing games online at Truedinkumbet. Shoot fish, hunt dragons, and win real money in Fishing War & Fishing God. Instant crypto payouts.",
+  keywords:
+    "online fishing games Australia, fish shooting gambling, play fishing war, fishing god casino, JILI fishing games, arcade casino games, real money fish hunter",
   authors: [{ name: "Truedinkumbet Arcade" }],
   themeColor: "#0a0a0a",
   robots: {
@@ -27,7 +29,8 @@ export const metadata = {
     type: "website",
     siteName: "Truedinkumbet Fishing",
     title: "Shoot & Win: Online Fishing Casino Australia",
-    description: "Join the underwater hunt! Play top-rated fishing arcade games with high multipliers.",
+    description:
+      "Join the underwater hunt! Play top-rated fishing arcade games with high multipliers.",
     url: "https://truedinkumbetaucasino.com/fishing",
     images: [
       {

@@ -10,9 +10,12 @@ import SportsComprehensiveSEOContent from "@/components/sports/SportsComprehensi
 import RelatedGamesSection from "@/components/RelatedGamesSection";
 
 export const metadata = {
-  title: "Online Sports Betting Australia | Best Odds for AFL, NRL & EPL - Truedinkumbet",
-  description: "Bet on your favourite sports with Truedinkumbet Australia. Live betting on AFL, NRL, Cricket, NBA & EPL. High odds, fast crypto payouts, and cash out features.",
-  keywords: "sports betting Australia, online sportsbook AU, AFL betting odds, NRL betting, cricket betting Australia, live sports betting, crypto sportsbook, Truedinkumbet sports",
+  title:
+    "Online Sports Betting Australia | Best Odds for AFL, NRL & EPL - Truedinkumbet",
+  description:
+    "Bet on your favourite sports with Truedinkumbet Australia. Live betting on AFL, NRL, Cricket, NBA & EPL. High odds, fast crypto payouts, and cash out features.",
+  keywords:
+    "sports betting Australia, online sportsbook AU, AFL betting odds, NRL betting, cricket betting Australia, live sports betting, crypto sportsbook, Truedinkumbet sports",
   authors: [{ name: "Truedinkumbet Sportsbook" }],
   themeColor: "#0a0a0a",
   robots: {
@@ -24,7 +27,8 @@ export const metadata = {
     type: "website",
     siteName: "Truedinkumbet Sports",
     title: "Truedinkumbet: #1 Sportsbook for Aussie Punters",
-    description: "Join the action! Bet on thousands of live matches with instant withdrawals.",
+    description:
+      "Join the action! Bet on thousands of live matches with instant withdrawals.",
     url: "https://truedinkumbetaucasino.com/sports",
     images: [
       {

@@ -10,9 +10,12 @@ import CryptoCasinoComprehensiveSEOContent from "@/components/crypto-casino/Cryp
 import RelatedGamesSection from "@/components/RelatedGamesSection";
 
 export const metadata = {
-  title: "Best Crypto Casino Australia | Play with Bitcoin & USDT - Truedinkumbet",
-  description: "Join Truedinkumbet, the #1 Crypto Casino in Australia. Deposit & withdraw instantly with Bitcoin (BTC), Ethereum (ETH), and Tether (USDT). 100% Anonymous & Secure.",
-  keywords: "crypto casino Australia, bitcoin gambling site, USDT casino, ethereum slots, play casino with crypto, instant withdrawal crypto casino, anonymous gambling Australia",
+  title:
+    "Best Crypto Casino Australia | Play with Bitcoin & USDT - Truedinkumbet",
+  description:
+    "Join Truedinkumbet, the #1 Crypto Casino in Australia. Deposit & withdraw instantly with Bitcoin (BTC), Ethereum (ETH), and Tether (USDT). 100% Anonymous & Secure.",
+  keywords:
+    "crypto casino Australia, bitcoin gambling site, USDT casino, ethereum slots, play casino with crypto, instant withdrawal crypto casino, anonymous gambling Australia",
   authors: [{ name: "Truedinkumbet Crypto" }],
   themeColor: "#0a0a0a",
   robots: {
@@ -24,7 +27,8 @@ export const metadata = {
     type: "website",
     siteName: "Truedinkumbet Crypto",
     title: "Play & Win Crypto Instantly at Truedinkumbet",
-    description: "The fastest way to gamble online. Accept BTC, ETH, USDT. No waiting for bank transfers.",
+    description:
+      "The fastest way to gamble online. Accept BTC, ETH, USDT. No waiting for bank transfers.",
     url: "https://truedinkumbetaucasino.com/crypto-casino",
     images: [
       {
