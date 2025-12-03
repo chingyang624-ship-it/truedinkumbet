@@ -23,8 +23,8 @@ export default function CarouselSection() {
   ];
 
   return (
-    <div className="w-full bg-slate-50 pt-14 sm:pt-16 md:pt-20 pb-4">
-      <div className="max-w-7xl mx-auto px-3 sm:px-4">
+    <div className="w-full bg-slate-50">
+      <div className="w-full">
         <style>{`
           @keyframes carouselRotate {
             0% { transform: translateX(0); }
