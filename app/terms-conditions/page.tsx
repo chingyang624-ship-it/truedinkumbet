@@ -44,13 +44,65 @@ export const metadata: Metadata = {
 
 export default function TermsConditionsPage() {
   return (
-    <div className="min-h-screen flex flex-col">
-      <Header />
-      <main className="flex-1 pt-16">
-        <TermsHeroSection />
-        <TermsContentSection />
-      </main>
-      <Footer />
-    </div>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@graph": [
+              {
+                "@type": "WebPage",
+                name: "Terms and Conditions",
+                description: "The legal agreement between Truedinkumbet and its players.",
+                datePublished: "2025-01-01",
+                dateModified: "2025-12-03",
+                publisher: {
+                  "@type": "Organization",
+                  name: "Truedinkumbet Australia",
+                },
+              },
+              {
+                "@type": "FAQPage",
+                mainEntity: [
+                  {
+                    "@type": "Question",
+                    name: "Can I open multiple accounts?",
+                    acceptedAnswer: {
+                      "@type": "Answer",
+                      text: "No, Truedinkumbet strictly allows only one account per person, household, or IP address to ensure fair play and prevent bonus abuse.",
+                    },
+                  },
+                  {
+                    "@type": "Question",
+                    name: "What are the bonus wagering requirements?",
+                    acceptedAnswer: {
+                      "@type": "Answer",
+                      text: "Most bonuses come with a standard turnover requirement (e.g., 10x or 20x) which must be met before winnings can be withdrawn. Specific terms vary by promotion.",
+                    },
+                  },
+                  {
+                    "@type": "Question",
+                    name: "Why is my withdrawal pending?",
+                    acceptedAnswer: {
+                      "@type": "Answer",
+                      text: "Withdrawals may be subject to security checks or KYC verification. Once verified, crypto payouts are instant, and bank transfers take up to 24 hours.",
+                    },
+                  },
+                ],
+              },
+            ],
+          }),
+        }}
+      />
+      <div className="min-h-screen flex flex-col">
+        <Header />
+        <main className="flex-1 pt-16">
+          <TermsHeroSection />
+          <TermsContentSection />
+        </main>
+        <Footer />
+      </div>
+    </>
   );
 }
