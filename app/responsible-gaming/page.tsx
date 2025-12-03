@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ResponsibleGamingHeroSection from "@/components/responsible-gaming/ResponsibleGamingHeroSection";
@@ -7,38 +8,42 @@ import ResponsibleGamingSignsSection from "@/components/responsible-gaming/Respo
 import ResponsibleGamingSelfExclusionSection from "@/components/responsible-gaming/ResponsibleGamingSelfExclusionSection";
 import ResponsibleGamingResourcesSection from "@/components/responsible-gaming/ResponsibleGamingResourcesSection";
 
-export const metadata = {
-  title: "Responsible Gaming at Truedinkumbet | Safe Gaming Tools & Support",
+export const metadata: Metadata = {
+  title: "Responsible Gambling | Safe Gaming Tools & Self-Exclusion - Truedinkumbet",
   description:
-    "Truedinkumbet's commitment to responsible gaming for Australian players. Access tools, resources, and support for safe gaming. Self-exclusion and limit setting available.",
+    "Play safely at Truedinkumbet. Access tools for Deposit Limits, Time-Outs, and Self-Exclusion. Get confidential support 24/7. We care about you.",
   keywords:
-    "responsible gaming, safe gambling, gambling addiction support, self-exclusion, gaming limits, problem gambling resources, Truedinkumbet responsible gaming",
-  authors: [{ name: "Truedinkumbet" }],
+    "responsible gambling Australia, gambling addiction help, self exclusion casino, deposit limits, Truedinkumbet safer gambling, GamCare support",
+  authors: [{ name: "Truedinkumbet Safer Gaming Team" }],
+  themeColor: "#0a0a0a",
+  robots: {
+    index: true,
+    follow: true,
+  },
+  canonical: "https://truedinkumbetaucasino.com/responsible-gaming",
   openGraph: {
-    title: "Responsible Gaming at Truedinkumbet - Safe Gaming Resources & Support",
-    description:
-      "Truedinkumbet promotes responsible gaming with comprehensive tools, resources, and support. Play safely and enjoyably.",
     type: "website",
+    siteName: "Truedinkumbet Safer Gaming",
+    title: "Play Responsibly: You Are In Control",
+    description: "Access our suite of player protection tools. Set limits or take a break anytime.",
     url: "https://truedinkumbetaucasino.com/responsible-gaming",
     images: [
       {
-        url: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+        url: "https://static.gwvkyk.com/media/5307c1b56d296b57af7db.png",
         width: 1200,
         height: 630,
         alt: "Responsible Gaming at Truedinkumbet",
       },
     ],
+    locale: "en_AU",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Responsible Gaming at Truedinkumbet - Safe Gaming Support",
-    description:
-      "Learn about responsible gaming tools and support at Truedinkumbet. Self-exclusion and gaming limits available.",
-    images: [
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
-    ],
+    site: "@truedinkumbet",
+    title: "Responsible Gambling Tools",
+    description: "Deposit Limits, Reality Checks & Self-Exclusion available.",
+    image: "https://static.gwvkyk.com/media/5307c1b56d296b57af7db.png",
   },
-  robots: "index, follow",
 };
 
 export default function ResponsibleGamingPage() {
