@@ -3,77 +3,77 @@ export default function LiveCasinoAllGamesGridSection() {
     {
       name: "Lightning Baccarat",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-lightning-baccarat.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
     },
     {
       name: "Super Sic Bo",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-super-sic-bo.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
     },
     {
       name: "Speed Roulette",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-speed-roulette.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
     },
     {
       name: "Thai Baccarat",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-thai-baccarat.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
     },
     {
       name: "Korean Speed Baccarat",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-korean-speed-baccarat.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
     },
     {
       name: "Dragon Tiger",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-dragon-tiger.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
     },
     {
       name: "French Gold Roulette",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-french-gold-roulette.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
     },
     {
       name: "Lightning Roulette",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-lightning-roulette.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
     },
     {
       name: "Live Blackjack",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-live-blackjack.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
     },
     {
       name: "Craps",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-craps.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
     },
     {
       name: "Japanese Baccarat",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-japanese-baccarat.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
     },
     {
       name: "Speed Baccarat",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-live-speed-baccarat.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
     },
     {
       name: "Free Bet Blackjack",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-free-bet-blackjack.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
     },
     {
       name: "Infinite Blackjack",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-infinite-blackjack.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
     },
     {
       name: "Live Blackjack",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-lightning-blackjack.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
     },
   ];
 
