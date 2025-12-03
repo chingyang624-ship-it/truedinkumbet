@@ -1,3 +1,4 @@
+import { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import CarouselSection from "@/components/landing/CarouselSection";
@@ -18,6 +19,15 @@ import GameProvidersSection from "@/components/landing/GameProvidersSection";
 import VIPSection from "@/components/landing/VIPSection";
 import MobileAppSection from "@/components/landing/MobileAppSection";
 import FAQSection from "@/components/landing/FAQSection";
+import Script from "next/script";
+
+export const metadata: Metadata = {
+  title: "Truedinkumbet Australia: Best Trusted Online Casino & Betting Site 2025",
+  description:
+    "Join Truedinkumbet Australia for the ultimate gaming experience. Play Slots, Live Casino & Sports Betting with instant crypto withdrawals. Claim your 100% Welcome Bonus now!",
+  keywords:
+    "Truedinkumbet Australia, Truedinkumbet casino login, best online casino Australia 2025, trusted betting site Australia, crypto casino AU, Truedinkumbet app download",
+};
 
 export default function Home() {
   return (
