@@ -41,6 +41,9 @@ jobs:
         run: cd _NEXTJS_MIGRATION && NODE_OPTIONS="--max-old-space-size=4096" npm run build
         timeout-minutes: 30
 
+      - name: Copy sitemap.xml to out folder
+        run: cp _NEXTJS_MIGRATION/public/sitemap.xml _NEXTJS_MIGRATION/out/sitemap.xml
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
