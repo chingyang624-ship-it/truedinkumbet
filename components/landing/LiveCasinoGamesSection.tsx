@@ -16,42 +16,42 @@ const liveCasinoGames: LiveCasinoGame[] = [
     title: "Crazy Time",
     provider: "Evolution Gaming",
     image:
-      "https://www.bk8.services/wp-content/uploads/2023/04/live-casino-carousel-1.webp",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fc1f22ae8e0cb4b72ac18d2e3d886314b",
   },
   {
     id: 2,
     title: "Super Sic-Bo",
     provider: "Evolution Gaming",
     image:
-      "https://www.bk8.services/wp-content/uploads/2023/04/live-casino-carousel-2.webp",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2d750595f6854b1ebec8d6a1de0f6e05",
   },
   {
     id: 3,
     title: "Mega Ball",
     provider: "Evolution Gaming",
     image:
-      "https://www.bk8.services/wp-content/uploads/2023/04/live-casino-carousel-3.webp",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2aac83baa38f45a893130b9537416678",
   },
   {
     id: 4,
     title: "Lightning Dice",
     provider: "Evolution Gaming",
     image:
-      "https://www.bk8.services/wp-content/uploads/2023/04/live-casino-carousel-4.webp",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fdea56528893740118078f68cd11c8549",
   },
   {
     id: 5,
     title: "Lightning Baccarat",
     provider: "Evolution Gaming",
     image:
-      "https://www.bk8.services/wp-content/uploads/2023/04/live-casino-carousel-5.webp",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F6aa8e0ce5b74489bbae7a48bdbf52db6",
   },
   {
     id: 6,
     title: "Lightning Roulette",
     provider: "Evolution Gaming",
     image:
-      "https://www.bk8.services/wp-content/uploads/2023/04/live-casino-carousel-6.webp",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff3e0ffe7b8494ee78cf10d83983e5dd6",
   },
 ];
 
