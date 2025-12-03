@@ -2,7 +2,7 @@ export default function EWalletPaymentSection() {
   const ewallets = [
     {
       name: "Apple Pay",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b9/Apple_Pay_logo.svg/1024px-Apple_Pay_logo.svg.png",
+      logo: "https://www.apple.com/newsroom/images/product/apple_pay/Apple-Pay-Lockup-blk.jpg.large.jpg",
       description: "Apple Pay is a secure digital payment method that works seamlessly across Apple devices. It uses advanced encryption and tokenization to keep your financial information safe. With Apple Pay, you can make fast and secure deposits at Truedinkumbet Casino with just a tap on your iPhone, iPad, or Apple Watch. Enjoy instant transactions without exposing your card details.",
       features: [
         "Fast and secure payments",
@@ -13,7 +13,7 @@ export default function EWalletPaymentSection() {
     },
     {
       name: "Google Pay",
-      logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_Pay_GPay_logo.svg/1024px-Google_Pay_GPay_logo.svg.png",
+      logo: "https://storage.googleapis.com/gweb-unibrow-svg-asset/img/payments/google_pay_mark.svg",
       description: "Google Pay is the digital wallet from Google that provides a secure and convenient way to make payments. Available on Android devices worldwide, Google Pay protects your payment information using advanced security features. Deposit funds into your Truedinkumbet Casino account quickly and safely with Google Pay, and enjoy the convenience of one-touch payments.",
       features: [
         "Secure digital payments",
@@ -24,7 +24,7 @@ export default function EWalletPaymentSection() {
     },
     {
       name: "Neteller",
-      logo: "https://upload.wikimedia.org/wikipedia/en/thumb/5/5c/Neteller_logo.svg/1280px-Neteller_logo.svg.png",
+      logo: "https://www.paysafe.com/sites/default/files/2020-05/neteller_logo.png",
       description: "Neteller is a trusted e-wallet solution that serves millions of users worldwide. It offers fast and secure deposits and withdrawals for online gaming. With Neteller, you get instant transfers, competitive fees, and a user-friendly platform. The service is regulated and monitored by the Financial Conduct Authority (FCA), ensuring complete safety and security for your transactions at Truedinkumbet Casino.",
       features: [
         "FCA regulated and monitored",
@@ -35,7 +35,7 @@ export default function EWalletPaymentSection() {
     },
     {
       name: "Skrill",
-      logo: "https://upload.wikimedia.org/wikipedia/en/thumb/3/30/Skrill_logo.png/1280px-Skrill_logo.png",
+      logo: "https://www.paysafe.com/sites/default/files/2020-05/skrill_logo.png",
       description: "Skrill is a leading digital payment solution trusted by millions of online gamers and merchants. It provides secure, fast, and reliable deposit and withdrawal services with low fees. Skrill is regulated by the Financial Conduct Authority (FCA) and offers multiple layers of security to protect your funds. Enjoy hassle-free gaming at Truedinkumbet Casino with Skrill's seamless payment experience.",
       features: [
         "FCA regulated service",
