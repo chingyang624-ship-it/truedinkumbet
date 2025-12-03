@@ -1,39 +1,45 @@
+import { Metadata } from "next";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import TermsHeroSection from "@/components/terms/TermsHeroSection";
 import TermsContentSection from "@/components/terms/TermsContentSection";
 
-export const metadata = {
-  title: "Terms and Conditions | Legal Agreement - Truedinkumbet Australia",
+export const metadata: Metadata = {
+  title: "Truedinkumbet Terms & Conditions | Player Rights & Betting Rules 2025",
   description:
-    "Review Truedinkumbet's complete terms and conditions for online casino, sports betting, and gaming services in Australia. PAGCOR licensed legal agreement and policies.",
+    "Read the official Truedinkumbet Terms of Service. Clear rules on bonuses, withdrawals, and account security. We ensure fair play and transparent gaming for all Australian players.",
   keywords:
-    "terms and conditions, legal agreement, Truedinkumbet, online casino terms, gaming policy, PAGCOR terms, Australian gaming regulations",
-  authors: [{ name: "Truedinkumbet" }],
+    "Truedinkumbet terms, betting rules Australia, casino bonus terms, withdrawal policy, account verification rules, Truedinkumbet legal, gambling terms and conditions",
+  authors: [{ name: "Truedinkumbet Legal Team" }],
+  themeColor: "#0a0a0a",
+  robots: {
+    index: true,
+    follow: true,
+  },
+  canonical: "https://truedinkumbetaucasino.com/terms-conditions",
   openGraph: {
-    title: "Terms and Conditions - Truedinkumbet Legal Agreement",
-    description:
-      "Read the complete legal terms and conditions for using Truedinkumbet's gaming platform in Australia.",
     type: "website",
+    siteName: "Truedinkumbet Legal",
+    title: "Truedinkumbet User Agreement & Policies",
+    description: "Understand your rights. Fair terms, secure gaming, and instant payouts.",
     url: "https://truedinkumbetaucasino.com/terms-conditions",
     images: [
       {
-        url: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+        url: "https://static.gwvkyk.com/media/5307c1b56d296b57af7db.png",
         width: 1200,
         height: 630,
         alt: "Truedinkumbet Terms and Conditions",
       },
     ],
+    locale: "en_AU",
   },
   twitter: {
-    card: "summary_large_image",
-    title: "Terms and Conditions - Truedinkumbet",
-    description: "Read Truedinkumbet's complete terms and conditions for online gaming in Australia.",
-    images: [
-      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
-    ],
+    card: "summary",
+    site: "@truedinkumbet",
+    title: "Truedinkumbet Terms & Conditions",
+    description: "Official rules for gameplay, bonuses, and banking.",
+    image: "https://static.gwvkyk.com/media/5307c1b56d296b57af7db.png",
   },
-  robots: "index, follow",
 };
 
 export default function TermsConditionsPage() {
