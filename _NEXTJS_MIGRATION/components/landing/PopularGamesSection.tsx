@@ -6,7 +6,7 @@ export default function PopularGamesSection() {
       provider: "Next Spin",
       rtp: "96.73",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-1.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
     },
     {
       id: 2,
@@ -14,7 +14,7 @@ export default function PopularGamesSection() {
       provider: "Next Spin",
       rtp: "96.93",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-2.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
     },
     {
       id: 3,
@@ -22,7 +22,7 @@ export default function PopularGamesSection() {
       provider: "Next Spin",
       rtp: "97.01",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-3.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
     },
     {
       id: 4,
@@ -30,7 +30,7 @@ export default function PopularGamesSection() {
       provider: "Next Spin",
       rtp: "96.93",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-4.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
     },
     {
       id: 5,
@@ -38,7 +38,7 @@ export default function PopularGamesSection() {
       provider: "Next Spin",
       rtp: "96.84",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-5.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
     },
     {
       id: 6,
@@ -46,7 +46,7 @@ export default function PopularGamesSection() {
       provider: "Next Spin",
       rtp: "96.87",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/04/popular-game-slot-carousel-6.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
     },
   ];
 
