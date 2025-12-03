@@ -46,10 +46,7 @@ export default function CarouselSection() {
         <div className="relative w-full overflow-hidden bg-gray-200">
           <div className="carousel-container flex w-full">
             {slides.map((slide) => (
-              <div
-                key={slide.id}
-                className="w-full flex-shrink-0"
-              >
+              <div key={slide.id} className="w-full flex-shrink-0">
                 <img
                   src={slide.image}
                   alt={slide.alt}

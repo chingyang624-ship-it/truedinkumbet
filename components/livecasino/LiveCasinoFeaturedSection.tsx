@@ -6,7 +6,7 @@ const featuredProviders = [
   {
     title: "Evolution Live Casino",
     image:
-        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff3e0ffe7b8494ee78cf10d83983e5dd6",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff3e0ffe7b8494ee78cf10d83983e5dd6",
     badge: "Hot",
   },
 ];
@@ -58,7 +58,6 @@ export default function LiveCasinoFeaturedSection() {
                 key={index}
                 className="flex-shrink-0 w-56 cursor-pointer transition-transform hover:scale-105"
               >
-
                 <div className="relative overflow-hidden rounded-lg mb-3">
                   {provider.badge && (
                     <p
