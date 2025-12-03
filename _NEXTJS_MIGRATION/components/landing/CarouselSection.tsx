@@ -23,8 +23,8 @@ export default function CarouselSection() {
   ];
 
   return (
-    <div className="w-full bg-slate-50 pt-20 pb-4">
-      <div className="max-w-7xl mx-auto px-4">
+    <div className="w-full bg-slate-50 pt-14 sm:pt-16 md:pt-20 pb-4">
+      <div className="max-w-7xl mx-auto px-3 sm:px-4">
         <style>{`
           @keyframes carouselRotate {
             0% { transform: translateX(0); }
@@ -43,7 +43,7 @@ export default function CarouselSection() {
             animation: carouselRotate 20s infinite;
           }
         `}</style>
-        <div className="relative w-full overflow-hidden bg-gray-200 rounded-xl h-64 sm:h-80 md:h-96">
+        <div className="relative w-full overflow-hidden bg-gray-200 rounded-lg sm:rounded-xl h-48 sm:h-64 md:h-96">
           <div className="carousel-container flex w-full h-full">
             {slides.map((slide) => (
               <div
