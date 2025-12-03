@@ -12,6 +12,42 @@ import FishingFAQSection from "@/components/fishing/FishingFAQSection";
 import FishingComprehensiveSEOContent from "@/components/fishing/FishingComprehensiveSEOContent";
 import RelatedGamesSection from "@/components/RelatedGamesSection";
 
+export const metadata = {
+  title: "Best Online Fishing Games Australia | Play Real Money Fish Shooting",
+  description: "Play the best arcade fishing games online at Truedinkumbet. Shoot fish, hunt dragons, and win real money in Fishing War & Fishing God. Instant crypto payouts.",
+  keywords: "online fishing games Australia, fish shooting gambling, play fishing war, fishing god casino, JILI fishing games, arcade casino games, real money fish hunter",
+  authors: [{ name: "Truedinkumbet Arcade" }],
+  themeColor: "#0a0a0a",
+  robots: {
+    index: true,
+    follow: true,
+  },
+  canonical: "https://truedinkumbetaucasino.com/fishing",
+  openGraph: {
+    type: "website",
+    siteName: "Truedinkumbet Fishing",
+    title: "Shoot & Win: Online Fishing Casino Australia",
+    description: "Join the underwater hunt! Play top-rated fishing arcade games with high multipliers.",
+    url: "https://truedinkumbetaucasino.com/fishing",
+    images: [
+      {
+        url: "https://static.gwvkyk.com/media/5307c1b56d296b57af7db.png",
+        width: 1200,
+        height: 630,
+        alt: "Truedinkumbet Fishing Games",
+      },
+    ],
+    locale: "en_AU",
+  },
+  twitter: {
+    card: "summary_large_image",
+    site: "@truedinkumbet",
+    title: "Real Money Fishing Games",
+    description: "Fishing War, Fishing God & more. Instant payouts.",
+    image: "https://static.gwvkyk.com/media/5307c1b56d296b57af7db.png",
+  },
+};
+
 export default function FishingPage() {
   const relatedGames = [
     {
