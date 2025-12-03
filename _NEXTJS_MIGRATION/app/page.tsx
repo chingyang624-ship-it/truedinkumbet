@@ -29,9 +29,75 @@ export const metadata: Metadata = {
     "Truedinkumbet Australia, Truedinkumbet casino login, best online casino Australia 2025, trusted betting site Australia, crypto casino AU, Truedinkumbet app download",
 };
 
+const jsonLd = {
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Organization",
+      "@id": "https://truedinkumbetaucasino.com/#organization",
+      name: "Truedinkumbet Australia",
+      url: "https://truedinkumbetaucasino.com/",
+      logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+      description:
+        "Truedinkumbet is the leading online betting platform in Australia, offering sports, casino, and slots.",
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://truedinkumbetaucasino.com/#website",
+      url: "https://truedinkumbetaucasino.com/",
+      name: "Truedinkumbet AU Casino",
+      publisher: { "@id": "https://truedinkumbetaucasino.com/#organization" },
+    },
+    {
+      "@type": "Review",
+      itemReviewed: {
+        "@type": "Organization",
+        name: "Truedinkumbet",
+      },
+      author: {
+        "@type": "Organization",
+        name: "Trustpilot",
+      },
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: "5",
+        bestRating: "5",
+      },
+      reviewBody: "Very good and reliable bookmaker. Strong customer service 24/7.",
+    },
+    {
+      "@type": "FAQPage",
+      mainEntity: [
+        {
+          "@type": "Question",
+          name: "Is Truedinkumbet Australia legal?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes, Truedinkumbet operates under a valid international gaming license and accepts Australian players.",
+          },
+        },
+        {
+          "@type": "Question",
+          name: "Does Truedinkumbet have an app?",
+          acceptedAnswer: {
+            "@type": "Answer",
+            text: "Yes, Truedinkumbet offers a dedicated mobile app for Android and iOS for a seamless gaming experience.",
+          },
+        },
+      ],
+    },
+  ],
+};
+
 export default function Home() {
   return (
     <div className="min-h-screen flex flex-col">
+      <Script
+        id="json-ld"
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+        strategy="afterInteractive"
+      />
       <Header />
       <main className="flex-1 pt-16">
         <CarouselSection />
