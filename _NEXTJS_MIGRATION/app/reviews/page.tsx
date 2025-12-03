@@ -1,3 +1,4 @@
+import { Suspense } from "react";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import ReviewsHeroSection from "@/components/reviews/ReviewsHeroSection";
@@ -36,13 +37,30 @@ export const metadata = {
   robots: "index, follow",
 };
 
+function ReviewsLoading() {
+  return (
+    <div className="w-full bg-white py-12">
+      <div className="max-w-7xl mx-auto px-4">
+        <h1 className="text-4xl font-bold mb-12 text-center">Reviews Archive</h1>
+        <div className="space-y-6">
+          {[...Array(5)].map((_, i) => (
+            <div key={i} className="bg-gray-50 border border-gray-200 rounded-lg p-6 h-24 animate-pulse" />
+          ))}
+        </div>
+      </div>
+    </div>
+  );
+}
+
 export default function ReviewsPage() {
   return (
     <div className="min-h-screen flex flex-col">
       <Header />
       <main className="flex-1 pt-16">
         <ReviewsHeroSection />
-        <ReviewsArchiveSection />
+        <Suspense fallback={<ReviewsLoading />}>
+          <ReviewsArchiveSection />
+        </Suspense>
       </main>
       <Footer />
     </div>
