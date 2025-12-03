@@ -68,7 +68,7 @@ const reviews: Review[] = [
   {
     id: 5,
     name: "SCR888",
-    logo: "https://www.bk8.services/wp-content/uploads/2020/03/Untitled-1-01-1024x315-1-300x90.png",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fdea56528893740118078f68cd11c8549",
     bonus: "Daily Reload",
     bonusPercentage: "50%",
     bonusAmount: "AUD 100",
@@ -92,7 +92,7 @@ const reviews: Review[] = [
   {
     id: 7,
     name: "QQKeno",
-    logo: "https://www.bk8.services/wp-content/uploads/2020/03/qqkeno-logo-01-300x90.jpg",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F6aa8e0ce5b74489bbae7a48bdbf52db6",
     bonus: "Weekly Turnover",
     bonusPercentage: "",
     bonusAmount: "AUD 128",
@@ -104,7 +104,7 @@ const reviews: Review[] = [
   {
     id: 8,
     name: "Pragmatic Play",
-    logo: "https://www.bk8.services/wp-content/uploads/2020/03/pragmaticplay-300x90.png",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff3e0ffe7b8494ee78cf10d83983e5dd6",
     bonus: "Slots",
     bonusPercentage: "50%",
     bonusAmount: "AUD 1,080",
@@ -140,7 +140,7 @@ const reviews: Review[] = [
   {
     id: 11,
     name: "Microgaming",
-    logo: "https://www.bk8.services/wp-content/uploads/2020/03/microgaming-300x90.png",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fc1f22ae8e0cb4b72ac18d2e3d886314b",
     bonus: "Live",
     bonusPercentage: "50%",
     bonusAmount: "AUD 1,080",
@@ -152,7 +152,7 @@ const reviews: Review[] = [
   {
     id: 12,
     name: "Mega888",
-    logo: "https://www.bk8.services/wp-content/uploads/2020/03/mega888-300x90.png",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2d750595f6854b1ebec8d6a1de0f6e05",
     bonus: "Mega & Kiss",
     bonusPercentage: "50%",
     bonusAmount: "AUD 100",
@@ -164,7 +164,7 @@ const reviews: Review[] = [
   {
     id: 13,
     name: "MaxBet",
-    logo: "https://www.bk8.services/wp-content/uploads/2020/03/MAXBET_logo-300x90.png",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2aac83baa38f45a893130b9537416678",
     bonus: "Sports",
     bonusPercentage: "100%",
     bonusAmount: "AUD 800",
@@ -176,7 +176,7 @@ const reviews: Review[] = [
   {
     id: 14,
     name: "IDNPoker",
-    logo: "https://www.bk8.services/wp-content/uploads/2020/03/IDNPoker-Logo-300x90.png",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fdea56528893740118078f68cd11c8549",
     bonus: "VIP Program",
     bonusPercentage: "",
     bonusAmount: "",
@@ -188,7 +188,7 @@ const reviews: Review[] = [
   {
     id: 15,
     name: "Gold Deluxe",
-    logo: "https://www.bk8.services/wp-content/uploads/2020/03/gold-deluxe-300x90.png",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F6aa8e0ce5b74489bbae7a48bdbf52db6",
     bonus: "Live",
     bonusPercentage: "5%",
     bonusAmount: "AUD 150",
@@ -200,7 +200,7 @@ const reviews: Review[] = [
   {
     id: 16,
     name: "GamePlay Interactive",
-    logo: "https://www.bk8.services/wp-content/uploads/2020/03/gameplay-interactive-300x90.png",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff3e0ffe7b8494ee78cf10d83983e5dd6",
     bonus: "Live",
     bonusPercentage: "50%",
     bonusAmount: "AUD 1,080",
@@ -212,7 +212,7 @@ const reviews: Review[] = [
   {
     id: 17,
     name: "GG Fishing",
-    logo: "https://www.bk8.services/wp-content/uploads/2020/03/fishing-world-logo-01-1024x315-1-300x90.png",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fc1f22ae8e0cb4b72ac18d2e3d886314b",
     bonus: "Fishing",
     bonusPercentage: "30%",
     bonusAmount: "AUD 1,000",
@@ -224,7 +224,7 @@ const reviews: Review[] = [
   {
     id: 18,
     name: "Fishing War",
-    logo: "https://www.bk8.services/wp-content/uploads/2020/10/fishing-war-logo.png",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2d750595f6854b1ebec8d6a1de0f6e05",
     bonus: "Fishing",
     bonusPercentage: "50%",
     bonusAmount: "AUD 1,080",
@@ -236,7 +236,7 @@ const reviews: Review[] = [
   {
     id: 19,
     name: "Fishing God",
-    logo: "https://www.bk8.services/wp-content/uploads/2020/03/fishing-god-logo-01-1024x315-1-300x90.png",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2aac83baa38f45a893130b9537416678",
     bonus: "Fishing",
     bonusPercentage: "",
     bonusAmount: "AUD 888",
@@ -248,7 +248,7 @@ const reviews: Review[] = [
   {
     id: 20,
     name: "SA Fishing",
-    logo: "https://www.bk8.services/wp-content/uploads/2020/03/fisherman-gold-01-1024x315-1-300x90.png",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fdea56528893740118078f68cd11c8549",
     bonus: "Fishing",
     bonusPercentage: "",
     bonusAmount: "AUD 888",
@@ -260,7 +260,7 @@ const reviews: Review[] = [
   {
     id: 21,
     name: "Evolution Gaming",
-    logo: "https://www.bk8.services/wp-content/uploads/2020/03/evolution-gaming-300x90.png",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F6aa8e0ce5b74489bbae7a48bdbf52db6",
     bonus: "Live",
     bonusPercentage: "1%",
     bonusAmount: "UNLIMITED",
@@ -272,7 +272,7 @@ const reviews: Review[] = [
   {
     id: 22,
     name: "Dream Gaming",
-    logo: "https://www.bk8.services/wp-content/uploads/2020/03/dream-gaming-300x90.png",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff3e0ffe7b8494ee78cf10d83983e5dd6",
     bonus: "Live",
     bonusPercentage: "50%",
     bonusAmount: "AUD 1,080",
@@ -284,7 +284,7 @@ const reviews: Review[] = [
   {
     id: 23,
     name: "PT Fish",
-    logo: "https://www.bk8.services/wp-content/uploads/2020/03/cash-fish-logo-01-1024x315-1-300x90.png",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fc1f22ae8e0cb4b72ac18d2e3d886314b",
     bonus: "Fishing",
     bonusPercentage: "",
     bonusAmount: "AUD 888",
@@ -296,7 +296,7 @@ const reviews: Review[] = [
   {
     id: 24,
     name: "BetRadar",
-    logo: "https://www.bk8.services/wp-content/uploads/2020/03/betradar-300x90.png",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2d750595f6854b1ebec8d6a1de0f6e05",
     bonus: "Sports",
     bonusPercentage: "100%",
     bonusAmount: "AUD 800",
@@ -308,7 +308,7 @@ const reviews: Review[] = [
   {
     id: 25,
     name: "Asia Gaming",
-    logo: "https://www.bk8.services/wp-content/uploads/2020/03/asiagaming-300x90.png",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2aac83baa38f45a893130b9537416678",
     bonus: "Live",
     bonusPercentage: "150%",
     bonusAmount: "AUD 300",
@@ -320,7 +320,7 @@ const reviews: Review[] = [
   {
     id: 26,
     name: "918Kiss",
-    logo: "https://www.bk8.services/wp-content/uploads/2020/03/918kiss-300x90.png",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fdea56528893740118078f68cd11c8549",
     bonus: "Mega & Kiss",
     bonusPercentage: "150%",
     bonusAmount: "AUD 150",
@@ -332,7 +332,7 @@ const reviews: Review[] = [
   {
     id: 27,
     name: "AllBet",
-    logo: "https://www.bk8.services/wp-content/uploads/2020/03/allbet.png",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F6aa8e0ce5b74489bbae7a48bdbf52db6",
     bonus: "Live",
     bonusPercentage: "50%",
     bonusAmount: "AUD 1,080",
