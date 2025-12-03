@@ -1,12 +1,12 @@
 export default function SlotsHeroSection() {
   return (
-    <section className="w-full pt-16">
+    <section className="w-full">
       <a href="#" className="block w-full">
         <img
           alt="Truedinkumbet Slots Banner"
           loading="lazy"
           src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fa8ed94b8a8364e74a9509e1afecd68fa"
-          className="w-full h-auto object-cover min-h-0 sm:min-h-[200px]"
+          style={{ width: "100%", height: "auto", display: "block" }}
         />
       </a>
     </section>
