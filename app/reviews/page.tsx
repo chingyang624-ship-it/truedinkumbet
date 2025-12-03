@@ -124,13 +124,100 @@ export const jsonLd = [
 
 export default function ReviewsPage() {
   return (
-    <div className="min-h-screen flex flex-col">
-      <Header />
-      <main className="flex-1 pt-16">
-        <ReviewsHeroSection />
-        <ReviewsArchiveSection />
-      </main>
-      <Footer />
-    </div>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "Service",
+            name: "E-Wallet Casino Payments",
+            provider: {
+              "@type": "Organization",
+              name: "Truedinkumbet Australia",
+            },
+            serviceType: "Online Payment Processing",
+            areaServed: "AU",
+            description:
+              "Secure and instant deposit and withdrawal services for online gaming using PayID, Apple Pay, and Cryptocurrency.",
+            offers: {
+              "@type": "Offer",
+              price: "0",
+              priceCurrency: "AUD",
+              availability: "http://schema.org/InStock",
+            },
+            hasOfferCatalog: {
+              "@type": "OfferCatalog",
+              name: "Accepted Payment Methods",
+              itemListElement: [
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "PayID (Instant Bank Transfer)",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Apple Pay Deposit",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "Google Pay Deposit",
+                  },
+                },
+                {
+                  "@type": "Offer",
+                  itemOffered: {
+                    "@type": "Service",
+                    name: "USDT (Tether) Crypto",
+                  },
+                },
+              ],
+            },
+          }),
+        }}
+      />
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+              {
+                "@type": "Question",
+                name: "Does Truedinkumbet accept PayID?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "Yes, we support PayID (OSKO) for instant deposits and withdrawals directly to your Australian bank account.",
+                },
+              },
+              {
+                "@type": "Question",
+                name: "Are there fees for e-wallet withdrawals?",
+                acceptedAnswer: {
+                  "@type": "Answer",
+                  text: "No, Truedinkumbet does not charge any fees for using e-wallets or crypto for deposits or withdrawals.",
+                },
+              },
+            ],
+          }),
+        }}
+      />
+      <div className="min-h-screen flex flex-col">
+        <Header />
+        <main className="flex-1 pt-16">
+          <ReviewsHeroSection />
+          <ReviewsArchiveSection />
+        </main>
+        <Footer />
+      </div>
+    </>
   );
 }
