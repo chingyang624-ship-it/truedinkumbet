@@ -280,7 +280,7 @@ const reviews: Review[] = [
   {
     id: 21,
     name: "Evolution Gaming",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F36d593db52f843ef9597c1f00d03ecae",
     bonus: "Live",
     bonusPercentage: "1%",
     bonusAmount: "UNLIMITED",
@@ -293,7 +293,7 @@ const reviews: Review[] = [
   {
     id: 22,
     name: "Dream Gaming",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ffe4ef454be9340f0aa5309cabc314d94",
     bonus: "Live",
     bonusPercentage: "50%",
     bonusAmount: "AUD 1,080",
@@ -306,7 +306,7 @@ const reviews: Review[] = [
   {
     id: 23,
     name: "PT Fish",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fbb037b3034104126868d087a7b517734",
     bonus: "Fishing",
     bonusPercentage: "",
     bonusAmount: "AUD 888",
@@ -319,7 +319,7 @@ const reviews: Review[] = [
   {
     id: 24,
     name: "BetRadar",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F6678ec1d8e3f4e90b5f8469c5d80f847",
     bonus: "Sports",
     bonusPercentage: "100%",
     bonusAmount: "AUD 800",
@@ -332,7 +332,7 @@ const reviews: Review[] = [
   {
     id: 25,
     name: "Asia Gaming",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F7c0f583ccb98408ab40ff2825eb763af",
     bonus: "Live",
     bonusPercentage: "150%",
     bonusAmount: "AUD 300",
@@ -345,7 +345,7 @@ const reviews: Review[] = [
   {
     id: 26,
     name: "918Kiss",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2f4a3be554914f07b6a0beebdd9d2b2f",
     bonus: "Mega & Kiss",
     bonusPercentage: "150%",
     bonusAmount: "AUD 150",
@@ -358,7 +358,7 @@ const reviews: Review[] = [
   {
     id: 27,
     name: "AllBet",
-    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fe7e47fa99ba94908a857dedc0ccdbb2a",
     bonus: "Live",
     bonusPercentage: "50%",
     bonusAmount: "AUD 1,080",
