@@ -3,79 +3,79 @@ export default function LiveCasinoAllProvidersGridSection() {
     {
       name: "Evolution Live Casino",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-evo.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
       badge: "Hot",
     },
     {
       name: "AE Live Casino",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-ug.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
       badge: "Hot",
     },
     {
       name: "Pragmatic Play Live Casino",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-pp.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
       badge: "Hot",
     },
     {
       name: "Asia Gaming Live Casino",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-ag.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
       badge: null,
     },
     {
       name: "SA Gaming Live Casino",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-sa.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
       badge: "Hot",
     },
     {
       name: "WM Live Casino",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-wm.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
       badge: "New",
     },
     {
       name: "Dragon Live Casino",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-dg.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
       badge: "Hot",
     },
     {
       name: "Big Gaming Live Casino",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-bg.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
       badge: "New",
     },
     {
       name: "Binl Live Casino",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-binl.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
       badge: null,
     },
     {
       name: "Allbet Live Casino",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-allbet.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
       badge: null,
     },
     {
       name: "Microgaming Live Casino",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-mg.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
       badge: null,
     },
     {
       name: "Gameplay Live Casino",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-gp.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
       badge: null,
     },
     {
       name: "Playtech Live Casino",
       image:
-        "https://www.bk8.services/wp-content/uploads/2023/08/casino-pt.webp",
+        "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
       badge: null,
     },
   ];
