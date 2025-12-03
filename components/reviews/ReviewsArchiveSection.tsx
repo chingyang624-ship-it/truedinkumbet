@@ -20,7 +20,7 @@ const reviews: Review[] = [
   {
     id: 1,
     name: "CMD368",
-    logo: "https://www.bk8.services/wp-content/uploads/2020/03/CMD368_VN-300x90.png",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fc1f22ae8e0cb4b72ac18d2e3d886314b",
     bonus: "Sports",
     bonusPercentage: "100%",
     bonusAmount: "AUD 800",
@@ -32,7 +32,7 @@ const reviews: Review[] = [
   {
     id: 2,
     name: "Ultimate Gaming",
-    logo: "https://www.bk8.services/wp-content/uploads/2020/03/ultimate-300x90.png",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2d750595f6854b1ebec8d6a1de0f6e05",
     bonus: "Slots",
     bonusPercentage: "20%",
     bonusAmount: "AUD 300",
@@ -44,7 +44,7 @@ const reviews: Review[] = [
   {
     id: 3,
     name: "TopTrend Gaming",
-    logo: "https://www.bk8.services/wp-content/uploads/2020/03/toptrend-gaming-300x90.png",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F2aac83baa38f45a893130b9537416678",
     bonus: "Slots",
     bonusPercentage: "20%",
     bonusAmount: "AUD 300",
@@ -56,7 +56,7 @@ const reviews: Review[] = [
   {
     id: 4,
     name: "SpadeGaming",
-    logo: "https://www.bk8.services/wp-content/uploads/2020/03/spadegaming-300x90.png",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fdea56528893740118078f68cd11c8549",
     bonus: "Slots",
     bonusPercentage: "50%",
     bonusAmount: "AUD 1,080",
@@ -80,7 +80,7 @@ const reviews: Review[] = [
   {
     id: 6,
     name: "SA Gaming",
-    logo: "https://www.bk8.services/wp-content/uploads/2020/10/SA_Gaming.png",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F6aa8e0ce5b74489bbae7a48bdbf52db6",
     bonus: "Live",
     bonusPercentage: "50%",
     bonusAmount: "AUD 1,080",
@@ -116,7 +116,7 @@ const reviews: Review[] = [
   {
     id: 9,
     name: "PlayTech",
-    logo: "https://www.bk8.services/wp-content/uploads/2020/03/Playtech-300x90.png",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff3e0ffe7b8494ee78cf10d83983e5dd6",
     bonus: "Live",
     bonusPercentage: "5%",
     bonusAmount: "AUD 150",
@@ -128,7 +128,7 @@ const reviews: Review[] = [
   {
     id: 10,
     name: "Play'n GO",
-    logo: "https://www.bk8.services/wp-content/uploads/2020/03/playngo-300x90.png",
+    logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
     bonus: "Slots",
     bonusPercentage: "50%",
     bonusAmount: "AUD 1,080",
