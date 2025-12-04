@@ -191,13 +191,13 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
   },
   {
     id: 17,
-    title: "How to Fully Utilize Your KWSP Money in 2022",
+    title: "How to Fully Utilize Your Superannuation in 2025",
     description:
-      "The Malaysian government understands the need for long-term planning. That's why they have set up the KWSP, or the Employees Provident Fund. This program allows workers in Malaysia to save money for retirement and other needs. If you're a Malaysian worker, it's important to know how to make the most of your KWSP funds. In [...]",
+      "The Australian government understands the need for long-term financial security. That's why the Superannuation system (or \"Super\") exists. This mandatory program ensures that workers in Australia save money for their retirement years. If you're working in Australia, it's crucial to know how to maximize your Super balance. In [...]",
     category: "Casino Review",
-    date: "19-01-2022",
+    date: "19-01-2025",
     image:
-      "https://www.bk8.services/wp-content/uploads/2022/01/How-to-Fully-Utilize-Your-KWSP-Money-in-2022-360x200.png",
+      "https://www.truedinkumbet.services/wp-content/uploads/2025/01/How-to-Fully-Utilize-Your-Superannuation-in-2025.jpg",
     link: "/blog/casino-review/how-to-fully-utilize-your-kwsp-money-in-2022/",
   },
   {
