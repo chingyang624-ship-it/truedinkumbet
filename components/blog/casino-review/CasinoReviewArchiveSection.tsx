@@ -167,50 +167,6 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
       "https://www.bk8.services/wp-content/uploads/2021/09/How-Do-You-Compare-Online-Casinos-360x200.png",
     link: "/blog/casino-review/choose-the-best-casino-how-do-you-compare-online-casinos/",
   },
-  {
-    id: 17,
-    title: "Which is Better: Online Casinos versus Land-Based Casinos",
-    description:
-      "People used to gamble for joy and entertainment since the beginning of humanity. In 1636, the first legal casino started with the first gambling establishment in Venice, Europe. Since then, more and more casinos have started to emerge in various cities globally with various games but almost have the same atmosphere. [...]",
-    category: "Casino Review",
-    date: "07-07-2021",
-    image:
-      "https://www.bk8.services/wp-content/uploads/2021/07/Which-is-Better-Online-Casinos-versus-Land-Based-Casinos-360x200.png",
-    link: "/blog/casino-review/which-is-better-online-casinos-versus-land-based-casinos/",
-  },
-  {
-    id: 18,
-    title: "Mistakes to Avoid When Playing Online Gambling",
-    description:
-      "Many players believe that after playing multiple games at a real casino or playing one of the free games at an online game, they have experience with real money games. Online casino gambling is one of a person's most profitable and entertaining activities. However, there are some common online gambling mistakes that you need to know before playing. [...]",
-    category: "Casino Review",
-    date: "29-06-2021",
-    image:
-      "https://www.bk8.services/wp-content/uploads/2021/06/Mistakes-to-Avoid-When-Playing-Online-Gambling-360x200.png",
-    link: "/blog/casino-review/mistakes-to-avoid-when-playing-online-gambling/",
-  },
-  {
-    id: 19,
-    title: "Online Gambling Trends: 2021",
-    description:
-      "Online casinos emerged in the gambling community in the middle of the nineties. The high-speed internet access led to the massive development of the remote gambling sector. Almost every family nowadays has an internet-accessible PC. That only proves that the emergence of technology propels the trends and success of the online gambling sector. [...]",
-    category: "Casino Review",
-    date: "25-06-2021",
-    image:
-      "https://www.bk8.services/wp-content/uploads/2021/06/Online-Gambling-Trends-2021-360x200.png",
-    link: "/blog/casino-review/online-gambling-trends-2021/",
-  },
-  {
-    id: 20,
-    title: "How to Deposit in an Online Casino in Australia: The Ultimate Guide",
-    description:
-      "With the convenience of smartphones and high-speed internet, Online Casinos have become a favorite pastime for Aussies. More and more punters are swapping the local pub's pokies for online sites. However, every online casino has different deposit and withdrawal methods. [...]",
-    category: "Casino Review",
-    date: "18-07-2021",
-    image:
-      "https://www.bk8.services/wp-content/uploads/2021/07/How-to-Deposit-in-Online-Casino-Australia-360x200.png",
-    link: "/blog/casino-review/how-to-deposit-in-an-online-casino-australia/",
-  },
 ];
 
 const recentPosts = [
