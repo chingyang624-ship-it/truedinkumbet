@@ -1,5 +1,3 @@
-"use client";
-
 import { Metadata } from "next";
 import Script from "next/script";
 import Header from "@/components/Header";
