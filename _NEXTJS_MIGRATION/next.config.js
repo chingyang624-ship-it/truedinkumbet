@@ -9,6 +9,10 @@ const nextConfig = {
         protocol: "https",
         hostname: "cdn.builder.io",
       },
+      {
+        protocol: "https",
+        hostname: "static.gwvkyk.com",
+      },
     ],
   },
   typescript: {
@@ -19,7 +23,10 @@ const nextConfig = {
   },
   experimental: {
     esmExternals: false,
+    cpus: 1,
   },
+  swcMinify: true,
+  optimizeFonts: false,
 };
 
 module.exports = nextConfig;
