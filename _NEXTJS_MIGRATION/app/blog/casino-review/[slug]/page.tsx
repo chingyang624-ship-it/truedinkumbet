@@ -3,6 +3,7 @@ import Footer from "@/components/Footer";
 import CasinoReviewArticleContent from "@/components/blog/casino-review/CasinoReviewArticleContent";
 
 const articleSlugs = [
+  "why-bitcoin-or-other-cryptocurrencies-and-casinos-are-great-together",
   "what-is-cryptocurrency-casino",
   "have-you-truedinkumbet",
   "tips-for-gambling-online-with-a-small-budget",
