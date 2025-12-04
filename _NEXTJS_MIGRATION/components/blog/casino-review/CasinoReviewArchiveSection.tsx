@@ -420,6 +420,17 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
       "https://www.bk8.services/wp-content/uploads/2021/11/What-Is-the-Process-for-Online-Casino-Bonuses-360x200.png",
     link: "/blog/casino-review/what-is-the-process-for-online-casino-bonuses/",
   },
+  {
+    id: 39,
+    title: "You Should Stop Gambling If You See Any Of These 6 Signs",
+    description:
+      "It's easy to get addicted to gambling when the prize money is genuine. But don't be misled by the headline. Throughout my whole life, gambling has and will continue to play a significant role. The last thing we want, though, is for any of you to get influenced by it and start engaging in risky behaviours. [...]",
+    category: "Casino Review",
+    date: "09-11-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/11/You-Should-Stop-Gambling-If-You-See-Any-Of-These-6-Signs-360x200.png",
+    link: "/blog/casino-review/you-should-stop-gambling-if-you-see-any-of-these-6-signs/",
+  },
 ];
 
 const recentPosts = [
