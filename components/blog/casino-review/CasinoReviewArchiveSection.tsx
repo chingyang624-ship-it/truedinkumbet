@@ -61,7 +61,7 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
     id: 5,
     title: "Truedinkumbet Year of Rabbit 2023 Gold Bar Deposit Reward",
     description:
-      "In addition to being one of Malaysia's most well-known online casinos, BK8 is also well-known for its hefty bonus offerings. In honour of the upcoming Year of the Rabbit Chinese New Year, BK8 is now taking orders for a special gold bar. This is without a doubt one of BK8's most generous presents to date. [...]",
+      "In addition to being one of Australia's most well-known online casinos, Truedinkumbet is also well-known for its hefty bonus offerings. In honour of the upcoming Year of the Rabbit Chinese New Year, Truedinkumbet is now taking orders for a special gold bar. This is without a doubt one of Truedinkumbet's most generous presents to date. [...]",
     category: "Casino Review",
     date: "27-12-2022",
     image:
