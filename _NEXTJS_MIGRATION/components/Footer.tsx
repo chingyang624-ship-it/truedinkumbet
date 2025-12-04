@@ -100,7 +100,7 @@ export default function Footer() {
                   { name: "Slots", href: "/slots" },
                   { name: "Fishing", href: "/fishing" },
                 ].map((game) => (
-                  <Link
+                  <a
                     key={game.name}
                     href={game.href}
                     {...(game.href.startsWith("http") && {
@@ -110,7 +110,7 @@ export default function Footer() {
                     className="block text-black hover:text-gray-600 transition-colors text-sm"
                   >
                     {game.name}
-                  </Link>
+                  </a>
                 ))}
               </div>
             </div>
