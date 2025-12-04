@@ -31,11 +31,8 @@ jobs:
           node-version: "18"
           cache: "pnpm"
 
-      - name: Install dependencies (root)
-        run: pnpm install
-
-      - name: Install dependencies (_NEXTJS_MIGRATION)
-        run: cd _NEXTJS_MIGRATION && npm install
+      - name: Install dependencies
+        run: pnpm install --recursive
 
       - name: Build
         run: cd _NEXTJS_MIGRATION && NODE_OPTIONS="--max-old-space-size=4096" npm run build
