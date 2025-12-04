@@ -543,9 +543,9 @@ export default function AppDownloadContent() {
                 <p className="text-gray-600">
                   To install the APK, first enable “Install from Unknown
                   Sources,” then download the APK from the{" "}
-                  <Link href="/" className="text-orange-500 font-bold">
+                  <a href="/" className="text-orange-500 font-bold">
                     {"\u00A0"}Truedinkumbet official site
-                  </Link>
+                  </a>
                   , and install it by opening the downloaded file.
                 </p>
               </div>
