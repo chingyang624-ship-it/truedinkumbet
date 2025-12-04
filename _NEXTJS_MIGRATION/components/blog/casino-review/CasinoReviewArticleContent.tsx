@@ -646,12 +646,89 @@ const articles: Article[] = [
     id: 5,
     title: "Truedinkumbet Year of Rabbit 2023 Gold Bar Deposit Reward",
     description:
-      "In addition to being one of Malaysia's most well-known online casinos, Truedinkumbet is also well-known for its hefty bonus offerings. In honour of the upcoming Year of the Rabbit Chinese New Year, Truedinkumbet is now taking orders for a special gold bar. This is without a doubt one of Truedinkumbet's most generous presents to date. [...]",
+      "In addition to being one of Australia's most well-known online casinos, Truedinkumbet is also well-known for its hefty bonus offerings. In honour of the upcoming Year of the Rabbit Chinese New Year, Truedinkumbet is now taking orders for a special gold bar. This is without a doubt one of Truedinkumbet's most generous presents to date. [...]",
     category: "Casino Review",
     date: "27-12-2022",
     image:
       "https://www.bk8.services/wp-content/uploads/2022/12/BK8-Year-of-Rabbit-2023-Gold-Bar-Deposit-Reward-360x200.png",
     link: "/blog/casino-review/truedinkumbet-year-of-rabbit-2023-gold-bar-deposit-reward/",
+    author: "Terrence Spove",
+    content: `<div class="single-post-wrapper text-area">
+      <div class="post-info clearfix mb-8">
+        <div class="post-info__left">
+          <strong>Categories:</strong> <a href="/blog/category/casino-review/" rel="category tag">Casino Review</a>
+          <span class="seperator">|</span>
+          <strong>Published by:</strong> Terrence Spove
+        </div>
+        <div class="post-info__right">
+          <span class="date">27/12/2022</span>
+        </div>
+      </div>
+
+      <h1 class="text-4xl font-bold mt-10 mb-6"><b>Truedinkumbet Year of Rabbit 2023 Gold Bar Deposit Reward</b></h1>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">In addition to being one of Australia's most well-known online casinos, Truedinkumbet is also well-known for its hefty bonus offerings. In honour of the upcoming Year of the Rabbit Chinese New Year, Truedinkumbet is now taking orders for a special gold bar. This is without a doubt one of Truedinkumbet's most generous presents to date. Make a deposit to start off the year right and enter to win a Year of the Rabbit Gold Bar. What follows is the necessary information for obtaining the Gold Bar.</span></p>
+
+      <h2 class="text-3xl font-bold mt-10 mb-6"><b>How to Get Truedinkumbet Year of Rabbit 2023 Gold Bar?</b></h2>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">You must adhere to the rules and regulations that Truedinkumbet establish before you may get the Rabbit gold bar. The procedures for doing so are detailed below.</span></p>
+
+      <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">Available only to those whose primary currency is the Australian Dollar.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">Members may win a Year of the Rabbit Gold Bar weighing 10 grams if they deposit a total of AUD 388,888 and turn that sum over once throughout the offer period.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">Follow the link [APPLY NOW] and fill out the form completely.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">To avoid having your qualifying attempt nullified, double-check that the "Phone number" and "Address" you supplied are correct.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">At the conclusion of the campaign, we will check each member's eligibility and send a note to their inbox if they meet the requirements.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">There is a limit of one (1) award application per eligible member for the duration of the campaign.</span></li>
+      </ul>
+
+      <h2 class="text-3xl font-bold mt-10 mb-6"><b>How Much Does the Truedinkumbet Rabbit Gold Bar Worth?</b></h2>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Truedinkumbet, being the largest and most reputable online casino in Australia, is not going to provide you with a snack option that is tiny enough to satisfy your hunger. When it comes to Truedinkumbet, you should always anticipate something HUGE. At this point in time, Gold Bars are being made available by Truedinkumbet to any and all users and gamers who are currently using the platform. Each gold bar weighs 10 grammes, which is highly expensive due to the precious metal's high price.</span></p>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Currently, the price of a gram of pure gold is between AUD 260 and AUD 270 in Australia (December 2022). In light of the aforementioned, the Truedinkumbet Rabbit Gold Bar is estimated to be worth anywhere between AUD 2,600 and AUD 2,700. The gold bar is totally covered in a yellow gold colour, giving the impression that it is quite expensive.</span></p>
+
+      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Other Promotions and Bonuses by Truedinkumbet</b></h2>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Truedinkumbet is one of the most popular gambling websites in Asia, and new players may get a huge bonus just for signing up. In truth, there are other suggestions that would be very helpful across the board; nevertheless, we will be focusing on the sports section's proposal for the time being.</span></p>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Truedinkumbet offers new players in Australia a 100% bonus on their first deposit of up to AUD 300 to utilise for sports betting. Users may get this deal by topping up their accounts by at least AUD 50 using any of the supported methods of payment. Also, you would not need to use any coupon code when signing up for an account with Truedinkumbet bookmaker.</span></p>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">There are details concerning the deal, such as a 12x rollover requirement, that you must be aware of. To find out more, please review our Terms &amp; Conditions.</span></p>
+
+      <h3 class="text-2xl font-bold mt-8 mb-4"><b>Crypto Lucky Draw Bonus</b></h3>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">As of mid-2022, more than 3.5 million people in Australia had purchased cryptocurrency. Those individuals are in luck, as Truedinkumbet is one of the few bitcoin betting services that provide an excellent payoff.</span></p>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Crypto Lucky Draw is a promotion that Truedinkumbet is offering to its crypto customers. All users may make use of this feature as long as they deposit using Ethereum, Bitcoin, or USDT. Depositing at least AUD 200 is required, however, a Truedinkumbet promo code is not necessary to take advantage of this deal.</span></p>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">With every AUD 200 you deposit, you'll be entered into a random drawing for a chance to win. Winners will be awarded varying numbers of millibitcoins. One such award is 588 milliBitcoins (mBTC). With Truedinkumbet, there will be 18 lucky winners. Anyone who wins should get their prizes within three days.</span></p>
+
+      <h3 class="text-2xl font-bold mt-8 mb-4"><b>100% Risk-Free Bet Up To AUD 200</b></h3>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Another deal that may be used without a specific bonus code is this one. You need an Australian Dollar account to access it. The minimum stake required to get 100% payback from the bookie is AUD 100. The maximum payout from this site is AUD 200, with a rollover requirement of 5 times that amount. You are able to utilize this bonus in football betting available on MaxBet/Saba-Sports on Truedinkumbet.</span></p>
+
+      <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">This Truedinkumbet deal requires a phone number in order to be redeemed.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">The soccer handicap or Over/Under market must be selected as the qualifying bet's primary outcome type.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">The amount you get back depends on how much money you lose.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">You have 72 hours from the time you get the award to redeem it.</span></li>
+      </ul>
+
+      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Truedinkumbet's Premier Membership Club</b></h2>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">There are five different tiers of the VIP Club, each with more impressive benefits, such as:</span></p>
+
+      <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">Weekly Bonuses</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">Birthday rewards</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">Increased withdrawal limits</span></li>
+      </ul>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">There are, perhaps predictably, requisite skills and experience levels for each tier. If you deposit at least AUD 50,000, you'll be invited to join Truedinkumbet's exclusive Loyalty Club. If you wish to play at the "Diamond" level, you'll need to make a deposit of at least AUD 2,000,000 every three months.</span></p>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">When it comes to lifetime memberships, both Bronze and Silver will do the trick. The other tiers, however, will expire after three months unless renewed.</span></p>
+    </div>`,
   },
   {
     id: 6,
