@@ -14,9 +14,9 @@ export default function FishingComprehensiveSEOContent() {
                 combine entertainment and rewards. What started as a fun arcade
                 attraction has now moved online — and today, players can enjoy
                 the same excitement from home. At{" "}
-                <Link href="/" className="text-orange-500 hover:underline">
+                <a href="/" className="text-orange-500 hover:underline">
                   Truedinkumbet
-                </Link>
+                </a>
                 , the trusted online casino licensed under Philippine Amusement
                 and Gaming Corporation, fishing game fans can dive into
                 action-packed adventures with real AUD winnings, daily
@@ -73,9 +73,9 @@ export default function FishingComprehensiveSEOContent() {
                 </li>
                 <li>
                   <strong>Mobile-friendly</strong> – Through the{" "}
-                  <Link href="/app" className="text-orange-500 hover:underline">
+                  <a href="/app" className="text-orange-500 hover:underline">
                     Truedinkumbet App
-                  </Link>
+                  </a>
                   , you can enjoy seamless fishing action on mobile anytime.
                 </li>
               </ul>
@@ -220,12 +220,12 @@ export default function FishingComprehensiveSEOContent() {
                 <li>
                   <strong>New Member Welcome Offer</strong> – Sign up and
                   receive a generous welcome package valid across{" "}
-                  <Link
+                  <a
                     href="/fishing"
                     className="text-orange-500 hover:underline"
                   >
                     fishing games
-                  </Link>{" "}
+                  </a>{" "}
                   and slot games.
                 </li>
               </ul>
@@ -316,50 +316,50 @@ export default function FishingComprehensiveSEOContent() {
               </p>
               <ul className="list-disc pl-5 text-sm text-gray-500 space-y-1 mb-3">
                 <li>
-                  <Link
+                  <a
                     href="/slots"
                     className="text-orange-500 hover:underline"
                   >
                     Slot Games
-                  </Link>{" "}
+                  </a>{" "}
                   – Thousands of AUD-winning titles from Pragmatic Play,
                   SpadeGaming, and Mega888.
                 </li>
                 <li>
-                  <Link
+                  <a
                     href="/live-casino"
                     className="text-orange-500 hover:underline"
                   >
                     Live Casino
-                  </Link>{" "}
+                  </a>{" "}
                   – Real dealers for Baccarat, Blackjack, and Roulette streamed
                   in HD.
                 </li>
                 <li>
-                  <Link
+                  <a
                     href="/sports"
                     className="text-orange-500 hover:underline"
                   >
                     Sports Betting
-                  </Link>{" "}
+                  </a>{" "}
                   – Bet on football, basketball, and tennis with live odds.
                 </li>
                 <li>
-                  <Link
+                  <a
                     href="/esports"
                     className="text-orange-500 hover:underline"
                   >
                     Esports
-                  </Link>{" "}
+                  </a>{" "}
                   – Wager on Dota 2, Valorant, and Mobile Legends tournaments.
                 </li>
                 <li>
-                  <Link
+                  <a
                     href="/lottery"
                     className="text-orange-500 hover:underline"
                   >
                     Lottery
-                  </Link>{" "}
+                  </a>{" "}
                   – Try your luck with quick daily draws and AUD jackpots.
                 </li>
               </ul>
@@ -408,13 +408,13 @@ export default function FishingComprehensiveSEOContent() {
           </div>
         </div>
         <div className="mt-12 text-center">
-          <Link
+          <a
             href="https://truedinkumbet.com/go/register"
             rel="nofollow"
             className="inline-block px-8 py-3 bg-orange-500 text-white font-semibold rounded-lg hover:bg-orange-600 transition-colors"
           >
             Play Now at Truedinkumbet Australia
-          </Link>
+          </a>
         </div>
       </div>
     </section>
