@@ -16,6 +16,7 @@ export default function Header() {
   ];
 
   const blogItems = [
+    { name: "Casino Review", href: "/blog/category/casino-review" },
     { name: "Crypto casino", href: "/crypto-casino" },
     { name: "Reviews", href: "/reviews" },
     { name: "E-Wallet Casino", href: "/e-wallet-casino" },
