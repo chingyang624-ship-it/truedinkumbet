@@ -59,8 +59,8 @@ export default function SportsComprehensiveSEOContent() {
                 Smart punters can try their hands on eSports gaming like CSGO,
                 League of Legends, PUBG, and DOTA2. You can view all supported
                 titles at the Truedinkumbet Esports page. The brand IM eSports
-                offer all these games at Truedinkumbet Malaysia. FIFA World,
-                Malaysia Cup, FA Cup, Premier League, etc., are some popular
+                offer all these games at Truedinkumbet Australia. FIFA World,
+                Australian Cup, FA Cup, Premier League, etc., are some popular
                 Champion League matches on which players mostly bet.
               </p>
 
