@@ -35,9 +35,12 @@ export default function LiveCasinoProvidersSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-1 gap-8">
           {providers.map((provider, index) => (
-            <div
+            <a
               key={index}
-              className="flex flex-col md:flex-row gap-8 items-start p-8 rounded-lg"
+              href="https://truedinkumbet.com/RFSEOTDK"
+              target="_blank"
+              rel="sponsored noopener noreferrer"
+              className="flex flex-col md:flex-row gap-8 items-start p-8 rounded-lg hover:opacity-80 transition-opacity"
               style={{ backgroundColor: "#f9fafb" }}
             >
               <div className="md:w-1/3 flex justify-center">
@@ -63,7 +66,7 @@ export default function LiveCasinoProvidersSection() {
                   {provider.description}
                 </p>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>
