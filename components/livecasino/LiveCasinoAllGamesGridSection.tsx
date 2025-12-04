@@ -82,7 +82,13 @@ export default function LiveCasinoAllGamesGridSection() {
       <div className="max-w-7xl mx-auto px-4">
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-4">
           {games.map((game, index) => (
-            <div key={index} className="relative">
+            <a
+              key={index}
+              href="https://truedinkumbet.com/RFSEOTDK"
+              target="_blank"
+              rel="sponsored noopener noreferrer"
+              className="relative block hover:opacity-80 transition-opacity"
+            >
               <img
                 decoding="async"
                 alt={game.name}
@@ -104,7 +110,7 @@ export default function LiveCasinoAllGamesGridSection() {
                   className="w-4 h-4 rounded-lg"
                 />
               </div>
-            </div>
+            </a>
           ))}
         </div>
         <div className="text-center mt-8">
