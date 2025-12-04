@@ -27,6 +27,7 @@ const articleSlugs = [
   "online-gambling-trends-2021",
   "how-to-deposit-in-an-online-casino-australia",
   "is-it-safe-to-use-bitcoin-for-online-casinos",
+  "how-old-should-i-be-to-use-an-online-casino-service",
 ];
 
 export async function generateStaticParams() {
