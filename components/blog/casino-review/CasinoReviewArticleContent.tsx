@@ -163,14 +163,14 @@ const articles: Article[] = [
   },
   {
     id: 2,
-    title: "Have You BK8?",
+    title: "Have You Truedinkumbet?",
     description:
       'You must have heard the slogan "Have You BK8? or 你BK8了吗" in social media or YouTube advertisements. The slogan is addictive, right? It was catchy and resonated deeply with all of you. This is designed to help you remember you can get various benefits and promotions on BK8. BK8 must first pop into your mind [...]',
     category: "Casino Review",
     date: "06-12-2023",
     image:
       "https://www.bk8.services/wp-content/uploads/2023/12/Have-You-BK8_-BK8-Campaign-2023-Recap-360x200.webp",
-    link: "/blog/casino-review/have-you-bk8/",
+    link: "/blog/casino-review/have-you-truedinkumbet/",
   },
   {
     id: 3,
@@ -196,14 +196,14 @@ const articles: Article[] = [
   },
   {
     id: 5,
-    title: "BK8 Year of Rabbit 2023 Gold Bar Deposit Reward",
+    title: "Truedinkumbet Year of Rabbit 2023 Gold Bar Deposit Reward",
     description:
       "In addition to being one of Malaysia's most well-known online casinos, BK8 is also well-known for its hefty bonus offerings. In honour of the upcoming Year of the Rabbit Chinese New Year, BK8 is now taking orders for a special gold bar. This is without a doubt one of BK8's most generous presents to date. [...]",
     category: "Casino Review",
     date: "27-12-2022",
     image:
       "https://www.bk8.services/wp-content/uploads/2022/12/BK8-Year-of-Rabbit-2023-Gold-Bar-Deposit-Reward-360x200.png",
-    link: "/blog/casino-review/bk8-year-of-rabbit-2023-gold-bar-deposit-reward/",
+    link: "/blog/casino-review/truedinkumbet-year-of-rabbit-2023-gold-bar-deposit-reward/",
   },
   {
     id: 6,
