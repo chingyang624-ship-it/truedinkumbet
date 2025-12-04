@@ -180,14 +180,14 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
   },
   {
     id: 16,
-    title: "Do I Need To Declare My Casino Winnings On LHDN Malaysia?",
+    title: "Do I Need To Declare My Casino Winnings In Australia?",
     description:
-      "When it comes to gambling and casino winnings, there are a lot of questions about what you need to do when it comes to taxes. In Malaysia, there is no definitive answer, as the laws surrounding this topic can be a little murky. In this blog post, we will try to clear up some of [...]",
+      "When it comes to gambling and casino winnings, there are a lot of questions about what you need to do when it comes to taxes. In Australia, there is no definitive answer, as the laws surrounding this topic can be a little murky. In this blog post, we will try to clear up some of [...]",
     category: "Casino Review",
     date: "26-01-2022",
     image:
       "https://www.bk8.services/wp-content/uploads/2022/01/Do-I-Need-To-Declare-My-Casino-Winnings-On-LHDN-Malaysia-360x200.png",
-    link: "/blog/casino-review/do-i-need-to-declare-my-casino-winnings-on-lhdn-malaysia/",
+    link: "/blog/casino-review/do-i-need-to-declare-my-casino-winnings-in-australia/",
   },
   {
     id: 17,
