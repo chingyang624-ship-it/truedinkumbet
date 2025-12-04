@@ -105,7 +105,7 @@ export default function SportsComprehensiveSEOContent() {
               </h2>
               <p className="text-sm text-gray-500 mb-3">
                 Truedinkumbet is a top-rated sportsbook bookmaker in the
-                country. Our Malaysia online betting site provides maximum
+                country. Our Australia online betting site provides maximum
                 wagers for a football game to the players. You can bet on horse
                 racing, rugby, baseball, basketball, eSports, etc.
               </p>
@@ -126,8 +126,7 @@ export default function SportsComprehensiveSEOContent() {
                 minimum amount of $300 via various payment methods, from
                 debit/credit cards to Cryptocurrency. Players who prefer digital
                 currency can check the Truedinkumbet Crypto Casino for Bitcoin
-                and USDT options. The 24×7 customer support in English, Chinese,
-                and Malay makes us one of the most popular sports casinos.
+                and USDT options. The 24×7 customer support in English makes us one of the most popular sports casinos in Australia.
               </p>
             </div>
           </div>
@@ -186,9 +185,9 @@ export default function SportsComprehensiveSEOContent() {
               </p>
               <p className="text-sm text-gray-500 mb-3">
                 It is powered by credible software providers, CMD368 partners
-                with experienced and top software providers in Asia, just like
+                with experienced and top software providers globally, just like
                 Truedinkumbet. With the partnership, the platform has also been
-                offering Malaysia sports betting and casino games with top-notch
+                offering Australia sports betting and casino games with top-notch
                 animations, quality graphics, and crystal-clear sound effects.
               </p>
               <p className="text-sm text-gray-500 mb-3">
