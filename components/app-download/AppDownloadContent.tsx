@@ -585,9 +585,9 @@ export default function AppDownloadContent() {
               </h3>
               <ul className="space-y-3">
                 <li>
-                  <Link href="#" className="text-orange-500 hover:underline">
+                  <a href="#" className="text-orange-500 hover:underline">
                     What is Cryptocurrency Casino?
-                  </Link>
+                  </a>
                 </li>
                 <li>
                   <Link href="#" className="text-orange-500 hover:underline">
