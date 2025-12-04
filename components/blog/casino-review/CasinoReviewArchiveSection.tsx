@@ -156,6 +156,17 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
       "https://www.bk8.services/wp-content/uploads/2021/11/You-Should-Stop-Gambling-If-You-See-Any-Of-These-6-Signs-360x200.png",
     link: "/blog/casino-review/you-should-stop-gambling-if-you-see-any-of-these-6-signs/",
   },
+  {
+    id: 14,
+    title: "Join BK8 Affiliate Program and Transform Your Ability to Pure Profit",
+    description:
+      "Modern technology has conveyed the internet as one of the most dependable and convenient modes of earning money. Combining a new stride in it, BK8, a renowned online casino platform, is endowing creative minds like YouTubers, bloggers, vloggers, and others an opportunity to earn through their affiliate marketing program. [...]",
+    category: "Casino Review",
+    date: "12-10-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/10/Join-BK8-Affiliate-Program-360x200.png",
+    link: "/blog/casino-review/join-bk8-affiliate-program-and-transform-your-ability-to-pure-profit/",
+  },
 ];
 
 const recentPosts = [
