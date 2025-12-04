@@ -35,7 +35,7 @@ jobs:
         run: pnpm install --recursive
 
       - name: Build
-        run: cd _NEXTJS_MIGRATION && NODE_OPTIONS="--max-old-space-size=4096" npm run build
+        run: cd _NEXTJS_MIGRATION && NODE_OPTIONS="--max-old-space-size=4096" pnpm run build
         timeout-minutes: 30
 
       - name: Upload artifact
