@@ -18,6 +18,7 @@ const articleSlugs = [
   "what-is-the-process-for-online-casino-bonuses",
   "you-should-stop-gambling-if-you-see-any-of-these-6-signs",
   "kelly-smith-becomes-truedinkumbet-brand-ambassador",
+  "choose-the-best-casino-how-do-you-compare-online-casinos",
 ];
 
 export async function generateStaticParams() {
