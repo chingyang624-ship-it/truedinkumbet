@@ -370,12 +370,12 @@ export default function AppDownloadContent() {
               </li>
               <li>
                 <strong>
-                  <Link
+                  <a
                     href="/slots"
                     className="text-orange-500 hover:underline"
                   >
                     Slot Australia
-                  </Link>
+                  </a>
                   :
                 </strong>{" "}
                 Get access to a wide variety of slot machines with different
