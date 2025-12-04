@@ -578,14 +578,6 @@ export default function CasinoReviewArticleContent({ slug }: { slug: string }) {
           <h1 className="text-5xl font-bold mb-6 text-gray-900">
             {article.title}
           </h1>
-
-          <div className="relative h-96 mb-8 overflow-hidden rounded-lg">
-            <img
-              src={article.image}
-              alt={article.title}
-              className="w-full h-full object-cover"
-            />
-          </div>
         </div>
 
         {/* Article Content */}
