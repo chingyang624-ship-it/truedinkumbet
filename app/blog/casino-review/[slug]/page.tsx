@@ -6,13 +6,13 @@ const articleSlugs = [
   "what-is-cryptocurrency-casino",
   "have-you-truedinkumbet",
   "tips-for-gambling-online-with-a-small-budget",
-  "does-malaysian-tax-gambling-winnings",
+  "does-australian-tax-gambling-winnings",
   "truedinkumbet-year-of-rabbit-2023-gold-bar-deposit-reward",
   "what-is-a-heylink-or-joylink-bonus-casino",
   "tips-for-playing-safely-at-online-casinos",
   "genting-casino-vs-online-casino",
   "what-is-gaming-curacao",
-  "top-5-e-wallets-to-use-in-casino-malaysia",
+  "top-5-e-wallets-to-use-in-casino-australia",
 ];
 
 export async function generateStaticParams() {
