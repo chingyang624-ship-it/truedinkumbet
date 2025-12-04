@@ -67,7 +67,7 @@ const articles: Article[] = [
 
       <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">If you have taken the time to comb through a long list of available online betting sites to find a safe, trustworthy and reputable online betting site that can meet your personal needs, you can experience the hardship.</span></p>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">For a more detailed description for recommending BK8Asia please read the following carefully. We first explain some key points.</span></p>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">For a more detailed description for recommending Truedinkumbet please read the following carefully. We first explain some key points.</span></p>
 
       <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
         <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><span style="font-weight: 400;">Online betting with cryptocurrency is as </span><b>easy</b><span style="font-weight: 400;"> as online betting with traditional currency.</span></span></li>
@@ -101,12 +101,12 @@ const articles: Article[] = [
 
       <div class="img-wrapper mb-8">
         <img src="https://www.bk8.services/wp-content/uploads/2020/10/Betting-Sites-That-Accepts-Traditional-and-Cryptocurrencies-Payment-Methods.jpg" class="w-full rounded-lg" alt="Betting Sites That Accepts Traditional and Cryptocurrencies Payment Methods" />
-        <p class="text-center text-gray-600 mt-2"><em>BK8Asia – Deposit With USDt</em></p>
+        <p class="text-center text-gray-600 mt-2"><em>Truedinkumbet – Deposit With USDt</em></p>
       </div>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Although there are some exceptions, when compiling a recommended website, we will definitely consider websites that accept traditional and cryptocurrency payments like BK8Asia.</span></p>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Although there are some exceptions, when compiling a recommended website, we will definitely consider websites that accept traditional and cryptocurrency payments like Truedinkumbet.</span></p>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">For those who do not value cryptocurrency but still want to use cryptocurrency for betting and gambling, a website that has added cryptocurrency payment options and has been operating for a long time like BK8Asia is a better choice.</span></p>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">For those who do not value cryptocurrency but still want to use cryptocurrency for betting and gambling, a website that has added cryptocurrency payment options and has been operating for a long time like Truedinkumbet is a better choice.</span></p>
 
       <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">If you have made online betting or gambling, and you know, love and trust a certain casino website, it is not ideal or easy to transfer to another website just to use cryptocurrency.</span></p>
 
