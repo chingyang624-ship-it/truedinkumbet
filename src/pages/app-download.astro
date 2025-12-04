@@ -1,0 +1,16 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '@components/Header';
+import Footer from '@components/Footer';
+import AppDownloadContent from '@components/app-download/AppDownloadContent';
+---
+
+<Layout title="Download Truedinkumbet App - Mobile Casino & Betting">
+  <div class="min-h-screen flex flex-col">
+    <Header client:load />
+    <main class="flex-1 pt-16">
+      <AppDownloadContent client:load />
+    </main>
+    <Footer client:load />
+  </div>
+</Layout>
