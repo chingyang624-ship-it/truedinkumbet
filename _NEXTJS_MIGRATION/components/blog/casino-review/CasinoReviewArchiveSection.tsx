@@ -289,6 +289,17 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
     link: "/blog/casino-review/online-gambling-trends-2021/",
   },
   {
+    id: 29,
+    title: "How to Deposit in an Online Casino in Australia: The Ultimate Guide",
+    description:
+      "With the convenience of smartphones and high-speed internet, Online Casinos have become a favorite pastime for Aussies. More and more punters are swapping the local pub's pokies for online sites. However, every online casino has different deposit and withdrawal methods. [...]",
+    category: "Casino Review",
+    date: "18-07-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/07/How-to-Deposit-in-Online-Casino-Australia-360x200.png",
+    link: "/blog/casino-review/how-to-deposit-in-an-online-casino-in-australia/",
+  },
+  {
     id: 26,
     title: "Which is Better: Online Casinos versus Land-Based Casinos",
     description:
