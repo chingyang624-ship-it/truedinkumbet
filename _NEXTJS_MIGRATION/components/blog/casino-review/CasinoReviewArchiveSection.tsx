@@ -409,28 +409,6 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
       "https://www.bk8.services/wp-content/uploads/2020/11/How-Is-The-Gambling-Industry-In-Malaysia-360x200.jpg",
     link: "/blog/casino-review/how-is-the-gambling-industry-in-malaysia/",
   },
-  {
-    id: 37,
-    title: "Your Winning Streak Starts Here: Best Online Casino Tips",
-    description:
-      "Looking to maximize your online casino experience? Discover proven strategies, tips, and insights that can help improve your gameplay and increase your chances of winning. Learn from experts and understand the key factors that separate successful players from the rest [...]",
-    category: "Casino Review",
-    date: "15-10-2020",
-    image:
-      "https://www.bk8.services/wp-content/uploads/2020/10/Online-Casino-Tips-360x200.png",
-    link: "/blog/casino-review/best-online-casino-tips/",
-  },
-  {
-    id: 38,
-    title: "What is Cryptocurrency Casino?",
-    description:
-      "Online gambling is evolving, and cryptocurrency casinos are at the forefront of this change. With digital assets becoming more mainstream, more players are asking: What is a cryptocurrency casino, and why should I use one? In this guide, we break down what makes crypto casinos unique, their benefits, and what you need to know before [...]",
-    category: "Casino Review",
-    date: "28-01-2025",
-    image:
-      "https://www.bk8.services/wp-content/uploads/2020/10/What-is-Cryptocurrency-Casino-360x200.jpg",
-    link: "/blog/casino-review/what-is-cryptocurrency-casino/",
-  },
 ];
 
 const recentPosts = [
