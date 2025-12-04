@@ -518,9 +518,9 @@ export default function AppDownloadContent() {
                 </h3>
                 <p className="text-gray-600">
                   To register, click or tap on the “
-                  <Link href="/register" className="text-orange-500 font-bold">
+                  <a href="/register" className="text-orange-500 font-bold">
                     Join Now
-                  </Link>
+                  </a>
                   ” button on the home, fill in your details, and verify using
                   your email or phone number.
                 </p>
