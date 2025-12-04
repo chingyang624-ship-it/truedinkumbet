@@ -34,11 +34,10 @@ export default function SportsComprehensiveSEOContent() {
                 Place Bets On Different Types Of Sports
               </h2>
               <p className="text-sm text-gray-500 mb-3">
-                Players from Asia mostly choose the best betting sites running
+                Players from Australia and around the world choose the best betting sites running
                 successfully on a global platform. Truedinkumbet is a popular
                 sportsbook betting site that offers versatile types of e-sports
-                and sports betting in the Asian market, including Thailand,
-                Philippines, Malaysia, Indonesia, Vietnam, and Cambodia.
+                and sports betting for Australian players, available in English and supporting AUD currency.
               </p>
               <p className="text-sm text-gray-500 mb-3">
                 Apart from football betting, there are versatile sports on which
