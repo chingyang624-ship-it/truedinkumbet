@@ -506,11 +506,6 @@ export default function CasinoReviewArchiveSection() {
                   key={article.id}
                   className="bg-white border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow"
                 >
-                  {/* Article Image */}
-                  <div className="overflow-hidden h-48">
-                    <a href={article.link} />
-                  </div>
-
                   {/* Article Content */}
                   <div className="p-6">
                     <div className="flex justify-between items-center mb-3">
