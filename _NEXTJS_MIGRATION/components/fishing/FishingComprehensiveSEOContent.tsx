@@ -9,7 +9,7 @@ export default function FishingComprehensiveSEOContent() {
                 Fishing Game Australia – Play the Best Online Fish Shooting Games at Truedinkumbet
               </h1>
               <p className="text-sm text-gray-500 mb-3">
-                Fishing games have become one of Australia’s favourite ways to combine entertainment and rewards. What started as a fun arcade attraction has now moved online — and today, players can enjoy the same excitement from home. At <Link href="/" className="text-orange-500 hover:underline">Truedinkumbet</Link>, the trusted online casino licensed under Philippine Amusement and Gaming Corporation, fishing game fans can dive into action-packed adventures with real AUD winnings, daily promotions, and smooth gameplay across all devices.
+                Fishing games have become one of Australia’s favourite ways to combine entertainment and rewards. What started as a fun arcade attraction has now moved online — and today, players can enjoy the same excitement from home. At <a href="/" className="text-orange-500 hover:underline">Truedinkumbet</a>, the trusted online casino licensed under Philippine Amusement and Gaming Corporation, fishing game fans can dive into action-packed adventures with real AUD winnings, daily promotions, and smooth gameplay across all devices.
               </p>
 
               <h2 className="text-base font-bold mb-2 text-yellow-500">What Is a Fishing Game?</h2>
