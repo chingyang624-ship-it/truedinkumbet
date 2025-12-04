@@ -32,7 +32,7 @@ jobs:
           cache: "pnpm"
 
       - name: Install dependencies
-        run: pnpm install --recursive
+        run: pnpm install --recursive --no-frozen-lockfile
 
       - name: Build
         run: cd _NEXTJS_MIGRATION && NODE_OPTIONS="--max-old-space-size=4096" pnpm run build
