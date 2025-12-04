@@ -8,6 +8,8 @@ interface Article {
   date: string;
   image: string;
   link: string;
+  content?: string;
+  author?: string;
 }
 
 const articles: Article[] = [
