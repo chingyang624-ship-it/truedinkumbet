@@ -19,6 +19,7 @@ const articleSlugs = [
   "you-should-stop-gambling-if-you-see-any-of-these-6-signs",
   "kelly-smith-becomes-truedinkumbet-brand-ambassador",
   "choose-the-best-casino-how-do-you-compare-online-casinos",
+  "which-is-better-online-casinos-versus-land-based-casinos",
 ];
 
 export async function generateStaticParams() {
