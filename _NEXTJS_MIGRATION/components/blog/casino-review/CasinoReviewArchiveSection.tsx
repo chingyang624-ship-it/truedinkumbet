@@ -398,6 +398,17 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
       "https://www.bk8.services/wp-content/uploads/2020/11/How-Is-The-Gambling-Industry-In-Malaysia-360x200.jpg",
     link: "/blog/casino-review/how-is-the-gambling-industry-in-australia/",
   },
+  {
+    id: 37,
+    title: "Bankroll Management Advice – 8 Ideas",
+    description:
+      "When it comes to winning in gambling, bankroll management is the first and most crucial skill. As a general rule, it's straightforward and applicable everywhere. It's not a miraculous potion that will make you a millionaire on the slots. You cannot influence the odds of any games by using this method. [...]",
+    category: "Casino Review",
+    date: "14-12-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/12/Bankroll-Management-Advice-360x200.png",
+    link: "/blog/casino-review/bankroll-management-advice-8-ideas/",
+  },
 ];
 
 const recentPosts = [
