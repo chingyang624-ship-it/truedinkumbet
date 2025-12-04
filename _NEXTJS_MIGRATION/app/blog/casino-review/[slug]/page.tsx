@@ -42,6 +42,7 @@ const articleSlugs = [
   "the-first-online-casino-australia-that-accepts-cryptocurrency",
   "how-is-the-gambling-industry-in-australia",
   "the-first-online-casino-malaysia-that-accepts-cryptocurrency",
+  "how-is-the-gambling-industry-in-australia",
 ];
 
 export async function generateStaticParams() {
