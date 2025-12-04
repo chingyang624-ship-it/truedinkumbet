@@ -7,6 +7,7 @@ import CryptoCasinoProvidersSection from "@/components/crypto-casino/CryptoCasin
 import CryptoCasinoFeaturesSection from "@/components/crypto-casino/CryptoCasinoFeaturesSection";
 import CryptoCasinoFAQSection from "@/components/crypto-casino/CryptoCasinoFAQSection";
 import CryptoCasinoComprehensiveSEOContent from "@/components/crypto-casino/CryptoCasinoComprehensiveSEOContent";
+import CryptoCasinoArticleContent from "@/components/crypto-casino/CryptoCasinoArticleContent";
 import RelatedGamesSection from "@/components/RelatedGamesSection";
 
 export const metadata = {
