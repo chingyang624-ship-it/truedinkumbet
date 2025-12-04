@@ -200,6 +200,17 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
       "https://www.bk8.services/wp-content/uploads/2025/01/Rise-of-Crypto-Casinos-USDT-Gambling-360x200.png",
     link: "/blog/casino-review/the-first-online-casino-malaysia-that-accepts-cryptocurrency/",
   },
+  {
+    id: 20,
+    title: "How is The Gambling Industry in Australia?",
+    description:
+      "The gambling industry is not far from a national sport in Australia; almost every other individual is involved in it, whether it's the pokies or sports betting. However, some things have changed over the decade. [...]",
+    category: "Casino Review",
+    date: "21-01-2025",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2025/01/How-Is-Gambling-Industry-Australia-360x200.png",
+    link: "/blog/casino-review/how-is-the-gambling-industry-in-australia/",
+  },
 ];
 
 const recentPosts = [
