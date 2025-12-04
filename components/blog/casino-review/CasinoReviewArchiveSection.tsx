@@ -178,6 +178,17 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
       "https://www.bk8.services/wp-content/uploads/2020/12/How-Crypto-Gambling-Regulated-World-360x200.png",
     link: "/blog/casino-review/how-crypto-gambling-is-regulated-around-the-world/",
   },
+  {
+    id: 18,
+    title: "How Old Should I Be To Use An Online Casino Service in Australia?",
+    description:
+      "In Australia, the legal gambling age is 18 years old. Unlike some countries where the age might be 21 or vary based on religion, Australia has a strict, uniform rule across all states and territories. [...]",
+    category: "Casino Review",
+    date: "15-01-2025",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2025/01/How-Old-Should-I-Be-Online-Casino-Australia-360x200.png",
+    link: "/blog/casino-review/how-old-should-i-be-to-use-an-online-casino-service/",
+  },
 ];
 
 const recentPosts = [
