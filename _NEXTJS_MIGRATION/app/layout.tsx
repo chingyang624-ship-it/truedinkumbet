@@ -1,5 +1,9 @@
-import type { Metadata } from "next";
+import type { Metadata, Viewport } from "next";
 import "./globals.css";
+
+export const viewport: Viewport = {
+  themeColor: "#1f2937",
+};
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://truedinkumbetaucasino.com"),
@@ -10,7 +14,6 @@ export const metadata: Metadata = {
   keywords:
     "Truedinkumbet Australia, Truedinkumbet casino login, best online casino Australia 2025, trusted betting site Australia, crypto casino AU, Truedinkumbet app download",
   authors: [{ name: "Truedinkumbet Australia Team" }],
-  themeColor: "#1f2937",
   robots: {
     index: true,
     follow: true,
