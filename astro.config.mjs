@@ -16,5 +16,12 @@ export default defineConfig({
     ssr: {
       external: ['sonner'],
     },
+    resolve: {
+      alias: {
+        '@': new URL('./src', import.meta.url).pathname,
+        '@components': new URL('./_NEXTJS_MIGRATION/components', import.meta.url).pathname,
+        '@hooks': new URL('./_NEXTJS_MIGRATION/hooks', import.meta.url).pathname,
+      },
+    },
   },
 });
