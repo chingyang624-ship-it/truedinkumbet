@@ -28,7 +28,7 @@ export default function Header() {
         style={{ backgroundColor: "rgba(255, 255, 255, 0.6)" }}
       >
         <div className="flex flex-wrap items-center justify-between min-h-[60px]">
-          <Link href="/" className="py-1 px-2">
+          <a href="/" className="py-1 px-2">
             <img
               alt="Truedinkumbet"
               width="110"
@@ -37,13 +37,13 @@ export default function Header() {
               src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7"
               className="w-[120px] sm:w-[150px] h-10 sm:h-12"
             />
-          </Link>
+          </a>
 
           <nav className="hidden md:flex flex-1 text-left ml-4">
             <ul className="flex gap-3 z-10 relative">
               {navItems.map((item) => (
                 <li key={item.name} className="inline-block">
-                  <Link
+                  <a
                     href={item.href}
                     {...(item.href.startsWith("http") && {
                       target: "_blank",
@@ -52,7 +52,7 @@ export default function Header() {
                     className="font-medium text-gray-800 hover:text-gray-600 transition-colors leading-[52px] text-sm"
                   >
                     {item.name}
-                  </Link>
+                  </a>
                 </li>
               ))}
               <li className="inline-block relative group">
@@ -63,12 +63,12 @@ export default function Header() {
                 <ul className="absolute hidden group-hover:block bg-white top-full left-0 w-48 p-4 shadow-lg rounded-lg z-50 mt-0">
                   {blogItems.map((item) => (
                     <li key={item.name}>
-                      <Link
+                      <a
                         href={item.href}
                         className="font-medium text-gray-800 hover:text-gray-600 hover:bg-gray-100 transition-colors text-sm block px-3 py-2 rounded"
                       >
                         {item.name}
-                      </Link>
+                      </a>
                     </li>
                   ))}
                 </ul>
@@ -120,7 +120,7 @@ export default function Header() {
           <div className="md:hidden border-t border-gray-200 bg-white">
             <nav className="flex flex-col p-4">
               {navItems.map((item) => (
-                <Link
+                <a
                   key={item.name}
                   href={item.href}
                   {...(item.href.startsWith("http") && {
@@ -131,7 +131,7 @@ export default function Header() {
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   {item.name}
-                </Link>
+                </a>
               ))}
               <div className="py-2">
                 <button className="w-full text-left py-2 px-4 font-medium text-gray-800 hover:bg-gray-100 transition-colors">
@@ -139,14 +139,14 @@ export default function Header() {
                 </button>
                 <div className="bg-gray-50 flex flex-col">
                   {blogItems.map((item) => (
-                    <Link
+                    <a
                       key={item.name}
                       href={item.href}
                       className="py-2 px-6 text-sm font-medium text-gray-700 hover:bg-gray-100 transition-colors"
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       {item.name}
-                    </Link>
+                    </a>
                   ))}
                 </div>
               </div>
