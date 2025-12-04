@@ -69,9 +69,9 @@ export default function SportsComprehensiveSEOContent() {
               </h2>
               <p className="text-sm text-gray-500 mb-3">
                 Truedinkumbet stands among the popular online betting sites,
-                providing great rewards and offers to Asian bettors. You can
+                providing great rewards and offers to Australian bettors. You can
                 explore the full range of games and services on the official
-                Truedinkumbet Malaysia site. However, to register, follow a few
+                Truedinkumbet Australia site. However, to register, follow a few
                 steps at our online sports betting platform.
               </p>
               <ul className="list-disc pl-5 text-sm text-gray-500 space-y-1 mb-3">
