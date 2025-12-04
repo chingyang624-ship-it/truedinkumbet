@@ -25,7 +25,6 @@ const articleSlugs = [
   "bankroll-management-advice-8-ideas",
   "what-is-the-process-for-online-casino-bonuses",
   "you-should-stop-gambling-if-you-see-any-of-these-6-signs",
-  "join-truedinkumbet-affiliate-program-and-transform-your-ability-to-pure-profit",
   "kelly-smith-becomes-truedinkumbet-brand-ambassador",
   "choose-the-best-casino-how-do-you-compare-online-casinos",
   "which-is-better-online-casinos-versus-land-based-casinos",
