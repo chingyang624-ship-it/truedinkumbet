@@ -1,0 +1,146 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '@components/Header';
+import Footer from '@components/Footer';
+import CarouselSection from '@components/landing/CarouselSection';
+import NewsTickerSection from '@components/landing/NewsTickerSection';
+import TitleSection from '@components/landing/TitleSection';
+import HeroSection from '@components/landing/HeroSection';
+import WelcomeSection from '@components/landing/WelcomeSection';
+import GamingCategoriesSection from '@components/landing/GamingCategoriesSection';
+import FeaturesSection from '@components/landing/FeaturesSection';
+import GamesSection from '@components/landing/GamesSection';
+import BonusesSection from '@components/landing/BonusesSection';
+import TestimonialsSection from '@components/landing/TestimonialsSection';
+import LiveCasinoGamesSection from '@components/landing/LiveCasinoGamesSection';
+import PopularGamesSection from '@components/landing/PopularGamesSection';
+import WhyChooseTruedinkumbetSection from '@components/landing/WhyChooseTruedinkumbetSection';
+import PaymentMethodsSection from '@components/landing/PaymentMethodsSection';
+import GameProvidersSection from '@components/landing/GameProvidersSection';
+import VIPSection from '@components/landing/VIPSection';
+import MobileAppSection from '@components/landing/MobileAppSection';
+import FAQSection from '@components/landing/FAQSection';
+---
+
+<Layout>
+  <div class="min-h-screen flex flex-col">
+    <Header client:load />
+    <main class="flex-1 pt-16">
+      <CarouselSection client:load />
+      <NewsTickerSection client:load />
+      <section class="w-full bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 py-4 md:py-6">
+          <div class="flex flex-col sm:flex-row gap-3 md:gap-4 justify-center">
+            <a
+              href="https://truedinkumbet.com/RFSEOTDK"
+              class="flex-1 sm:flex-initial px-6 md:px-8 py-2.5 md:py-3 rounded-lg font-semibold transition-colors text-center text-sm md:text-base"
+              style={{
+                backgroundColor: "#ffffff",
+                color: "#1f2124",
+                border: "1px solid #ddd",
+                textDecoration: "none",
+                display: "inline-block",
+              }}
+            >
+              Login
+            </a>
+            <a
+              href="https://truedinkumbet.com/RFSEOTDK"
+              class="flex-1 sm:flex-initial px-6 md:px-8 py-2.5 md:py-3 rounded-lg font-bold text-white transition-colors text-center text-sm md:text-base hover:opacity-90"
+              style={{
+                backgroundColor: "#ff6500",
+              }}
+            >
+              Join Now
+            </a>
+          </div>
+        </div>
+      </section>
+      <TitleSection client:load />
+      <HeroSection client:load />
+      <WelcomeSection client:load />
+      <FeaturesSection client:load />
+      <GamesSection client:load />
+      <GamingCategoriesSection client:load />
+      <BonusesSection client:load />
+      <TestimonialsSection client:load />
+      <LiveCasinoGamesSection client:load />
+      <PopularGamesSection client:load />
+      <WhyChooseTruedinkumbetSection client:load />
+      <PaymentMethodsSection client:load />
+      <GameProvidersSection client:load />
+      <VIPSection client:load />
+      <MobileAppSection client:load />
+      <FAQSection client:load />
+    </main>
+    <Footer client:load />
+  </div>
+
+  <script is:inline>
+    const jsonLd = {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://truedinkumbetaucasino.com/#organization",
+          name: "Truedinkumbet Australia",
+          url: "https://truedinkumbetaucasino.com/",
+          logo: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7",
+          description:
+            "Truedinkumbet is the leading online betting platform in Australia, offering sports, casino, and slots.",
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://truedinkumbetaucasino.com/#website",
+          url: "https://truedinkumbetaucasino.com/",
+          name: "Truedinkumbet AU Casino",
+          publisher: { "@id": "https://truedinkumbetaucasino.com/#organization" },
+        },
+        {
+          "@type": "Review",
+          itemReviewed: {
+            "@type": "Organization",
+            name: "Truedinkumbet",
+          },
+          author: {
+            "@type": "Organization",
+            name: "Trustpilot",
+          },
+          reviewRating: {
+            "@type": "Rating",
+            ratingValue: "5",
+            bestRating: "5",
+          },
+          reviewBody:
+            "Very good and reliable bookmaker. Strong customer service 24/7.",
+        },
+        {
+          "@type": "FAQPage",
+          mainEntity: [
+            {
+              "@type": "Question",
+              name: "Is Truedinkumbet Australia legal?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Yes, Truedinkumbet operates under a valid international gaming license and accepts Australian players.",
+              },
+            },
+            {
+              "@type": "Question",
+              name: "Does Truedinkumbet have an app?",
+              acceptedAnswer: {
+                "@type": "Answer",
+                text: "Yes, Truedinkumbet offers a dedicated mobile app for Android and iOS for a seamless gaming experience.",
+              },
+            },
+          ],
+        },
+      ],
+    };
+    
+    const script = document.createElement('script');
+    script.type = 'application/ld+json';
+    script.textContent = JSON.stringify(jsonLd);
+    document.head.appendChild(script);
+  </script>
+</Layout>
