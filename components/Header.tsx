@@ -1,7 +1,6 @@
 "use client";
 
 import { useState } from "react";
-import Link from "next/link";
 
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -34,7 +33,7 @@ export default function Header() {
             />
           </button>
 
-          <Link href="/" className="flex-1 md:flex-[0.25] py-1 px-2 mr-2">
+          <a href="/" className="flex-1 md:flex-[0.25] py-1 px-2 mr-2">
             <img
               alt="Truedinkumbet"
               width="110"
@@ -43,13 +42,13 @@ export default function Header() {
               src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff1962e1f3aa94494a3e4dd6698ee54f7"
               className="w-[150px] h-12"
             />
-          </Link>
+          </a>
 
           <nav className="hidden md:flex flex-[0.75] text-left">
             <ul className="flex gap-3 z-10 relative">
               {navItems.map((item) => (
                 <li key={item.name} className="inline-block">
-                  <Link
+                  <a
                     href={item.href}
                     {...(item.href.startsWith("http")
                       ? { target: "_blank", rel: "noopener noreferrer" }
@@ -57,7 +56,7 @@ export default function Header() {
                     className="font-medium text-gray-800 hover:text-gray-600 transition-colors leading-[52px]"
                   >
                     {item.name}
-                  </Link>
+                  </a>
                 </li>
               ))}
               <li className="inline-block relative group">
@@ -71,28 +70,28 @@ export default function Header() {
                 </a>
                 <ul className="absolute hidden group-hover:block bg-white top-full left-0 w-48 p-4 shadow-lg rounded-lg z-50 mt-0">
                   <li>
-                    <Link
+                    <a
                       href="/blog/category/casino-review"
                       className="font-medium text-gray-800 hover:text-gray-600 hover:bg-gray-100 transition-colors text-sm block px-3 py-2 rounded"
                     >
                       Casino Review
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link
+                    <a
                       href="/crypto-casino"
                       className="font-medium text-gray-800 hover:text-gray-600 hover:bg-gray-100 transition-colors text-sm block px-3 py-2 rounded"
                     >
                       Crypto casino
-                    </Link>
+                    </a>
                   </li>
                   <li>
-                    <Link
+                    <a
                       href="/reviews"
                       className="font-medium text-gray-800 hover:text-gray-600 hover:bg-gray-100 transition-colors text-sm block px-3 py-2 rounded"
                     >
                       Reviews
-                    </Link>
+                    </a>
                   </li>
                 </ul>
               </li>
@@ -128,7 +127,7 @@ export default function Header() {
               <ul className="space-y-4">
                 {navItems.map((item) => (
                   <li key={item.name}>
-                    <Link
+                    <a
                       href={item.href}
                       {...(item.href.startsWith("http")
                         ? { target: "_blank", rel: "noopener noreferrer" }
@@ -137,7 +136,7 @@ export default function Header() {
                       onClick={() => setMobileMenuOpen(false)}
                     >
                       {item.name}
-                    </Link>
+                    </a>
                   </li>
                 ))}
                 <li>
@@ -150,31 +149,31 @@ export default function Header() {
                   </a>
                   <ul className="pl-4 mt-2 space-y-2">
                     <li>
-                      <Link
+                      <a
                         href="/blog/category/casino-review"
                         className="block text-sm text-gray-600 hover:text-orange-500 transition-colors py-1"
                         onClick={() => setMobileMenuOpen(false)}
                       >
                         Casino Review
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link
+                      <a
                         href="/crypto-casino"
                         className="block text-sm text-gray-600 hover:text-orange-500 transition-colors py-1"
                         onClick={() => setMobileMenuOpen(false)}
                       >
                         Crypto casino
-                      </Link>
+                      </a>
                     </li>
                     <li>
-                      <Link
+                      <a
                         href="/reviews"
                         className="block text-sm text-gray-600 hover:text-orange-500 transition-colors py-1"
                         onClick={() => setMobileMenuOpen(false)}
                       >
                         Reviews
-                      </Link>
+                      </a>
                     </li>
                   </ul>
                 </li>
