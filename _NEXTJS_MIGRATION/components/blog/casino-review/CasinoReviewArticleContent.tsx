@@ -611,8 +611,6 @@ export default function CasinoReviewArticleContent({ slug }: { slug: string }) {
                   href={relatedArticle.link}
                   className="group border border-gray-200 rounded-lg overflow-hidden hover:shadow-lg transition-shadow"
                 >
-                  <div className="relative h-48 overflow-hidden">
-                  </div>
                   <div className="p-4">
                     <p className="text-sm text-orange-500 font-bold mb-2">
                       {relatedArticle.category}
