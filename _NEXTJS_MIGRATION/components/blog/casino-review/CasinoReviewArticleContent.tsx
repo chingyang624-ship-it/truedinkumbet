@@ -1506,7 +1506,7 @@ const articles: Article[] = [
     date: "19-01-2025",
     image:
       "https://www.truedinkumbet.services/wp-content/uploads/2025/01/Do-I-Need-To-Declare-My-Casino-Winnings-To-The-ATO.jpg",
-    link: "/blog/casino-review/do-i-need-to-declare-my-casino-winnings-to-the-ato/",
+    link: "/blog/casino-review/do-i-need-to-declare-my-casino-winnings-in-australia/",
     author: "Terrence Spove",
     content: `<div class="single-post-wrapper text-area">
       <div class="post-info clearfix mb-8">
