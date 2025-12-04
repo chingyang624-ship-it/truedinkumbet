@@ -259,6 +259,17 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
     id: 26,
     title: "Which is Better: Online Casinos versus Land-Based Casinos",
     description:
+      "People used to gamble for joy and entertainment since the beginning of humanity. In 1636, the first legal casino started with the first gambling establishment in Venice, Europe. Since then, more and more casinos have started to emerge in various cities globally with various games but almost have the same atmosphere. [...]",
+    category: "Casino Review",
+    date: "07-07-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/07/Which-is-Better-Online-Casinos-versus-Land-Based-Casinos-360x200.png",
+    link: "/blog/casino-review/which-is-better-online-casinos-versus-land-based-casinos/",
+  },
+  {
+    id: 26,
+    title: "Which is Better: Online Casinos versus Land-Based Casinos",
+    description:
       "People used to gamble for joy and entertainment since the beginning of humanity. In 1636, the first legal casino started with the first gambling establishment in Venice, Europe. Since then, more and more casinos have started to emerge in various cities globally with various games but almost have the same atmosphere. This blog seeks to [...]",
     category: "Casino Review",
     date: "07-07-2021",
