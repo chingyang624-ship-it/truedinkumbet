@@ -17,7 +17,7 @@ const articleSlugs = [
   "bankroll-management-advice-8-ideas",
   "what-is-the-process-for-online-casino-bonuses",
   "you-should-stop-gambling-if-you-see-any-of-these-6-signs",
-  "join-bk8-affiliate-program-and-transform-your-ability-to-pure-profit",
+  "join-truedinkumbet-affiliate-program-and-transform-your-ability-to-pure-profit",
 ];
 
 export async function generateStaticParams() {
