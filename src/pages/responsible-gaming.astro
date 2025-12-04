@@ -1,0 +1,26 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '@components/Header';
+import Footer from '@components/Footer';
+import ResponsibleGamingHeroSection from '@components/responsible-gaming/ResponsibleGamingHeroSection';
+import ResponsibleGamingIntroSection from '@components/responsible-gaming/ResponsibleGamingIntroSection';
+import ResponsibleGamingSignsSection from '@components/responsible-gaming/ResponsibleGamingSignsSection';
+import ResponsibleGamingStepsSection from '@components/responsible-gaming/ResponsibleGamingStepsSection';
+import ResponsibleGamingSelfExclusionSection from '@components/responsible-gaming/ResponsibleGamingSelfExclusionSection';
+import ResponsibleGamingResourcesSection from '@components/responsible-gaming/ResponsibleGamingResourcesSection';
+---
+
+<Layout title="Responsible Gaming - Truedinkumbet Australia">
+  <div class="min-h-screen flex flex-col">
+    <Header client:load />
+    <main class="flex-1 pt-16">
+      <ResponsibleGamingHeroSection client:load />
+      <ResponsibleGamingIntroSection client:load />
+      <ResponsibleGamingSignsSection client:load />
+      <ResponsibleGamingStepsSection client:load />
+      <ResponsibleGamingSelfExclusionSection client:load />
+      <ResponsibleGamingResourcesSection client:load />
+    </main>
+    <Footer client:load />
+  </div>
+</Layout>
