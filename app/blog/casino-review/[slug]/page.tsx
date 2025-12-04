@@ -22,7 +22,7 @@ const articleSlugs = [
   "which-is-better-online-casinos-versus-land-based-casinos",
   "mistakes-to-avoid-when-playing-online-gambling",
   "online-gambling-trends-2021",
-  "how-to-deposit-in-an-online-casino-in-australia",
+  "how-to-deposit-in-an-online-casino-australia",
 ];
 
 export async function generateStaticParams() {

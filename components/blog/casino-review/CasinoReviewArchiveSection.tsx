@@ -209,7 +209,7 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
     date: "18-07-2021",
     image:
       "https://www.bk8.services/wp-content/uploads/2021/07/How-to-Deposit-in-Online-Casino-Australia-360x200.png",
-    link: "/blog/casino-review/how-to-deposit-in-an-online-casino-in-australia/",
+    link: "/blog/casino-review/how-to-deposit-in-an-online-casino-australia/",
   },
 ];
 
