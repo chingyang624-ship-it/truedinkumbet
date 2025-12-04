@@ -158,7 +158,7 @@ const articles: Article[] = [
 
       <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">We hope that by providing you with tools and some suggestions, you can simplify your search process and help you find reputable websites yourself, lest you feel that you are not ready for it.</span></p>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Ready to explore the future of gambling? Create your <a href="/" class="font-bold text-orange-500"><strong>BK8</strong></a> account and experience fast, private, and modern casino gaming with cryptocurrency today!</span></p>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Ready to explore the future of gambling? Create your <a href="/" class="font-bold text-orange-500"><strong>Truedinkumbet</strong></a> account and experience fast, private, and modern casino gaming with cryptocurrency today!</span></p>
     </div>`,
   },
   {
