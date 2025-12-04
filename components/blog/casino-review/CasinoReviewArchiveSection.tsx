@@ -114,14 +114,14 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
   },
   {
     id: 10,
-    title: "Top 5 E-Wallets to Use in Casino Malaysia",
+    title: "Top 5 E-Wallets to Use in Casino Australia",
     description:
-      "Online gambling and other forms of e-commerce have been made much more convenient by the advent of e-wallets. E-wallets are the most common means of payment for online casinos. Many of these standard e-wallets will be available to you if you play at a live casino in Malaysia. Here, you may learn more about live [...]",
+      "Online gambling and other forms of e-commerce have been made much more convenient by the advent of e-wallets. E-wallets are the most common means of payment for online casinos. Many of these standard e-wallets will be available to you if you play at a live casino in Australia. Here, you may learn more about live [...]",
     category: "Casino Review",
     date: "04-07-2022",
     image:
       "https://www.bk8.services/wp-content/uploads/2022/07/Top-5-E-Wallets-to-Use-in-Casino-Malaysia-360x200.png",
-    link: "/blog/casino-review/top-5-e-wallets-to-use-in-casino-malaysia/",
+    link: "/blog/casino-review/top-5-e-wallets-to-use-in-casino-australia/",
   },
 ];
 
