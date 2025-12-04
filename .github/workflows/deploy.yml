@@ -31,6 +31,9 @@ jobs:
           node-version: "18"
           cache: "pnpm"
 
+      - name: Clean cache
+        run: rm -rf node_modules .next _NEXTJS_MIGRATION/node_modules _NEXTJS_MIGRATION/.next
+
       - name: Install dependencies
         run: pnpm install --recursive --no-frozen-lockfile
 
