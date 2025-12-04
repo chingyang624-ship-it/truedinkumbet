@@ -49,7 +49,7 @@ export async function generateStaticParams() {
 
 export async function generateMetadata() {
   return {
-    title: "Casino Review Article - BK8",
+    title: "Casino Review Article - Truedinkumbet",
     description: "Read our latest casino review and gaming insights",
     robots: {
       index: true,
