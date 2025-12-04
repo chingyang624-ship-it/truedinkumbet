@@ -47,7 +47,8 @@ export default function WhyChooseTruedinkumbetSection() {
               withdrawals, and more exclusive promotions. Where others limit
               options, we provide broader sportsbook coverage and
               industry-leading transparency. This commitment to excellence is
-              why we are recognized as the most reliable online casino in Australia.
+              why we are recognized as the most reliable online casino in
+              Australia.
             </p>
             <p className="text-gray-600 leading-relaxed">
               Our platform is secured with SSL encryption and advanced data
@@ -62,14 +63,15 @@ export default function WhyChooseTruedinkumbetSection() {
               Exclusive Truedinkumbet Promotions
             </h3>
             <p className="text-gray-600 leading-relaxed mb-4">
-              Start your journey with the 288% "Join Truedinkumbet Today" Welcome Bonus,
-              offering up to AUD 2,880 with a 35x turnover requirement. Members
-              can also enjoy 188 free spins on slots and seasonal rewards such
-              as the Truedinkumbet Sports 2025 English Premier League Promotion.
+              Start your journey with the 288% "Join Truedinkumbet Today"
+              Welcome Bonus, offering up to AUD 2,880 with a 35x turnover
+              requirement. Members can also enjoy 188 free spins on slots and
+              seasonal rewards such as the Truedinkumbet Sports 2025 English
+              Premier League Promotion.
             </p>
             <p className="text-gray-600 leading-relaxed mb-4">
-              Compared to other casinos, Truedinkumbet stands out clearly. We gives
-              players a 288% bonus up to AUD 2,880 and processes 92% of
+              Compared to other casinos, Truedinkumbet stands out clearly. We
+              gives players a 288% bonus up to AUD 2,880 and processes 92% of
               withdrawals in under 15 minutes across sports, live casino, slots,
               and crypto games.
             </p>
@@ -85,14 +87,17 @@ export default function WhyChooseTruedinkumbetSection() {
             </h3>
             <p className="text-gray-600 leading-relaxed">
               Enjoy seamless betting across devices with the official{" "}
-              <a href="/app-download" className="text-orange-500 hover:underline">
+              <a
+                href="/app-download"
+                className="text-orange-500 hover:underline"
+              >
                 {"\u00A0"}Truedinkumbet App
               </a>
               , available for Android and iOS.
             </p>
             <p className="text-gray-600 leading-relaxed mt-4">
-              Truedinkumbet is more than just a casino—it's a complete gaming experience
-              built on trust, speed, and player satisfaction.
+              Truedinkumbet is more than just a casino—it's a complete gaming
+              experience built on trust, speed, and player satisfaction.
             </p>
           </div>
         </div>
