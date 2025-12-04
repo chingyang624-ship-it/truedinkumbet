@@ -29,7 +29,7 @@ export default function FishingComprehensiveSEOContent() {
                 <li><strong>Low entry cost</strong> – Players can start small, making it beginner-friendly for everyone.</li>
                 <li><strong>Visual appeal</strong> – Stunning underwater graphics and special effects make every match engaging.</li>
                 <li><strong>Skill element</strong> – Strategic targeting gives experienced players a real edge over luck alone.</li>
-                <li><strong>Mobile-friendly</strong> – Through the <Link href="/app" className="text-orange-500 hover:underline">Truedinkumbet App</Link>, you can enjoy seamless fishing action on mobile anytime.</li>
+                <li><strong>Mobile-friendly</strong> – Through the <a href="/app" className="text-orange-500 hover:underline">Truedinkumbet App</a>, you can enjoy seamless fishing action on mobile anytime.</li>
               </ul>
               <p className="text-sm text-gray-500 mb-3">
                 These features make fishing games more than just gambling — they’re part of Australia’s modern digital entertainment culture.
