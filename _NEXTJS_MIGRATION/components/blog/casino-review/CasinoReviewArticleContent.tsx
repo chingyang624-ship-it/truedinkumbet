@@ -1658,6 +1658,68 @@ const articles: Article[] = [
       <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Saving for the future is vital, and the Australian Superannuation system is one of the best in the world for building wealth tax-effectively. By understanding the FHSS scheme, voluntary contributions, and early release rules, you can make the most of your hard-earned money. In this blog post, we have discussed how to optimize your Super in Australia. Stay tuned for more financial tips!</span></p>
     </div>`,
   },
+  {
+    id: 17,
+    title: "The Most Important Pokies Winners In History",
+    description:
+      "Pokies are simple to play and can be enjoyed for just a few cents, yet they have been responsible for some of the most life-changing victories in gambling history. The introduction of progressive jackpots has resulted in an exponential rise in the amount of money that a lucky punter can win in a single spin. [...]",
+    category: "Casino Review",
+    date: "21-12-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/12/The-Most-Important-Slot-Machine-Winners-In-History-360x200.png",
+    link: "/blog/casino-review/the-most-important-slot-machine-winners-in-history/",
+    author: "Terrence Spove",
+    content: `<div class="single-post-wrapper text-area">
+      <div class="post-info clearfix mb-8">
+        <div class="post-info__left">
+          <strong>Categories:</strong> <a href="/blog/category/casino-review/" rel="category tag">Casino Review</a>, <a href="/blog/category/pokies-review/" rel="category tag">Pokies Review</a>
+          <span class="seperator">|</span>
+          <strong>Published by:</strong> Terrence Spove
+        </div>
+        <div class="post-info__right">
+          <span class="date">21/12/2021</span>
+        </div>
+      </div>
+
+      <h1 class="text-4xl font-bold mt-10 mb-6"><b>The Most Important Pokies Winners In History</b></h1>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Pokies are simple to play and can be enjoyed for just a few cents, yet they have been responsible for some of the most life-changing victories in gambling history. The introduction of progressive jackpots has resulted in an exponential rise in the amount of money that a lucky punter can win in a single spin.</span></p>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">The result has been massive jackpots for both online sites and land-based venues like Crown or The Star, with some winnings reaching into the millions of dollars.</span></p>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Basically, each time a player takes a spin on a progressive pokie, the jackpot grows. A portion of the money from each bet is placed into a "pot." These machines are often pooled together across multiple casinos or servers. As a result, if no one wins the jackpot for a period of time, the sum can increase to an absolute fortune.</span></p>
+
+      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Online Progressive Jackpots: The Aussie Dream</b></h2>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">In recent years, online casinos have been able to compete with the massive prizes provided by Las Vegas, thanks to progressive jackpots linked across the globe.</span></p>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">One of the most famous wins actually belongs to one of our own. On the Dark Knight online pokie (tied to the Mega Moolah network), an Australian player won a phenomenal $10.4 million (AUD). It remains one of the largest payouts in Australian online history.</span></p>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Globally, the record is held by a British man named Jon Heywood. In 2015, he won approximately £13.2 million (over AU$25 million) while playing the famous Mega Moolah slot.</span></p>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">These days, many Aussie-friendly online casinos feature "Daily Drop" jackpots or major progressive networks that regularly create millionaires.</span></p>
+
+      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Megabucks: The Legends of Las Vegas</b></h2>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">While online wins are huge, the land-based Megabucks machines in Nevada still hold the world records. These are the "Holy Grail" of pokies wins.</span></p>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">The largest ever recorded slot win was made by a software developer who bet $100 on Megabucks at the Excalibur Hotel in Las Vegas in 2003. <b>He won US$39.7 million (approx. AU$60 million)</b>!</span></p>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Another legendary story is that of Elmer Sherwin. His tale is both heartwarming and inspiring. Sherwin won US$4.6 million playing Megabucks in 1989. Then, in 2005, at the age of 92, Elmer defied the odds to win the jackpot <b>again</b>—this time for a whopping <b>US$21.1 million</b>. Ever the generous bloke, Elmer donated a large portion of the money to charity and his family before passing away a couple of years later.</span></p>
+
+      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Mishaps And Misfortunes: A Cautionary Tale</b></h2>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Not every winner gets a happy ending. Take the story of Katrina Bookman at Resorts World Casino in New York.</span></p>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">She was playing a machine and hit a ticket showing a winning of $42.9 million. She took a selfie with the screen, thinking her life had changed forever. However, when she went to collect, the casino informed her it was a "technical glitch."</span></p>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">The machine had a maximum payout of only $6,500. Instead of $42 million, the casino offered her a complimentary steak dinner. That's a rough trot! It serves as a reminder to always understand the rules and max payouts of the games you play.</span></p>
+
+      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Conclusion</b></h2>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Whether you are spinning the reels on your mobile phone in Sydney or sitting at a machine in Vegas, the allure of the big win is always there. While the odds of hitting a multi-million dollar jackpot are slim, history shows that for a lucky few, one spin is all it takes.</span></p>
+    </div>`,
+  },
 ];
 
 export default function CasinoReviewArticleContent({ slug }: { slug: string }) {
