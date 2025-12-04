@@ -23,6 +23,7 @@ const articleSlugs = [
   "mistakes-to-avoid-when-playing-online-gambling",
   "online-gambling-trends-2021",
   "how-to-deposit-in-an-online-casino-australia",
+  "is-it-safe-to-use-bitcoin-for-online-casinos",
 ];
 
 export async function generateStaticParams() {
