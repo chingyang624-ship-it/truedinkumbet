@@ -201,17 +201,6 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
     link: "/blog/casino-review/how-to-fully-utilize-your-kwsp-money-in-2022/",
   },
   {
-    id: 18,
-    title: "Truedinkumbet Returns to English Football through a Deal with Huddersfield Town F.C",
-    description:
-      "Before 2021 ends, Truedinkumbet has officially become the new global betting partner of Huddersfield Town Football Club, signing a contract for the rest of the 2021-2022 season. The commercial partnership sees Truedinkumbet, which operates chiefly in Australia, develop into English football following agreements and a series of Spanish clubs like Elche Club de Football, RCD [...]",
-    category: "Casino Review",
-    date: "31-12-2021",
-    image:
-      "https://www.bk8.services/wp-content/uploads/2021/12/BK8-Returns-to-English-Football-with-Huddersfield-360x200.png",
-    link: "/blog/casino-review/truedinkumbet-returns-to-english-football-through-a-deal-with-huddersfield-town-f-c/",
-  },
-  {
     id: 19,
     title: "The Most Important Slot Machine Winners In History",
     description:
