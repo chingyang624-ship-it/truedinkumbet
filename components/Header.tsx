@@ -72,6 +72,14 @@ export default function Header() {
                 <ul className="absolute hidden group-hover:block bg-white top-full left-0 w-48 p-4 shadow-lg rounded-lg z-50 mt-0">
                   <li>
                     <Link
+                      href="/blog/category/casino-review"
+                      className="font-medium text-gray-800 hover:text-gray-600 hover:bg-gray-100 transition-colors text-sm block px-3 py-2 rounded"
+                    >
+                      Casino Review
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
                       href="/crypto-casino"
                       className="font-medium text-gray-800 hover:text-gray-600 hover:bg-gray-100 transition-colors text-sm block px-3 py-2 rounded"
                     >
@@ -141,6 +149,15 @@ export default function Header() {
                     Blog
                   </a>
                   <ul className="pl-4 mt-2 space-y-2">
+                    <li>
+                      <Link
+                        href="/blog/category/casino-review"
+                        className="block text-sm text-gray-600 hover:text-orange-500 transition-colors py-1"
+                        onClick={() => setMobileMenuOpen(false)}
+                      >
+                        Casino Review
+                      </Link>
+                    </li>
                     <li>
                       <Link
                         href="/crypto-casino"
