@@ -267,6 +267,17 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
     link: "/blog/casino-review/which-is-better-online-casinos-versus-land-based-casinos/",
   },
   {
+    id: 27,
+    title: "Mistakes to Avoid When Playing Online Gambling",
+    description:
+      "Many players believe that after playing multiple games at a real casino or playing one of the free games at an online game, they have experience with real money games. Online casino gambling is one of a person's most profitable and entertaining activities. However, there are some common online gambling mistakes that you need to know before playing. [...]",
+    category: "Casino Review",
+    date: "29-06-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/06/Mistakes-to-Avoid-When-Playing-Online-Gambling-360x200.png",
+    link: "/blog/casino-review/mistakes-to-avoid-when-playing-online-gambling/",
+  },
+  {
     id: 26,
     title: "Which is Better: Online Casinos versus Land-Based Casinos",
     description:

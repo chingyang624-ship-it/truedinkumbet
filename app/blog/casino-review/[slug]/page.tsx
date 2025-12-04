@@ -20,6 +20,7 @@ const articleSlugs = [
   "kelly-smith-becomes-truedinkumbet-brand-ambassador",
   "choose-the-best-casino-how-do-you-compare-online-casinos",
   "which-is-better-online-casinos-versus-land-based-casinos",
+  "mistakes-to-avoid-when-playing-online-gambling",
 ];
 
 export async function generateStaticParams() {
