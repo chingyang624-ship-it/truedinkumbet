@@ -278,6 +278,17 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
     link: "/blog/casino-review/mistakes-to-avoid-when-playing-online-gambling/",
   },
   {
+    id: 28,
+    title: "Online Gambling Trends: 2021",
+    description:
+      "Online casinos emerged in the gambling community in the middle of the nineties. The high-speed internet access led to the massive development of the remote gambling sector. Almost every family nowadays has an internet-accessible PC. That only proves that the emergence of technology propels the trends and success of the online gambling sector. [...]",
+    category: "Casino Review",
+    date: "25-06-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/06/Online-Gambling-Trends-2021-360x200.png",
+    link: "/blog/casino-review/online-gambling-trends-2021/",
+  },
+  {
     id: 26,
     title: "Which is Better: Online Casinos versus Land-Based Casinos",
     description:

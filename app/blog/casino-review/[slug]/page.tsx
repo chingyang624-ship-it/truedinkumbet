@@ -21,6 +21,7 @@ const articleSlugs = [
   "choose-the-best-casino-how-do-you-compare-online-casinos",
   "which-is-better-online-casinos-versus-land-based-casinos",
   "mistakes-to-avoid-when-playing-online-gambling",
+  "online-gambling-trends-2021",
 ];
 
 export async function generateStaticParams() {
