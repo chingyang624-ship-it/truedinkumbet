@@ -41,6 +41,7 @@ const articleSlugs = [
   "how-old-should-i-be-to-use-an-online-casino-service",
   "the-first-online-casino-australia-that-accepts-cryptocurrency",
   "how-is-the-gambling-industry-in-australia",
+  "the-first-online-casino-malaysia-that-accepts-cryptocurrency",
 ];
 
 export async function generateStaticParams() {
