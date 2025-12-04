@@ -52,9 +52,12 @@ export default function SlotsProvidersSection() {
 
         <div className="space-y-12">
           {providers.map((provider, index) => (
-            <div
+            <a
               key={index}
-              className={`flex flex-col ${index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"} gap-8 items-center`}
+              href="https://truedinkumbet.com/RFSEOTDK"
+              target="_blank"
+              rel="sponsored noopener noreferrer"
+              className={`flex flex-col ${index % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"} gap-8 items-center hover:opacity-80 transition-opacity`}
             >
               <div className="md:w-1/3">
                 <img
@@ -81,7 +84,7 @@ export default function SlotsProvidersSection() {
                   Featured Game: <em>{provider.featured}</em>
                 </p>
               </div>
-            </div>
+            </a>
           ))}
         </div>
 
