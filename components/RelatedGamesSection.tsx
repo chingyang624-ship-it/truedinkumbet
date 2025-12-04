@@ -25,7 +25,7 @@ export default function RelatedGamesSection({
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {relatedGames.map((game, index) => (
-            <Link
+            <a
               key={index}
               href={game.href}
               className="group block bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-all hover:scale-105"
@@ -43,17 +43,17 @@ export default function RelatedGamesSection({
                   {game.description}
                 </p>
               </div>
-            </Link>
+            </a>
           ))}
         </div>
 
         <div className="mt-12 text-center">
-          <Link
+          <a
             href="/"
             className="inline-block px-8 py-3 bg-orange-500 text-white font-semibold rounded-lg hover:bg-orange-600 transition-colors"
           >
             Back to All Games
-          </Link>
+          </a>
         </div>
       </div>
     </section>
