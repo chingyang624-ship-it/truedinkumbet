@@ -29,6 +29,7 @@ const articleSlugs = [
   "is-it-safe-to-use-bitcoin-for-online-casinos",
   "how-old-should-i-be-to-use-an-online-casino-service",
   "the-first-online-casino-malaysia-that-accepts-cryptocurrency",
+  "how-is-the-gambling-industry-in-australia",
 ];
 
 export async function generateStaticParams() {
