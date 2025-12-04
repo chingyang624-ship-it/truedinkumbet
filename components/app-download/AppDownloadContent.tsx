@@ -505,9 +505,9 @@ export default function AppDownloadContent() {
                 </h3>
                 <p className="text-gray-600">
                   Visit the{" "}
-                  <Link href="/" className="text-orange-500 font-bold">
+                  <a href="/" className="text-orange-500 font-bold">
                     Truedinkumbet official website
-                  </Link>
+                  </a>
                   , enter your username and password that you created when
                   signing up.
                 </p>
