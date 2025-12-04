@@ -4,10 +4,10 @@ import CasinoReviewArticleContent from "@/components/blog/casino-review/CasinoRe
 
 const articleSlugs = [
   "what-is-cryptocurrency-casino",
-  "have-you-bk8",
+  "have-you-truedinkumbet",
   "tips-for-gambling-online-with-a-small-budget",
   "does-malaysian-tax-gambling-winnings",
-  "bk8-year-of-rabbit-2023-gold-bar-deposit-reward",
+  "truedinkumbet-year-of-rabbit-2023-gold-bar-deposit-reward",
   "what-is-a-heylink-or-joylink-bonus-casino",
   "tips-for-playing-safely-at-online-casinos",
   "genting-casino-vs-online-casino",
@@ -28,7 +28,7 @@ export async function generateMetadata({
 }) {
   const { slug } = await params;
   return {
-    title: `${slug.replace(/-/g, " ")} - BK8 Casino Review`,
+    title: `${slug.replace(/-/g, " ")} - Truedinkumbet Casino Review`,
     description: "Read our latest casino review and gaming insights",
     robots: {
       index: true,
