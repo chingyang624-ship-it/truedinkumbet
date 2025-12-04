@@ -26,6 +26,7 @@ const articleSlugs = [
   "what-is-the-process-for-online-casino-bonuses",
   "you-should-stop-gambling-if-you-see-any-of-these-6-signs",
   "kelly-smith-becomes-truedinkumbet-brand-ambassador",
+  "choose-the-best-casino-how-do-you-compare-online-casinos",
   "which-is-better-online-casinos-versus-land-based-casinos",
   "mistakes-to-avoid-when-playing-online-gambling",
   "online-gambling-trends-2021",
