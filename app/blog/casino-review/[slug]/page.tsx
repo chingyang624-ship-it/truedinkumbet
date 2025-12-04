@@ -28,6 +28,7 @@ const articleSlugs = [
   "how-to-deposit-in-an-online-casino-australia",
   "is-it-safe-to-use-bitcoin-for-online-casinos",
   "how-old-should-i-be-to-use-an-online-casino-service",
+  "the-first-online-casino-malaysia-that-accepts-cryptocurrency",
 ];
 
 export async function generateStaticParams() {
