@@ -50,9 +50,14 @@ export async function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata() {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ slug: string }>;
+}) {
+  const { slug } = await params;
   return {
-    title: "Casino Review Article - Truedinkumbet",
+    title: `${slug.replace(/-/g, " ")} - Truedinkumbet Casino Review`,
     description: "Read our latest casino review and gaming insights",
     robots: {
       index: true,
