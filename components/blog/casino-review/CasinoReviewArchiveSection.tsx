@@ -72,7 +72,7 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
     id: 6,
     title: "What is a Heylink or Joylink Bonus Casino?",
     description:
-      "There has been a rise in the availability of free credit bonuses in Malaysia in recent years. Additionally, most of them are referred to as the Heylink Bonus or the Joylink Bonus. What exactly are those benefits, and can gamers from Malaysia feel at ease using them? In this piece, we are going to discuss [...]",
+      "There has been a rise in the availability of free credit bonuses in Australia in recent years. Additionally, most of them are referred to as the Heylink Bonus or the Joylink Bonus. What exactly are those benefits, and can gamers from Australia feel at ease using them? In this piece, we are going to discuss [...]",
     category: "Casino Review",
     date: "14-11-2022",
     image:
