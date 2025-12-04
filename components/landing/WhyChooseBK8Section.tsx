@@ -86,7 +86,7 @@ export default function WhyChooseTruedinkumbetSection() {
             <p className="text-gray-600 leading-relaxed">
               Enjoy seamless betting across devices with the official{" "}
               <a href="/app-download" className="text-orange-500 hover:underline">
-                Truedinkumbet App
+                &nbsp;Truedinkumbet App
               </a>
               , available for Android and iOS.
             </p>
