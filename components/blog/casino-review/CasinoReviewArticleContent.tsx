@@ -1781,7 +1781,7 @@ const articles: Article[] = [
         </div>
       </div>
 
-      <h1 class="text-4xl font-bold mt-10 mb-6"><b>Arsenal Legend Kelly Smith Signs Historic Deal as Truedinkumbet Ambassador</b></h1>
+      <h1 class="text-4xl font-bold mt-10 mb-6"><b>Kelly Smith Becomes Truedinkumbet's Brand Ambassador</b></h1>
 
       <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">In a massive move for the representation of women in sports betting, Truedinkumbet has officially signed a deal with former England and Arsenal superstar, Kelly Smith.</span></p>
 
