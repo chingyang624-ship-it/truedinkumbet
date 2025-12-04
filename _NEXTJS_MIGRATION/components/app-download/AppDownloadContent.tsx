@@ -1,5 +1,3 @@
-import Link from "next/link";
-
 export default function AppDownloadContent() {
   return (
     <section className="py-12 bg-gray-50">
