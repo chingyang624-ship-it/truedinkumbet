@@ -151,11 +151,6 @@ const articles: Article[] = [
 
       <h3 class="text-2xl font-bold mt-8 mb-4"><b>Betting Sites That Accepts Traditional and Cryptocurrencies Payment Methods</b></h3>
 
-      <div class="img-wrapper mb-8">
-        <img src="https://www.bk8.services/wp-content/uploads/2020/10/Betting-Sites-That-Accepts-Traditional-and-Cryptocurrencies-Payment-Methods.jpg" class="w-full rounded-lg" alt="Betting Sites That Accepts Traditional and Cryptocurrencies Payment Methods" />
-        <p class="text-center text-gray-600 mt-2"><em>Truedinkumbet – Deposit With USDt</em></p>
-      </div>
-
       <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Although there are some exceptions, when compiling a recommended website, we will definitely consider websites that accept traditional and cryptocurrency payments like Truedinkumbet.</span></p>
 
       <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">For those who do not value cryptocurrency but still want to use cryptocurrency for betting and gambling, a website that has added cryptocurrency payment options and has been operating for a long time like Truedinkumbet is a better choice.</span></p>
@@ -183,10 +178,6 @@ const articles: Article[] = [
       <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Currently, PF poker games have not yet used algorithms. Although a theoretical application called "Intellectual Poker Game" has appeared, there are still some problems to be solved.</span></p>
 
       <h3 class="text-2xl font-bold mt-8 mb-4"><b>Intellectual Poker Game</b></h3>
-
-      <div class="img-wrapper mb-8">
-        <img src="https://www.bk8.services/wp-content/uploads/2020/06/poker_content_bottom_EN_MY.jpg" class="w-full rounded-lg" alt="Intellectual Poker Game" />
-      </div>
 
       <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Intellectual poker games require each player to decipher their own playing cards.</span></p>
 
