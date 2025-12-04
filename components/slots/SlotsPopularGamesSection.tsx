@@ -43,7 +43,13 @@ export default function SlotsPopularGamesSection() {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
           {popularGames.map((game, index) => (
-            <div key={index} className="flex flex-col md:flex-row gap-6">
+            <a
+              key={index}
+              href="https://truedinkumbet.com/RFSEOTDK"
+              target="_blank"
+              rel="sponsored noopener noreferrer"
+              className="flex flex-col md:flex-row gap-6 hover:opacity-80 transition-opacity cursor-pointer"
+            >
               <div className="md:w-1/3">
                 <img
                   src={game.image}
@@ -59,7 +65,7 @@ export default function SlotsPopularGamesSection() {
                   {game.description}
                 </p>
               </div>
-            </div>
+            </a>
           ))}
         </div>
       </div>
