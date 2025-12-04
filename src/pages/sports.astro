@@ -1,0 +1,48 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '@components/Header';
+import Footer from '@components/Footer';
+import SportsHeroSection from '@components/sports/SportsHeroSection';
+import SportsProvidersGrid from '@components/sports/SportsProvidersGrid';
+import SportsTypesSection from '@components/sports/SportsTypesSection';
+import SportsProvidersSection from '@components/sports/SportsProvidersSection';
+import SportsMobileAppSection from '@components/sports/SportsMobileAppSection';
+import SportsFAQSection from '@components/sports/SportsFAQSection';
+import SportsComprehensiveSEOContent from '@components/sports/SportsComprehensiveSEOContent';
+import RelatedGamesSection from '@components/RelatedGamesSection';
+
+const relatedGames = [
+  {
+    title: "Online Slots",
+    href: "/slots",
+    image: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fd09c938d2d6047c3a33c2c91f9ac93ae",
+  },
+  {
+    title: "Live Casino",
+    href: "/live-casino",
+    image: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F8c37345aca9d46bebb44b8219a5c1529",
+  },
+  {
+    title: "Fishing Games",
+    href: "/fishing",
+    image: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F159a9265e32840a3a0b88b88fc82f47f",
+  },
+];
+---
+
+<Layout title="Online Sports Betting Australia | Best Odds for AFL, NRL & EPL - Truedinkumbet">
+  <div class="min-h-screen flex flex-col">
+    <Header client:load />
+    <main class="flex-1 pt-16">
+      <SportsHeroSection client:load />
+      <SportsProvidersGrid client:load />
+      <SportsTypesSection client:load />
+      <SportsProvidersSection client:load />
+      <SportsMobileAppSection client:load />
+      <SportsFAQSection client:load />
+      <SportsComprehensiveSEOContent client:load />
+      <RelatedGamesSection client:load relatedGames={relatedGames} />
+    </main>
+    <Footer client:load />
+  </div>
+</Layout>
