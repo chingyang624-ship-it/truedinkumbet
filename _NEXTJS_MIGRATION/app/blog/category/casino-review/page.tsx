@@ -5,33 +5,33 @@ import CasinoReviewHeroSection from "@/components/blog/casino-review/CasinoRevie
 import CasinoReviewArchiveSection from "@/components/blog/casino-review/CasinoReviewArchiveSection";
 
 export const metadata: Metadata = {
-  title: "Casino Review Archives - BK8 | Trusted Online Casino",
+  title: "Casino Review Archives - Truedinkumbet | Trusted Online Casino",
   description:
     "Browse our comprehensive casino review archives covering cryptocurrency casinos, e-wallet payments, responsible gaming, and casino strategies.",
   keywords:
     "casino review, online casino, e-wallet casino, cryptocurrency casino, casino strategies, gambling tips, casino games",
-  authors: [{ name: "BK8 Casino Reviews" }],
+  authors: [{ name: "Truedinkumbet Casino Reviews" }],
   robots: {
     index: true,
     follow: true,
   },
   openGraph: {
     type: "website",
-    title: "Casino Review Archives - BK8",
+    title: "Casino Review Archives - Truedinkumbet",
     description: "Read trusted casino reviews and gambling guides",
-    url: "https://www.bk8.services/blog/category/casino-review/",
+    url: "https://www.truedinkumbet.com/blog/category/casino-review/",
     images: [
       {
-        url: "https://www.bk8.services/wp-content/uploads/2024/05/bk8logo.gif",
+        url: "https://www.truedinkumbet.com/wp-content/uploads/2024/05/truedinkumbet-logo.gif",
         width: 150,
         height: 50,
-        alt: "BK8 Casino",
+        alt: "Truedinkumbet Casino",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "Casino Review Archives - BK8",
+    title: "Casino Review Archives - Truedinkumbet",
     description: "Read trusted casino reviews and gambling guides",
   },
 };
