@@ -431,6 +431,28 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
       "https://www.bk8.services/wp-content/uploads/2021/12/Bankroll-Management-Advice-8-Ideas-360x200.png",
     link: "/blog/casino-review/game-fairness-rng/",
   },
+  {
+    id: 39,
+    title: "Progressive Jackpot Slots Explained",
+    description:
+      "Progressive jackpots grow with each bet placed. Learn how they work, what the odds are, and which games offer the best potential payouts [...]",
+    category: "Casino Review",
+    date: "20-03-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/12/The-Most-Important-Slot-Machine-Winners-In-History-360x200.png",
+    link: "/blog/casino-review/progressive-jackpot-slots/",
+  },
+  {
+    id: 40,
+    title: "Casino Withdrawal Process and Timelines",
+    description:
+      "Understanding how casino withdrawals work is crucial for players. Learn about different withdrawal methods, processing times, and potential issues [...]",
+    category: "Casino Review",
+    date: "05-03-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/12/Bankroll-Management-Advice-8-Ideas-360x200.png",
+    link: "/blog/casino-review/casino-withdrawal-process/",
+  },
 ];
 
 const recentPosts = [
