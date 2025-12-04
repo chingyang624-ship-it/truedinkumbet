@@ -1319,7 +1319,7 @@ const articles: Article[] = [
     date: "19-01-2025",
     image:
       "https://www.truedinkumbet.services/wp-content/uploads/2025/01/How-to-Fully-Utilize-Your-Superannuation-in-2025.jpg",
-    link: "/blog/casino-review/how-to-fully-utilize-your-kwsp-money-in-2022/",
+    link: "/blog/casino-review/how-to-fully-utilize-your-superannuation-in-2025/",
     author: "Terrence Spove",
     content: `<div class="single-post-wrapper text-area">
       <div class="post-info clearfix mb-8">
