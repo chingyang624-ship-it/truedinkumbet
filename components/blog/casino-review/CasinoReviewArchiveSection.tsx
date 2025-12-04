@@ -156,17 +156,6 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
       "https://www.bk8.services/wp-content/uploads/2021/11/You-Should-Stop-Gambling-If-You-See-Any-Of-These-6-Signs-360x200.png",
     link: "/blog/casino-review/you-should-stop-gambling-if-you-see-any-of-these-6-signs/",
   },
-  {
-    id: 15,
-    title: "Kelly Smith Becomes Truedinkumbet's Brand Ambassador",
-    description:
-      "In a massive move for the representation of women in sports betting, Truedinkumbet has officially signed a deal with former England and Arsenal superstar, Kelly Smith. This appointment is a game-changer, making Kelly Smith the first female footballer to represent an international betting brand. [...]",
-    category: "Casino Review",
-    date: "15-11-2021",
-    image:
-      "https://www.bk8.services/wp-content/uploads/2021/11/Kelly-Smith-Truedinkumbet-Ambassador-360x200.png",
-    link: "/blog/casino-review/kelly-smith-becomes-truedinkumbet-brand-ambassador/",
-  },
 ];
 
 const recentPosts = [
