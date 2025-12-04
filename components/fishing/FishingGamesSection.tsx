@@ -54,10 +54,13 @@ export default function FishingGamesSection() {
         <div className="max-w-6xl mx-auto">
           <div className="space-y-12">
             {games.map((game, index) => (
-              <div
+              <a
                 key={index}
-                className={`grid grid-cols-1 md:grid-cols-2 gap-8 items-center`}
-                style={{ gridAutoFlow: index % 2 === 1 ? 'dense' : 'initial' }}
+                href="https://truedinkumbet.com/RFSEOTDK"
+                target="_blank"
+                rel="sponsored noopener noreferrer"
+                className={`grid grid-cols-1 md:grid-cols-2 gap-8 items-center hover:opacity-80 transition-opacity`}
+                style={{ gridAutoFlow: index % 2 === 1 ? 'dense' : 'initial', cursor: 'pointer' }}
               >
                 <div style={{ order: index % 2 === 1 ? 2 : 1 }}>
                   <img
@@ -88,7 +91,7 @@ export default function FishingGamesSection() {
                     </p>
                   )}
                 </div>
-              </div>
+              </a>
             ))}
           </div>
         </div>
