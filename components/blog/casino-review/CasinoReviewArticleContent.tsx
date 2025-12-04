@@ -165,7 +165,7 @@ const articles: Article[] = [
     id: 2,
     title: "Have You Truedinkumbet?",
     description:
-      'You must have heard the slogan "Have You BK8? or 你BK8了吗" in social media or YouTube advertisements. The slogan is addictive, right? It was catchy and resonated deeply with all of you. This is designed to help you remember you can get various benefits and promotions on BK8. BK8 must first pop into your mind [...]',
+      'You must have heard the slogan "Have You Truedinkumbet?" in social media or YouTube advertisements. The slogan is addictive, right? It was catchy and resonated deeply with all of you. This is designed to help you remember you can get various benefits and promotions on Truedinkumbet. Truedinkumbet must first pop into your mind [...]',
     category: "Casino Review",
     date: "06-12-2023",
     image:
