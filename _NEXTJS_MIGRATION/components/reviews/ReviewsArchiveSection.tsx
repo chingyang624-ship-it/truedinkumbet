@@ -385,9 +385,7 @@ const StarRating = ({ rating }: { rating: number }) => {
 };
 
 export default function ReviewsArchiveSection() {
-  const searchParams = useSearchParams();
-  const page = parseInt(searchParams.get("page") || "1", 10);
-
+  const page = 1;
   const itemsPerPage = page === 1 ? 20 : 7;
   const startIndex = page === 1 ? 0 : 20;
   const endIndex = startIndex + itemsPerPage;
