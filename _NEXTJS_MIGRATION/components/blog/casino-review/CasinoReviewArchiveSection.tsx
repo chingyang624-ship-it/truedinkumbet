@@ -503,23 +503,11 @@ const categories = [
 export default function CasinoReviewArchiveSection() {
   const [currentPage, setCurrentPage] = useState(1);
 
-  // Page 1: 20 items, Page 2+: 6 items each
-  const getItemsPerPage = (page: number) => (page === 1 ? 20 : 6);
-  const itemsPerPage = getItemsPerPage(currentPage);
+  // Page 1: 20 items, Page 2: 20 items (total 40 articles for 2 pages)
+  const itemsPerPage = 20;
+  const totalPages = 2;
 
-  // Calculate pages differently: first page has 20, rest have 6
-  let totalPages = 1;
-  let remaining = casinoReviewArticles.length - 20;
-  if (remaining > 0) {
-    totalPages += Math.ceil(remaining / 6);
-  }
-
-  let startIndex = 0;
-  if (currentPage === 1) {
-    startIndex = 0;
-  } else {
-    startIndex = 20 + (currentPage - 2) * 6;
-  }
+  const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
   const displayedArticles = casinoReviewArticles.slice(startIndex, endIndex);
 
