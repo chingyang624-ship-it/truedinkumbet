@@ -36,7 +36,7 @@ export default function MobileAppSection() {
 
           <div>
             <img
-              src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fdbd5c17a972c4080a4299f571548ab21"
+              src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F28351fda7bc94312ad5d3aaad727c3bb"
               alt="Truedinkumbet download QR code"
               className="w-full rounded-lg shadow-lg"
             />
