@@ -1,0 +1,46 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '@components/Header';
+import Footer from '@components/Footer';
+import CryptoCasinoHeroSection from '@components/crypto-casino/CryptoCasinoHeroSection';
+import CryptoCasinoIntroSection from '@components/crypto-casino/CryptoCasinoIntroSection';
+import CryptoCasinoFeaturesSection from '@components/crypto-casino/CryptoCasinoFeaturesSection';
+import CryptoCasinoProvidersSection from '@components/crypto-casino/CryptoCasinoProvidersSection';
+import CryptoCasinoComprehensiveSEOContent from '@components/crypto-casino/CryptoCasinoComprehensiveSEOContent';
+import CryptoCasinoFAQSection from '@components/crypto-casino/CryptoCasinoFAQSection';
+import RelatedGamesSection from '@components/RelatedGamesSection';
+
+const relatedGames = [
+  {
+    title: "Online Slots",
+    href: "/slots",
+    image: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fd09c938d2d6047c3a33c2c91f9ac93ae",
+  },
+  {
+    title: "Live Casino",
+    href: "/live-casino",
+    image: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F8c37345aca9d46bebb44b8219a5c1529",
+  },
+  {
+    title: "Sports Betting",
+    href: "/sports",
+    image: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F5443f7041c3f4b079179c988f0da43b2",
+  },
+];
+---
+
+<Layout title="Crypto Casino Australia | Bitcoin & Ethereum Slots - Truedinkumbet">
+  <div class="min-h-screen flex flex-col">
+    <Header client:load />
+    <main class="flex-1 pt-16">
+      <CryptoCasinoHeroSection client:load />
+      <CryptoCasinoIntroSection client:load />
+      <CryptoCasinoFeaturesSection client:load />
+      <CryptoCasinoProvidersSection client:load />
+      <CryptoCasinoComprehensiveSEOContent client:load />
+      <CryptoCasinoFAQSection client:load />
+      <RelatedGamesSection client:load relatedGames={relatedGames} />
+    </main>
+    <Footer client:load />
+  </div>
+</Layout>
