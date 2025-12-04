@@ -6,7 +6,7 @@ export default function SportsComprehensiveSEOContent() {
           <div className="space-y-6">
             <div>
               <h1 className="text-xl font-bold mb-2 text-yellow-500">
-                Spin Now at Truedinkumbet Malaysia Online Sports Betting &
+                Spin Now at Truedinkumbet Australia Online Sports Betting &
                 Sportsbook
               </h1>
               <p className="text-sm text-gray-500 mb-3">
