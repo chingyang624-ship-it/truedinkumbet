@@ -508,13 +508,7 @@ export default function CasinoReviewArchiveSection() {
                 >
                   {/* Article Image */}
                   <div className="overflow-hidden h-48">
-                    <a href={article.link}>
-                      <img
-                        src={article.image}
-                        alt={article.title}
-                        className="w-full h-full object-cover hover:scale-105 transition-transform"
-                      />
-                    </a>
+                    <a href={article.link} />
                   </div>
 
                   {/* Article Content */}
