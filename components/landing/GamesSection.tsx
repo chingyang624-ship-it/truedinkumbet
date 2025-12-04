@@ -7,7 +7,7 @@ const games = [
       "Truedinkumbet online casino features a live casino games section powered by top providers like Evolution and Playtech. Enjoy the thrill of real-time gaming with professional dealers hosting games like Baccarat, Roulette, Blackjack, and more.",
     image:
       "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F8c37345aca9d46bebb44b8219a5c1529",
-    link: "/live-casino",
+    link: "https://truedinkumbet.com/RFSEOTDK",
   },
   {
     title: "Online Slots",
@@ -15,7 +15,7 @@ const games = [
       "With hundreds of online slot games from leading developers like Pragmatic Play, Spadegaming, and NetEnt, Truedinkumbet Australia offers endless spinning fun. From classic fruit machines to jackpot slots, every spin brings a new chance to win.",
     image:
       "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fe93f3b84925e441fae7c53c7cd43dc9b",
-    link: "/slots",
+    link: "https://truedinkumbet.com/RFSEOTDK",
   },
   {
     title: "Sports Betting",
@@ -23,7 +23,7 @@ const games = [
       "Truedinkumbet's sportsbook covers all the popular sports such as football, basketball, tennis, badminton, and more. Bet pre-match or live with competitive odds and numerous betting options, including Asian Handicap and Over/Under.",
     image:
       "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F5443f7041c3f4b079179c988f0da43b2",
-    link: "/sports",
+    link: "https://truedinkumbet.com/RFSEOTDK",
   },
   {
     title: "Esports Betting",
@@ -39,7 +39,7 @@ const games = [
       "Truedinkumbet casino Australia features fan-favorite fishing games like Fishing War and Monkey King Fishing. Easy to play, visually stunning, and loaded with bonus features, they offer great casual fun and rewards.",
     image:
       "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F159a9265e32840a3a0b88b88fc82f47f",
-    link: "/fishing",
+    link: "https://truedinkumbet.com/RFSEOTDK",
   },
   {
     title: "Crypto Casino",
@@ -47,7 +47,7 @@ const games = [
       "Explore Truedinkumbet's crypto casino section featuring fast transactions with Bitcoin, Ethereum, and other cryptocurrencies. Enjoy secure, anonymous gaming with exclusive crypto bonuses and rewards.",
     image:
       "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F1595b35f96e44dd9b73e8a4311caf245",
-    link: "/crypto-casino",
+    link: "https://truedinkumbet.com/RFSEOTDK",
   },
 ];
 
