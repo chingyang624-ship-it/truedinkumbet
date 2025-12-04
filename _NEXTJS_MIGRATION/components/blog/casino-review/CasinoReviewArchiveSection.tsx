@@ -400,14 +400,14 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
   },
   {
     id: 36,
-    title: "How is The Gambling Industry in Malaysia?",
+    title: "How is The Gambling Industry in Australia?",
     description:
-      "Gambling industry is not far from art in Malaysia; every other individual is involved in it, but some things have changed over the decade. The ways have changed, but the plan remains the same. Have you noticed how the digital revolution has changed so much in our life in the past decade, just like [...]",
+      "Gambling industry is not far from art in Australia; every other individual is involved in it, but some things have changed over the decade. The ways have changed, but the plan remains the same. Have you noticed how the digital revolution has changed so much in our life in the past decade, just like [...]",
     category: "Casino Review",
     date: "09-11-2020",
     image:
       "https://www.bk8.services/wp-content/uploads/2020/11/How-Is-The-Gambling-Industry-In-Malaysia-360x200.jpg",
-    link: "/blog/casino-review/how-is-the-gambling-industry-in-malaysia/",
+    link: "/blog/casino-review/how-is-the-gambling-industry-in-australia/",
   },
 ];
 
