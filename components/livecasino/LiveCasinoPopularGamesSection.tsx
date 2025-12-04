@@ -41,7 +41,7 @@ export default function LiveCasinoPopularGamesSection() {
 
         <div className="grid grid-cols-1 gap-12">
           {games.map((game, index) => (
-            <div key={index} className={`flex flex-col ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} gap-8 items-center`}>
+            <a key={index} href="https://truedinkumbet.com/RFSEOTDK" target="_blank" rel="sponsored noopener noreferrer" className={`flex flex-col ${index % 2 === 0 ? 'md:flex-row' : 'md:flex-row-reverse'} gap-8 items-center hover:opacity-90 transition-opacity`}>
               <div className="md:w-1/2">
                 <img
                   src={game.image}
@@ -58,7 +58,7 @@ export default function LiveCasinoPopularGamesSection() {
                   {game.description}
                 </p>
               </div>
-            </div>
+            </a>
           ))}
         </div>
 
