@@ -323,14 +323,14 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
   },
   {
     id: 29,
-    title: "How to Deposit in an Online Casino Malaysia?",
+    title: "How to Deposit in an Online Casino Australia?",
     description:
       "With the advent of technology and the web, specifically, Online Casinos have gained quite some popularity. More and more people have started playing at online casino sites each year compared to traditional casinos. Of course, every online casino has different deposit and withdrawal methods. The reason being is, that online casinos are safe, and convenient [...]",
     category: "Casino Review",
     date: "23-04-2021",
     image:
       "https://www.bk8.services/wp-content/uploads/2021/04/How-to-Deposit-in-an-Online-Casino-Malaysia-360x200.png",
-    link: "/blog/casino-review/how-to-deposit-in-an-online-casino-malaysia/",
+    link: "/blog/casino-review/how-to-deposit-in-an-online-casino-australia/",
   },
   {
     id: 30,
