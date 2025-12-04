@@ -1,3 +1,16 @@
-// Sitemap generation is disabled for static export
-// For GitHub Pages static deployment, use a pre-generated sitemap instead
-export const dynamic = 'error';
+import { MetadataRoute } from 'next';
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  return [
+    {
+      url: 'https://truedinkumbetaucasino.com',
+      lastModified: new Date(),
+      priority: 1.0,
+    },
+    {
+      url: 'https://truedinkumbetaucasino.com/about',
+      lastModified: new Date(),
+      priority: 0.8,
+    },
+  ];
+}
