@@ -1,4 +1,5 @@
 /** @type {import('next').NextConfig} */
+// Configuration for static export to GitHub Pages
 const nextConfig = {
   output: "export",
   basePath: "",
