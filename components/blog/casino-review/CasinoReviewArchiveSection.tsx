@@ -189,6 +189,17 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
       "https://www.bk8.services/wp-content/uploads/2025/01/How-Old-Should-I-Be-Online-Casino-Australia-360x200.png",
     link: "/blog/casino-review/how-old-should-i-be-to-use-an-online-casino-service/",
   },
+  {
+    id: 19,
+    title: "The Rise of Crypto Casinos: Why Australians Are Switching to USDT Gambling",
+    description:
+      "Many years ago, cryptocurrency and Bitcoin were vague terms people knew little about. Fast forward to 2025, and cryptocurrency has changed the way we think about money—and specifically, how we gamble. [...]",
+    category: "Casino Review, Crypto Casino",
+    date: "20-01-2025",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2025/01/Rise-of-Crypto-Casinos-USDT-Gambling-360x200.png",
+    link: "/blog/casino-review/the-first-online-casino-malaysia-that-accepts-cryptocurrency/",
+  },
 ];
 
 const recentPosts = [
