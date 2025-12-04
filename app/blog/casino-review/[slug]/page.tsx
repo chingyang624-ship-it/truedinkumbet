@@ -16,6 +16,7 @@ const articleSlugs = [
   "the-most-important-slot-machine-winners-in-history",
   "bankroll-management-advice-8-ideas",
   "what-is-the-process-for-online-casino-bonuses",
+  "you-should-stop-gambling-if-you-see-any-of-these-6-signs",
 ];
 
 export async function generateStaticParams() {
