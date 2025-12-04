@@ -185,20 +185,20 @@ const articles: Article[] = [
   },
   {
     id: 4,
-    title: "Does Malaysian Tax Gambling Winnings?",
+    title: "Does Australian Tax Gambling Winnings?",
     description:
-      "Gambling is a popular activity enjoyed by many people all around the world. However, as with any other form of income, gambling winnings are subject to taxation in many countries. Understanding the tax laws related to gambling is important for gamblers to ensure that they comply with regulations and avoid any penalties. Malaysia is a [...]",
+      "Gambling is a popular activity enjoyed by many people all around the world. However, as with any other form of income, gambling winnings are subject to taxation in many countries. Understanding the tax laws related to gambling is important for gamblers to ensure that they comply with regulations and avoid any penalties. Australia is a [...]",
     category: "Casino Review",
     date: "27-03-2023",
     image:
       "https://www.bk8.services/wp-content/uploads/2023/03/Does-Malaysian-Tax-Gambling-Winnings-360x200.png",
-    link: "/blog/casino-review/does-malaysian-tax-gambling-winnings/",
+    link: "/blog/casino-review/does-australian-tax-gambling-winnings/",
   },
   {
     id: 5,
     title: "Truedinkumbet Year of Rabbit 2023 Gold Bar Deposit Reward",
     description:
-      "In addition to being one of Malaysia's most well-known online casinos, BK8 is also well-known for its hefty bonus offerings. In honour of the upcoming Year of the Rabbit Chinese New Year, BK8 is now taking orders for a special gold bar. This is without a doubt one of BK8's most generous presents to date. [...]",
+      "In addition to being one of Australia's most well-known online casinos, Truedinkumbet is also well-known for its hefty bonus offerings. In honour of the upcoming Year of the Rabbit Chinese New Year, Truedinkumbet is now taking orders for a special gold bar. This is without a doubt one of Truedinkumbet's most generous presents to date. [...]",
     category: "Casino Review",
     date: "27-12-2022",
     image:
@@ -209,7 +209,7 @@ const articles: Article[] = [
     id: 6,
     title: "What is a Heylink or Joylink Bonus Casino?",
     description:
-      "There has been a rise in the availability of free credit bonuses in Malaysia in recent years. Additionally, most of them are referred to as the Heylink Bonus or the Joylink Bonus. What exactly are those benefits, and can gamers from Malaysia feel at ease using them? In this piece, we are going to discuss [...]",
+      "There has been a rise in the availability of free credit bonuses in Australia in recent years. Additionally, most of them are referred to as the Heylink Bonus or the Joylink Bonus. What exactly are those benefits, and can gamers from Australia feel at ease using them? In this piece, we are going to discuss [...]",
     category: "Casino Review",
     date: "14-11-2022",
     image:
