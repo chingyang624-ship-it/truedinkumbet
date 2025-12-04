@@ -15,7 +15,8 @@ interface Article {
 const articles: Article[] = [
   {
     id: -1,
-    title: "Why Bitcoin or Other Cryptocurrencies and Casinos are Great Together",
+    title:
+      "Why Bitcoin or Other Cryptocurrencies and Casinos are Great Together",
     description:
       "As predicted by many analysts over the last few years, online casino gaming continues to expand. This is a result of many nations being affected by a pandemic. Despite a major health issue around, individuals still gamble, which is understandable because brick and mortar casinos are closed and physical or social distancing is needed. [...]",
     category: "Casino Review",
@@ -2079,7 +2080,8 @@ const articles: Article[] = [
   },
   {
     id: 21,
-    title: "Join Truedinkumbet Affiliate Program and Transform Your Ability to Pure Profit",
+    title:
+      "Join Truedinkumbet Affiliate Program and Transform Your Ability to Pure Profit",
     description:
       "Modern technology has conveyed the internet as one of the most dependable and convenient modes of earning money. Combining a new stride in it, Truedinkumbet, a renowned online casino platform, is endowing creative minds like YouTubers, bloggers, vloggers, and others an opportunity to earn through their affiliate marketing program. [...]",
     category: "Casino Review",
@@ -2618,7 +2620,8 @@ const articles: Article[] = [
   },
   {
     id: 27,
-    title: "How to Deposit in an Online Casino in Australia: The Ultimate Guide",
+    title:
+      "How to Deposit in an Online Casino in Australia: The Ultimate Guide",
     description:
       "With the convenience of smartphones and high-speed internet, Online Casinos have become a favorite pastime for Aussies. More and more punters are swapping the local pub's pokies for online sites. However, every online casino has different deposit and withdrawal methods. [...]",
     category: "Casino Review",
@@ -2692,7 +2695,8 @@ const articles: Article[] = [
   },
   {
     id: 29,
-    title: "How to Deposit in an Online Casino in Australia: The Ultimate Guide",
+    title:
+      "How to Deposit in an Online Casino in Australia: The Ultimate Guide",
     description:
       "With the convenience of smartphones and high-speed internet, Online Casinos have become a favorite pastime for Aussies. More and more punters are swapping the local pub's pokies for online sites. However, every online casino has different deposit and withdrawal methods. [...]",
     category: "Casino Review",
@@ -2797,7 +2801,8 @@ const articles: Article[] = [
   },
   {
     id: 30,
-    title: "The Rise of Crypto Casinos: Why Australians Are Switching to USDT Gambling",
+    title:
+      "The Rise of Crypto Casinos: Why Australians Are Switching to USDT Gambling",
     description:
       "Many years ago, cryptocurrency and Bitcoin were vague terms people knew little about. Fast forward to 2025, and cryptocurrency has changed the way we think about money—and specifically, how we gamble. [...]",
     category: "Casino Review, Crypto Casino",
@@ -2830,7 +2835,9 @@ export default function CasinoReviewArticleContent({ slug }: { slug: string }) {
   if (!article) {
     return (
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <h1 className="text-4xl font-bold mb-6 text-center">Article Not Found</h1>
+        <h1 className="text-4xl font-bold mb-6 text-center">
+          Article Not Found
+        </h1>
         <p className="text-center text-gray-600">
           Sorry, the article you are looking for could not be found.
         </p>
