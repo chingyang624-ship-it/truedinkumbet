@@ -61,47 +61,25 @@ export default function GamesSection() {
             const isExternalLink = game.link.startsWith("http");
             return (
               <div key={index}>
-                {isExternalLink ? (
-                  <a
-                    href={game.link}
-                    target="_blank"
-                    rel="sponsored noopener noreferrer"
-                    className="block h-full bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow cursor-pointer"
-                  >
-                    <img
-                      src={game.image}
-                      alt={`${game.title} at Truedinkumbet`}
-                      className="w-full h-48 object-cover"
-                    />
-                    <div className="p-6">
-                      <h3 className="text-2xl font-semibold text-gray-900 mb-3">
-                        {game.title}
-                      </h3>
-                      <p className="text-gray-600 text-sm leading-relaxed">
-                        {game.description}
-                      </p>
-                    </div>
-                  </a>
-                ) : (
-                  <Link
-                    href={game.link}
-                    className="block h-full bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow"
-                  >
-                    <img
-                      src={game.image}
-                      alt={`${game.title} at Truedinkumbet`}
-                      className="w-full h-48 object-cover"
-                    />
-                    <div className="p-6">
-                      <h3 className="text-2xl font-semibold text-gray-900 mb-3">
-                        {game.title}
-                      </h3>
-                      <p className="text-gray-600 text-sm leading-relaxed">
-                        {game.description}
-                      </p>
-                    </div>
-                  </Link>
-                )}
+                <a
+                  href={game.link}
+                  {...(isExternalLink ? { target: "_blank", rel: "sponsored noopener noreferrer" } : {})}
+                  className="block h-full bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow"
+                >
+                  <img
+                    src={game.image}
+                    alt={`${game.title} at Truedinkumbet`}
+                    className="w-full h-48 object-cover"
+                  />
+                  <div className="p-6">
+                    <h3 className="text-2xl font-semibold text-gray-900 mb-3">
+                      {game.title}
+                    </h3>
+                    <p className="text-gray-600 text-sm leading-relaxed">
+                      {game.description}
+                    </p>
+                  </div>
+                </a>
               </div>
             );
           })}
