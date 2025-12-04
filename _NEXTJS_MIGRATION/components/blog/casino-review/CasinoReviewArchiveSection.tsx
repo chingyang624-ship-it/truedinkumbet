@@ -245,17 +245,6 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
     link: "/blog/casino-review/you-should-stop-gambling-if-you-see-any-of-these-6-signs/",
   },
   {
-    id: 23,
-    title: "Join Truedinkumbet Affiliate Program and Transform Your Ability to Pure Profit",
-    description:
-      "Modern technology has conveyed the internet as one of the most dependable and convenient modes of earning money. Combining a new stride in it, Truedinkumbet, a renowned online casino platform, is endowing creative minds like YouTubers, bloggers, vloggers, and others an opportunity to earn through their affiliate marketing program. The affiliate program will only require them to [...]",
-    category: "Casino Review",
-    date: "12-10-2021",
-    image:
-      "https://www.bk8.services/wp-content/uploads/2021/10/Join-BK8-Affiliate-Program-and-Transform-Your-Ability-to-Pure-Profit-360x200.png",
-    link: "/blog/casino-review/join-truedinkumbet-affiliate-program-and-transform-your-ability-to-pure-profit/",
-  },
-  {
     id: 24,
     title: "Kelly Smith Becomes Truedinkumbet's Brand Ambassador",
     description:
