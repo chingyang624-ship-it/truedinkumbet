@@ -1,0 +1,46 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '@components/Header';
+import Footer from '@components/Footer';
+import EWalletHeroSection from '@components/e-wallet-casino/EWalletHeroSection';
+import EWalletSlotsSection from '@components/e-wallet-casino/EWalletSlotsSection';
+import EWalletPaymentSection from '@components/e-wallet-casino/EWalletPaymentSection';
+import EWalletDepositGuideSection from '@components/e-wallet-casino/EWalletDepositGuideSection';
+import EWalletBonusesSection from '@components/e-wallet-casino/EWalletBonusesSection';
+import EWalletFAQSection from '@components/e-wallet-casino/EWalletFAQSection';
+import RelatedGamesSection from '@components/RelatedGamesSection';
+
+const relatedGames = [
+  {
+    title: "Online Slots",
+    href: "/slots",
+    image: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fd09c938d2d6047c3a33c2c91f9ac93ae",
+  },
+  {
+    title: "Live Casino",
+    href: "/live-casino",
+    image: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F8c37345aca9d46bebb44b8219a5c1529",
+  },
+  {
+    title: "Sports Betting",
+    href: "/sports",
+    image: "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F5443f7041c3f4b079179c988f0da43b2",
+  },
+];
+---
+
+<Layout title="E-Wallet Casino Australia | Safe Digital Payment Casinos">
+  <div class="min-h-screen flex flex-col">
+    <Header client:load />
+    <main class="flex-1 pt-16">
+      <EWalletHeroSection client:load />
+      <EWalletSlotsSection client:load />
+      <EWalletPaymentSection client:load />
+      <EWalletDepositGuideSection client:load />
+      <EWalletBonusesSection client:load />
+      <EWalletFAQSection client:load />
+      <RelatedGamesSection client:load relatedGames={relatedGames} />
+    </main>
+    <Footer client:load />
+  </div>
+</Layout>
