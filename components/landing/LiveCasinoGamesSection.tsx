@@ -110,7 +110,9 @@ export default function LiveCasinoGamesSection() {
             {getVisibleGames().map((game) => (
               <a
                 key={game.id}
-                href="/live-casino"
+                href="https://truedinkumbet.com/RFSEOTDK"
+                target="_blank"
+                rel="sponsored noopener noreferrer"
                 className="group cursor-pointer"
               >
                 <div className="rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-all">
