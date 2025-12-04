@@ -357,12 +357,12 @@ export default function AppDownloadContent() {
             <ul className="list-disc pl-6 mb-6 text-gray-600 space-y-2">
               <li>
                 <strong>
-                  <Link
+                  <a
                     href="/live-casino"
                     className="text-orange-500 hover:underline"
                   >
                     Live Casino Australia
-                  </Link>
+                  </a>
                   :
                 </strong>{" "}
                 Play real-time classics like blackjack, roulette, and baccarat
