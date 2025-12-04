@@ -157,19 +157,8 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
     link: "/blog/casino-review/you-should-stop-gambling-if-you-see-any-of-these-6-signs/",
   },
   {
-    id: 14,
-    title: "Join Truedinkumbet Affiliate Program and Transform Your Ability to Pure Profit",
-    description:
-      "Modern technology has conveyed the internet as one of the most dependable and convenient modes of earning money. Combining a new stride in it, Truedinkumbet, a renowned online casino platform, is endowing creative minds like YouTubers, bloggers, vloggers, and others an opportunity to earn through their affiliate marketing program. [...]",
-    category: "Casino Review",
-    date: "12-10-2021",
-    image:
-      "https://www.bk8.services/wp-content/uploads/2021/10/Join-BK8-Affiliate-Program-360x200.png",
-    link: "/blog/casino-review/join-truedinkumbet-affiliate-program-and-transform-your-ability-to-pure-profit/",
-  },
-  {
     id: 15,
-    title: "Arsenal Legend Kelly Smith Signs Historic Deal as Truedinkumbet Ambassador",
+    title: "Kelly Smith Becomes Truedinkumbet's Brand Ambassador",
     description:
       "In a massive move for the representation of women in sports betting, Truedinkumbet has officially signed a deal with former England and Arsenal superstar, Kelly Smith. This appointment is a game-changer, making Kelly Smith the first female footballer to represent an international betting brand. [...]",
     category: "Casino Review",
