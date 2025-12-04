@@ -1,7 +1,6 @@
 "use client";
 
 import { Star } from "lucide-react";
-import { useSearchParams } from "next/navigation";
 
 interface Review {
   id: number;
