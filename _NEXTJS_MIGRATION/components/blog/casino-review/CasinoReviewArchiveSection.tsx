@@ -169,14 +169,14 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
   },
   {
     id: 15,
-    title: "What Is E-Wallet Casino Malaysia?",
+    title: "What Is E-Wallet Casino Australia?",
     description:
-      "In terms of convenience and security, e-wallet casino websites are the ideal option for online gamblers. e-wallets are now widely accepted at the finest online casinos, allowing players to take advantage of minimal fees and convenient payment options. If you want to know where to find the best Malaysian e-wallet casinos, keep reading! How [...]",
+      "In terms of convenience and security, e-wallet casino websites are the ideal option for online gamblers. e-wallets are now widely accepted at the finest online casinos, allowing players to take advantage of minimal fees and convenient payment options. If you want to know where to find the best Australian e-wallet casinos, keep reading! How [...]",
     category: "Casino Review",
     date: "16-02-2022",
     image:
       "https://www.bk8.services/wp-content/uploads/2022/02/What-is-E-wallet-Casino-in-Malaysia-1-360x200.png",
-    link: "/blog/casino-review/what-is-e-wallet-casino-malaysia/",
+    link: "/blog/casino-review/what-is-e-wallet-casino-australia/",
   },
   {
     id: 16,
