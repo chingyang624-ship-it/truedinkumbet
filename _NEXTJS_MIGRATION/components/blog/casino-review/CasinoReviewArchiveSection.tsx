@@ -389,14 +389,14 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
   },
   {
     id: 35,
-    title: "The First Online Casino Malaysia That Accepts Cryptocurrency",
+    title: "The First Online Casino Australia That Accepts Cryptocurrency",
     description:
       "Many years ago, \"cryptocurrency and bitcoin\" were vague terms people literally knew little or nothing about. Fast forward to the present day, cryptocurrency has changed the way we think about money. The decentralized digital currencies have introduced the world to a modern era. This currency doesn't only aid you in acquiring goods and services online/offline, [...]",
     category: "Casino Review",
     date: "18-11-2020",
     image:
       "https://www.bk8.services/wp-content/uploads/2020/11/The-First-Online-Casino-Malaysia-That-Accepts-Cryptocurrency-360x200.png",
-    link: "/blog/casino-review/the-first-online-casino-malaysia-that-accepts-cryptocurrency/",
+    link: "/blog/casino-review/the-first-online-casino-australia-that-accepts-cryptocurrency/",
   },
   {
     id: 36,
