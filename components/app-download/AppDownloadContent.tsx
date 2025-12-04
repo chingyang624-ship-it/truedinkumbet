@@ -385,12 +385,12 @@ export default function AppDownloadContent() {
               </li>
               <li>
                 <strong>
-                  <Link
+                  <a
                     href="/fishing"
                     className="text-orange-500 hover:underline"
                   >
                     Online Fish Shooting Games
-                  </Link>
+                  </a>
                   :
                 </strong>{" "}
                 Play interactive shooting-style games where players catch fish
@@ -399,12 +399,12 @@ export default function AppDownloadContent() {
               </li>
               <li>
                 <strong>
-                  <Link
+                  <a
                     href="/sports"
                     className="text-orange-500 hover:underline"
                   >
                     Sports Betting Australia
-                  </Link>
+                  </a>
                   :
                 </strong>{" "}
                 Bet on football, basketball, tennis, and other popular sports
@@ -412,12 +412,12 @@ export default function AppDownloadContent() {
               </li>
               <li>
                 <strong>
-                  <Link
+                  <a
                     href="/esports"
                     className="text-orange-500 hover:underline"
                   >
                     Esports Betting Australia
-                  </Link>
+                  </a>
                   :
                 </strong>{" "}
                 Truedinkumbet also has several Esports games like League Of
