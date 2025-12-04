@@ -1,0 +1,18 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Header from '@components/Header';
+import Footer from '@components/Footer';
+import TermsHeroSection from '@components/terms/TermsHeroSection';
+import TermsContentSection from '@components/terms/TermsContentSection';
+---
+
+<Layout title="Terms and Conditions - Truedinkumbet Australia">
+  <div class="min-h-screen flex flex-col">
+    <Header client:load />
+    <main class="flex-1 pt-16">
+      <TermsHeroSection client:load />
+      <TermsContentSection client:load />
+    </main>
+    <Footer client:load />
+  </div>
+</Layout>
