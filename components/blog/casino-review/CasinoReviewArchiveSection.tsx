@@ -167,6 +167,17 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
       "https://www.bk8.services/wp-content/uploads/2021/09/How-Do-You-Compare-Online-Casinos-360x200.png",
     link: "/blog/casino-review/choose-the-best-casino-how-do-you-compare-online-casinos/",
   },
+  {
+    id: 17,
+    title: "How Crypto Gambling is Regulated Around the World",
+    description:
+      "The emergence of crypto-gambling and betting received different perceptions from various countries worldwide. The most defined stance came from the Japanese. Recently, the House of Representatives in Japan released a new regulation for crypto-asset, which affects the exchange and custodians of the digital currency. [...]",
+    category: "Casino Review",
+    date: "09-12-2020",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2020/12/How-Crypto-Gambling-Regulated-World-360x200.png",
+    link: "/blog/casino-review/how-crypto-gambling-is-regulated-around-the-world/",
+  },
 ];
 
 const recentPosts = [
