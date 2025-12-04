@@ -3,6 +3,8 @@ import Footer from "@/components/Footer";
 import CasinoReviewArticleContent from "@/components/blog/casino-review/CasinoReviewArticleContent";
 
 const articleSlugs = [
+  "how-crypto-gambling-is-regulated-around-the-world",
+  "cryptocurrency-vs-traditional-currency-in-online-casino",
   "why-bitcoin-or-other-cryptocurrencies-and-casinos-are-great-together",
   "what-is-cryptocurrency-casino",
   "have-you-truedinkumbet",
