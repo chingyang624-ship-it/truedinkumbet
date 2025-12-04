@@ -115,7 +115,7 @@ export default function PopularGamesSection() {
         <div className="relative">
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-8">
             {getVisibleGames().map((game) => (
-              <a key={game.id} href="/slots" className="group cursor-pointer">
+              <a key={game.id} href="https://truedinkumbet.com/RFSEOTDK" target="_blank" rel="sponsored noopener noreferrer" className="group cursor-pointer">
                 <div className="rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-all">
                   <img
                     src={game.image}
