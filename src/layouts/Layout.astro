@@ -1,0 +1,46 @@
+---
+import '../styles/globals.css';
+
+interface Props {
+  title?: string;
+  description?: string;
+}
+
+const { title = 'Truedinkumbet Australia: Best Trusted Online Casino & Betting Site 2025', description = 'Join Truedinkumbet Australia for the ultimate gaming experience. Play Slots, Live Casino & Sports Betting with instant crypto withdrawals. Claim your 100% Welcome Bonus now!' } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#1f2937" />
+    <title>{title}</title>
+    <meta name="description" content={description} />
+    <meta name="keywords" content="Truedinkumbet Australia, Truedinkumbet casino login, best online casino Australia 2025, trusted betting site Australia, crypto casino AU, Truedinkumbet app download" />
+    <meta name="author" content="Truedinkumbet Australia Team" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://truedinkumbetaucasino.com/" />
+    
+    <!-- OpenGraph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Truedinkumbet Casino" />
+    <meta property="og:title" content="Truedinkumbet: #1 Trusted Casino in Australia" />
+    <meta property="og:description" content="Play with confidence. Licensed, Secure, and Fast Payouts. Join 50,000+ Aussie players today." />
+    <meta property="og:url" content="https://truedinkumbetaucasino.com/" />
+    <meta property="og:image" content="https://static.gwvkyk.com/media/5307c1b56d296b57af7db.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="en_AU" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@truedinkumbet" />
+    <meta name="twitter:title" content="Truedinkumbet Australia - Play & Win" />
+    <meta name="twitter:description" content="Best odds, huge jackpots, and instant withdrawals." />
+    <meta name="twitter:image" content="https://static.gwvkyk.com/media/5307c1b56d296b57af7db.png" />
+  </head>
+  <body>
+    <slot />
+  </body>
+</html>
