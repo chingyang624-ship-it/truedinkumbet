@@ -13,6 +13,7 @@ const articleSlugs = [
   "genting-casino-vs-online-casino",
   "what-is-gaming-curacao",
   "top-5-e-wallets-to-use-in-casino-australia",
+  "the-most-important-slot-machine-winners-in-history",
 ];
 
 export async function generateStaticParams() {
