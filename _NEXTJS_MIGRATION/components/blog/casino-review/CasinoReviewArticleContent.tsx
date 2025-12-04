@@ -98,16 +98,15 @@ export default function CasinoReviewArticleContent({ slug }: { slug: string }) {
         </div>
 
         {/* Article Content */}
-        <div className="prose prose-lg max-w-none mb-12">
+        <div className="mb-12">
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
             {article.description}
           </p>
 
           {article.content && (
-            <div
-              dangerouslySetInnerHTML={{ __html: article.content }}
-              className="text-gray-700 leading-relaxed space-y-6"
-            />
+            <div className="text-gray-700 leading-relaxed space-y-6">
+              <div dangerouslySetInnerHTML={{ __html: article.content }} />
+            </div>
           )}
         </div>
 
