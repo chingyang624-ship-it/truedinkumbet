@@ -380,7 +380,7 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
     id: 34,
     title: "How Old Should I Be To Use An Online Casino Service?",
     description:
-      "The legal age for gambling varies distinctively according to location. Hence, the big question, how old a person should be to legally use an online casino sevice? The legal gambling age in Malaysia is 21 years. Because Malaysia is predominantly a Muslim country, and Muslims can not participate in gambling under Sharia law, that is [...]",
+      "The legal age for gambling varies distinctively according to location. Hence, the big question, how old a person should be to legally use an online casino sevice? The legal gambling age in Australia is 18 years. Because Australia has strict regulations around gambling, participants must adhere to these laws to ensure legal compliance. That is [...]",
     category: "Casino Review",
     date: "23-11-2020",
     image:
