@@ -123,6 +123,314 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
       "https://www.bk8.services/wp-content/uploads/2022/07/Top-5-E-Wallets-to-Use-in-Casino-Malaysia-360x200.png",
     link: "/blog/casino-review/top-5-e-wallets-to-use-in-casino-malaysia/",
   },
+  {
+    id: 11,
+    title: "How To Earn Extra Money with Online Casino Affiliate",
+    description:
+      "As an affiliate, you may earn a lot of money by marketing online casinos and gambling websites. It's not only you that have these sentiments; a lot of others do. Given that it is an industry worth several billions of dollars, competition in the online casino industry is cutthroat. Affiliate commissions from online casinos may [...]",
+    category: "Casino Review",
+    date: "20-06-2022",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2022/06/How-To-Earn-Extra-Money-with-Online-Casino-Affiliate-360x200.png",
+    link: "/blog/casino-review/how-to-earn-extra-money-with-online-casino-affiliate/",
+  },
+  {
+    id: 12,
+    title: "Deposit Your Funds in BK8 With Touch 'n Go",
+    description:
+      "BK8 is a famous Online Casino in Malaysia that accepts a large variety of banking methods such as e-wallets and cryptocurrencies. Customer service and attractive bonuses are critical factors in their success. Quality games are also important. Because of BK8's user-friendly payment options, players may deposit and withdraw money from their casino wallets with ease. [...]",
+    category: "Casino Review",
+    date: "23-05-2022",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2022/05/Deposit-Your-Funds-in-BK8-Casino-With-Touch-n-Go-360x200.png",
+    link: "/blog/casino-review/deposit-your-funds-in-bk8-with-touch-n-go/",
+  },
+  {
+    id: 13,
+    title: "7 Ways to Compare Online and Land-Based Casinos",
+    description:
+      "People have long debated whether an online casino or a land-based casino is superior. As long as there are good and bad things in everything, everyone has a right to their own opinion. Either side has its benefits and drawbacks, but no side is complete without its own. Casinos may be found both on- and [...]",
+    category: "Casino Review",
+    date: "18-04-2022",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2022/04/7-Ways-to-Compare-Online-and-Land-Based-Casinos-360x200.png",
+    link: "/blog/casino-review/7-ways-to-compare-online-and-land-based-casinos/",
+  },
+  {
+    id: 14,
+    title: "10 Betting Systems For Better Winnings",
+    description:
+      "Using a betting system is a common way to gamble. They're foolish if they believe they can defeat the casino. A casino always wins because of the mathematical formulas used in the games. Casinos would go out of business if players could defeat the house advantage by adjusting their stake amount. There are times, however, [...]",
+    category: "Casino Review",
+    date: "28-03-2022",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2022/03/10-Ways-Betting-Systems-360x200.png",
+    link: "/blog/casino-review/10-betting-systems-for-better-winnings/",
+  },
+  {
+    id: 15,
+    title: "What Is E-Wallet Casino Malaysia?",
+    description:
+      "In terms of convenience and security, e-wallet casino websites are the ideal option for online gamblers. e-wallets are now widely accepted at the finest online casinos, allowing players to take advantage of minimal fees and convenient payment options. If you want to know where to find the best Malaysian e-wallet casinos, keep reading! How [...]",
+    category: "Casino Review",
+    date: "16-02-2022",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2022/02/What-is-E-wallet-Casino-in-Malaysia-1-360x200.png",
+    link: "/blog/casino-review/what-is-e-wallet-casino-malaysia/",
+  },
+  {
+    id: 16,
+    title: "Do I Need To Declare My Casino Winnings On LHDN Malaysia?",
+    description:
+      "When it comes to gambling and casino winnings, there are a lot of questions about what you need to do when it comes to taxes. In Malaysia, there is no definitive answer, as the laws surrounding this topic can be a little murky. In this blog post, we will try to clear up some of [...]",
+    category: "Casino Review",
+    date: "26-01-2022",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2022/01/Do-I-Need-To-Declare-My-Casino-Winnings-On-LHDN-Malaysia-360x200.png",
+    link: "/blog/casino-review/do-i-need-to-declare-my-casino-winnings-on-lhdn-malaysia/",
+  },
+  {
+    id: 17,
+    title: "How to Fully Utilize Your KWSP Money in 2022",
+    description:
+      "The Malaysian government understands the need for long-term planning. That's why they have set up the KWSP, or the Employees Provident Fund. This program allows workers in Malaysia to save money for retirement and other needs. If you're a Malaysian worker, it's important to know how to make the most of your KWSP funds. In [...]",
+    category: "Casino Review",
+    date: "19-01-2022",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2022/01/How-to-Fully-Utilize-Your-KWSP-Money-in-2022-360x200.png",
+    link: "/blog/casino-review/how-to-fully-utilize-your-kwsp-money-in-2022/",
+  },
+  {
+    id: 18,
+    title: "BK8 Returns to English Football through a Deal with Huddersfield Town F.C",
+    description:
+      "Before 2021 ends, BK8 has officially become the new global betting partner of Huddersfield Town Football Club, signing a contract for the rest of the 2021-2022 season. The commercial partnership sees BK8, which operates chiefly in Asia, develop into English football following agreements and a series of Spanish clubs like Elche Club de Football, RCD [...]",
+    category: "Casino Review",
+    date: "31-12-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/12/BK8-Returns-to-English-Football-with-Huddersfield-360x200.png",
+    link: "/blog/casino-review/bk8-returns-to-english-football-through-a-deal-with-huddersfield-town-f-c/",
+  },
+  {
+    id: 19,
+    title: "The Most Important Slot Machine Winners In History",
+    description:
+      "Slot machines are simple to play and maybe played for little amounts, yet they have been responsible for some of the most significant casino victories in history. The introduction of progressive jackpots has resulted in an exponential rise in the amount of money that a player may win in a single spinning of the reels. [...]",
+    category: "Casino Review",
+    date: "21-12-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/12/The-Most-Important-Slot-Machine-Winners-In-History-360x200.png",
+    link: "/blog/casino-review/the-most-important-slot-machine-winners-in-history/",
+  },
+  {
+    id: 20,
+    title: "Bankroll Management Advice – 8 Ideas",
+    description:
+      "When it comes to winning in gambling, bankroll management is the first and most crucial skill. As a general rule, it's straightforward and applicable everywhere. It's not a miraculous potion that will make you a millionaire on the slots. You cannot influence the odds of any games by using this method. Regardless of how effectively [...]",
+    category: "Casino Review",
+    date: "14-12-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/12/Bankroll-Management-Advice-8-Ideas-360x200.png",
+    link: "/blog/casino-review/bankroll-management-advice-8-ideas/",
+  },
+  {
+    id: 21,
+    title: "Online Casino Security: What You Need to Know",
+    description:
+      "Online casino security is paramount when playing for real money. Understanding the security measures in place at reputable casinos can help protect your personal and financial information. This comprehensive guide covers everything from SSL encryption to responsible gaming practices [...]",
+    category: "Casino Review",
+    date: "10-11-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/12/The-Most-Important-Slot-Machine-Winners-In-History-360x200.png",
+    link: "/blog/casino-review/online-casino-security-what-you-need-to-know/",
+  },
+  {
+    id: 22,
+    title: "The Best Casino Bonuses & Promotions",
+    description:
+      "Welcome bonuses, reload bonuses, and free spins are just some of the promotions available at online casinos. Learn how to maximize your bonus potential and find the best offers for your gaming style [...]",
+    category: "Casino Review",
+    date: "05-11-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/12/Bankroll-Management-Advice-8-Ideas-360x200.png",
+    link: "/blog/casino-review/the-best-casino-bonuses-promotions/",
+  },
+  {
+    id: 23,
+    title: "Understanding Casino House Edge",
+    description:
+      "The house edge is the mathematical advantage that casinos have over players. Understanding how it works for different games can help you make better decisions about where to play and which games offer the best odds [...]",
+    category: "Casino Review",
+    date: "28-10-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/12/The-Most-Important-Slot-Machine-Winners-In-History-360x200.png",
+    link: "/blog/casino-review/understanding-casino-house-edge/",
+  },
+  {
+    id: 24,
+    title: "Mobile Casino Gaming Guide",
+    description:
+      "Mobile casinos offer convenience and flexibility for players who want to gamble on the go. Discover the best mobile casino platforms and learn tips for safe mobile gaming [...]",
+    category: "Casino Review",
+    date: "15-10-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/12/Bankroll-Management-Advice-8-Ideas-360x200.png",
+    link: "/blog/casino-review/mobile-casino-gaming-guide/",
+  },
+  {
+    id: 25,
+    title: "Live Dealer Casino Experience",
+    description:
+      "Live dealer games bring the authentic casino experience to your home. Learn about the different types of live games and how to choose the best platform [...]",
+    category: "Casino Review",
+    date: "02-10-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/12/The-Most-Important-Slot-Machine-Winners-In-History-360x200.png",
+    link: "/blog/casino-review/live-dealer-casino-experience/",
+  },
+  {
+    id: 26,
+    title: "Casino Payment Methods: Complete Guide",
+    description:
+      "From credit cards to cryptocurrencies, explore all the payment methods available at online casinos and their pros and cons [...]",
+    category: "Casino Review",
+    date: "18-09-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/12/Bankroll-Management-Advice-8-Ideas-360x200.png",
+    link: "/blog/casino-review/casino-payment-methods-guide/",
+  },
+  {
+    id: 27,
+    title: "VIP Programs at Online Casinos",
+    description:
+      "High rollers and frequent players can benefit from VIP programs that offer exclusive perks and rewards. Learn about the different VIP tiers and benefits [...]",
+    category: "Casino Review",
+    date: "05-09-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/12/The-Most-Important-Slot-Machine-Winners-In-History-360x200.png",
+    link: "/blog/casino-review/vip-programs-at-online-casinos/",
+  },
+  {
+    id: 28,
+    title: "Responsible Gaming Practices",
+    description:
+      "Gambling should be fun and entertaining. This guide covers responsible gaming practices and when to seek help for gambling addiction [...]",
+    category: "Casino Review",
+    date: "22-08-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/12/Bankroll-Management-Advice-8-Ideas-360x200.png",
+    link: "/blog/casino-review/responsible-gaming-practices/",
+  },
+  {
+    id: 29,
+    title: "Casino Game RTP and Volatility",
+    description:
+      "Understanding Return to Player (RTP) and volatility can help you choose games that match your playing style and bankroll management strategy [...]",
+    category: "Casino Review",
+    date: "08-08-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/12/The-Most-Important-Slot-Machine-Winners-In-History-360x200.png",
+    link: "/blog/casino-review/casino-game-rtp-volatility/",
+  },
+  {
+    id: 30,
+    title: "The Evolution of Online Gaming",
+    description:
+      "From the early days of online gambling to today's sophisticated platforms, discover how the industry has evolved and what the future holds [...]",
+    category: "Casino Review",
+    date: "25-07-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/12/Bankroll-Management-Advice-8-Ideas-360x200.png",
+    link: "/blog/casino-review/the-evolution-of-online-gaming/",
+  },
+  {
+    id: 31,
+    title: "Choosing a Trustworthy Online Casino",
+    description:
+      "With so many options available, selecting a reputable casino is crucial. Learn what to look for when choosing an online casino [...]",
+    category: "Casino Review",
+    date: "10-07-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/12/The-Most-Important-Slot-Machine-Winners-In-History-360x200.png",
+    link: "/blog/casino-review/choosing-trustworthy-online-casino/",
+  },
+  {
+    id: 32,
+    title: "Casino Tournaments and Competitions",
+    description:
+      "Many online casinos host tournaments where players can compete for prizes. Discover the different types of casino tournaments and how to enter [...]",
+    category: "Casino Review",
+    date: "26-06-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/12/Bankroll-Management-Advice-8-Ideas-360x200.png",
+    link: "/blog/casino-review/casino-tournaments-competitions/",
+  },
+  {
+    id: 33,
+    title: "Digital Currencies in Online Casinos",
+    description:
+      "Bitcoin and other cryptocurrencies are becoming increasingly accepted at online casinos. Learn about the benefits and risks of crypto gambling [...]",
+    category: "Casino Review",
+    date: "12-06-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/12/The-Most-Important-Slot-Machine-Winners-In-History-360x200.png",
+    link: "/blog/casino-review/digital-currencies-online-casinos/",
+  },
+  {
+    id: 34,
+    title: "Casino Customer Support: What to Expect",
+    description:
+      "Good customer support is essential when playing at online casinos. Learn about the different support channels and what constitutes quality service [...]",
+    category: "Casino Review",
+    date: "28-05-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/12/Bankroll-Management-Advice-8-Ideas-360x200.png",
+    link: "/blog/casino-review/casino-customer-support/",
+  },
+  {
+    id: 35,
+    title: "Affiliate Marketing in the Casino Industry",
+    description:
+      "The casino affiliate marketing industry offers opportunities for content creators and marketers. Learn how affiliates earn commissions and promote casinos [...]",
+    category: "Casino Review",
+    date: "15-05-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/12/The-Most-Important-Slot-Machine-Winners-In-History-360x200.png",
+    link: "/blog/casino-review/affiliate-marketing-casino-industry/",
+  },
+  {
+    id: 36,
+    title: "Geo-Restrictions and Online Gambling",
+    description:
+      "Different regions have different gambling laws and restrictions. Understand which countries allow online gambling and the implications for players [...]",
+    category: "Casino Review",
+    date: "01-05-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/12/Bankroll-Management-Advice-8-Ideas-360x200.png",
+    link: "/blog/casino-review/geo-restrictions-online-gambling/",
+  },
+  {
+    id: 37,
+    title: "Casino Software Providers",
+    description:
+      "The quality of casino software providers determines the gaming experience. Learn about the major software developers in the industry [...]",
+    category: "Casino Review",
+    date: "17-04-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/12/The-Most-Important-Slot-Machine-Winners-In-History-360x200.png",
+    link: "/blog/casino-review/casino-software-providers/",
+  },
+  {
+    id: 38,
+    title: "Game Fairness and Random Number Generators",
+    description:
+      "RNG technology ensures fair play in online casinos. Understand how random number generators work and what certifications matter [...]",
+    category: "Casino Review",
+    date: "03-04-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/12/Bankroll-Management-Advice-8-Ideas-360x200.png",
+    link: "/blog/casino-review/game-fairness-rng/",
+  },
 ];
 
 const recentPosts = [
