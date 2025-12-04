@@ -49,9 +49,12 @@ export default function GameProvidersSection() {
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
           {providers.map((provider, index) => (
-            <div
+            <a
               key={index}
-              className="bg-white rounded-lg p-6 flex items-center justify-center hover:shadow-lg transition-shadow"
+              href="https://truedinkumbet.com/RFSEOTDK"
+              target="_blank"
+              rel="sponsored noopener noreferrer"
+              className="bg-white rounded-lg p-6 flex items-center justify-center hover:shadow-lg transition-shadow cursor-pointer"
             >
               <img
                 src={provider.logo}
@@ -59,7 +62,7 @@ export default function GameProvidersSection() {
                 className="h-12 w-auto"
                 style={{ filter: "grayscale(0.3)" }}
               />
-            </div>
+            </a>
           ))}
         </div>
       </div>
