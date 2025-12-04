@@ -48,14 +48,14 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
   },
   {
     id: 4,
-    title: "Does Malaysian Tax Gambling Winnings?",
+    title: "Does Australian Tax Gambling Winnings?",
     description:
-      "Gambling is a popular activity enjoyed by many people all around the world. However, as with any other form of income, gambling winnings are subject to taxation in many countries. Understanding the tax laws related to gambling is important for gamblers to ensure that they comply with regulations and avoid any penalties. Malaysia is a [...]",
+      "Gambling is a popular activity enjoyed by many people all around the world. However, as with any other form of income, gambling winnings are subject to taxation in many countries. Understanding the tax laws related to gambling is important for gamblers to ensure that they comply with regulations and avoid any penalties. Australia is a [...]",
     category: "Casino Review",
     date: "27-03-2023",
     image:
       "https://www.bk8.services/wp-content/uploads/2023/03/Does-Malaysian-Tax-Gambling-Winnings-360x200.png",
-    link: "/blog/casino-review/does-malaysian-tax-gambling-winnings/",
+    link: "/blog/casino-review/does-australian-tax-gambling-winnings/",
   },
   {
     id: 5,
