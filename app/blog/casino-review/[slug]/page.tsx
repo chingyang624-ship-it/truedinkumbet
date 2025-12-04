@@ -18,6 +18,7 @@ const articleSlugs = [
   "what-is-the-process-for-online-casino-bonuses",
   "you-should-stop-gambling-if-you-see-any-of-these-6-signs",
   "join-truedinkumbet-affiliate-program-and-transform-your-ability-to-pure-profit",
+  "kelly-smith-becomes-truedinkumbet-brand-ambassador",
 ];
 
 export async function generateStaticParams() {

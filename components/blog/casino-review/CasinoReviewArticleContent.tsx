@@ -1883,6 +1883,102 @@ const articles: Article[] = [
       </ul>
     </div>`,
   },
+  {
+    id: 22,
+    title: "Arsenal Legend Kelly Smith Signs Historic Deal as Truedinkumbet Ambassador",
+    description:
+      "In a massive move for the representation of women in sports betting, Truedinkumbet has officially signed a deal with former England and Arsenal superstar, Kelly Smith. This appointment is a game-changer, making Kelly Smith the first female footballer to represent an international betting brand. [...]",
+    category: "Casino Review",
+    date: "15-11-2021",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2021/11/Kelly-Smith-Truedinkumbet-Ambassador-360x200.png",
+    link: "/blog/casino-review/kelly-smith-becomes-truedinkumbet-brand-ambassador/",
+    author: "Terrence Spove",
+    content: `<div class="single-post-wrapper text-area">
+      <div class="post-info clearfix mb-8">
+        <div class="post-info__left">
+          <strong>Categories:</strong> <a href="/blog/category/casino-review/" rel="category tag">Casino Review</a>, <a href="/blog/category/sports-betting-news/" rel="category tag">Sports Betting News</a>
+          <span class="seperator">|</span>
+          <strong>Published by:</strong> Terrence Spove
+        </div>
+        <div class="post-info__right">
+          <span class="date">15/11/2021</span>
+        </div>
+      </div>
+
+      <h1 class="text-4xl font-bold mt-10 mb-6"><b>Arsenal Legend Kelly Smith Signs Historic Deal as Truedinkumbet Ambassador</b></h1>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">In a massive move for the representation of women in sports betting, Truedinkumbet has officially signed a deal with former England and Arsenal superstar, Kelly Smith.</span></p>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">This appointment is a game-changer, making Kelly Smith the first female footballer to represent an international betting brand. For Aussie punters who follow the Women's Super League (WSL) or cheer on the Matildas, Smith is a household name. She had a remarkable career, securing 20 trophies with Arsenal and earning over 100 caps for her country.</span></p>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">The partnership signals a new era for Truedinkumbet, aligning the brand with the exploding popularity of women's football—a trend we are seeing globally and right here in Australia with the success of the A-League Women.</span></p>
+
+      <h2 class="text-3xl font-bold mt-10 mb-6"><b>More Than Just a Sponsorship</b></h2>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">This isn't just a logo on a shirt. To show a fair dinkum commitment to the collaboration, Truedinkumbet has made a significant donation to Kelly's chosen charity, We Mind Kelly Matters.</span></p>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Mental health is a huge conversation in Australian sport right now, and the sole aim of this charity is to promote mental health wellness and help prevent suicide. It's a touch of class from the betting operator to support such a vital cause.</span></p>
+
+      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Mutual Respect and Shared Values</b></h2>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">A deal like this only works when values align. Kelly Smith is a pioneer in the women's game, paving the way for modern stars like Sam Kerr.</span></p>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">In her statement, Kelly said:</span></p>
+
+      <blockquote class="border-l-4 border-gray-300 pl-4 py-4 my-6 text-lg">
+        <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">"I'm delighted to be partnering with Truedinkumbet. I was extremely pleased by how they wanted to assist focus on the women's game today and in the future. Then to make a significant gift to a charity near and dear to my heart blew me away. If I can assist them to achieve their goals by offering my advice and experience, I believe we will have a very fruitful collaboration."</span></p>
+      </blockquote>
+
+      <h2 class="text-3xl font-bold mt-10 mb-6"><b>A New Direction for Truedinkumbet</b></h2>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Michael Gatt, Truedinkumbet's European Managing Director, highlighted that this partnership signals a strategic shift.</span></p>
+
+      <blockquote class="border-l-4 border-gray-300 pl-4 py-4 my-6 text-lg">
+        <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">"We are pleased to be working with Kelly... The cooperation reflects our brand's new ideals. We have already secured agreements with numerous La Liga teams, and we now aim to make an impact not just in elite football, but also in women's and grassroots football."</span></p>
+      </blockquote>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">For Australian users, this is a clear sign that Truedinkumbet is looking to expand its markets. We can likely expect to see more comprehensive odds and coverage for Women's Football, from the English WSL to potentially local Australian leagues.</span></p>
+
+      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Who is Kelly Smith? (A Quick Bio)</b></h2>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">If you've only recently jumped on the women's football bandwagon, here is why Kelly Smith is absolute royalty:</span></p>
+
+      <h3 class="text-2xl font-bold mt-8 mb-4"><b>Club Legend</b></h3>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">She is best known for her dominant spells at Arsenal, where she won 20 trophies and scored 125 goals in 144 appearances (including 12 goals in just 24 Champions League games).</span></p>
+
+      <h3 class="text-2xl font-bold mt-8 mb-4"><b>International Star</b></h3>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">She scored 46 goals for the Lionesses (England), making her their all-time top scorer for a long period.</span></p>
+
+      <h3 class="text-2xl font-bold mt-8 mb-4"><b>USA Stint</b></h3>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Like many top Aussies do today, she also played professionally in the USA for clubs like the Boston Breakers.</span></p>
+
+      <h3 class="text-2xl font-bold mt-8 mb-4"><b>Accolades</b></h3>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Nominated four times for FIFA World Player of the Year.</span></p>
+
+      <h2 class="text-3xl font-bold mt-10 mb-6"><b>What This Means for Aussie Punters</b></h2>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Truedinkumbet is clearly positioning itself as a forward-thinking platform. By partnering with a female icon, they are acknowledging that sports betting isn't just a "bloke's game" anymore.</span></p>
+
+      <h3 class="text-2xl font-bold mt-8 mb-4"><b>Better Markets</b></h3>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Expect to see increased markets for female sporting events.</span></p>
+
+      <h3 class="text-2xl font-bold mt-8 mb-4"><b>Credibility</b></h3>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Partnering with a respected pundit (Kelly is now a regular on Sky Sports and BT Sport) adds a layer of trust and authority to the brand.</span></p>
+
+      <h3 class="text-2xl font-bold mt-8 mb-4"><b>Community</b></h3>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">The focus on mental health charity work resonates well with the Australian value of looking out for your mates.</span></p>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Whether you are an Arsenal fan or just a supporter of the women's game, this partnership is a win-win. It brings more visibility to women's sports and brings a legendary figure into the fold of the betting community.</span></p>
+    </div>`,
+  },
 ];
 
 export default function CasinoReviewArticleContent({ slug }: { slug: string }) {
