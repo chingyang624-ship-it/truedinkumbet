@@ -126,6 +126,7 @@ export default function CryptoCasinoPage() {
         <CryptoCasinoFeaturesSection />
         <CryptoCasinoFAQSection />
         <CryptoCasinoComprehensiveSEOContent />
+        <CryptoCasinoArticleContent />
         <RelatedGamesSection relatedGames={relatedGames} />
       </main>
       <Footer />
