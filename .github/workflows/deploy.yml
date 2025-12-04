@@ -1,58 +1,40 @@
-name: Deploy to GitHub Pages
+name: Deploy Astro to GitHub Pages
 
 on:
   push:
-    branches: [main]
-
-permissions:
-  contents: read
-  pages: write
-  id-token: write
-
-concurrency:
-  group: "pages"
-  cancel-in-progress: false
+    branches:
+      - main
 
 jobs:
-  build:
+  build-and-deploy:
     runs-on: ubuntu-latest
+    
     steps:
-      - name: Checkout
+      - name: Checkout code
         uses: actions/checkout@v4
-
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 10.14.0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "18"
-          cache: "pnpm"
+          node-version: '20'
+          cache: 'pnpm'
 
-      - name: Clean cache
-        run: rm -rf node_modules .next _NEXTJS_MIGRATION/node_modules _NEXTJS_MIGRATION/.next
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: 10.20.0
 
       - name: Install dependencies
-        run: pnpm install --recursive --no-frozen-lockfile
+        run: pnpm install
 
-      - name: Build
-        run: cd _NEXTJS_MIGRATION && NODE_OPTIONS="--max-old-space-size=4096" pnpm run build
-        timeout-minutes: 30
+      - name: Build Astro site
+        run: pnpm run build
+        env:
+          NODE_OPTIONS: "--max-old-space-size=4096"
 
-      - name: Upload artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: "_NEXTJS_MIGRATION/out"
-
-  deploy:
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    needs: build
-    runs-on: ubuntu-latest
-    steps:
       - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          cname: truedinkumbetaucasino.com
