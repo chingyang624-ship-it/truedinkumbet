@@ -129,7 +129,7 @@ export default function Footer() {
                     href: "https://truedinkumbet.com/affiliate",
                   },
                 ].map((link) => (
-                  <Link
+                  <a
                     key={link.name}
                     href={link.href}
                     {...(link.href.startsWith("http") && {
@@ -139,7 +139,7 @@ export default function Footer() {
                     className="block text-black hover:text-gray-600 transition-colors text-sm"
                   >
                     {link.name}
-                  </Link>
+                  </a>
                 ))}
               </div>
             </div>
