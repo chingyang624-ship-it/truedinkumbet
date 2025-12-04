@@ -14,6 +14,7 @@ const articleSlugs = [
   "what-is-gaming-curacao",
   "top-5-e-wallets-to-use-in-casino-australia",
   "the-most-important-slot-machine-winners-in-history",
+  "bankroll-management-advice-8-ideas",
 ];
 
 export async function generateStaticParams() {
