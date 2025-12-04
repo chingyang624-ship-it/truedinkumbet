@@ -194,10 +194,24 @@ const categories = [
 
 export default function CasinoReviewArchiveSection() {
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 6;
-  const totalPages = Math.ceil(casinoReviewArticles.length / itemsPerPage);
 
-  const startIndex = (currentPage - 1) * itemsPerPage;
+  // Page 1: 20 items, Page 2+: 6 items each
+  const getItemsPerPage = (page: number) => (page === 1 ? 20 : 6);
+  const itemsPerPage = getItemsPerPage(currentPage);
+
+  // Calculate pages differently: first page has 20, rest have 6
+  let totalPages = 1;
+  let remaining = casinoReviewArticles.length - 20;
+  if (remaining > 0) {
+    totalPages += Math.ceil(remaining / 6);
+  }
+
+  let startIndex = 0;
+  if (currentPage === 1) {
+    startIndex = 0;
+  } else {
+    startIndex = 20 + (currentPage - 2) * 6;
+  }
   const endIndex = startIndex + itemsPerPage;
   const displayedArticles = casinoReviewArticles.slice(startIndex, endIndex);
 
@@ -212,7 +226,7 @@ export default function CasinoReviewArchiveSection() {
             </h1>
 
             {/* Article Grid */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
+            <div className={`grid ${currentPage === 1 ? 'grid-cols-1 md:grid-cols-2' : 'grid-cols-1 md:grid-cols-2'} gap-8 mb-12`}>
               {displayedArticles.map((article) => (
                 <div
                   key={article.id}
