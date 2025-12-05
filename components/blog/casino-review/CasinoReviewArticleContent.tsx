@@ -2432,7 +2432,11 @@ const articles: Article[] = [
 ];
 
 export default function CasinoReviewArticleContent({ slug }: { slug: string }) {
-  const article = articles.find((a) => a.link.includes(slug));
+  // Match the slug from the link, handling both with and without trailing slashes
+  const article = articles.find((a) => {
+    const linkSlug = a.link.replace(/^\/blog\/casino-review\//, '').replace(/\/$/, '');
+    return linkSlug === slug;
+  });
 
   if (!article) {
     return (
