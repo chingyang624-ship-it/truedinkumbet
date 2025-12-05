@@ -370,10 +370,7 @@ export default function AppDownloadContent() {
               </li>
               <li>
                 <strong>
-                  <a
-                    href="/slots"
-                    className="text-orange-500 hover:underline"
-                  >
+                  <a href="/slots" className="text-orange-500 hover:underline">
                     Slot Australia
                   </a>
                   :
@@ -399,10 +396,7 @@ export default function AppDownloadContent() {
               </li>
               <li>
                 <strong>
-                  <a
-                    href="/sports"
-                    className="text-orange-500 hover:underline"
-                  >
+                  <a href="/sports" className="text-orange-500 hover:underline">
                     Sports Betting Australia
                   </a>
                   :

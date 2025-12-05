@@ -316,10 +316,7 @@ export default function FishingComprehensiveSEOContent() {
               </p>
               <ul className="list-disc pl-5 text-sm text-gray-500 space-y-1 mb-3">
                 <li>
-                  <a
-                    href="/slots"
-                    className="text-orange-500 hover:underline"
-                  >
+                  <a href="/slots" className="text-orange-500 hover:underline">
                     Slot Games
                   </a>{" "}
                   – Thousands of AUD-winning titles from Pragmatic Play,
@@ -336,10 +333,7 @@ export default function FishingComprehensiveSEOContent() {
                   in HD.
                 </li>
                 <li>
-                  <a
-                    href="/sports"
-                    className="text-orange-500 hover:underline"
-                  >
+                  <a href="/sports" className="text-orange-500 hover:underline">
                     Sports Betting
                   </a>{" "}
                   – Bet on football, basketball, and tennis with live odds.

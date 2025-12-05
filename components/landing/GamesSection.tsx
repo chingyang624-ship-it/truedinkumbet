@@ -63,7 +63,9 @@ export default function GamesSection() {
               <div key={index}>
                 <a
                   href={game.link}
-                  {...(isExternalLink ? { target: "_blank", rel: "sponsored noopener noreferrer" } : {})}
+                  {...(isExternalLink
+                    ? { target: "_blank", rel: "sponsored noopener noreferrer" }
+                    : {})}
                   className="block h-full bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-shadow"
                 >
                   <img
