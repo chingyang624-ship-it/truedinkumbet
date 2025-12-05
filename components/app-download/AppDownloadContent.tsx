@@ -12,7 +12,7 @@ export default function AppDownloadContent() {
               Over the last couple of years, Australia has been among the
               countries that have embraced online casino gaming. One of the
               online casinos that has been at the heart of this trend is
-              Truedinkumbet. It is one of Australia’s leading online casino
+              Truedinkumbet. It is one of Australia's leading online casino
               platforms that has become popular by offering users a great
               experience.
             </p>
@@ -25,7 +25,7 @@ export default function AppDownloadContent() {
             </p>
 
             <h2 className="text-2xl font-bold mb-4 text-gray-900">
-              Why Truedinkumbet is Australia’s Top Online Casino Platform
+              Why Truedinkumbet is Australia's Top Online Casino Platform
             </h2>
             <ul className="list-disc pl-6 mb-6 text-gray-600 space-y-2">
               <li>
@@ -92,20 +92,20 @@ export default function AppDownloadContent() {
             </ul>
             <p className="mb-6 text-gray-600">
               If you face any issues trying to login, you can reach out to
-              Truedinkumbet’s reliable customer support for further help.
+              Truedinkumbet's reliable customer support for further help.
             </p>
 
             <h3 className="text-xl font-bold mb-3 text-gray-900">
               Truedinkumbet Login Register Guide
             </h3>
             <p className="mb-4 text-gray-600">
-              If you don’t have an account, you will need to register. Follow
+              If you don't have an account, you will need to register. Follow
               these simple steps to create an account with Truedinkumbet:
             </p>
             <ul className="list-disc pl-6 mb-6 text-gray-600 space-y-2">
               <li>
                 <strong>Navigate to registration page:</strong> Open the
-                Truedinkumbet website or mobile app and click the “Join Now”
+                Truedinkumbet website or mobile app and click the "Join Now"
                 button on the homepage.
               </li>
               <li>
@@ -121,7 +121,7 @@ export default function AppDownloadContent() {
               </li>
               <li>
                 <strong>Deposit funds:</strong> Once registered, you can deposit
-                AUD and enjoy all of Truedinkumbet’s games immediately. After
+                AUD and enjoy all of Truedinkumbet's games immediately. After
                 making the deposit, remember to claim your welcome bonus if it
                 is not automatically credited to your account.
               </li>
@@ -139,14 +139,14 @@ export default function AppDownloadContent() {
             </p>
 
             <h2 className="text-2xl font-bold mb-4 text-gray-900">
-              How to Access the Truedinkumbet Site If It’s Blocked
+              How to Access the Truedinkumbet Site If It's Blocked
             </h2>
             <p className="mb-4 text-gray-600">
               As stated earlier, there could be times when Truedinkumbet
               Australia login may be blocked by local ISPs due to regulatory
               restrictions. To continue playing safely, you can use
               Truedinkumbet login alternative methods or the Truedinkumbet app
-              for uninterrupted access. Let’s explore some of the simple methods
+              for uninterrupted access. Let's explore some of the simple methods
               that you can use to access Truedinkumbet in such scenarios:
             </p>
 
@@ -178,7 +178,7 @@ export default function AppDownloadContent() {
               A VPN hides your IP address (location) and allows safe access to
               blocked sites, which also includes Truedinkumbet in this case
               whenever it is restricted. When using a VPN, you need to choose a
-              location in your VPN settings that doesn’t have gambling
+              location in your VPN settings that doesn't have gambling
               restrictions. To get started:
             </p>
             <ul className="list-disc pl-6 mb-4 text-gray-600 space-y-2">
@@ -205,7 +205,7 @@ export default function AppDownloadContent() {
             </p>
 
             <h3 className="text-xl font-bold mb-3 text-gray-900">
-              Method 3 – Using Cloudflare’s 1.1.1.1 App (WARP)
+              Method 3 – Using Cloudflare's 1.1.1.1 App (WARP)
             </h3>
             <p className="mb-4 text-gray-600">
               If you are using a mobile app, you can install the Cloudflare
@@ -248,7 +248,7 @@ export default function AppDownloadContent() {
             </h2>
             <p className="mb-6 text-gray-600">
               One of the major reasons for choosing Truedinkumbet over several
-              other online casinos is that it has a well-built mobile app. Let’s
+              other online casinos is that it has a well-built mobile app. Let's
               explore its capabilities.
             </p>
 
@@ -290,13 +290,13 @@ export default function AppDownloadContent() {
             <ul className="list-disc pl-6 mb-6 text-gray-600 space-y-2">
               <li>
                 <strong>Configure permissions:</strong> You need to first enable
-                “Install from Unknown Sources” in settings. This allows the
-                installation of APK files, so you don’t need to rely on the
+                "Install from Unknown Sources" in settings. This allows the
+                installation of APK files, so you don't need to rely on the
                 official Google Play Store.
               </li>
               <li>
                 <strong>
-                  Download the APK from Truedinkumbet’s official site:
+                  Download the APK from Truedinkumbet's official site:
                 </strong>{" "}
                 You will find this file on the Truedinkumbet homepage, just a
                 few pages below the header section. Make sure to take note of
@@ -334,8 +334,8 @@ export default function AppDownloadContent() {
                 your home screen or app drawer
               </li>
               <li>
-                <strong>Enter your username and password:</strong> If you don’t
-                have an account, tap on the “Join Now” button and follow the
+                <strong>Enter your username and password:</strong> If you don't
+                have an account, tap on the "Join Now" button and follow the
                 instructions to create your account.
               </li>
               <li>
@@ -469,7 +469,7 @@ export default function AppDownloadContent() {
             <ol className="list-decimal pl-6 mb-6 text-gray-600 space-y-2">
               <li>
                 <strong>Register Account:</strong> While on the homepage of the
-                Truedinkumbet website, click “Join Now,” complete your details,
+                Truedinkumbet website, click "Join Now," complete your details,
                 and verify your account for full access. Make sure you provider
                 the correct details to avoid issues during verification.
               </li>
@@ -517,11 +517,11 @@ export default function AppDownloadContent() {
                   How can I register a Truedinkumbet Australia account?
                 </h3>
                 <p className="text-gray-600">
-                  To register, click or tap on the “
+                  To register, click or tap on the "
                   <a href="/register" className="text-orange-500 font-bold">
                     Join Now
                   </a>
-                  ” button on the home, fill in your details, and verify using
+                  " button on the home, fill in your details, and verify using
                   your email or phone number.
                 </p>
               </div>
@@ -541,8 +541,8 @@ export default function AppDownloadContent() {
                   How do I download Truedinkumbet APK?
                 </h3>
                 <p className="text-gray-600">
-                  To install the APK, first enable “Install from Unknown
-                  Sources,” then download the APK from the{" "}
+                  To install the APK, first enable "Install from Unknown
+                  Sources," then download the APK from the{" "}
                   <a href="/" className="text-orange-500 font-bold">
                     {"\u00A0"}Truedinkumbet official site
                   </a>
@@ -554,7 +554,7 @@ export default function AppDownloadContent() {
                   What is a Truedinkumbet login alternative?
                 </h3>
                 <p className="text-gray-600">
-                  It’s an alternative site to access Truedinkumbet when the main
+                  It's an alternative site to access Truedinkumbet when the main
                   site is blocked by regulators.
                 </p>
               </div>
@@ -572,7 +572,7 @@ export default function AppDownloadContent() {
               players expect from a modern platform.
             </p>
             <p className="text-gray-600">
-              If you haven’t joined yet, register, download, and log in today to
+              If you haven't joined yet, register, download, and log in today to
               enjoy slots, live casino, and sportsbook betting.
             </p>
           </div>
@@ -590,24 +590,24 @@ export default function AppDownloadContent() {
                   </a>
                 </li>
                 <li>
-                  <Link href="#" className="text-orange-500 hover:underline">
-                    Texas Hold’em Poker Hands Rankings
-                  </Link>
+                  <a href="#" className="text-orange-500 hover:underline">
+                    Texas Hold'em Poker Hands Rankings
+                  </a>
                 </li>
                 <li>
-                  <Link href="#" className="text-orange-500 hover:underline">
+                  <a href="#" className="text-orange-500 hover:underline">
                     How to Win at Keno: 5 Tips that Actually Work
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link href="#" className="text-orange-500 hover:underline">
+                  <a href="#" className="text-orange-500 hover:underline">
                     How To Play Online Poker: A Step-by-Step Guide
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link href="#" className="text-orange-500 hover:underline">
+                  <a href="#" className="text-orange-500 hover:underline">
                     Online Roulette Tips 2025: How to Play Like a Pro
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -618,54 +618,54 @@ export default function AppDownloadContent() {
               </h3>
               <ul className="space-y-2 text-gray-600">
                 <li>
-                  <Link href="#" className="hover:text-orange-500">
+                  <a href="#" className="hover:text-orange-500">
                     2023 Chinese Zodiac Luck
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-orange-500">
+                  <a href="#" className="hover:text-orange-500">
                     Casino Review
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-orange-500">
+                  <a href="#" className="hover:text-orange-500">
                     Cryptocurrency Casino
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-orange-500">
+                  <a href="#" className="hover:text-orange-500">
                     Esports Review
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-orange-500">
+                  <a href="#" className="hover:text-orange-500">
                     Fishing Review
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-orange-500">
+                  <a href="#" className="hover:text-orange-500">
                     Live Casino Review
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-orange-500">
+                  <a href="#" className="hover:text-orange-500">
                     Lottery Review
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-orange-500">
+                  <a href="#" className="hover:text-orange-500">
                     Poker Review
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-orange-500">
+                  <a href="#" className="hover:text-orange-500">
                     Slots Review
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link href="#" className="hover:text-orange-500">
+                  <a href="#" className="hover:text-orange-500">
                     Sports Review
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -674,11 +674,11 @@ export default function AppDownloadContent() {
               <h3 className="text-xl font-bold mb-4 text-gray-900 border-b pb-2">
                 💵Truedinkumbet Promotions💵
               </h3>
-              <Link href="/register" className="block">
+              <a href="/register" className="block">
                 <div className="bg-orange-500 text-white py-4 rounded-lg font-bold hover:bg-orange-600 transition-colors">
                   Claim Your Bonus Now!
                 </div>
-              </Link>
+              </a>
             </div>
           </div>
         </div>
