@@ -53,12 +53,22 @@ export default function SlotsCarouselSection() {
               key={index}
               className="rounded-lg overflow-hidden shadow-lg hover:shadow-xl transition-shadow bg-white flex flex-col h-full"
             >
-              <div className="relative pb-[125%] flex-shrink-0">
-                <img
-                  src={game.image}
-                  alt={game.title}
-                  className="absolute inset-0 w-full h-full object-contain"
-                />
+              <div className="flex-shrink-0 overflow-hidden rounded-lg mb-0">
+                <a
+                  href="https://truedinkumbet.com/RFSEOTDK"
+                  target="_blank"
+                  rel="sponsored noopener"
+                  className="block"
+                >
+                  <img
+                    decoding="async"
+                    alt={`Truedinkumbet ${game.title} Slots Game`}
+                    loading="lazy"
+                    src={game.image}
+                    className="w-full h-auto object-contain"
+                    style={{ height: "200px" }}
+                  />
+                </a>
               </div>
               <div className="p-3">
                 <h3 className="font-bold text-sm text-gray-900">
