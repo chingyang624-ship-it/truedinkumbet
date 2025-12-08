@@ -44,58 +44,55 @@ export default function SlotsAllGamesGridSection() {
           Explore our complete collection of slot games
         </p>
 
-        <div style={{ display: "flex", justifyContent: "center" }}>
-          <div
-            style={{
-              display: "grid",
-              gridTemplateColumns: "repeat(7, minmax(140px, 1fr))",
-              gap: "16px",
-              padding: "15px 0",
-              maxWidth: "100%",
-              justifyContent: "center",
-            }}
-          >
-            {games.map((game, index) => (
-              <div
-                key={index}
+        <div
+          style={{
+            display: "grid",
+            gridTemplateColumns: "repeat(auto-fit, minmax(120px, 1fr))",
+            gap: "16px",
+            padding: "15px 0",
+            width: "100%",
+          }}
+        >
+          {games.map((game, index) => (
+            <div
+              key={index}
+              style={{
+                display: "flex",
+                flexDirection: "column",
+                alignItems: "center",
+                position: "relative",
+                textAlign: "center",
+              }}
+            >
+              <a
+                target="_blank"
+                rel="sponsored noopener"
+                href="https://truedinkumbet.com/RFSEOTDK"
                 style={{
-                  display: "flex",
-                  flexDirection: "column",
-                  alignItems: "center",
-                  position: "relative",
-                  textAlign: "center",
+                  cursor: "pointer",
+                  display: "block",
+                  width: "100%",
                 }}
               >
-                <a
-                  target="_blank"
-                  rel="sponsored noopener"
-                  href="https://truedinkumbet.com/RFSEOTDK"
+                <img
+                  loading="lazy"
+                  decoding="async"
+                  alt={`Truedinkumbet ${game.title}`}
+                  src={game.image}
                   style={{
+                    aspectRatio: "4 / 5",
                     cursor: "pointer",
                     display: "block",
                     width: "100%",
+                    height: "auto",
+                    objectFit: "contain",
+                    transition: "transform 0.3s ease",
+                    borderRadius: "8px",
                   }}
-                >
-                  <img
-                    loading="lazy"
-                    decoding="async"
-                    alt={`Truedinkumbet ${game.title}`}
-                    src={game.image}
-                    style={{
-                      aspectRatio: "4 / 5",
-                      cursor: "pointer",
-                      display: "block",
-                      width: "100%",
-                      height: "auto",
-                      objectFit: "contain",
-                      transition: "transform 0.3s ease",
-                      borderRadius: "8px",
-                    }}
-                  />
-                </a>
-              </div>
-            ))}
-          </div>
+                />
+              </a>
+            </div>
+          ))}
         </div>
       </div>
     </section>
