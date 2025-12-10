@@ -18,7 +18,7 @@ const articleSlugs = [
   "what-is-gaming-curacao",
   "how-to-earn-extra-money-with-online-casino-affiliate",
   "10-betting-systems-for-better-winnings",
-  "deposit-your-funds-in-truedinkumbet-with-touch-n-go",
+  "deposit-your-funds-in-truedinkumbet-with-ewallet",
   "7-ways-to-compare-online-and-land-based-casinos",
   "what-is-e-wallet-casino-australia",
   "do-i-need-to-declare-my-casino-winnings-in-australia",
@@ -32,10 +32,10 @@ const articleSlugs = [
   "choose-the-best-casino-how-do-you-compare-online-casinos",
   "which-is-better-online-casinos-versus-land-based-casinos",
   "mistakes-to-avoid-when-playing-online-gambling",
-  "online-gambling-trends-2021",
+  "online-gambling-trends-2026",
   "how-to-deposit-in-an-online-casino-australia",
   "how-old-should-i-be-to-use-an-online-casino-service",
-  "the-first-online-casino-malaysia-that-accepts-cryptocurrency",
+  "the-first-online-casino-australia-that-accepts-cryptocurrency",
   "how-is-the-gambling-industry-in-australia",
 ];
 
