@@ -92,14 +92,14 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
   },
   {
     id: 8,
-    title: "Genting Casino vs Online Casino",
+    title: "The Ultimate Showdown: Land-Based Casinos vs. Online Casinos in Australia (2025)",
     description:
-      "Since the dawn of time, gambling and casinos have been an integral part of our society. For hundreds of years, people have delighted in placing bets on sporting events, casino games, and some other lotteries. However, throughout time, there have been numerous alterations. The gaming industry has seen a tremendous change since the internet's arrival. [...]",
+      "Since the first poker machines appeared in Aussie pubs, gambling has been a core part of our culture. For decades, the pinnacle of this experience was visiting iconic venues like Crown Melbourne, Crown Perth, or The Star in Sydney and the Gold Coast. However, the digital revolution has shifted the battlefield. With the rise of premium online platforms like Truedinkumbet, players are voting with their wallets.",
     category: "Casino Review",
-    date: "22-08-2022",
+    date: "10-12-2025",
     image:
       "https://www.bk8.services/wp-content/uploads/2022/08/Genting-Casino-vs-Online-Casino-360x200.png",
-    link: "/blog/casino-review/genting-casino-vs-online-casino/",
+    link: "/blog/casino-review/land-based-casino-vs-online-casino/",
   },
   {
     id: 9,
