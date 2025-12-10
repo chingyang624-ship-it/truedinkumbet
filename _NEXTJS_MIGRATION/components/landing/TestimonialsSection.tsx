@@ -11,7 +11,7 @@ export default function TestimonialsSection() {
       id: 2,
       rating: 5,
       text: "Truedinkumbet Online Casino is licensed and regulated, ensuring a safe and secure gambling experience.",
-      source: "onlinecasinomalaysia.bet",
+      source: "onlinecasinoaustralia.bet",
       verified: true,
     },
     {
