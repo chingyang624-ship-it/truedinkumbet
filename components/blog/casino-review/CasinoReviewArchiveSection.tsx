@@ -168,7 +168,7 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
     link: "/blog/casino-review/you-should-stop-gambling-if-you-see-any-of-these-6-signs/",
   },
   {
-    id: 16,
+    id: 17,
     title: "Choose the Best Casino: How Do You Compare Online Casinos?",
     description:
       "The growth of online casinos was one of the most successful business stories in recent years. For around two decades, these platforms have gone from fringe interest to massive revenue producers that raised $53.7 billion in 2019 alone! It should increase by at least 11% by 2027. [...]",
