@@ -157,7 +157,7 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
     link: "/blog/casino-review/what-is-the-process-for-online-casino-bonuses/",
   },
   {
-    id: 13,
+    id: 14,
     title: "You Should Stop Gambling If You See Any Of These 6 Signs",
     description:
       "It's easy to get addicted to gambling when the prize money is genuine. But don't be misled by the headline. Throughout my whole life, gambling has and will continue to play a significant role. The last thing we want, though, is for any of you to get influenced by it and start engaging in risky behaviours. [...]",
