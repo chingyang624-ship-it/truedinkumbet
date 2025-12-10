@@ -952,7 +952,7 @@ const articles: Article[] = [
         </div>
       </div>
 
-      <h1 class="text-4xl font-bold mt-10 mb-6"><b>Deposit Your Funds in Truedinkumbet Casino With Credit/Debit Card</b></h1>
+      <h1 class="text-4xl font-bold mt-10 mb-6"><b>Deposit Your Funds in Truedinkumbet With Debit/Credit Card (Visa/Mastercard)</b></h1>
 
       <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Truedinkumbet is a famous Online Casino in Australia that accepts a large variety of banking methods such as e-wallets and cryptocurrencies. Customer service and attractive bonuses are critical factors in their success. Quality games are also important. Because of Truedinkumbet's user-friendly payment options, players may deposit and withdraw money from their casino wallets with ease. Truedinkumbet is well-known for having an abundance of them. Those who participate in the program may expect to see their bankrolls grow due to their loyalty. All Truedinkumbet promos are subject to a few restrictions. Thus it's necessary to bear in mind some of the following considerations: You'll be in for a wonderful treat if you take advantage of them.</span></p>
 
