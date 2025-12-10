@@ -95,7 +95,7 @@ export default function SportsComprehensiveSEOContent() {
                 There’s a range of promotions and bonuses to expect. Similar to Truedinkumbet, CMD368 takes great pride in a number of bonuses. So, boosting a person’s bankroll won’t be difficult.
               </p>
               <p className="text-sm text-gray-500 mb-3">
-                It is powered by credible software providers, CMD368 partners with experienced and top software providers in Asia and Australia, just like Truedinkumbet. With the partnership, the platform has also been offering Australian sports betting and casino games with top-notch animations, quality graphics, and crystal-clear sound effects.
+                It is powered by credible software providers, CMD368 partners with experienced and top software providers globally, just like Truedinkumbet. With the partnership, the platform has also been offering Australian sports betting and casino games with top-notch animations, quality graphics, and crystal-clear sound effects.
               </p>
               <p className="text-sm text-gray-500 mb-3">
                 You will not only earn big returns but also be entertained by the graphics at Truedinkumbet. Aside from the quantity, each live casino, sports betting, slot machine game, online poker, and the fishing game is of the highest quality. Players who enjoy real dealers should try the Truedinkumbet Live Casino. Give it a shot and see a big difference. Try the Truedinkumbet Fish Shooting games for fast-paced arcade action.
