@@ -428,86 +428,70 @@ const articles: Article[] = [
 
       <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">In this guide, we explain why your winnings at Truedinkumbet are yours to keep, and why playing with an international operator is actually smarter for your wallet.</span></p>
 
-      <h2 class="text-3xl font-bold mt-10 mb-6"><b>The Golden Rule: Winnings Are Tax-Free</b></h2>
+      <h2 class="text-3xl font-bold mt-10 mb-6"><b>The Short Answer: No!</b></h2>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">According to the Australian Taxation Office (ATO), gambling winnings are not considered "assessable income." They are classified as a result of "luck" rather than labor or business activity.</span></p>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">This applies to:</span></p>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">For 99.9% of Australians, gambling winnings are NOT taxable.</span></p>
 
       <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Online Pokies:</b> Hit a jackpot? It's all yours.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Sports Betting:</b> Win a parlay on the footy? Tax-free.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Crypto Casino Winnings:</b> If you win USDT or Bitcoin on Truedinkumbet, the winnings themselves are not taxed as income.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Lotteries:</b> Powerball or Oz Lotto wins are tax-free.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">You do not need to declare them on your annual tax return.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">They are considered "Windfall Gains" (prizes of luck), not "Income."</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">This applies to Online Pokies, Sports Betting, Lottery, and Crypto Casino wins.</span></li>
       </ul>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;"><b>Why?</b> The logic is simple: If the government taxed your winnings, they would also have to let you deduct your losses. Since most people lose more than they win, the government would lose billions in tax revenue. So, they chose not to tax the winnings at all.</span></p>
+      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Why Doesn't the ATO Tax Gamblers?</b></h2>
 
-      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Recreational vs. Professional Gambler: The Key Difference</b></h2>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">It comes down to simple math. The Australian government views gambling as a hobby, not a profession. If they taxed your winnings, they would also have to allow you to deduct your losses. Since most people lose more than they win over a lifetime, the government would actually lose tax revenue by changing the law.</span></p>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">There is a very small exception to the rule. The ATO may tax you if you are a "Professional Gambler." But don't worry—this is extremely hard to prove and almost never applies to online casino players.</span></p>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Instead, the government taxes the Operators (the casinos and bookies), not the Players. This means at Truedinkumbet, we pay the fees so you don't have to.</span></p>
 
-      <table class="w-full border border-collapse mb-6">
-        <tr>
-          <th class="border p-3 text-left"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;"><b>Feature</b></span></th>
-          <th class="border p-3 text-left"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;"><b>Recreational Player (99.9% of us)</b></span></th>
-          <th class="border p-3 text-left"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;"><b>Professional Gambler (Very Rare)</b></span></th>
-        </tr>
-        <tr>
-          <td class="border p-3"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;"><b>Tax Status</b></span></td>
-          <td class="border p-3"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">100% Tax-Free</span></td>
-          <td class="border p-3"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Taxable Income</span></td>
-        </tr>
-        <tr>
-          <td class="border p-3"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;"><b>Activity</b></span></td>
-          <td class="border p-3"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Playing for fun, entertainment, or luck.</span></td>
-          <td class="border p-3"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Running a business structure with employees/systems.</span></td>
-        </tr>
-        <tr>
-          <td class="border p-3"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;"><b>Primary Income</b></span></td>
-          <td class="border p-3"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">You have a job or other income source.</span></td>
-          <td class="border p-3"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Gambling is your only income source.</span></td>
-        </tr>
-        <tr>
-          <td class="border p-3"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;"><b>Games</b></span></td>
-          <td class="border p-3"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Pokies, Roulette, Casual Sports Betting.</span></td>
-          <td class="border p-3"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">High-frequency horse racing, arbitrage betting.</span></td>
-        </tr>
-      </table>
+      <h2 class="text-3xl font-bold mt-10 mb-6"><b>"Hobby" vs. "Professional": Am I Safe?</b></h2>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;"><b>Bottom Line:</b> Unless you have a registered business plan, employ staff, and use complex hedging algorithms for horse racing, you are a recreational player. All your winnings at Truedinkumbet are safe.</span></p>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">There is a tiny exception to the rule, but don't worry—it likely doesn't apply to you. The ATO only taxes "Professional Gamblers."</span></p>
 
-      <h2 class="text-3xl font-bold mt-10 mb-6"><b>What About Crypto Gambling Taxes?</b></h2>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">With the rise of Crypto Casinos like Truedinkumbet, many players ask about Bitcoin or USDT winnings.</span></p>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;"><b>The Winnings:</b> As mentioned, the act of winning crypto in a casino game is tax-free.</span></p>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;"><b>CGT (Capital Gains Tax):</b> The only time tax might apply is if you hold onto that crypto for a long time and its value goes up significantly after you have withdrawn it to your personal wallet.</span></p>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;"><b>Tip:</b> This is why many players use USDT (Tether), as its value doesn't fluctuate, simplifying your tax situation.</span></p>
-
-      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Why Play at Truedinkumbet?</b></h2>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Since you don't have to pay taxes on your winnings, it makes sense to play at a casino that helps you maximise your profit in other ways.</span></p>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">You are likely a Recreational Player (Tax-Free) if:</span></p>
 
       <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>No Hidden Fees:</b> We don't charge you for deposits or withdrawals.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Instant PayID Withdrawals:</b> Get your tax-free winnings into your Aussie bank account in seconds.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>High RTP Games:</b> Since you keep what you win, playing high RTP (Return to Player) pokies gives you the best value.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">You gamble for fun and entertainment.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">You have another source of income (a job or business).</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">You rely on luck (like Pokies or Baccarat).</span></li>
+      </ul>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">You might be a "Pro" (Taxable) if:</span></p>
+
+      <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">You run a registered business structure with employees purely for gambling.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">It is your sole source of income, and you use complex hedging systems (mostly applies to horse racing syndicates).</span></li>
+      </ul>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;"><b>Bottom Line:</b> Even if you win $100,000 on a slot machine at Truedinkumbet this weekend, the ATO still views that as "Luck." It remains 100% Tax-Free.</span></p>
+
+      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Why Playing at Truedinkumbet is Smarter</b></h2>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Now that you know your winnings are safe from the taxman, the question is: Where should you play to maximize those winnings?</span></p>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Some articles might tell you to stick to local sites like TAB or Sportsbet. Here is why that's bad advice:</span></p>
+
+      <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Lower Odds (RTP):</b> Australian-based sites have massive overheads and taxes. They pass this cost to you by lowering the odds.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>No Casino Games:</b> Due to local restrictions, Australian-licensed sites cannot offer Online Pokies or Live Casino (Blackjack/Roulette). They only offer sports betting.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>No Crypto:</b> Local sites don't accept USDT or Bitcoin.</span></li>
+      </ul>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">The Truedinkumbet Advantage: Because we operate under an international PAGCOR license, we can offer what local sites can't:</span></p>
+
+      <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Full Casino Access:</b> Thousands of high RTP Pokies and Live Dealer tables.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Crypto &amp; PayID:</b> Instant deposits and withdrawals via USDT or PayID.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Tax-Free Winnings:</b> Just like local sites, your winnings here are tax-free, but our bonuses are much bigger.</span></li>
       </ul>
 
       <h2 class="text-3xl font-bold mt-10 mb-6"><b>Conclusion</b></h2>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;"><b>Does Australia tax gambling winnings? No.</b></span></p>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Australia is one of the best places in the world to be a gambler. The government leaves your winnings alone.</span></p>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Australia is a gambler's paradise. Whether you win $50 or $50,000 on Truedinkumbet, that money goes straight into your pocket, not the government's.</span></p>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">So, if you hit that Lucky 888 jackpot or your sports multibet comes in, go ahead and buy that new car. The ATO won't touch a cent of it.</span></p>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">So, relax and enjoy the game. Your jackpot is yours to keep!</span></p>
-
-      <h3 class="text-2xl font-bold mt-8 mb-4"><b>Disclaimer</b></h3>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">This article is for informational purposes only and does not constitute financial advice. For specific tax inquiries, please consult a registered Australian tax accountant.</span></p>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Ready to start your tax-free winning streak? Join Truedinkumbet Now and claim your Welcome Bonus!</span></p>
     </div>`,
   },
   {
