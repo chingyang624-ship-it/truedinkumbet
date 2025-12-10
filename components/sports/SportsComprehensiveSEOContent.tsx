@@ -46,7 +46,7 @@ export default function SportsComprehensiveSEOContent() {
               </p>
               <p className="text-sm text-gray-500 mb-3">
                 Similar to other countries, the sportsbook has been earning the
-                trust of players throughout Asia. However, choosing the best
+                trust of players throughout Australia. However, choosing the best
                 platform can be tricky for starters and even seasoned players.
               </p>
               <p className="text-sm text-gray-500 mb-3">
@@ -101,7 +101,7 @@ export default function SportsComprehensiveSEOContent() {
               </ul>
 
               <h2 className="text-base font-bold mb-2 text-yellow-500">
-                Truedinkumbet: Popular Sportsbook Bookmaker In Asia
+                Truedinkumbet: Popular Sportsbook Bookmaker In Australia
               </h2>
               <p className="text-sm text-gray-500 mb-3">
                 Truedinkumbet is a top-rated sportsbook bookmaker in the
