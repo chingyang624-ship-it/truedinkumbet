@@ -136,6 +136,17 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
   },
   {
     id: 12,
+    title: "Deposit Your Funds in Truedinkumbet With Debit/Credit Card (Visa/Mastercard)",
+    description:
+      "Truedinkumbet is a famous Online Casino in Australia that accepts a large variety of banking methods such as credit/debit cards (Visa and Mastercard) and cryptocurrencies. Customer service and attractive bonuses are critical factors in their success. Quality games are also important. Because of Truedinkumbet's user-friendly payment options, players may deposit and withdraw money from their casino wallets with ease. [...]",
+    category: "Casino Review",
+    date: "23-05-2022",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2022/05/Deposit-Your-Funds-in-BK8-Casino-With-Touch-n-Go-360x200.png",
+    link: "/blog/casino-review/deposit-your-funds-in-truedinkumbet-with-card/",
+  },
+  {
+    id: 13,
     title: "What Is the Process for Online Casino Bonuses?",
     description:
       "When discussing an online casino, it's impossible to avoid bringing up the bonuses and incentives the casino provides. Because they bring in new consumers and keep existing ones coming back, promotional offers have become critical for online casinos. First-time online gamblers should learn about casino bonuses and other safety measures before they risk their money. [...]",
