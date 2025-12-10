@@ -617,14 +617,15 @@ const articles: Article[] = [
   },
   {
     id: 7,
-    title: "Tips for Playing Safely at Online Casinos",
+    title: "6 Tips for Playing Safely at Online Casinos in Australia",
     description:
-      "The safety of your personal information is of paramount importance while gambling online. If you play smart and don't get scammed, gambling in an online casino may be a great way to pass the time and perhaps earn some additional cash, but only if you don't get taken advantage of. It's one thing to lose [...]",
-    category: "Casino Review",
-    date: "02-11-2022",
+      "Safety is the number one concern for Aussie punters. We all want to have a punt and maybe win some cash, but nobody wants to be taken for a ride by a dodgy operator. At Truedinkumbet, we believe in fair play. Here are our top 6 tips for playing safely online in Australia.",
+    category: "Casino Safety / Guides",
+    date: "10-12-2025",
     image:
       "https://www.bk8.services/wp-content/uploads/2022/11/Tips-for-Playing-Safely-at-Online-Casinos-360x200.png",
     link: "/blog/casino-review/tips-for-playing-safely-at-online-casinos/",
+    author: "Terrence Spove",
   },
   {
     id: 8,
