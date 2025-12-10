@@ -213,21 +213,22 @@ const articles: Article[] = [
     category: "Casino Review",
     date: "06-12-2023",
     image:
-      "https://www.bk8.services/wp-content/uploads/2023/12/Have-You-BK8_-BK8-Campaign-2023-Recap-360x200.webp",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fa8ed94b8a8364e74a9509e1afecd68fa",
     link: "/blog/casino-review/have-you-truedinkumbet/",
+    author: "Terrence Spove",
     content: `<div class="single-post-wrapper text-area">
       <div class="post-info clearfix mb-8">
         <div class="post-info__left">
-          <strong>Categories:</strong> <a href="/blog/category/casino-review/" rel="category tag">Casino Review</a>
+          <strong>Categories:</strong> <a href="/blog/category/casino-review/" rel="category tag">Casino Review</a>, <a href="/blog/category/brand-story/" rel="category tag">Brand Story</a>
           <span class="seperator">|</span>
           <strong>Published by:</strong> Terrence Spove
         </div>
         <div class="post-info__right">
-          <span class="date">06/12/2023</span>
+          <span class="date">10/12/2025</span>
         </div>
       </div>
 
-      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Have You Truedinkumbet? Truedinkumbet Campaign 2023 Recap</b></h2>
+      <h1 class="text-4xl font-bold mt-10 mb-6"><b>Have You Truedinkumbet? Why We Are Australia's Top Choice in 2025</b></h1>
 
       <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">You must have heard the slogan "Have You Truedinkumbet?" in social media or YouTube advertisements. The slogan is addictive, right? It was catchy and resonated deeply with all of you. This is designed to help you remember you can get various benefits and promotions on Truedinkumbet.</span></p>
 
