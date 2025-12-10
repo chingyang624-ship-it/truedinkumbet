@@ -280,14 +280,15 @@ const articles: Article[] = [
   },
   {
     id: 3,
-    title: "Tips for Gambling Online With a Small Budget",
+    title: "Tips for Gambling Online With a Small Budget: The Aussie Guide",
     description:
-      "Online gambling has become increasingly popular over the years, offering a convenient and accessible way for people to enjoy their favourite casino games from their homes. However, it's essential to approach online gambling cautiously, especially if you have a small budget. Managing a small budget for online gambling is crucial to avoid overspending and potential [...]",
+      "Online gambling has become increasingly popular down under, offering a convenient and accessible way for Aussies to enjoy their favourite online pokies and live casino games. However, it's essential to approach online gambling cautiously, especially if you have a small budget. Managing a small budget for online pokies is crucial to avoid overspending.",
     category: "Casino Review",
-    date: "16-05-2023",
+    date: "16-12-2025",
     image:
-      "https://www.bk8.services/wp-content/uploads/2023/05/Tips-for-Gambling-Online-With-a-Small-Budget.png",
+      "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fa8ed94b8a8364e74a9509e1afecd68fa",
     link: "/blog/casino-review/tips-for-gambling-online-with-a-small-budget/",
+    author: "Terrence Spove",
     content: `<div class="single-post-wrapper text-area">
       <div class="post-info clearfix mb-8">
         <div class="post-info__left">
@@ -296,11 +297,11 @@ const articles: Article[] = [
           <strong>Published by:</strong> Terrence Spove
         </div>
         <div class="post-info__right">
-          <span class="date">16/05/2023</span>
+          <span class="date">16/12/2025</span>
         </div>
       </div>
 
-      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Tips for Gambling Online With a Small Budget</b></h2>
+      <h1 class="text-4xl font-bold mt-10 mb-6"><b>Tips for Gambling Online With a Small Budget: The Aussie Guide</b></h1>
 
       <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Online gambling has become increasingly popular over the years, offering a convenient and accessible way for people to enjoy their favourite casino games from their homes. However, it's essential to approach online gambling cautiously, especially if you have a small budget.</span></p>
 
