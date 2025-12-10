@@ -399,14 +399,14 @@ const articles: Article[] = [
   },
   {
     id: 4,
-    title: "Does the Australian Government Tax Gambling Winnings? (2025 Update)",
+    title: "Do I Need To Declare My Casino Winnings To The ATO? (2025 Update)",
     description:
-      "If you are playing online pokies or betting on sports in Australia, you might be worried about the taxman. \"If I hit a big jackpot at Truedinkumbet, do I have to split it with the ATO?\" We have great news for you: No, you generally do not pay tax on gambling winnings in Australia. Unlike the US or other countries where gambling income is taxed, Australia views gambling as a hobby, not a profession. This means you get to keep 100% of your winnings. In this guide, we will explain the ATO rules, the difference between recreational and professional gamblers, and why this makes Australia one of the best places in the world to gamble online.",
-    category: "Casino Review",
+      "When you hit a massive jackpot on Truedinkumbet or win a high-stakes hand of Baccarat, the first thought is usually: \"I'm rich!\" The second thought is often: \"Wait, does the ATO want a cut?\" We have fantastic news for Aussie players. Unlike the US, Australia is a tax-haven for gamblers. In this guide, we explain why your winnings are yours to keep.",
+    category: "Casino Tips / Taxation",
     date: "10-12-2025",
     image:
       "https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Fa8ed94b8a8364e74a9509e1afecd68fa",
-    link: "/blog/casino-review/does-australian-tax-gambling-winnings/",
+    link: "/blog/casino-review/do-i-need-to-declare-my-casino-winnings-in-australia/",
     author: "Terrence Spove",
     content: `<div class="single-post-wrapper text-area">
       <div class="post-info clearfix mb-8">
