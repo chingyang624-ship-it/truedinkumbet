@@ -325,32 +325,24 @@ const articles: Article[] = [
 
       <h2 class="text-3xl font-bold mt-10 mb-6"><b>Creating a Small Budget for Online Gambling</b></h2>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Setting a budget is essential when managing your finances while gambling online. Here are some steps to help you create a budget for online gambling:</span></p>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Setting a budget is essential. Here are some steps to help you create a gambling budget:</span></p>
 
       <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Determine your disposable income:</b> Calculate how much money you can spend on gambling without negatively affecting your daily expenses and other financial obligations.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Determine your gambling frequency:</b> Decide how often you plan to gamble, whether daily, weekly, or monthly.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Set a gambling limit:</b> Decide how much money you want to spend on each gambling session or bet.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Please stick to your budget:</b> Once you've set it, stick to it to avoid overspending.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Determine your disposable income:</b> Only use funds you can afford to lose.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Set a deposit limit:</b> Decide how much you will deposit via PayID or Credit Card (e.g., $20 or $50).</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Stick to your budget:</b> Once you've set it, stick to it to avoid overspending.</span></li>
       </ul>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">When creating a budget for online gambling, it's essential to consider factors such as the types of games you plan to play, the minimum and maximum bets for each game, and any potential fees or charges associated with your chosen online casino or betting site.</span></p>
+      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Finding the Right Online Casino in Australia</b></h2>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Consider limiting your deposits, losses, and session times to stick to your budget. Additionally, you can use software tools or apps that help you track your spending and alert you when you're close to your limit.</span></p>
-
-      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Finding the Right Online Casino</b></h2>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Choosing the right online casino is crucial for a positive gambling experience. Choosing a reputable and trustworthy casino that offers fair games and a safe and secure gambling environment is essential. Here are some factors to consider when choosing an online casino:</span></p>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Choosing the right online casino is crucial. You need a site that is tailored for Australian players, like Truedinkumbet. Here are factors to consider:</span></p>
 
       <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>License and regulation:</b> Check if the casino is licensed and regulated by a reputable authority, such as the Malta Gaming Authority, the UK Gambling Commission, or the Curacao Gaming Commission.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Game selection:</b> Choose a casino that offers a wide range of games you enjoy playing, such as slots, table games, and live dealer games.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Bonuses and promotions:</b> Look for a casino that offers generous bonuses and promotions, such as welcome bonuses, free spins, and loyalty rewards.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Payment methods:</b> Check if the casino offers convenient and secure payment methods suitable for your needs, such as credit cards, e-wallets, and bank transfers.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Customer support:</b> Choose a casino that offers reliable and responsive customer support, such as live chat, email, or phone support.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>License and regulation:</b> Ensure the casino is legally authorised (e.g., PAGCOR) to provide fair games.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Game selection:</b> Choose a casino that offers a wide range of Pokies, Fishing games, and Live Dealer tables.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Payment methods:</b> Look for PayID, Osko, and USDT/Crypto. These allow for instant deposits and fast withdrawals, which is critical for budget players.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Bonuses:</b> Look for welcome bonuses that give you extra playing money.</span></li>
       </ul>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">To choose the right online casino, it's also recommended to read reviews and feedback from other players and research the casino's reputation and history.</span></p>
 
       <h2 class="text-3xl font-bold mt-10 mb-6"><b>Free and Small Budget Online Gambling Options</b></h2>
 
