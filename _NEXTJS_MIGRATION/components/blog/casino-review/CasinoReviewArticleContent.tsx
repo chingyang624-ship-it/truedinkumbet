@@ -386,34 +386,15 @@ const articles: Article[] = [
 
       <h2 class="text-3xl font-bold mt-10 mb-6"><b>Responsible Gambling</b></h2>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Responsible gambling is essential when it comes to online gambling. Here's an overview of responsible gambling and some tips for practising it:</span></p>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;"><b>Definition:</b> Gambling for fun, not as a source of income.</span></p>
 
-      <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Definition of responsible gambling:</b> Responsible gambling refers to gambling in a safe and controlled manner without causing harm to oneself or others.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Importance of responsible gambling:</b> Responsible gambling is essential to protect oneself from potential harm, such as financial issues or addiction, and to ensure a positive and enjoyable gambling experience.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Tips for practising responsible gambling:</b> Set a budget and stick to it, gamble for fun and not as a source of income, take breaks from gambling, and seek help if you're developing a gambling problem.</span></li>
-      </ul>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;"><b>Tips:</b> Set a budget, take breaks, and never chase losses.</span></p>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">It's essential to approach online gambling cautiously and always gamble responsibly. However, if you feel like you're developing a gambling problem or need help, various resources, such as Gamblers Anonymous and gambling addiction hotlines, are available.</span></p>
-
-      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Dealing with Gambling Addiction</b></h2>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Gambling addiction is a severe problem that can negatively affect one's mental health, relationships, and finances. Here's an overview of gambling addiction, its signs and symptoms, and tips for dealing with it:</span></p>
-
-      <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Definition of gambling addiction:</b> Gambling addiction, also known as compulsive gambling, is a mental health disorder characterised by a persistent and uncontrollable urge to gamble, despite the negative consequences.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Signs and symptoms of gambling addiction:</b> Common signs include preoccupation with gambling, lying about gambling, chasing losses, borrowing money to gamble, and experiencing negative emotions such as anxiety and depression when not gambling.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Importance of seeking help:</b> Seeking help for gambling addiction is essential to prevent further harm to oneself and others. Professional services, such as counselling or therapy, can support and guide in overcoming addiction.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Tips for dealing with gambling addiction:</b> Seek professional help, attend support groups, avoid triggers, replace gambling with healthier activities, and practice self-care and stress management techniques.</span></li>
-      </ul>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">It's important to remember that gambling addiction is a treatable condition and that recovery is possible with the proper support and resources.</span></p>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;"><b>Support:</b> If you feel you are losing control, services like Gambling Help Online are available 24/7.</span></p>
 
       <h2 class="text-3xl font-bold mt-10 mb-6"><b>Conclusion</b></h2>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">In conclusion, gambling online with a small budget can be a fun experience, but it's essential to approach it cautiously and practice responsible gambling. By following the tips and strategies outlined in this article, players can improve their chances of winning while minimising their risk of overspending or developing a gambling problem.</span></p>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Gambling online with a small budget can be a fun and exciting way to pass the time, but it's essential always to bet responsibly and to seek help if needed. Following the tips and strategies outlined in this article, players can enjoy online gambling without risking their financial well-being or mental health.</span></p>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Gambling online with a small budget can be a fun experience. By using smart banking methods like PayID, choosing the right pokies, and playing on trusted sites like Truedinkumbet, you can improve your chances of winning while minimising risk.</span></p>
     </div>`,
   },
   {
