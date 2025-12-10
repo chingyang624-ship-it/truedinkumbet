@@ -303,26 +303,25 @@ const articles: Article[] = [
 
       <h1 class="text-4xl font-bold mt-10 mb-6"><b>Tips for Gambling Online With a Small Budget: The Aussie Guide</b></h1>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Online gambling has become increasingly popular over the years, offering a convenient and accessible way for people to enjoy their favourite casino games from their homes. However, it's essential to approach online gambling cautiously, especially if you have a small budget.</span></p>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Online gambling has become increasingly popular down under, offering a convenient and accessible way for Aussies to enjoy their favourite online pokies and live casino games. However, it's essential to approach online gambling cautiously, especially if you have a small budget.</span></p>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Managing a small budget for online gambling is crucial to avoid overspending and potential financial issues. This article explores tips and strategies for gambling online with a small budget. We'll cover everything from creating a budget, finding the right online casino, and taking advantage of free and low-cost gambling options, to bankroll and game selection strategies, responsible gambling, and dealing with gambling addiction.</span></p>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Managing a small budget for online pokies is crucial to avoid overspending. This article explores strategies for gambling online with a small budget in Australia. We'll cover everything from creating a budget, finding the right PayID casino, and taking advantage of free spins, to bankroll strategies and responsible gambling.</span></p>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">By the end of this article, you'll better understand how to effectively manage your small budget when gambling online and maximise your chances of having a fun and enjoyable experience without breaking the bank.</span></p>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">By the end of this article, you'll better understand how to effectively manage your AUD bankroll when playing at Truedinkumbet and maximise your chances of winning.</span></p>
 
-      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Understanding Online Gambling</b></h2>
+      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Understanding Online Pokies and Gambling</b></h2>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Online gambling refers to betting on casino games or other forms of gambling activities over the Internet. This includes anything from playing online slots and table games to betting on sports or poker.</span></p>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Online gambling refers to betting on casino games over the Internet. In Australia, this predominantly means spinning the reels on online pokies.</span></p>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">There are various types of online gambling available, including:</span></p>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">There are various types of online gambling available:</span></p>
 
       <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Online casinos:</b> These websites offer different games, such as slots, blackjack, roulette, and baccarat.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Sports betting sites:</b> These sites allow users to bet on various sports events, such as football, basketball, and horse racing.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Poker rooms:</b> These sites offer various poker games and tournaments for players to participate in.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Bingo and lottery sites:</b> These sites offer bingo and lottery games and other instant win games.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Online Pokies:</b> Digital versions of the machines found in pubs, including classic 3-reelers and Megaways.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Live Casino:</b> Real-time games like Blackjack and Roulette streamed to your mobile.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Crypto Casino:</b> Betting with USDT or Bitcoin for faster withdrawals.</span></li>
       </ul>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Pros of online gambling include convenience, a wide range of games, and the ability to play from anywhere. However, there are also cons to consider, such as the potential for addiction, lack of face-to-face interaction, and the risk of scams or fraudulent websites.</span></p>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Pros of online gambling include convenience and the ability to play from anywhere using PayID for instant deposits.</span></p>
 
       <h2 class="text-3xl font-bold mt-10 mb-6"><b>Creating a Small Budget for Online Gambling</b></h2>
 
