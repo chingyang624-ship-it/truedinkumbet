@@ -605,14 +605,15 @@ const articles: Article[] = [
   },
   {
     id: 6,
-    title: "What is a Heylink or Joylink Bonus Casino?",
+    title: "What is a Heylink or Joylink Bonus? Is It Safe for Aussies?",
     description:
-      "There has been a rise in the availability of free credit bonuses in Australia in recent years. Additionally, most of them are referred to as the Heylink Bonus or the Joylink Bonus. What exactly are those benefits, and can gamers from Australia feel at ease using them? In this piece, we are going to discuss [...]",
-    category: "Casino Review",
-    date: "14-11-2022",
+      "If you frequent Australian online gambling groups on Facebook or Telegram, you have likely seen posts shouting: 'Click this Heylink for Free $10!' or 'Joylink Unlimited Credit!' There has been a massive rise in these 'Link-in-Bio' style bonuses in recent years. But what exactly are they? And more importantly, are they safe? In this guide, we uncover the truth.",
+    category: "Casino Strategy / Security",
+    date: "10-12-2025",
     image:
       "https://www.bk8.services/wp-content/uploads/2022/11/What-is-a-Heylink-or-Joylink-Bonus-Casino-360x200.png",
     link: "/blog/casino-review/what-is-a-heylink-or-joylink-bonus-casino/",
+    author: "Terrence Spove",
   },
   {
     id: 7,
