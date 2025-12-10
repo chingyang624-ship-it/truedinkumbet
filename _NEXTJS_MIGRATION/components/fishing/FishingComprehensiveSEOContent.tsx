@@ -150,7 +150,7 @@ export default function FishingComprehensiveSEOContent() {
               </h3>
               <p className="text-sm text-gray-500 mb-3">
                 Developed by GG Gaming, Fishing World sets the benchmark for
-                fishing game quality in Asia and Australia. Known for its crisp
+                fishing game quality in Australia. Known for its crisp
                 animations and balanced scoring system, it’s the standard other
                 games aspire to match. The franchise’s success is proof of how
                 far online fish shooting has come since the old arcade days.
