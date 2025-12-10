@@ -344,35 +344,27 @@ const articles: Article[] = [
         <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Bonuses:</b> Look for welcome bonuses that give you extra playing money.</span></li>
       </ul>
 
-      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Free and Small Budget Online Gambling Options</b></h2>
+      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Free and Small Budget Gambling Options</b></h2>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Free and low-cost online gambling options are a great way to enjoy gambling without breaking the bank. Here are some examples of free and low-cost online gambling options:</span></p>
-
-      <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Free-to-play casino games:</b> Many online casinos offer free-to-play versions, allowing players to try the games without risking any money.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Social casino games:</b> These free slot games allow players to compete with their friends and earn virtual rewards.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Online gambling apps:</b> Several mobile apps offer free or low-cost gambling options, such as sports betting, poker, and casino games.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Freeroll poker tournaments:</b> These tournaments do not require an entry fee, allowing players to win real money without risking their own money.</span></li>
-      </ul>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">The advantages of free and low-cost online gambling options include the ability to try out different games without risking your own money and the opportunity to win real money with minimal investment. However, it's important to note that free and low-cost options may come with limitations, such as lower payouts and restricted game selection.</span></p>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">To find free and low-cost gambling options, consider researching online and checking out reviews and ratings of different apps and websites.</span></p>
-
-      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Bonuses and Promotions</b></h2>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Bonuses and promotions are standard features in online gambling, designed to attract and retain players. Here's an overview of casino bonuses and promotions in online gambling:</span></p>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Free and low-cost online gambling options are a great way to enjoy the thrill without breaking the bank:</span></p>
 
       <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Welcome bonus:</b> This bonus is offered to new players when they sign up and make their first deposit. Welcome bonuses can include free spins, bonus cash, or a combination.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Reload bonus:</b> This bonus is offered to existing players when they make a new deposit. Reload bonuses can be a percentage of the deposit or a fixed amount.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Free spins:</b> These are free plays on slot machines that are awarded as a bonus or promotion.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Loyalty rewards:</b> Loyalty rewards are rewards given to players who play regularly at the casino. Loyalty rewards can include cashback, free spins, and exclusive promotions.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Free-to-play Pokies:</b> Many casinos offer "Demo Mode," allowing you to try games without risking real AUD.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Low Volatility Pokies:</b> These games pay out small amounts frequently, keeping your bankroll alive longer.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Fishing Games:</b> Skill-based arcade games that allow for small bets with high entertainment value.</span></li>
       </ul>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">While bonuses and promotions can be a great way to boost your bankroll and extend your playing time, it's essential to understand the pros and cons. Pros of bonuses and promotions include the potential to win more money and the ability to try out new games without risking your own money. However, cons include wagering requirements and other terms and conditions that can be difficult to meet, as well as the potential for bonuses to encourage excessive gambling.</span></p>
+      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Bonuses and Promotions for Aussie Players</b></h2>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">To take advantage of bonuses and promotions, it's recommended to read the terms and conditions carefully and to choose promotions that offer fair and reasonable requirements. Additionally, it's crucial to understand how to manage your bankroll when playing with bonuses effectively.</span></p>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Bonuses are standard features in online gambling designed to extend your playtime:</span></p>
+
+      <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Welcome Bonus:</b> Offered to new players upon their first PayID deposit.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Free Spins:</b> Free rounds on popular slot games.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Rebate Bonus:</b> Daily cash rebates based on your turnover.</span></li>
+      </ul>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Pro Tip: Always read the Terms and Conditions. Low wagering requirements are best for small budgets.</span></p>
 
       <h2 class="text-3xl font-bold mt-10 mb-6"><b>Bankroll Management Strategies</b></h2>
 
