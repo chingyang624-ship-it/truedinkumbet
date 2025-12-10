@@ -512,14 +512,14 @@ const articles: Article[] = [
   },
   {
     id: 5,
-    title: "Truedinkumbet Year of Rabbit 2023 Gold Bar Deposit Reward",
+    title: "Truedinkumbet Lunar New Year Exclusive: The 2026 Year of the Horse Gold Bar Giveaway",
     description:
-      "In addition to being one of Australia's most well-known online casinos, Truedinkumbet is also well-known for its hefty bonus offerings. In honour of the upcoming Year of the Rabbit Chinese New Year, Truedinkumbet is now taking orders for a special gold bar. This is without a doubt one of Truedinkumbet's most generous presents to date. [...]",
+      "The Lunar New Year is approaching, and 2026 marks the Year of the Horse. Truedinkumbet is proud to announce our most prestigious campaign ever: The 24K Gold Bar Giveaway. This is not a digital reward or a bonus credit. This is a physical, solid gold asset delivered straight to your door. Discover how you can claim your fortune with our exclusive Year of the Horse promotion.",
     category: "Casino Review",
-    date: "27-12-2022",
+    date: "10-12-2025",
     image:
       "https://www.bk8.services/wp-content/uploads/2022/12/BK8-Year-of-Rabbit-2023-Gold-Bar-Deposit-Reward-360x200.png",
-    link: "/blog/casino-review/truedinkumbet-year-of-rabbit-2023-gold-bar-deposit-reward/",
+    link: "/blog/casino-review/truedinkumbet-year-of-horse-2026-gold-bar-deposit-reward/",
     author: "Terrence Spove",
     content: `<div class="single-post-wrapper text-area">
       <div class="post-info clearfix mb-8">
@@ -529,73 +529,142 @@ const articles: Article[] = [
           <strong>Published by:</strong> Terrence Spove
         </div>
         <div class="post-info__right">
-          <span class="date">27/12/2022</span>
+          <span class="date">10/12/2025</span>
         </div>
       </div>
 
-      <h1 class="text-4xl font-bold mt-10 mb-6"><b>Truedinkumbet Year of Rabbit 2023 Gold Bar Deposit Reward</b></h1>
+      <h1 class="text-4xl font-bold mt-10 mb-6"><b>Truedinkumbet Lunar New Year Exclusive: The 2026 Year of the Horse Gold Bar Giveaway</b></h1>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">In addition to being one of Australia's most well-known online casinos, Truedinkumbet is also well-known for its hefty bonus offerings. In honour of the upcoming Year of the Rabbit Chinese New Year, Truedinkumbet is now taking orders for a special gold bar. This is without a doubt one of Truedinkumbet's most generous presents to date. Make a deposit to start off the year right and enter to win a Year of the Rabbit Gold Bar. What follows is the necessary information for obtaining the Gold Bar.</span></p>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">The Lunar New Year is approaching, and 2026 marks the Year of the Horse. In Chinese culture, the Horse represents speed, strength, and victory—qualities that every gambler aspires to.</span></p>
 
-      <h2 class="text-3xl font-bold mt-10 mb-6"><b>How to Get Truedinkumbet Year of Rabbit 2023 Gold Bar?</b></h2>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">To celebrate this auspicious occasion, Truedinkumbet is going beyond standard deposit bonuses. We are proud to announce our most prestigious campaign ever: The 24K Gold Bar Giveaway.</span></p>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">You must adhere to the rules and regulations that Truedinkumbet establish before you may get the Rabbit gold bar. The procedures for doing so are detailed below.</span></p>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">This is not a digital reward or a bonus credit. This is a physical, solid gold asset delivered straight to your door. If you are a High Roller looking for the ultimate casino experience in Australia, read on to discover how you can claim your fortune.</span></p>
 
-      <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">Available only to those whose primary currency is the Australian Dollar.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">Members may win a Year of the Rabbit Gold Bar weighing 10 grams if they deposit a total of AUD 388,888 and turn that sum over once throughout the offer period.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">Follow the link [APPLY NOW] and fill out the form completely.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">To avoid having your qualifying attempt nullified, double-check that the "Phone number" and "Address" you supplied are correct.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">At the conclusion of the campaign, we will check each member's eligibility and send a note to their inbox if they meet the requirements.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">There is a limit of one (1) award application per eligible member for the duration of the campaign.</span></li>
-      </ul>
+      <h2 class="text-3xl font-bold mt-10 mb-6"><b>The Prize: 10g Limited Edition "Year of the Horse" Gold Bar</b></h2>
 
-      <h2 class="text-3xl font-bold mt-10 mb-6"><b>How Much Does the Truedinkumbet Rabbit Gold Bar Worth?</b></h2>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Truedinkumbet, being the largest and most reputable online casino in Australia, is not going to provide you with a snack option that is tiny enough to satisfy your hunger. When it comes to Truedinkumbet, you should always anticipate something HUGE. At this point in time, Gold Bars are being made available by Truedinkumbet to any and all users and gamers who are currently using the platform. Each gold bar weighs 10 grammes, which is highly expensive due to the precious metal's high price.</span></p>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Currently, the price of a gram of pure gold is between AUD 260 and AUD 270 in Australia (December 2022). In light of the aforementioned, the Truedinkumbet Rabbit Gold Bar is estimated to be worth anywhere between AUD 2,600 and AUD 2,700. The gold bar is totally covered in a yellow gold colour, giving the impression that it is quite expensive.</span></p>
-
-      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Other Promotions and Bonuses by Truedinkumbet</b></h2>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Truedinkumbet is one of the most popular gambling websites in Asia, and new players may get a huge bonus just for signing up. In truth, there are other suggestions that would be very helpful across the board; nevertheless, we will be focusing on the sports section's proposal for the time being.</span></p>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Truedinkumbet offers new players in Australia a 100% bonus on their first deposit of up to AUD 300 to utilise for sports betting. Users may get this deal by topping up their accounts by at least AUD 50 using any of the supported methods of payment. Also, you would not need to use any coupon code when signing up for an account with Truedinkumbet bookmaker.</span></p>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">There are details concerning the deal, such as a 12x rollover requirement, that you must be aware of. To find out more, please review our Terms &amp; Conditions.</span></p>
-
-      <h3 class="text-2xl font-bold mt-8 mb-4"><b>Crypto Lucky Draw Bonus</b></h3>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">As of mid-2022, more than 3.5 million people in Australia had purchased cryptocurrency. Those individuals are in luck, as Truedinkumbet is one of the few bitcoin betting services that provide an excellent payoff.</span></p>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Crypto Lucky Draw is a promotion that Truedinkumbet is offering to its crypto customers. All users may make use of this feature as long as they deposit using Ethereum, Bitcoin, or USDT. Depositing at least AUD 200 is required, however, a Truedinkumbet promo code is not necessary to take advantage of this deal.</span></p>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">With every AUD 200 you deposit, you'll be entered into a random drawing for a chance to win. Winners will be awarded varying numbers of millibitcoins. One such award is 588 milliBitcoins (mBTC). With Truedinkumbet, there will be 18 lucky winners. Anyone who wins should get their prizes within three days.</span></p>
-
-      <h3 class="text-2xl font-bold mt-8 mb-4"><b>100% Risk-Free Bet Up To AUD 200</b></h3>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Another deal that may be used without a specific bonus code is this one. You need an Australian Dollar account to access it. The minimum stake required to get 100% payback from the bookie is AUD 100. The maximum payout from this site is AUD 200, with a rollover requirement of 5 times that amount. You are able to utilize this bonus in football betting available on MaxBet/Saba-Sports on Truedinkumbet.</span></p>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">At Truedinkumbet, we believe real VIPs deserve real rewards. That is why we have commissioned a limited run of custom-minted Gold Bars.</span></p>
 
       <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">This Truedinkumbet deal requires a phone number in order to be redeemed.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">The soccer handicap or Over/Under market must be selected as the qualifying bet's primary outcome type.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">The amount you get back depends on how much money you lose.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">You have 72 hours from the time you get the award to redeem it.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Purity:</b> 99.99% Fine Gold (24 Karat).</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Weight:</b> 10 Grams.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Design:</b> Engraved with the mighty Steed (Horse) symbolising "Instant Success" (Ma Dao Cheng Gong).</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Current Value:</b> With gold prices hitting historic highs in late 2025, this isn't just a gift—it is a solid investment that retains value.</span></li>
       </ul>
 
-      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Truedinkumbet's Premier Membership Club</b></h2>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Unlike bonus cash which has wagering requirements, gold is yours to keep forever.</span></p>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">There are five different tiers of the VIP Club, each with more impressive benefits, such as:</span></p>
+      <h2 class="text-3xl font-bold mt-10 mb-6"><b>How to Qualify for the Gold Bar</b></h2>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">This promotion is designed for our elite players. To secure your Gold Bar, you must meet the following activity targets during the promotional period (January 1st, 2026 – February 28th, 2026).</span></p>
+
+      <h3 class="text-2xl font-bold mt-8 mb-4"><b>The "Lucky 388" Target</b></h3>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">To be eligible, members must:</span></p>
 
       <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">Weekly Bonuses</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">Birthday rewards</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;">Increased withdrawal limits</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Deposit:</b> Accumulate a total net deposit of AUD 388,888 (or currency equivalent in USDT/BTC).</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Turnover:</b> Complete a 1x Turnover requirement. (This is incredibly low compared to the industry standard. We just want to see you play!).</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Account Status:</b> Must have a verified phone number and a valid shipping address in Australia or New Zealand.</span></li>
       </ul>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">There are, perhaps predictably, requisite skills and experience levels for each tier. If you deposit at least AUD 50,000, you'll be invited to join Truedinkumbet's exclusive Loyalty Club. If you wish to play at the "Diamond" level, you'll need to make a deposit of at least AUD 2,000,000 every three months.</span></p>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;"><b>Note:</b> This promotion is limited to one (1) Gold Bar per household.</span></p>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">When it comes to lifetime memberships, both Bronze and Silver will do the trick. The other tiers, however, will expire after three months unless renewed.</span></p>
+      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Best Payment Methods for High Rollers</b></h2>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Reaching the deposit target is easier when you use the right banking methods. At Truedinkumbet, we specialise in friction-free high-volume transactions.</span></p>
+
+      <h3 class="text-2xl font-bold mt-8 mb-4"><b>1. Cryptocurrency (USDT / Bitcoin) – Recommended</b></h3>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">For players aiming for the Gold Bar, Crypto is the superior choice.</span></p>
+
+      <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>No Limits:</b> Deposit $50,000 or $100,000 in a single transaction.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Privacy:</b> Keep your bank statement clean.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Speed:</b> Deposits credit instantly, so you can start playing immediately.</span></li>
+      </ul>
+
+      <h3 class="text-2xl font-bold mt-8 mb-4"><b>2. PayID / Osko</b></h3>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">For those who prefer AUD, PayID is the standard.</span></p>
+
+      <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Instant:</b> Funds hit your account in seconds.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Secure:</b> Backed by Australian major banks.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Zero Fees:</b> We cover all transaction costs.</span></li>
+      </ul>
+
+      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Other Lunar New Year Promotions</b></h2>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">If you are just starting your journey with Truedinkumbet, we have plenty of other rewards to help you build your bankroll up to VIP status.</span></p>
+
+      <h3 class="text-2xl font-bold mt-8 mb-4"><b>The "New Year" Welcome Package</b></h3>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Start the Year of the Horse with a boosted balance.</span></p>
+
+      <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Offer:</b> 100% Match Bonus up to AUD 300.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>How:</b> Deposit min. AUD 50 via PayID.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Games:</b> Valid for Sports Betting (EPL, NBA, Cricket) and selected Pokies.</span></li>
+      </ul>
+
+      <h3 class="text-2xl font-bold mt-8 mb-4"><b>The Crypto Lucky Draw</b></h3>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Not a High Roller yet? You can still win Bitcoin!</span></p>
+
+      <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Mechanism:</b> Every AUD 200 equivalent deposited via Crypto gives you 1 Lucky Ticket.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Prize Pool:</b> We are giving away 588 mBTC to 18 winners every month.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Fairness:</b> Winners are drawn randomly via a transparent blockchain mechanism.</span></li>
+      </ul>
+
+      <h3 class="text-2xl font-bold mt-8 mb-4"><b>Risk-Free Sports Bet</b></h3>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">New punters can place their first bet without fear.</span></p>
+
+      <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Deal:</b> Place a bet on any Soccer Handicap or Over/Under market.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Guarantee:</b> If you lose, we refund your stake 100% (up to AUD 200).</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Condition:</b> 5x Rollover applies to the refund amount.</span></li>
+      </ul>
+
+      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Truedinkumbet VIP Club: The Path to Diamond</b></h2>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">The Gold Bar reward is part of our broader VIP ecosystem. When you play at Truedinkumbet, you are climbing the ladder of our Premier Membership Club.</span></p>
+
+      <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Bronze &amp; Silver:</b> Lifetime status. Enjoy weekly rebates and birthday gifts.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Gold &amp; Platinum:</b> Higher withdrawal limits and dedicated account managers.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Diamond (The Elite):</b> Invitation Only or maintain AUD 2,000,000 turnover per quarter. Perks: Unlimited withdrawals, holidays, luxury watches, and custom gold rewards.</span></li>
+      </ul>
+
+      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Frequently Asked Questions (FAQ)</b></h2>
+
+      <h3 class="text-2xl font-bold mt-8 mb-4"><b>Q1: Is the Gold Bar real gold?</b></h3>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Yes, absolutely. It is a certified 10g bar of 99.99% pure gold, sourced from reputable bullion dealers. It comes with a certificate of authenticity.</span></p>
+
+      <h3 class="text-2xl font-bold mt-8 mb-4"><b>Q2: Can I exchange the Gold Bar for cash credits?</b></h3>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Yes. If you prefer to have the value credited to your gaming account for play, we can exchange the Gold Bar for its current market value in AUD credits with a 1x rollover.</span></p>
+
+      <h3 class="text-2xl font-bold mt-8 mb-4"><b>Q3: How long does shipping take?</b></h3>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Once your eligibility is verified at the end of the campaign, please allow 14 business days for secure courier delivery within Australia.</span></p>
+
+      <h3 class="text-2xl font-bold mt-8 mb-4"><b>Q4: Can I use USDT to qualify for the Gold Bar?</b></h3>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Yes! We encourage it. Deposits in USDT (TRC20/ERC20) count towards the total accumulation. The exchange rate will be calculated based on the daily rate at the time of deposit.</span></p>
+
+      <h3 class="text-2xl font-bold mt-8 mb-4"><b>Q5: Why choose Truedinkumbet over other Aussie casinos?</b></h3>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">We are one of the few casinos with a PAGCOR license, 24/7 Live Support, and the ability to process instant withdrawals via PayID. We are fair dinkum about gaming.</span></p>
+
+      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Conclusion</b></h2>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">The Year of the Horse 2026 is about seizing opportunities. Whether you are spinning the reels on our high RTP pokies, betting on the footy, or sitting at our Live Baccarat tables, Truedinkumbet is the place to be.</span></p>
+
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Don't miss out on the most luxurious gift of the year. Deposit today via PayID or Crypto, aim for the target, and bring home the Gold!</span></p>
     </div>`,
   },
   {

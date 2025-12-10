@@ -593,14 +593,15 @@ const articles: Article[] = [
   },
   {
     id: 5,
-    title: "Truedinkumbet Year of Rabbit 2023 Gold Bar Deposit Reward",
+    title: "Truedinkumbet Lunar New Year Exclusive: The 2026 Year of the Horse Gold Bar Giveaway",
     description:
-      "In addition to being one of Australia's most well-known online casinos, Truedinkumbet is also well-known for its hefty bonus offerings. In honour of the upcoming Year of the Rabbit Chinese New Year, Truedinkumbet is now taking orders for a special gold bar. This is without a doubt one of Truedinkumbet's most generous presents to date. [...]",
+      "The Lunar New Year is approaching, and 2026 marks the Year of the Horse. Truedinkumbet is proud to announce our most prestigious campaign ever: The 24K Gold Bar Giveaway. This is not a digital reward or a bonus credit. This is a physical, solid gold asset delivered straight to your door. Discover how you can claim your fortune with our exclusive Year of the Horse promotion.",
     category: "Casino Review",
-    date: "27-12-2022",
+    date: "10-12-2025",
     image:
       "https://www.bk8.services/wp-content/uploads/2022/12/BK8-Year-of-Rabbit-2023-Gold-Bar-Deposit-Reward-360x200.png",
-    link: "/blog/casino-review/truedinkumbet-year-of-rabbit-2023-gold-bar-deposit-reward/",
+    link: "/blog/casino-review/truedinkumbet-year-of-horse-2026-gold-bar-deposit-reward/",
+    author: "Terrence Spove",
   },
   {
     id: 6,
