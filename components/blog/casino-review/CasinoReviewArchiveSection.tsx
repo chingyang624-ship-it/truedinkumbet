@@ -179,7 +179,7 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
     link: "/blog/casino-review/choose-the-best-casino-how-do-you-compare-online-casinos/",
   },
   {
-    id: 17,
+    id: 18,
     title: "How Crypto Gambling is Regulated Around the World",
     description:
       "The emergence of crypto-gambling and betting received different perceptions from various countries worldwide. The most defined stance came from the Japanese. Recently, the House of Representatives in Japan released a new regulation for crypto-asset, which affects the exchange and custodians of the digital currency. [...]",
@@ -190,7 +190,7 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
     link: "/blog/casino-review/how-crypto-gambling-is-regulated-around-the-world/",
   },
   {
-    id: 18,
+    id: 19,
     title: "How Old Should I Be To Use An Online Casino Service in Australia?",
     description:
       "In Australia, the legal gambling age is 18 years old. Unlike some countries where the age might be 21 or vary based on religion, Australia has a strict, uniform rule across all states and territories. [...]",
@@ -201,7 +201,7 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
     link: "/blog/casino-review/how-old-should-i-be-to-use-an-online-casino-service/",
   },
   {
-    id: 19,
+    id: 20,
     title: "The Rise of Crypto Casinos: Why Australians Are Switching to USDT Gambling",
     description:
       "Many years ago, cryptocurrency and Bitcoin were vague terms people knew little about. Fast forward to 2025, and cryptocurrency has changed the way we think about money—and specifically, how we gamble. [...]",
@@ -212,7 +212,7 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
     link: "/blog/casino-review/the-first-online-casino-malaysia-that-accepts-cryptocurrency/",
   },
   {
-    id: 20,
+    id: 21,
     title: "How is The Gambling Industry in Australia?",
     description:
       "The gambling industry is not far from a national sport in Australia; almost every other individual is involved in it, whether it's the pokies or sports betting. However, some things have changed over the decade. [...]",
