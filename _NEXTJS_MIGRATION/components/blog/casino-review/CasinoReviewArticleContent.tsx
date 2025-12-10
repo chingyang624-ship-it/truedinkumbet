@@ -368,59 +368,21 @@ const articles: Article[] = [
 
       <h2 class="text-3xl font-bold mt-10 mb-6"><b>Bankroll Management Strategies</b></h2>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Effective bankroll management is essential when gambling online, especially with a small budget. Here are some bankroll management strategies to consider:</span></p>
+      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Effective bankroll management is essential when gambling online:</span></p>
 
       <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Set a budget:</b> As mentioned earlier, a budget is essential when managing your bankroll. Determine how much money you can afford to spend on gambling and stick to it.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Manage your bets:</b> Make sure to bet within your budget and avoid placing bets that are too large or risky.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Use a betting strategy:</b> Consider using a betting strategy, such as Martingale or Paroli system, to help manage your bets and minimise your losses.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Keep track of your wins and losses:</b> Keep a record of your wins and losses to help you better manage your bankroll and make informed betting decisions.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Take breaks:</b> It's essential to take breaks from gambling to avoid making impulsive decisions and to keep your emotions in check.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Set a budget:</b> As mentioned, determine your limit before you open the Truedinkumbet app.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Manage your bets:</b> If you have $50, don't bet $5 per spin. Stick to $0.20 to $1.00 bets.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Take breaks:</b> Step away to keep your emotions in check.</span></li>
       </ul>
 
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">By following these bankroll management strategies, you can help extend your playing time and maximise your chances of winning while minimising your risk of overspending or exceeding your budget.</span></p>
-
-      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Small Budget Game Selection Strategies</b></h2>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Choosing suitable games is an integral part of online gambling, as it can impact your overall experience and chances of winning. Here's why the game selection is important and some tips for choosing suitable games:</span></p>
+      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Strategies for Maximising Wins on Pokies</b></h2>
 
       <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Importance of game selection:</b> Different games have different rules, payouts, and odds, affecting your chances of winning or losing. Choosing suitable matches can help you maximise your winnings and minimise your losses.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Different types of online gambling games:</b> There are various types of games available, including slots, table games, live dealer games, sports betting, and more.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Tips for selecting suitable games:</b> Consider your personal preferences, as well as the game's rules, payouts, and odds. Look for games with high payout percentages and low house edges. Additionally, practising the game before betting real money is recommended to become familiar with the rules and strategies.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Choose High RTP Games:</b> Return to Player (RTP) determines how much a machine pays back over time. Look for 96%+ RTP.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Use Betting Strategies:</b> While pokies are luck-based, managing your bet size (e.g., increasing after a win, decreasing after a loss) can help.</span></li>
+        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Withdraw Winnings:</b> If you hit a big win, withdraw your initial deposit immediately using Crypto or Bank Transfer.</span></li>
       </ul>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">These tips for selecting suitable games can improve your overall gambling experience and increase your chances of winning.</span></p>
-
-      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Strategies for Maximising Wins</b></h2>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Maximising your wins is a critical goal in online gambling. Here's an overview of strategies for maximising your winnings:</span></p>
-
-      <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Bankroll management:</b> Effective bankroll management can help you extend your playing time and minimise your losses, allowing you to make the most of your wins.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Betting strategies:</b> Consider using a betting strategy, such as the Martingale or Paroli system, to help you manage your bets and increase your chances of winning.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Take advantage of bonuses and promotions:</b> As mentioned earlier, bonuses and promotions can help boost your bankroll and increase your chances of winning.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Practice and learn:</b> Practice the game and discover its rules and strategies to improve your chances of winning.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Know when to quit:</b> It's essential to know when to stop while you're ahead to avoid losing your winnings.</span></li>
-      </ul>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Different strategies may work better for other players and games. For example, some methods, such as progressive betting systems, can have high risk and may not be suitable for players with a small budget.</span></p>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">By following these tips and strategies for maximising your wins, you can improve your chances of winning and have a more enjoyable gambling experience.</span></p>
-
-      <h2 class="text-3xl font-bold mt-10 mb-6"><b>Strategies for Minimising Losses</b></h2>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Minimising your losses is as important as maximising your wins in online gambling. Here's an overview of strategies for minimising your losses:</span></p>
-
-      <ul class="list-disc list-inside text-lg leading-relaxed mb-6">
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Effective bankroll management:</b> Effective bankroll management is critical to minimising your losses. Set a budget, manage your bets, and keep track of your wins and losses to ensure you're not overspending or chasing your losses.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Practice and learn:</b> Practice the game and discover its rules and strategies to minimise losses and make informed betting decisions.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Set loss limits:</b> Set loss limits for each session or bet to avoid losing more than you can afford.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Take breaks from gambling:</b> Taking breaks from gambling can help you make rational and informed decisions and avoid impulsive bets.</span></li>
-        <li><span style="font-size: 14pt; font-family: georgia, palatino, serif;"><b>Avoid chasing losses:</b> Avoid chasing your losses by increasing your bets or playing longer than planned. This can lead to even more significant losses.</span></li>
-      </ul>
-
-      <p class="text-lg leading-relaxed mb-6"><span style="font-weight: 400; font-size: 14pt; font-family: georgia, palatino, serif;">Different strategies may work better for other players and games. Therefore, it's a system that works for you, and your budget is essential.</span></p>
 
       <h2 class="text-3xl font-bold mt-10 mb-6"><b>Responsible Gambling</b></h2>
 
