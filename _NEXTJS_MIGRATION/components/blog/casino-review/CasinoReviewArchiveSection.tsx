@@ -235,6 +235,7 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
   },
 {
     title: "What Is the Process for Online Casino Bonuses?",
+    id: 21,
     description:
       "When discussing an online casino, it's impossible to avoid bringing up the bonuses and incentives the casino provides. Because they bring in new consumers and keep existing ones coming back, promotional offers have become critical for online casinos. First-time online gamblers should learn about casino bonuses and other safety measures before they risk their money. [...]",
     category: "Casino Review",
