@@ -354,6 +354,39 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
       "https://www.bk8.services/wp-content/uploads/2025/01/How-Is-Gambling-Industry-Australia-360x200.png",
     link: "/blog/casino-review/how-to-smartly-spend-your-ato-tax-refund-in-2025/",
   },
+  {
+    id: 34,
+    title: "The Evolution of Pokies: From Mechanical Machines to Digital Gaming",
+    description:
+      "Australian pokies have come a long way since the first mechanical machines. Today's online pokies offer incredible graphics, immersive themes, and better odds than ever before. Discover how technology has transformed the pokies industry and what that means for players in 2025 [...]",
+    category: "Casino Review / Gaming",
+    date: "08-02-2025",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2025/02/Pokies-Evolution-360x200.png",
+    link: "/blog/casino-review/the-evolution-of-pokies-digital-gaming/",
+  },
+  {
+    id: 35,
+    title: "Live Dealer Games: The Future of Online Casino Entertainment",
+    description:
+      "Live dealer games have revolutionized online gambling by bringing the casino experience directly to your home. With real dealers, real cards, and real-time interaction, live games offer an authentic experience that virtual games cannot match. Learn why they're becoming increasingly popular in Australia [...]",
+    category: "Casino Review / Live Games",
+    date: "05-02-2025",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2025/02/Live-Dealer-Games-360x200.png",
+    link: "/blog/casino-review/live-dealer-games-future-online-casino/",
+  },
+  {
+    id: 36,
+    title: "VIP Programs at Online Casinos: Are They Worth It?",
+    description:
+      "Most online casinos offer VIP programs with exclusive perks, higher withdrawal limits, and better bonuses. But are they actually worth joining? In this guide, we analyze the benefits and drawbacks of VIP programs at leading online casinos, including Truedinkumbet [...]",
+    category: "Casino Strategy",
+    date: "02-02-2025",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2025/02/VIP-Programs-Casino-360x200.png",
+    link: "/blog/casino-review/vip-programs-online-casinos/",
+  },
 ];
 
 const recentPosts = [
