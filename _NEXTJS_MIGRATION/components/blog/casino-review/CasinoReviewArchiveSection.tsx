@@ -425,7 +425,7 @@ const categories = [
 
 export default function CasinoReviewArchiveSection() {
   const [currentPage, setCurrentPage] = useState(1);
-  const itemsPerPage = 6;
+  const itemsPerPage = 20;
   const totalPages = Math.ceil(casinoReviewArticles.length / itemsPerPage);
 
   const startIndex = (currentPage - 1) * itemsPerPage;
