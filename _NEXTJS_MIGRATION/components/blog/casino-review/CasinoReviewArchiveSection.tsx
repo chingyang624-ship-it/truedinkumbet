@@ -233,7 +233,6 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
       "https://www.bk8.services/wp-content/uploads/2025/01/Rise-of-Crypto-Casinos-USDT-Gambling-360x200.png",
     link: "/blog/casino-review/the-first-online-casino-australia-that-accepts-cryptocurrency/",
   },
-    id: 21,
 {
     title: "What Is the Process for Online Casino Bonuses?",
     description:
