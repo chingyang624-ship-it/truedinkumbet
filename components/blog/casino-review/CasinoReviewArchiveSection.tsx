@@ -222,6 +222,50 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
       "https://www.bk8.services/wp-content/uploads/2025/01/How-Is-Gambling-Industry-Australia-360x200.png",
     link: "/blog/casino-review/how-is-the-gambling-industry-in-australia/",
   },
+  {
+    id: 22,
+    title: "How to Smartly Spend Your ATO Tax Refund in 2025",
+    description:
+      "It's that time of the year again. You have lodged your return with the ATO (Australian Taxation Office), and suddenly, a nice lump sum of cash hits your bank account. For many Aussies, a Tax Refund feels like 'free money.' But instead of blowing it all on overpriced avocado toast or bills, why not plan how to use it effectively? In this guide, we explore the best ways to maximize your 2025 Tax Refund.",
+    category: "Lifestyle / Casino Guide",
+    date: "10-12-2025",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2025/01/How-Is-Gambling-Industry-Australia-360x200.png",
+    link: "/blog/casino-review/how-to-smartly-spend-your-ato-tax-refund-in-2025/",
+  },
+  {
+    id: 30,
+    title: "The #1 Crypto Casino in Australia: Why Truedinkumbet Accepts USDT & Bitcoin",
+    description:
+      "Banks blocking your deposits? Switch to Crypto! Discover why Truedinkumbet is Australia's premier Crypto Casino, offering instant USDT withdrawals and anonymous gaming. No bank blocks, maximum privacy.",
+    category: "Cryptocurrency Casino / Tech",
+    date: "10-12-2025",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2025/01/Rise-of-Crypto-Casinos-USDT-Gambling-360x200.png",
+    link: "/blog/casino-review/the-first-online-casino-australia-that-accepts-cryptocurrency/",
+  },
+  {
+    id: 31,
+    title: "How is The Gambling Industry in Australia?",
+    description:
+      "The gambling industry is not far from a national sport in Australia; almost every other individual is involved in it, whether it's the pokies or sports betting. However, some things have changed over the decade. [...]",
+    category: "Casino Review",
+    date: "21-01-2025",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2025/01/How-Is-Gambling-Industry-Australia-360x200.png",
+    link: "/blog/casino-review/how-is-the-gambling-industry-in-australia/",
+  },
+  {
+    id: 32,
+    title: "Top 5 E-Wallets to Use in Online Casinos Australia",
+    description:
+      "When it comes to online gambling in Australia, choosing the right e-wallet can make all the difference. E-wallets offer speed, security, and convenience that traditional payment methods simply cannot match. In this guide, we explore the top 5 e-wallets trusted by Australian casino players in 2025. [...]",
+    category: "Casino Review / Payment Methods",
+    date: "22-01-2025",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2025/01/Top-5-E-Wallets-Casino-Australia-360x200.png",
+    link: "/blog/casino-review/top-5-e-wallets-to-use-in-casino-australia/",
+  },
 ];
 
 const recentPosts = [
