@@ -222,7 +222,6 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
       "https://www.bk8.services/wp-content/uploads/2021/12/Bankroll-Management-Advice-8-Ideas-360x200.png",
     link: "/blog/casino-review/bankroll-management-advice-8-ideas/",
   },
-  {
 {
     id: 20,
     title: "The #1 Crypto Casino in Australia: Why Truedinkumbet Accepts USDT & Bitcoin",
