@@ -523,19 +523,6 @@ export default function CasinoReviewArchiveSection() {
             {/* Pagination */}
             {totalPages > 1 && (
               <div className="flex justify-center gap-2 mb-12">
-                {currentPage === 1 ? (
-                  <span className="inline-block bg-gray-800 text-white px-4 py-2 rounded opacity-40">
-                    1
-                  </span>
-                ) : (
-                  <button
-                    onClick={() => setCurrentPage(1)}
-                    className="inline-block bg-gray-800 text-white px-4 py-2 rounded hover:bg-gray-900 transition-colors"
-                  >
-                    « Previous
-                  </button>
-                )}
-
                 {[...Array(totalPages)].map((_, idx) => (
                   <button
                     key={idx + 1}
