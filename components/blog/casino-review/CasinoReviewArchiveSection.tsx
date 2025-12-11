@@ -59,7 +59,8 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
   },
   {
     id: 5,
-    title: "Truedinkumbet Lunar New Year Exclusive: The 2026 Year of the Horse Gold Bar Giveaway",
+    title:
+      "Truedinkumbet Lunar New Year Exclusive: The 2026 Year of the Horse Gold Bar Giveaway",
     description:
       "The Lunar New Year is approaching, and 2026 marks the Year of the Horse. Truedinkumbet is proud to announce our most prestigious campaign ever: The 24K Gold Bar Giveaway. This is not a digital reward or a bonus credit. This is a physical, solid gold asset delivered straight to your door. Discover how you can claim your fortune with our exclusive Year of the Horse promotion.",
     category: "Casino Review",
@@ -92,7 +93,8 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
   },
   {
     id: 8,
-    title: "The Ultimate Showdown: Land-Based Casinos vs. Online Casinos in Australia (2025)",
+    title:
+      "The Ultimate Showdown: Land-Based Casinos vs. Online Casinos in Australia (2025)",
     description:
       "Since the first poker machines appeared in Aussie pubs, gambling has been a core part of our culture. For decades, the pinnacle of this experience was visiting iconic venues like Crown Melbourne, Crown Perth, or The Star in Sydney and the Gold Coast. However, the digital revolution has shifted the battlefield. With the rise of premium online platforms like Truedinkumbet, players are voting with their wallets.",
     category: "Casino Strategy / Industry News",
@@ -136,7 +138,8 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
   },
   {
     id: 12,
-    title: "Deposit Your Funds in Truedinkumbet With Debit/Credit Card (Visa/Mastercard)",
+    title:
+      "Deposit Your Funds in Truedinkumbet With Debit/Credit Card (Visa/Mastercard)",
     description:
       "Truedinkumbet is a famous Online Casino in Australia that accepts a large variety of banking methods such as credit/debit cards (Visa and Mastercard) and cryptocurrencies. Customer service and attractive bonuses are critical factors in their success. Quality games are also important. Because of Truedinkumbet's user-friendly payment options, players may deposit and withdraw money from their casino wallets with ease. [...]",
     category: "Casino Review",
@@ -290,7 +293,8 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
   },
   {
     id: 27,
-    title: "How to Deposit in an Online Casino in Australia: The Ultimate Guide",
+    title:
+      "How to Deposit in an Online Casino in Australia: The Ultimate Guide",
     description:
       "Depositing funds into your online casino account should be quick and straightforward. However, with so many payment methods available, it can be confusing to choose the right one. This comprehensive guide covers all available deposit options for Australian players, including fees, processing times, and security considerations [...]",
     category: "Casino Guides",
@@ -312,7 +316,8 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
   },
   {
     id: 30,
-    title: "The #1 Crypto Casino in Australia: Why Truedinkumbet Accepts USDT & Bitcoin",
+    title:
+      "The #1 Crypto Casino in Australia: Why Truedinkumbet Accepts USDT & Bitcoin",
     description:
       "Banks blocking your deposits? Switch to Crypto! Discover why Truedinkumbet is Australia's premier Crypto Casino, offering instant USDT withdrawals and anonymous gaming. No bank blocks, maximum privacy.",
     category: "Cryptocurrency Casino / Tech",
@@ -356,7 +361,8 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
   },
   {
     id: 34,
-    title: "The Evolution of Pokies: From Mechanical Machines to Digital Gaming",
+    title:
+      "The Evolution of Pokies: From Mechanical Machines to Digital Gaming",
     description:
       "Australian pokies have come a long way since the first mechanical machines. Today's online pokies offer incredible graphics, immersive themes, and better odds than ever before. Discover how technology has transformed the pokies industry and what that means for players in 2025 [...]",
     category: "Casino Review / Gaming",
