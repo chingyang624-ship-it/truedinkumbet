@@ -475,6 +475,17 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
       "https://www.bk8.services/wp-content/uploads/2025/01/How-Is-Gambling-Industry-Australia-360x200.png",
     link: "/blog/casino-review/how-is-the-gambling-industry-in-australia/",
   },
+  {
+    id: 22,
+    title: "How to Smartly Spend Your ATO Tax Refund in 2025",
+    description:
+      "It's that time of the year again. You have lodged your return with the ATO (Australian Taxation Office), and suddenly, a nice lump sum of cash hits your bank account. For many Aussies, a Tax Refund feels like 'free money.' But instead of blowing it all on overpriced avocado toast or bills, why not plan how to use it effectively? In this guide, we explore the best ways to maximize your 2025 Tax Refund.",
+    category: "Lifestyle / Casino Guide",
+    date: "10-12-2025",
+    image:
+      "https://www.bk8.services/wp-content/uploads/2025/01/How-Is-Gambling-Industry-Australia-360x200.png",
+    link: "/blog/casino-review/how-to-smartly-spend-your-ato-tax-refund-in-2025/",
+  },
 ];
 
 const recentPosts = [
