@@ -230,7 +230,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2F28bb87ef06f54425a01118d65acdbdb9"
+                    src="https://static.gwvkyk.com/media/f2b1a569e28968fa24c12.png"
                     alt="Truedinkumbet Facebook"
                     className="h-9 w-9"
                     style={{ filter: "grayscale(1)" }}
@@ -254,7 +254,7 @@ export default function Footer() {
                   rel="noopener noreferrer"
                 >
                   <img
-                    src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff5804a6ce4f74020b78f032bcdc0ae99"
+                    src="https://static.gwvkyk.com/media/564838c9e2896b473dcd4.png"
                     alt="Truedinkumbet Twitter"
                     className="h-9 w-9 cursor-pointer"
                     style={{ filter: "grayscale(1)" }}
