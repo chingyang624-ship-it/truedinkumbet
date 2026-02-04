@@ -237,12 +237,12 @@ export default function Footer() {
                   />
                 </a>
                 <a
-                  href="https://youtube.com/truedinkumbet"
+                  href="https://t.me/truedinkumbetaus"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
                   <img
-                    src="https://cdn.builder.io/api/v1/image/assets%2F4dfa7c46dbc1480caa7368c3233e05a7%2Ff5804a6ce4f74020b78f032bcdc0ae99"
+                    src="https://static.gwvkyk.com/media/861cd426e2896b50f737d.png"
                     alt="Truedinkumbet Youtube"
                     className="h-9 w-9"
                     style={{ filter: "grayscale(1)" }}
