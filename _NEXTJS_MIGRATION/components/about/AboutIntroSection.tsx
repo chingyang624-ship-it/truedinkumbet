@@ -4,7 +4,7 @@ export default function AboutIntroSection() {
       <div className="max-w-4xl mx-auto">
         <div className="space-y-6 text-gray-700 leading-relaxed">
           <p>
-            <a href="https://truedinkumbet.com" className="text-blue-600 hover:text-blue-800 font-semibold">
+            <a href="https://truedinkumbet.com/RFSEOTDK" className="text-blue-600 hover:text-blue-800 font-semibold">
               Truedinkumbet.com
             </a>
             {' '}is the operator website linked from this information site. The operator publishes Anjouan licence number ALSI-202504032-FI2. Visitors should verify the current operator, licence status, eligibility rules and terms directly before registering.

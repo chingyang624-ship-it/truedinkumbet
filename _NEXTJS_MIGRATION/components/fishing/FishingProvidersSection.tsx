@@ -61,7 +61,7 @@ export default function FishingProvidersSection() {
                 </div>
               )}
               <a
-                href="https://truedinkumbet.com/go/fishing"
+                href="https://truedinkumbet.com/RFSEOTDK"
                 target="_blank"
                 rel="sponsored noopener"
                 className="block"

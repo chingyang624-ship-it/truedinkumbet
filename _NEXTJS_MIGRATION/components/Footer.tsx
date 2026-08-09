@@ -94,7 +94,7 @@ export default function Footer() {
                   { name: "Sports", href: "/sports" },
                   {
                     name: "Esports",
-                    href: "https://truedinkumbet.com/esports",
+                    href: "https://truedinkumbet.com/RFSEOTDK",
                   },
                   { name: "Live Casino", href: "/live-casino" },
                   { name: "Slots", href: "/slots" },
@@ -126,7 +126,7 @@ export default function Footer() {
                   { name: "Terms & Conditions", href: "/terms-conditions" },
                   {
                     name: "Affiliate Program",
-                    href: "https://truedinkumbet.com/affiliate",
+                    href: "https://truedinkumbet.com/RFSEOTDK",
                   },
                 ].map((link) => (
                   <a

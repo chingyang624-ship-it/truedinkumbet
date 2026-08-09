@@ -401,7 +401,7 @@ export default function FishingComprehensiveSEOContent() {
         </div>
         <div className="mt-12 text-center">
           <a
-            href="https://truedinkumbet.com/go/register"
+            href="https://truedinkumbet.com/RFSEOTDK"
             rel="nofollow"
             className="inline-block px-8 py-3 bg-orange-500 text-white font-semibold rounded-lg hover:bg-orange-600 transition-colors"
           >

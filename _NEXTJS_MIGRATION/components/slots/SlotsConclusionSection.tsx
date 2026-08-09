@@ -20,7 +20,7 @@ export default function SlotsConclusionSection() {
           </p>
 
           <a
-            href="https://truedinkumbet.com"
+            href="https://truedinkumbet.com/RFSEOTDK"
             className="inline-block px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white font-bold rounded-lg transition-colors text-lg"
           >
             Play Online Slots at Truedinkumbet

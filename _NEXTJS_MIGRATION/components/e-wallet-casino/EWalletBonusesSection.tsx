@@ -62,7 +62,7 @@ export default function EWalletBonusesSection() {
 
         <div className="flex gap-4 justify-center mt-12">
           <a
-            href="https://truedinkumbet.com/register"
+            href="https://truedinkumbet.com/RFSEOTDK"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-lg transition-colors"

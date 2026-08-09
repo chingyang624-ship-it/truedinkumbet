@@ -54,7 +54,7 @@ export default function EWalletHeroSection() {
 
           <div className="flex gap-4 flex-wrap">
             <a
-              href="https://truedinkumbet.com/register"
+              href="https://truedinkumbet.com/RFSEOTDK"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-orange-500 hover:bg-orange-600 text-white font-bold py-3 px-8 rounded-lg transition-colors"
@@ -62,7 +62,7 @@ export default function EWalletHeroSection() {
               Play Now
             </a>
             <a
-              href="https://truedinkumbet.com/register"
+              href="https://truedinkumbet.com/RFSEOTDK"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-block bg-blue-700 hover:bg-blue-800 text-white font-bold py-3 px-8 rounded-lg transition-colors"
