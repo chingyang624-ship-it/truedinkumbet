@@ -1,0 +1,1 @@
+import{j as t}from"./jsx-runtime.BjG_zV1W.js";function n(){return t.jsx("div",{className:"w-full bg-gray-100 py-20 px-4 text-center",children:t.jsx("div",{className:"transition-all duration-300 ease-in-out",children:t.jsx("h2",{className:"text-2xl font-semibold text-black leading-tight",children:"Truedinkumbet Games, Payments and Account Information"})})})}export{n as default};
