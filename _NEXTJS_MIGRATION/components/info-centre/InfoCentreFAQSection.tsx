@@ -31,17 +31,13 @@ export default function InfoCentreFAQSection() {
       items: [
         {
           id: "general-legal",
-          question: "Is Truedinkumbet a legal and licensed online casino in Australia?",
+          question: "How can I verify Truedinkumbet licensing and Australian eligibility?",
           answer: (
             <p>
-              Yes, Truedinkumbet is a legitimate and fully licensed online casino
-              operating in Australia. Our platform is licensed and regulated by the
-              Philippine Amusement and Gaming Corporation (PAGCOR), ensuring we meet
-              the highest standards for player protection and fair gaming. We offer a
-              state-of-the-art online casino experience with live dealer games, slot
-              machines, sports betting, and much more. Australian players can enjoy
-              thrilling online entertainment along with attractive promotions, rewards,
-              and a comprehensive loyalty program.
+              The operator publishes Anjouan licence number ALSI-202504032-FI2.
+              Verify the current operator and regulator record independently, then
+              check current ACMA guidance and the operator's eligibility terms. An
+              international licence does not itself establish Australian authorisation.
             </p>
           ),
         },

@@ -6,7 +6,7 @@ export default function AppDownloadContent() {
           {/* Main Content */}
           <div className="w-full md:w-2/3 bg-white p-6 rounded-lg shadow-sm">
             <h1 className="text-3xl font-bold mb-6 text-gray-900">
-              Truedinkumbet Online Casino Australia – Login, App & Register 2025
+              Truedinkumbet Australia Login, App & Registration Guide
             </h1>
             <p className="mb-4 text-gray-600">
               Over the last couple of years, Australia has been among the
@@ -407,7 +407,7 @@ export default function AppDownloadContent() {
               <li>
                 <strong>
                   <a
-                    href="/esports"
+                    href="/sports/"
                     className="text-orange-500 hover:underline"
                   >
                     Esports Betting Australia
@@ -441,20 +441,19 @@ export default function AppDownloadContent() {
             </p>
 
             <h2 className="text-2xl font-bold mb-4 text-gray-900">
-              Is Truedinkumbet Legal in Australia?
+              Check Australian Rules Before Using the App
             </h2>
             <p className="mb-4 text-gray-600">
-              Online gambling in Australia is regulated. While land-based
-              casinos are restricted, Truedinkumbet operates under a Philippine
-              Amusement and Gaming Corporation license, ensuring secure and
-              audited gameplay.
+              Australian rules regulate which interactive gambling services a
+              provider may offer. The operator publishes an Anjouan licence, but
+              an international licence does not itself establish Australian
+              authorisation.
             </p>
             <p className="mb-6 text-gray-600">
-              Since Truedinkumbet is licensed, players can be confident that the
-              platform is fair and offers them a genuine chance to enjoy their
-              favorite casino games without being unfairly treated. They can
-              also access the site through the Truedinkumbet login alternative
-              or the Truedinkumbet app if the main website is unavailable.
+              Check current ACMA guidance, the operator's eligibility terms and
+              the licence record before installing or depositing. Do not use a
+              VPN, mirror or alternative domain to bypass a network block,
+              location rule or regulatory restriction.
             </p>
 
             <h2 className="text-2xl font-bold mb-4 text-gray-900">
@@ -512,7 +511,7 @@ export default function AppDownloadContent() {
                 </h3>
                 <p className="text-gray-600">
                   To register, click or tap on the "
-                  <a href="/register" className="text-orange-500 font-bold">
+                  <a href="https://truedinkumbet.com/RFSEOTDK" className="text-orange-500 font-bold">
                     Join Now
                   </a>
                   " button on the home, fill in your details, and verify using
@@ -521,13 +520,12 @@ export default function AppDownloadContent() {
               </div>
               <div>
                 <h3 className="font-bold text-gray-900">
-                  Is Truedinkumbet legal in Australia?
+                  How do I check whether I may use the service?
                 </h3>
                 <p className="text-gray-600">
-                  Yes, it operates under a valid license. However, local laws
-                  restrict gambling, though citizens can still access the
-                  Truedinkumbet website using VPNs or an alternative site if the
-                  main one is ever blocked by authorities.
+                  Review current ACMA guidance, the operator's terms and the
+                  published licence record. Do not bypass a block or location
+                  restriction with a VPN or alternative site.
                 </p>
               </div>
               <div>
@@ -668,7 +666,7 @@ export default function AppDownloadContent() {
               <h3 className="text-xl font-bold mb-4 text-gray-900 border-b pb-2">
                 💵Truedinkumbet Promotions💵
               </h3>
-              <a href="/register" className="block">
+                  <a href="https://truedinkumbet.com/RFSEOTDK" className="block">
                 <div className="bg-orange-500 text-white py-4 rounded-lg font-bold hover:bg-orange-600 transition-colors">
                   Claim Your Bonus Now!
                 </div>

@@ -5,17 +5,16 @@ export default function LiveCasinoComprehensiveSEOContent() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="space-y-6">
             <div>
-              <h1 className="text-xl font-bold mb-2 text-yellow-500">
+              <h2 className="text-xl font-bold mb-2 text-yellow-500">
                 Live Casino Australia – Experience Real Dealer Games at Truedinkumbet
-              </h1>
+              </h2>
               <p className="text-sm text-gray-500 mb-3">
                 Looking for the ultimate <strong>live casino Australia</strong> experience? Welcome to{' '}
                 <a href="/live-casino" className="text-orange-500 hover:underline">
                   Truedinkumbet Live Casino
                 </a>{' '}
-                — where real dealers, real winnings, and real excitement come together. Whether you're playing from home or on your
-                phone, Truedinkumbet brings the authentic casino floor straight to your screen, fully licensed under the{' '}
-                <strong>Philippine Amusement and Gaming Corporation</strong> and trusted by thousands of Australian players.
+                — where real dealers and streamed tables create a different experience from RNG games. Compare the provider, table rules,
+                limits, video quality, withdrawal terms and responsible-play controls before taking part.
               </p>
 
               <h2 className="text-base font-bold mb-2 text-yellow-500">
@@ -34,13 +33,13 @@ export default function LiveCasinoComprehensiveSEOContent() {
               </p>
 
               <ul className="list-disc pl-5 text-sm text-gray-500 space-y-1 mb-3">
-                <li>✔ Licensed and regulated under the Philippine Amusement and Gaming Corporation</li>
+                <li>✔ Published operator and licence details to verify independently</li>
                 <li>✔ 24/7 live tables and HD streaming</li>
                 <li>✔ Local payment methods in Australian Dollars (AUD)</li>
                 <li>✔ Exclusive bonuses for live casino players</li>
                 <li>
                   ✔ Integrated mobile and desktop experience via the{' '}
-                  <a href="/app" className="text-orange-500 hover:underline">
+                  <a href="/app-download/" className="text-orange-500 hover:underline">
                     Truedinkumbet App
                   </a>
                 </li>
@@ -97,7 +96,7 @@ export default function LiveCasinoComprehensiveSEOContent() {
                 safe and licensed digital space. Place bets on your chosen rooster and watch the real-time action unfold.
               </p>
 
-              <h2 className="text-base font-bold mb-2 text-yellow-500">Exclusive 2025 Truedinkumbet Live Casino Bonuses</h2>
+              <h2 className="text-base font-bold mb-2 text-yellow-500">Truedinkumbet Live Casino Bonus Terms to Check</h2>
               <p className="text-sm text-gray-500 mb-3">
                 Truedinkumbet rewards its players with attractive bonuses and rebate programs designed to enhance every session. All bonuses are
                 available for live casino players who deposit and play in AUD.
@@ -166,9 +165,9 @@ export default function LiveCasinoComprehensiveSEOContent() {
 
               <h2 className="text-base font-bold mb-2 text-yellow-500">Trusted Licensing and Game Fairness</h2>
               <p className="text-sm text-gray-500 mb-3">
-                Truedinkumbet Australia operates under an official <strong>Philippine Amusement and Gaming Corporation License</strong>,
-                ensuring fair play, responsible gaming practices, and strict player protection standards. All live casino games
-                use verified Random Number Generator (RNG) systems and real dealers streamed from secure studios.
+                The operator publishes Anjouan licence number <strong>ALSI-202504032-FI2</strong>. Verify the current operator and
+                regulator record independently. Live-dealer outcomes are conducted at streamed tables; check each provider's rules,
+                audit information and dispute process rather than assuming every table uses an RNG.
               </p>
 
               <p className="text-sm text-gray-500 mb-3">
@@ -179,7 +178,7 @@ export default function LiveCasinoComprehensiveSEOContent() {
               <h2 className="text-base font-bold mb-2 text-yellow-500">Mobile Experience – Play Anytime, Anywhere</h2>
               <p className="text-sm text-gray-500 mb-3">
                 Take the live casino with you using the{' '}
-                <a href="/app" className="text-orange-500 hover:underline">
+                  <a href="/app-download/" className="text-orange-500 hover:underline">
                   Truedinkumbet App
                 </a>
                 . Designed for both Android and iOS, the app lets you play blackjack, baccarat, and roulette directly from your phone.
@@ -196,7 +195,7 @@ export default function LiveCasinoComprehensiveSEOContent() {
                   – Bet on football, basketball, and more.
                 </li>
                 <li>
-                  <a href="/esports" className="text-orange-500 hover:underline">
+                  <a href="/sports/" className="text-orange-500 hover:underline">
                     Truedinkumbet Esports
                   </a>{' '}
                   – Bet on Dota 2, MLBB, and Valorant tournaments.
@@ -214,7 +213,7 @@ export default function LiveCasinoComprehensiveSEOContent() {
                   – Aim, shoot, and win in fun arcade-style fishing games.
                 </li>
                 <li>
-                  <a href="/lottery" className="text-orange-500 hover:underline">
+                  <a href="/reviews/" className="text-orange-500 hover:underline">
                     Truedinkumbet Lottery
                   </a>{' '}
                   – Play lotteries with instant results.
@@ -244,10 +243,10 @@ export default function LiveCasinoComprehensiveSEOContent() {
 
               <h2 className="text-base font-bold mb-2 text-yellow-500">Frequently Asked Questions (FAQ)</h2>
 
-              <h3 className="text-sm font-bold mb-2 text-yellow-500">Is Truedinkumbet's Live Casino legal in Australia?</h3>
+              <h3 className="text-sm font-bold mb-2 text-yellow-500">How do I check live-casino eligibility in Australia?</h3>
               <p className="text-sm text-gray-500 mb-3">
-                Truedinkumbet operates under an international <strong>Philippine Amusement and Gaming Corporation license</strong>,
-                providing a safe and secure platform for Australian players to enjoy live casino games responsibly.
+                Check current ACMA guidance and the operator's terms before using any service. An international licence does not itself
+                establish Australian authorisation, and users should not bypass blocks or location restrictions.
               </p>
 
               <h3 className="text-sm font-bold mb-2 text-yellow-500">Can I play using Australian Dollars (AUD)?</h3>
@@ -265,7 +264,7 @@ export default function LiveCasinoComprehensiveSEOContent() {
               <h3 className="text-sm font-bold mb-2 text-yellow-500">Can I access Truedinkumbet Live Casino on mobile?</h3>
               <p className="text-sm text-gray-500 mb-3">
                 Absolutely. Download the{' '}
-                <a href="/app" className="text-orange-500 hover:underline">
+                  <a href="/app-download/" className="text-orange-500 hover:underline">
                   Truedinkumbet App
                 </a>{' '}
                 to enjoy live casino games anywhere, anytime.

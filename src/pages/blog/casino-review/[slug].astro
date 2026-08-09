@@ -2,61 +2,52 @@
 import Layout from '../../../layouts/Layout.astro';
 import Header from '@components/Header';
 import Footer from '@components/Footer';
-import CasinoReviewArticleContent from '@components/blog/casino-review/CasinoReviewArticleContent';
+import CasinoReviewArticleContent, {
+  articles,
+  getArticleSlug,
+  isArticleIndexable,
+} from '@components/blog/casino-review/CasinoReviewArticleContent';
 
 export function getStaticPaths() {
-  const articleSlugs = [
-    "why-bitcoin-or-other-cryptocurrencies-and-casinos-are-great-together",
-    "how-crypto-gambling-is-regulated-around-the-world",
-    "cryptocurrency-vs-traditional-currency-in-online-casino",
-    "is-it-safe-to-use-bitcoin-for-online-casinos",
-    "what-is-cryptocurrency-casino",
-    "have-you-truedinkumbet",
-    "tips-for-gambling-online-with-a-small-budget",
-    "does-australian-tax-gambling-winnings",
-    "truedinkumbet-year-of-horse-2026-gold-bar-deposit-reward",
-    "what-is-a-heylink-or-joylink-bonus-casino",
-    "tips-for-playing-safely-at-online-casinos",
-    "land-based-casino-vs-online-casino",
-    "what-is-gaming-curacao",
-    "how-to-earn-extra-money-with-online-casino-affiliate",
-    "10-betting-systems-for-better-winnings",
-    "deposit-your-funds-in-truedinkumbet-with-card",
-    "7-ways-to-compare-online-and-land-based-casinos",
-    "what-is-e-wallet-casino-australia",
-    "do-i-need-to-declare-my-casino-winnings-in-australia",
-    "how-to-fully-utilize-your-superannuation-in-2025",
-    "the-most-important-slot-machine-winners-in-history",
-    "bankroll-management-advice-8-ideas",
-    "what-is-the-process-for-online-casino-bonuses",
-    "you-should-stop-gambling-if-you-see-any-of-these-6-signs",
-    "join-truedinkumbet-affiliate-program-and-transform-your-ability-to-pure-profit",
-    "kelly-smith-becomes-truedinkumbet-brand-ambassador",
-    "choose-the-best-casino-how-do-you-compare-online-casinos",
-    "which-is-better-online-casinos-versus-land-based-casinos",
-    "mistakes-to-avoid-when-playing-online-gambling",
-    "online-gambling-trends-2026",
-    "how-to-deposit-in-an-online-casino-australia",
-    "how-old-should-i-be-to-use-an-online-casino-service",
-    "the-first-online-casino-australia-that-accepts-cryptocurrency",
-    "how-is-the-gambling-industry-in-australia",
-    "top-5-e-wallets-to-use-in-casino-australia",
-    "how-to-smartly-spend-your-ato-tax-refund-in-2025",
-  ];
-
+  const articleSlugs = [...new Set(articles.map(getArticleSlug))];
   return articleSlugs.map((slug) => ({
     params: { slug },
   }));
 }
 
 const { slug } = Astro.params;
+const article = articles.find((item) => getArticleSlug(item) === slug);
+
+if (!article) {
+  throw new Error(`Missing article data for slug: ${slug}`);
+}
+
+const cleanDescription = article.description
+  .replace(/\s*\[\.\.\.\]\s*$/, '')
+  .replace(/\s+/g, ' ')
+  .trim();
+const metaDescription = cleanDescription.length > 158
+  ? `${cleanDescription.slice(0, 155).replace(/\s+\S*$/, '')}...`
+  : cleanDescription;
+const titleSuffix = ' | Truedinkumbet';
+const metaTitle = article.title.length + titleSuffix.length <= 65
+  ? `${article.title}${titleSuffix}`
+  : article.title.length <= 65
+    ? article.title
+    : `${article.title.slice(0, 62).replace(/\s+\S*$/, '')}...`;
 ---
 
-<Layout title={`Casino Review: ${slug} - Truedinkumbet Australia`}>
+<Layout
+  title={metaTitle}
+  description={metaDescription}
+  image={article.image}
+  type="article"
+  indexable={isArticleIndexable(article)}
+>
   <div class="min-h-screen flex flex-col">
     <Header client:load />
     <main class="flex-1 pt-16">
-      <CasinoReviewArticleContent client:load slug={slug} />
+      <CasinoReviewArticleContent client:load slug={slug!} />
     </main>
     <Footer client:load />
   </div>

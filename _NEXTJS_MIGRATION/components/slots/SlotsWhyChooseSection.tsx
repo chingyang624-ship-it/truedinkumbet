@@ -18,11 +18,12 @@ export default function SlotsWhyChooseSection() {
               </span>
               <div>
                 <p className="font-semibold text-gray-900 mb-2">
-                  Fully Licensed & Regulated
+                  Licence Details to Verify
                 </p>
                 <p className="text-gray-600">
-                  Truedinkumbet holds all necessary licenses to operate legally
-                  in Australia, with full compliance and security certifications.
+                  The operator publishes Anjouan licence number
+                  ALSI-202504032-FI2. Check the current regulator record and
+                  local eligibility; an offshore licence is not Australian authorisation.
                 </p>
               </div>
             </li>

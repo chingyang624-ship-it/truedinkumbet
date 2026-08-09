@@ -54,7 +54,7 @@ export default function EWalletPaymentSection() {
     <section className="w-full bg-gray-50 py-16 px-4">
       <div className="max-w-6xl mx-auto">
         <h2 className="text-4xl font-bold text-center mb-6 text-gray-900">
-          Top Payment Methods to Use in Australian Casino 2024
+          Common Payment Methods Used by Casino Players
         </h2>
 
         <p className="text-lg text-gray-700 text-center max-w-3xl mx-auto mb-6 leading-relaxed">

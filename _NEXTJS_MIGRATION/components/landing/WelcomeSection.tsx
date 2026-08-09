@@ -6,9 +6,9 @@ export default function WelcomeSection() {
       <div className="max-w-4xl mx-auto">
         <div className="space-y-8">
           <div>
-            <h1 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
               Welcome to Truedinkumbet Australia
-            </h1>
+            </h2>
             <p className="text-gray-600 leading-relaxed">
               Truedinkumbet Australia is the official platform representing one
               of the region's most established online betting brands. Our focus

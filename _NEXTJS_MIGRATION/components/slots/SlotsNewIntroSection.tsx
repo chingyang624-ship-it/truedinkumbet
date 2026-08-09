@@ -64,10 +64,9 @@ export default function SlotsNewIntroSection() {
           </p>
 
           <p>
-            Truedinkumbet holds all necessary licenses to operate legally in Australia,
-            ensuring all slot games meet international fairness and safety standards.
-            Players can confidently enjoy their favorite games, knowing that every spin
-            is certified fair and secure.
+            The operator publishes Anjouan licence number ALSI-202504032-FI2.
+            Verify the current licence, provider audit information, local eligibility
+            and withdrawal rules independently before depositing.
           </p>
 
           <p>

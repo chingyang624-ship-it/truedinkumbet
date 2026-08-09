@@ -179,7 +179,7 @@ const casinoReviewArticles: CasinoReviewArticle[] = [
     date: "10-04-2022",
     image:
       "https://www.bk8.services/wp-content/uploads/2022/04/ATO-Tax-Gambling-360x200.png",
-    link: "/blog/casino-review/do-i-need-to-declare-my-casino-winnings-to-the-ato/",
+    link: "/blog/casino-review/do-i-need-to-declare-my-casino-winnings-in-australia/",
   },
   {
     id: 16,
@@ -402,19 +402,19 @@ const recentPosts = [
   },
   {
     title: "Texas Hold'em Poker Hands Rankings",
-    link: "/blog/poker-review/texas-holdem-poker-hands-rankings/",
+    link: "/blog/category/casino-review/",
   },
   {
     title: "How to Win at Keno: 5 Tips that Actually Work",
-    link: "/blog/lottery-review/how-to-win-at-keno-5-tips-that-actually-work/",
+    link: "/blog/category/casino-review/",
   },
   {
     title: "How To Play Online Poker: A Step-by-Step Guide",
-    link: "/blog/poker-review/how-to-play-online-poker-a-step-by-step-guide/",
+    link: "/blog/category/casino-review/",
   },
   {
     title: "Online Roulette Tips 2025: How to Play Like a Pro",
-    link: "/blog/live-casino-review/online-roulette-tips-2025-how-to-play-like-a-pro/",
+    link: "/blog/category/casino-review/",
   },
 ];
 
@@ -462,14 +462,39 @@ const categories = [
   },
 ];
 
+const indexableArticleLinks = new Set([
+  "/blog/casino-review/why-bitcoin-or-other-cryptocurrencies-and-casinos-are-great-together/",
+  "/blog/casino-review/cryptocurrency-vs-traditional-currency-in-online-casino/",
+  "/blog/casino-review/is-it-safe-to-use-bitcoin-for-online-casinos/",
+  "/blog/casino-review/what-is-cryptocurrency-casino/",
+  "/blog/casino-review/10-betting-systems-for-better-winnings/",
+  "/blog/casino-review/deposit-your-funds-in-truedinkumbet-with-card/",
+  "/blog/casino-review/7-ways-to-compare-online-and-land-based-casinos/",
+  "/blog/casino-review/what-is-e-wallet-casino-australia/",
+  "/blog/casino-review/the-most-important-slot-machine-winners-in-history/",
+  "/blog/casino-review/bankroll-management-advice-8-ideas/",
+  "/blog/casino-review/what-is-the-process-for-online-casino-bonuses/",
+  "/blog/casino-review/you-should-stop-gambling-if-you-see-any-of-these-6-signs/",
+  "/blog/casino-review/choose-the-best-casino-how-do-you-compare-online-casinos/",
+  "/blog/casino-review/which-is-better-online-casinos-versus-land-based-casinos/",
+  "/blog/casino-review/mistakes-to-avoid-when-playing-online-gambling/",
+  "/blog/casino-review/how-to-deposit-in-an-online-casino-australia/",
+  "/blog/casino-review/how-old-should-i-be-to-use-an-online-casino-service/",
+  "/blog/casino-review/how-is-the-gambling-industry-in-australia/",
+  "/blog/casino-review/top-5-e-wallets-to-use-in-casino-australia/",
+]);
+
 export default function CasinoReviewArchiveSection() {
   const [currentPage, setCurrentPage] = useState(1);
   const itemsPerPage = 20;
-  const totalPages = Math.ceil(casinoReviewArticles.length / itemsPerPage);
+  const publishedArticles = casinoReviewArticles.filter((article) =>
+    indexableArticleLinks.has(article.link)
+  );
+  const totalPages = Math.ceil(publishedArticles.length / itemsPerPage);
 
   const startIndex = (currentPage - 1) * itemsPerPage;
   const endIndex = startIndex + itemsPerPage;
-  const displayedArticles = casinoReviewArticles.slice(startIndex, endIndex);
+  const displayedArticles = publishedArticles.slice(startIndex, endIndex);
 
   return (
     <div className="w-full bg-white py-12">
@@ -566,7 +591,7 @@ export default function CasinoReviewArchiveSection() {
                 {recentPosts.map((post, idx) => (
                   <li key={idx}>
                     <a
-                      href={post.link}
+                      href="/blog/category/casino-review/"
                       className="text-orange-500 hover:text-orange-600 transition-colors text-sm"
                     >
                       {post.title}
@@ -585,7 +610,7 @@ export default function CasinoReviewArchiveSection() {
                 {categories.map((category, idx) => (
                   <li key={idx}>
                     <a
-                      href={category.link}
+                      href="/blog/category/casino-review/"
                       className={`text-sm transition-colors ${
                         category.active
                           ? "text-orange-500 font-bold"

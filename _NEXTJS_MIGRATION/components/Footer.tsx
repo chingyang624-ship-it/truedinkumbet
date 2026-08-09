@@ -79,11 +79,11 @@ export default function Footer() {
                 style={{ maxWidth: "50%" }}
               />
               <p className="text-xs text-black">
-                Truedinkumbet is operated by a company registered under the laws
-                of the Republic of the Philippines, and is licensed and
-                regulated by the Philippine Amusement and Gaming Corporation
-                (PAGCOR). We are fully compliant and legally authorized to
-                provide games of chance and wagering.
+                The operator publishes Anjouan licence number
+                ALSI-202504032-FI2. Check the operator and regulator records for
+                the current status before registering. An international licence
+                does not by itself authorise online casino services in every
+                country; local laws and eligibility rules still apply.
               </p>
             </div>
 
@@ -316,7 +316,7 @@ export default function Footer() {
           style={{ color: "rgb(134, 151, 162)" }}
         >
           <p className="text-xs">
-            © 2025 Truedinkumbet. All rights reserved. 18+
+            © 2026 Truedinkumbet. All rights reserved. 18+
           </p>
           <button
             onClick={scrollToTop}

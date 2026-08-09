@@ -7,9 +7,9 @@ export default function CryptoCasinoFAQSection() {
 
   const faqs = [
     {
-      question: "Is Truedinkumbet crypto casino legal?",
+      question: "How can I check the crypto casino licence and eligibility?",
       answer:
-        "Yes, Truedinkumbet is fully licensed and regulated by the Philippine Amusement and Gaming Corporation (PAGCOR). We comply with all gaming regulations and provide safe, secure gaming for Australian players.",
+        "The operator publishes Anjouan licence number ALSI-202504032-FI2. Verify the current record, operator terms and whether the service is permitted where you live. An international licence is not the same as Australian authorisation.",
     },
     {
       question: "What cryptocurrencies can I use?",

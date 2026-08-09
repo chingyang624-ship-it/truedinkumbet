@@ -3,12 +3,12 @@ export default function LiveCasinoIntroSection() {
     <section className="py-20 px-4" style={{ backgroundColor: "#ffffff" }}>
       <div className="max-w-6xl mx-auto">
         <div className="text-center">
-          <h2
+          <h1
             className="text-3xl md:text-4xl font-bold mb-6"
             style={{ color: "#1f2124", marginBottom: "24px" }}
           >
             Truedinkumbet: Best Live Casino Games Australia
-          </h2>
+          </h1>
           <div
             className="text-lg"
             style={{
@@ -29,12 +29,10 @@ export default function LiveCasinoIntroSection() {
               can enjoy world-class entertainment with just a few taps.
             </p>
             <p>
-              Truedinkumbet is officially authorized and licensed and operates
-              under the regulation of the Philippine Amusement and Gaming
-              Corporation. With a powerful mix of exciting games, real dealers,
-              HD streaming, and generous promotions, Truedinkumbet Australia has
-              quickly become the go-to choice for players looking for a premium
-              live casino experience.
+              This guide compares live tables, providers, limits, streaming and
+              account controls. The operator publishes Anjouan licence number
+              ALSI-202504032-FI2; verify its current status, the operator terms
+              and local eligibility before registering or depositing.
             </p>
           </div>
         </div>

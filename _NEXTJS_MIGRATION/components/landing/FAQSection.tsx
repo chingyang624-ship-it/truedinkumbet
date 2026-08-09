@@ -10,9 +10,9 @@ interface FAQItem {
 
 const faqs: FAQItem[] = [
   {
-    question: "Is Truedinkumbet a legal and licensed online casino in Australia?",
+    question: "What licence information does Truedinkumbet publish?",
     answer:
-      "Yes, Truedinkumbet is fully licensed and regulated by the Philippine Amusement and Gaming Corporation (PAGCOR), ensuring a safe and secure gaming environment for Australian players. We hold certifications from BMM Testlabs and Gaming Laboratories International (GLI), ensuring fair play and secure operations.",
+      "The operator publishes Anjouan licence number ALSI-202504032-FI2. Players should verify its current status with the operator and regulator before registering. An international licence does not itself establish authorisation in Australia or any other country.",
   },
   {
     question: "What types of casino games can I play on Truedinkumbet Australia?",
@@ -70,9 +70,9 @@ const faqs: FAQItem[] = [
       "To improve your chances of winning at Truedinkumbet, choose our trusted platform, set a budget before playing, and learn the rules of each game. Playing games with high return-to-player (RTP) rates and using bonuses wisely can also help increase your winnings.",
   },
   {
-    question: "Is Truedinkumbet Legal in Australia?",
+    question: "Can Australians access every online casino service?",
     answer:
-      "Yes. Truedinkumbet operates with licenses from PAGCOR (Philippine Amusement and Gaming Corporation), making it legal for Australian players. Our platform is regulated and certified by multiple international gaming authorities, ensuring compliance with responsible gambling standards.",
+      "No blanket claim should be made. Australian rules differ by service and regulate what providers may offer. Check current ACMA guidance and the operator's eligibility terms; do not use a VPN or mirror site to bypass a block or restriction.",
   },
   {
     question: "Is it safe to play at Truedinkumbet?",

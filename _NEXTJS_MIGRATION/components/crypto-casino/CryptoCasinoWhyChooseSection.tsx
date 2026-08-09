@@ -21,8 +21,8 @@ export default function CryptoCasinoWhyChooseSection() {
       description: 'Access your account anytime, anywhere with 24/7 crypto casino gaming.',
     },
     {
-      title: 'Licensed & Regulated',
-      description: 'Truedinkumbet is officially licensed by PAGCOR, ensuring fair play and player protection.',
+      title: 'Verify Before Depositing',
+      description: 'Check the operator, published licence, local eligibility, wallet network and withdrawal terms before sending crypto.',
     },
   ];
 

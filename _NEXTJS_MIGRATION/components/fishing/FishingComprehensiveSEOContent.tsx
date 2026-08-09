@@ -5,10 +5,10 @@ export default function FishingComprehensiveSEOContent() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="space-y-6">
             <div className="seo-content">
-              <h1 className="text-xl font-bold mb-2 text-yellow-500">
+              <h2 className="text-xl font-bold mb-2 text-yellow-500">
                 Fishing Game Australia – Play the Best Online Fish Shooting
                 Games at Truedinkumbet
-              </h1>
+              </h2>
               <p className="text-sm text-gray-500 mb-3">
                 Fishing games have become one of Australia’s favourite ways to
                 combine entertainment and rewards. What started as a fun arcade
@@ -17,10 +17,9 @@ export default function FishingComprehensiveSEOContent() {
                 <a href="/" className="text-orange-500 hover:underline">
                   Truedinkumbet
                 </a>
-                , the trusted online casino licensed under Philippine Amusement
-                and Gaming Corporation, fishing game fans can dive into
-                action-packed adventures with real AUD winnings, daily
-                promotions, and smooth gameplay across all devices.
+                , players can compare fish-shooting controls, game providers,
+                bonus features and device support before deciding whether a
+                title suits their budget and preferences.
               </p>
 
               <h2 className="text-base font-bold mb-2 text-yellow-500">
@@ -73,7 +72,7 @@ export default function FishingComprehensiveSEOContent() {
                 </li>
                 <li>
                   <strong>Mobile-friendly</strong> – Through the{" "}
-                  <a href="/app" className="text-orange-500 hover:underline">
+                  <a href="/app-download/" className="text-orange-500 hover:underline">
                     Truedinkumbet App
                   </a>
                   , you can enjoy seamless fishing action on mobile anytime.
@@ -160,17 +159,16 @@ export default function FishingComprehensiveSEOContent() {
                 Why Play Fishing Games at Truedinkumbet Australia?
               </h2>
               <p className="text-sm text-gray-500 mb-3">
-                Truedinkumbet is one of the most trusted online casino platforms
-                in Australia, officially licensed under the{" "}
-                <strong>Philippine Amusement and Gaming Corporation</strong>. It
-                offers fair gameplay, fast withdrawals in AUD, and a secure
-                environment supported by world-class software providers. Here’s
-                why Australian players prefer Truedinkumbet for fishing games:
+                Before playing, compare the published game rules, provider,
+                costs, withdrawal terms, account controls and local eligibility.
+                The operator publishes Anjouan licence number
+                ALSI-202504032-FI2; verify its current status independently.
+                Useful fishing-game features include:
               </p>
               <ul className="list-disc pl-5 text-sm text-gray-500 space-y-1 mb-3">
                 <li>
-                  <strong>Trusted Licensing</strong> – Operates under official
-                  license for verified safety and transparency.
+                  <strong>Published licence details</strong> – Verify the
+                  operator and current regulator record independently.
                 </li>
                 <li>
                   <strong>Fast AUD Payments</strong> – Deposit or withdraw
@@ -340,7 +338,7 @@ export default function FishingComprehensiveSEOContent() {
                 </li>
                 <li>
                   <a
-                    href="/esports"
+                  href="/sports/"
                     className="text-orange-500 hover:underline"
                   >
                     Esports
@@ -349,7 +347,7 @@ export default function FishingComprehensiveSEOContent() {
                 </li>
                 <li>
                   <a
-                    href="/lottery"
+                  href="/reviews/"
                     className="text-orange-500 hover:underline"
                   >
                     Lottery

@@ -25,7 +25,7 @@ export default function EWalletHeroSection() {
       <section className="w-full bg-white py-16 px-4">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-5xl font-bold mb-6 text-gray-900">
-            The Trusted E-Wallet Casino in Australia 2024
+            E-Wallet Casino Australia Payment Guide
           </h1>
 
           <p className="text-lg text-gray-700 mb-6 leading-relaxed">

@@ -457,7 +457,7 @@ export default function ReviewsArchiveSection() {
               {/* Action Buttons Section */}
               <div className="md:w-1/4 flex flex-col gap-2 justify-start">
                 <a
-                  href={review.reviewLink}
+                  href="/reviews/"
                   className="text-center bg-blue-700 text-white py-2 px-4 rounded hover:bg-blue-800 transition-colors text-sm font-semibold"
                 >
                   Review

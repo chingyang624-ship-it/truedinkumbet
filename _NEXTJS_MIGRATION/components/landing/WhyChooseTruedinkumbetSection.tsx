@@ -24,17 +24,14 @@ export default function WhyChooseTruedinkumbetSection() {
               Truedinkumbet Licensing, Regulation, and Certified Fair Play
             </h3>
             <p className="text-gray-600 leading-relaxed">
-              We a licensed and regulated online casino. We are authorized by
-              the{" "}
+              The operator publishes a licence issued by the{" "}
               <strong>
                 Government of the Autonomous Island of Anjouan, Union of Comoros
               </strong>
-              , under License No. <strong>ALSI-202504032-FI2</strong>. With
-              certifications from <strong>BMM Testlabs</strong>,{" "}
-              <strong>iTech Labs</strong>, and{" "}
-              <strong>Gaming Laboratories International (GLI)</strong>, every
-              game is tested for fairness, and all operations comply with
-              responsible gambling frameworks.
+              , under License No. <strong>ALSI-202504032-FI2</strong>. Verify
+              the current operator and licence record before registering.
+              International licensing does not replace local law or establish
+              Australian authorisation.
             </p>
           </div>
 

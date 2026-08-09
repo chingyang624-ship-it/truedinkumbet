@@ -4,31 +4,67 @@ import '../styles/globals.css';
 interface Props {
   title?: string;
   description?: string;
+  image?: string;
+  type?: 'website' | 'article';
+  indexable?: boolean;
 }
 
-const { title = 'Truedinkumbet Australia: Best Trusted Online Casino & Betting Site 2025', description = 'Join Truedinkumbet Australia for the ultimate gaming experience. Play Slots, Live Casino & Sports Betting with instant crypto withdrawals. Claim your 100% Welcome Bonus now!' } = Astro.props;
+const siteUrl = Astro.site ?? new URL('https://truedinkumbetaucasino.com/');
+const pathname = Astro.url.pathname === '/'
+  ? '/'
+  : `${Astro.url.pathname.replace(/\/$/, '')}/`;
+const canonicalUrl = new URL(pathname, siteUrl).toString();
+
+const routeDescriptions: Record<string, string> = {
+  '/': 'Independent information about Truedinkumbet casino games, sports betting, payment options, mobile access, account safety and responsible gambling for adult users.',
+  '/about/': 'Learn what this Truedinkumbet information site covers, how its casino and betting guides are prepared, and where to verify current operator terms.',
+  '/app-download/': 'A practical guide to Truedinkumbet mobile access, app installation, account security, updates and safer download checks for Android and iOS users.',
+  '/crypto-casino/': 'Understand crypto casino deposits, withdrawals, wallet security, blockchain confirmations, fees and responsible play before using Bitcoin or USDT.',
+  '/e-wallet-casino/': 'Compare common casino e-wallets, deposit and withdrawal steps, processing times, fees, verification and account-security considerations.',
+  '/fishing/': 'Explore online fishing game formats, controls, providers, bonus features and responsible bankroll tips in this Truedinkumbet game guide.',
+  '/info-centre/': 'Answers to common questions about Truedinkumbet accounts, payments, verification, game access, security and responsible gambling support.',
+  '/live-casino/': 'A guide to live dealer casino games, including blackjack, baccarat and roulette tables, streaming, providers, limits and responsible play.',
+  '/responsible-gaming/': 'Responsible gambling information, warning signs, practical limits, self-exclusion options and Australian support services for adults.',
+  '/reviews/': 'Browse Truedinkumbet casino and betting reviews covering games, payments, mobile access, usability, account safety and key terms.',
+  '/slots/': 'Compare online slots and pokies by provider, RTP, volatility, features and jackpots, with practical bankroll and responsible-play guidance.',
+  '/sports/': 'A guide to sports betting markets, odds, live betting, major Australian sports, account controls and responsible wagering practices.',
+  '/terms-conditions/': 'Read the terms and conditions covering account eligibility, payments, bonuses, withdrawals, prohibited activity and responsible use.',
+  '/blog/category/casino-review/': 'Browse casino reviews and educational guides about games, payments, cryptocurrency, account safety and responsible gambling.',
+};
+
+const {
+  title = 'Truedinkumbet Australia | Casino, Betting & Payment Guides',
+  description = routeDescriptions[pathname] ?? 'Truedinkumbet casino and betting information, payment guides, account help and responsible gambling resources for adults.',
+  image = 'https://static.gwvkyk.com/media/5307c1b56d296b57af7db.png',
+  type = 'website',
+  indexable = true,
+} = Astro.props;
 ---
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-AU">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="theme-color" content="#1f2937" />
     <title>{title}</title>
     <meta name="description" content={description} />
-    <meta name="keywords" content="Truedinkumbet Australia, Truedinkumbet casino login, best online casino Australia 2025, trusted betting site Australia, crypto casino AU, Truedinkumbet app download" />
     <meta name="author" content="Truedinkumbet Australia Team" />
-    <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://truedinkumbetaucasino.com/" />
+    <meta
+      name="robots"
+      content={indexable
+        ? 'index, follow, max-image-preview:large'
+        : 'noindex, follow'}
+    />
+    <link rel="canonical" href={canonicalUrl} />
     
     <!-- OpenGraph -->
-    <meta property="og:type" content="website" />
+    <meta property="og:type" content={type} />
     <meta property="og:site_name" content="Truedinkumbet Casino" />
-    <meta property="og:title" content="Truedinkumbet: #1 Trusted Casino in Australia" />
-    <meta property="og:description" content="Play with confidence. Licensed, Secure, and Fast Payouts. Join 50,000+ Aussie players today." />
-    <meta property="og:url" content="https://truedinkumbetaucasino.com/" />
-    <meta property="og:image" content="https://static.gwvkyk.com/media/5307c1b56d296b57af7db.png" />
+    <meta property="og:title" content={title} />
+    <meta property="og:description" content={description} />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:image" content={image} />
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     <meta property="og:locale" content="en_AU" />
@@ -36,9 +72,9 @@ const { title = 'Truedinkumbet Australia: Best Trusted Online Casino & Betting S
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:site" content="@truedinkumbet" />
-    <meta name="twitter:title" content="Truedinkumbet Australia - Play & Win" />
-    <meta name="twitter:description" content="Best odds, huge jackpots, and instant withdrawals." />
-    <meta name="twitter:image" content="https://static.gwvkyk.com/media/5307c1b56d296b57af7db.png" />
+    <meta name="twitter:title" content={title} />
+    <meta name="twitter:description" content={description} />
+    <meta name="twitter:image" content={image} />
   </head>
   <body>
     <slot />

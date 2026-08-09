@@ -7,11 +7,11 @@ export default function AboutIntroSection() {
             <a href="https://truedinkumbet.com" className="text-blue-600 hover:text-blue-800 font-semibold">
               Truedinkumbet.com
             </a>
-            {' '}is the official Truedinkumbet online gaming platform, fully licensed and regulated by the Philippine Amusement and Gaming Corporation (PAGCOR). Truedinkumbet is operated by a company registered under the laws of the Republic of the Philippines, with a registered address in the Philippines. The platform operates under proper licensing and has passed all regulatory compliance checks, making it legally authorized to conduct gaming operations for any and all games of chance and wagering.
+            {' '}is the operator website linked from this information site. The operator publishes Anjouan licence number ALSI-202504032-FI2. Visitors should verify the current operator, licence status, eligibility rules and terms directly before registering.
           </p>
 
           <p>
-            Truedinkumbet online casino is independently certified for fairness and security by industry-leading auditors such as BMM and iTech Labs. These credentials have earned the Truedinkumbet official platform industry-wide recognition, including nominations at prestigious iGaming programs. The site complies with all applicable regulatory requirements and is fully authorized to offer online gaming and wagering services.
+            This site describes games, payments, mobile access and account checks. It does not certify the operator, promise game fairness or provide legal advice. An offshore licence does not itself authorise online casino services in Australia or every other jurisdiction.
           </p>
 
           <p>
